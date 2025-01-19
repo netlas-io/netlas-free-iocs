@@ -29,7 +29,7 @@ jobs:
 
       # Step 4: Run the script
       - name: Run the script
-        run: bash your-script.sh
+        run: bash update.sh
         env:
           NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
 
