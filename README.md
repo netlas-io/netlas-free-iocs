@@ -1,5 +1,5 @@
 # netlas-free-iocs
-We just start this repository. The description is still under development.
+We've just started this repository. The description is still under development.
 
 
 ## Terms of Services (ToS)
