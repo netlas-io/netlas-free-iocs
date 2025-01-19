@@ -5,7 +5,7 @@ SCRIPT1="sslbl_netlas_search.py"
 SCRIPT2="update_malicious_hosts_list.py"
 OUTPUT_FILE="latest_search.csv"
 
-Run the search script to check the latest Abuse.ch data and search in the latest Netlas Internet Scan Data
+# Run the search script to check the latest Abuse.ch data and search in the latest Netlas Internet Scan Data
 if [[ -z "$NETLAS_API_KEY" ]]; then
     python3 "$SCRIPT1" -o "$OUTPUT_FILE"
 else
