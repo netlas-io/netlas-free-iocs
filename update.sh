@@ -9,7 +9,7 @@ OUTPUT_FILE="latest_search.csv"
 if [[ -z "$NETLAS_API_KEY" ]]; then
     python3 "$SCRIPT1" -o "$OUTPUT_FILE"
 else
-    python3 "$SCRIPT1" -o "$OUTPUT_FILE" -a "$NETLAS_API_KEY"
+    python3 "$SCRIPT1" -o "$OUTPUT_FILE" -a "$NETLAS_API_KEY" -q
 fi
 
 # Check if the output file exists after the first script completes

@@ -57,6 +57,7 @@ parser = argparse.ArgumentParser(description='''
 parser.add_argument("-o", "--output", type=str, default=output_file_path, 
                     help=f"specify the output file name (default: {output_file_path})")
 parser.add_argument("-a", "--apikey", type=str, help="netlas API Key for accessing the service (optional)")
+parser.add_argument("-q", "--quiet", action="store_true", help="run the script without progress bars")
 parser.add_argument("-s", "--silent", action="store_true", help="run the script without any output")
 args = parser.parse_args()
 
@@ -84,6 +85,8 @@ if args.silent:
 
 # Preloader function
 def show_progress_bar(processed, total, start_time):
+    if args.quiet:
+        return
     terminal_width = shutil.get_terminal_size().columns
     reserved_space = len("Processing ") + 42 # Reserve space for percentage and numbers (e.g., " 100.00% (123/456)")
     bar_length = max(terminal_width - reserved_space, 10)  # Length of the progress bar
