@@ -1,0 +1,11 @@
+database_file: abuse.ch_sslbl_malicious_hosts_by_netlas.csv
+
+sslbl_url: "https://sslbl.abuse.ch/blacklist/sslblacklist.csv" # URL of the SSL Certificate Blacklist CSV file
+
+# Configuration for retry delays
+max_retries: 5  # Define number of retries in case of errors
+initial_delay: 1  # Initial delay in seconds between retries
+max_delay: 60     # Maximum delay in seconds
+
+csv_chunk_size: 80 # Number of lines per request MAX=90
+flush_to_file_every: 1000 # Maximum amount of lines stored in memmory, when exeeded will be flushed to the output file
