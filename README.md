@@ -28,7 +28,7 @@ The main output file (`abuse.ch_sslbl_malicious_hosts_by_netlas.csv`) contains:
 
 Anyone can freely use these repository contents. The data and scripts in this repository are licensed under the [CC0 1.0 Universal License](LICENSE). 
 
-<span class="hidden">[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)</span>
+<span class="hidden">[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)</span>
 
 While attribution is not required, we kindly request that you credit [Netlas.io](https://netlas.io) if you use this data in your projects or publications. For example:
 > Data provided by [Netlas.io](https://netlas.io)

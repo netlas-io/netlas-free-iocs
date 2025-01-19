@@ -6,39 +6,34 @@ from datetime import datetime
 
 CONFIG_FILE = "config.yaml"
 
-HEADER = "URL,Threat,fseen,lseen\n"
-
 def load_database(file_path):
     """Load the existing database into a dictionary."""
     database = {}
     if os.path.exists(file_path):
         with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             lines = file.readlines()
-            # Skip the header line
-            data_lines = lines[1:] if lines else []
-            if data_lines:
-                reader = csv.DictReader(data_lines)
+            if lines:
+                reader = csv.DictReader(lines)
                 for row in reader:
                     key = (row['URL'], row['Threat'])
                     database[key] = {
-                        'fseen': row['fseen'],
-                        'lseen': row['lseen']
+                        'FSeen': row['FSeen'],
+                        'LSeen': row['LSeen']
                     }
     return database
 
 def save_database(database, file_path):
     """Save the database dictionary back to the CSV file."""
     with open(file_path, mode='w', newline='', encoding='utf-8') as file:
-        file.write(HEADER)
-        fieldnames = ['URL', 'Threat', 'fseen', 'lseen']
+        fieldnames = ['URL', 'Threat', 'FSeen', 'LSeen']
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         for (url, threat), data in database.items():
             writer.writerow({
                 'URL': url,
                 'Threat': threat,
-                'fseen': data['fseen'],
-                'lseen': data['lseen']
+                'FSeen': data['FSeen'],
+                'LSeen': data['LSeen']
             })
 
 def process_input_file(input_file, database):
@@ -52,15 +47,15 @@ def process_input_file(input_file, database):
             key = (url, threat)
             if key in database:
                 # Update the last seen date only if the new timestamp is later
-                existing_lseen = database[key]['lseen']
+                existing_lseen = database[key]['LSeen']
                 if datetime.fromisoformat(timestamp) > datetime.fromisoformat(existing_lseen):
-                    database[key]['lseen'] = timestamp
+                    database[key]['LSeen'] = timestamp
                     updated_count += 1
             else:
                 # Add a new entry with first seen and last seen dates
                 database[key] = {
-                    'fseen': timestamp,
-                    'lseen': timestamp
+                    'FSeen': timestamp,
+                    'LSeen': timestamp
                 }
                 added_count += 1
     return added_count, updated_count

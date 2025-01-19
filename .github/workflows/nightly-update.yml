@@ -1,0 +1,46 @@
+name: Run Update Daily
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # Runs daily at midnight UTC
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install dependencies (if requirements.txt exists)
+      - name: Install dependencies
+        run: |
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          else
+            echo "requirements.txt not found. Skipping dependency installation."
+          fi
+
+      # Step 4: Run the script
+      - name: Run the script
+        run: bash update.sh
+        env:
+          NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
+
+      # Step 5: Commit and push the changes back to the repository
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Update results from script run on $(date)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
