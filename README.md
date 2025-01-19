@@ -19,10 +19,45 @@ This repository provides a free and regularly updated database of malicious host
 
 ## Output File
 
-The main output file (`abuse.ch_sslbl_malicious_hosts_by_netlas.csv`) contains:
+The main output file (`abuse_ch_sslbl_malicious_hosts_by_netlas.csv`) contains:
 - URLs associated with malicious SSL certificates.
 - Threat names corresponding to malicious activities.
 - Timestamps for the first observed presence (`fseen`) and the last observed occurrence (`lseen`).
+
+## Reproducing the Data
+
+The easiest way to use this repository is to download the ready-to-use file (abuse.ch_sslbl_malicious_hosts_by_netlas.csv) included in the repository, which is updated daily. However, if you wish to reproduce the data yourself, please note that a paid Netlas account is required due to the large number of API requests and the volume of data needed for processing.
+
+To reproduce the data, follow these steps:
+
+1. **Clone the repository:**
+   Download the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/netlas-io/netlas-free-iocs.git
+   cd netlas-free-iocs
+   ```
+
+2. **Install the requirements:**
+   Ensure the necessary dependencies are installed:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Save the Netlas API key:**
+   Configure your Netlas API key using the Netlas SDK:
+
+   ```bash
+   netlas savekey YOUR_API_KEY
+   ```
+
+4. **Run the script:**
+   Execute the update script to generate the latest dataset:
+
+   ```bash
+   netlas savekey YOUR_API_KEY
+   ```
 
 ## License and Usage Terms
 

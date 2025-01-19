@@ -1,4 +1,4 @@
-database_file: abuse.ch_sslbl_malicious_hosts_by_netlas.csv
+database_file: abuse_ch_sslbl_malicious_hosts_by_netlas.csv
 
 sslbl_url: "https://sslbl.abuse.ch/blacklist/sslblacklist.csv" # URL of the SSL Certificate Blacklist CSV file
 
