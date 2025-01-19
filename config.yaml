@@ -7,5 +7,5 @@ max_retries: 5  # Define number of retries in case of errors
 initial_delay: 1  # Initial delay in seconds between retries
 max_delay: 60     # Maximum delay in seconds
 
-csv_chunk_size: 80 # Number of lines per request MAX=90
+csv_chunk_size: 50 # Number of lines per request MAX=90
 flush_to_file_every: 1000 # Maximum amount of lines stored in memmory, when exeeded will be flushed to the output file
