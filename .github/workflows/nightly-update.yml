@@ -2,7 +2,7 @@ name: Run Update Daily
 
 on:
   schedule:
-    - cron: "0 4 * * *" # Runs daily at midnight UTC
+    - cron: "0 1 * * *" # Runs daily at 01:00 UTC
 
 jobs:
   run-script:
@@ -34,8 +34,20 @@ jobs:
         env:
           NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
 
-      # Step 5: Commit and push the changes back to the repository
+      # Step 5: Check for changes
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "No changes to commit."
+            echo "changes=false" >> $GITHUB_ENV
+          else
+            echo "changes=true" >> $GITHUB_ENV
+          fi
+
+      # Step 6: Commit and push changes if any
       - name: Commit and push changes
+        if: env.changes == 'true'
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
