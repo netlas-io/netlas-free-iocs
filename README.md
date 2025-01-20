@@ -12,10 +12,10 @@ This repository provides a free and regularly updated database of malicious host
    Using SHA1 hashes of SSL certificates from the Abuse.ch feed, the latest Netlas Internet Scan Data is queried to identify active hosts utilizing these certificates. Hosts identified as active and matching malicious certificates are flagged and added to the dataset.
 
 3. **Database Generation**:  
-   The processed data is exported in CSV format, making it easy to integrate into various threat intelligence workflows and security tools.
+   The processed data is exported in CSV, that contains malicious service URI, threat name, and two timestamps – "first seen" and "last seen".
 
 4. **Schedule**:  
-   The repository is updated daily to ensure the data remains current and actionable.
+   The database is updated daily.
 
 ## Output File
 
