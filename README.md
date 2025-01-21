@@ -28,7 +28,7 @@ The main output file (`abuse_ch_sslbl_malicious_hosts_by_netlas.csv`) contains:
 
 ## Reproducing the Data
 
-The easiest way to use this repository is to download the ready-to-use file (`abuse.ch_sslbl_malicious_hosts_by_netlas.csv`) included in the repository, which is updated daily. However, if you wish to reproduce the data yourself, please note that a paid Netlas account is required due to the large number of API requests and the volume of data needed for processing.
+The easiest way to use this repository is to download the ready-to-use file (`abuse_ch_sslbl_malicious_hosts_by_netlas.csv`) included in the repository, which is updated daily. However, if you wish to reproduce the data yourself, please note that a paid Netlas account is required due to the large number of API requests and the volume of data needed for processing.
 
 To reproduce the data, follow these steps:
 
