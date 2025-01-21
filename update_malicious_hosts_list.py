@@ -64,8 +64,8 @@ def process_input_file(input_file, database):
 def log_message(message, log_file):
     """Log a message with a timestamp to the log file."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(log_file, mode='a', encoding='utf-8') as log_file:
-        log_file.write(f"[{timestamp}]\t{message}\n")
+    with open(log_file, mode='a', encoding='utf-8') as lf:
+        lf.write(f"[{timestamp}]\t{message}\n")
 
 
 def main():
@@ -96,7 +96,7 @@ def main():
 
     message = f"Database updated successfully. {added_count} entries added, {updated_count} entries updated."
     
-    if config.get("log_changes_summary"):
+    if config.get("log_changes"):
       log_message(message, config.get("log_file"))
 
     if not args.silent:

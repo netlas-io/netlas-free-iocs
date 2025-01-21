@@ -27,6 +27,7 @@ from itertools import islice
 from datetime import datetime
 import shutil
 import argparse
+import re
 
 CONFIG_FILE = "config.yaml"
 
@@ -61,6 +62,8 @@ parser.add_argument("-q", "--quiet", action="store_true", help="run the script w
 parser.add_argument("-s", "--silent", action="store_true", help="run the script without any output")
 args = parser.parse_args()
 
+log = config.get("log_changes")
+log_file = open(config.get("log_file"), mode='a', encoding='utf-8')
 
 # Ensure the API key is defined and Initialize Netlas connection
 api_key = args.apikey
@@ -81,7 +84,6 @@ class NullWriter:
 # Redirect stdout if silent mode is enabled
 if args.silent:
     sys.stdout = NullWriter()
-
 
 # Preloader function
 def show_progress_bar(processed, total, start_time):
@@ -145,6 +147,11 @@ while True:
     for row in chunk_raw:
         if row[0][0] != '#' and len(row)>=3 and row[1] not in used_hashes:
             chunk.append(row)
+        elif log:
+            # Regular expression to match the date and time pattern
+            match = re.search(r"Last updated: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})", row[0])
+            if match:
+                log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tUse Abuse.ch SSL Certificate Blacklist CSV dated {match.group(1)}\n")
     
     if len(chunk)==0:
         continue
@@ -179,8 +186,12 @@ show_progress_bar(len(csv_lines), len(csv_lines), start_time)
 if total_targets > 0:
     print(f"\nFound {format(total_targets, ',')} targets to download.")
 else:
-    print(f"Processed {len(csv_lines)} lines. No targets found to download.")
+    print(f"Processed {len(csv_lines)} lines. No targets to download found.")
     exit(code=-2)
+
+if log:
+    log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tFounded {format(total_targets, ',')} targets to download\n")
+
 
 # Setting up output file
 if args.output:
@@ -230,5 +241,10 @@ for target in targets:
 output_file.flush() 
 output_file.close()
 
+# Open the file and read all lines
+if log:
+    with open(output_file_path, 'r') as output_file:
+        lines = output_file.readlines()
+        log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tA total of {format(len(lines), ',')} have been written\n")
+
 show_progress_bar(processed_targets, total_targets, start_time)
-print("\nCompleted successefuly")

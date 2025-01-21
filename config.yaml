@@ -10,5 +10,5 @@ max_delay: 60     # Maximum delay in seconds
 csv_chunk_size: 80 # Number of lines per request MAX=90
 flush_to_file_every: 1000 # Maximum amount of lines stored in memmory, when exeeded will be flushed to the output file
 
-log_changes_summary: true
+log_changes: true
 log_file: changes.log
