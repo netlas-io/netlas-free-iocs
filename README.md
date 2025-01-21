@@ -58,7 +58,7 @@ To reproduce the data, follow these steps:
    Execute the update script to generate the latest dataset:
 
    ```bash
-   netlas savekey YOUR_API_KEY
+   bash update.sh
    ```
 
 ## License and Usage Terms
