@@ -60,6 +60,14 @@ def process_input_file(input_file, database):
                 added_count += 1
     return added_count, updated_count
 
+
+def log_message(message, log_file):
+    """Log a message with a timestamp to the log file."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(log_file, mode='a', encoding='utf-8') as log_file:
+        log_file.write(f"[{timestamp}]\t{message}\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Update a database of malicious hosts.")
     parser.add_argument("input_file", help="Path to the input CSV file")
@@ -86,8 +94,13 @@ def main():
     # Save the updated database
     save_database(database, dbf)
 
+    message = f"Database updated successfully. {added_count} entries added, {updated_count} entries updated."
+    
+    if config.get("log_changes_summary"):
+      log_message(message, config.get("log_file"))
+
     if not args.silent:
-        print(f"Database updated successfully. {added_count} entries added, {updated_count} entries updated.")
+        print(message)
 
 if __name__ == "__main__":
     main()
