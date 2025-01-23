@@ -96,9 +96,9 @@ def main():
 
     if added_count > 0 or updated_count > 0:
         save_database(database, dbf)  # Save the updated database
-        message = f"Database updated successfully. {added_count} entries added, {updated_count} entries updated."
+        message = f"Comparison: Database updated successfully. {added_count} entries added, {updated_count} entries updated."
     else:
-        message = f"Nothing to update"
+        message = f"Comparison: Nothing to update"
     
     if config.get("log_changes"):
       log_message(message, config.get("log_file"))

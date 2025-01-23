@@ -151,7 +151,7 @@ while True:
             # Regular expression to match the date and time pattern
             match = re.search(r"Last updated: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})", row[0])
             if match:
-                log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tUse Abuse.ch SSL Certificate Blacklist CSV dated {match.group(1)}\n")
+                log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tUsing Abuse.ch SSL Certificate Blacklist CSV dated {match.group(1)}\n")
     
     if len(chunk)==0:
         continue
@@ -245,6 +245,6 @@ output_file.close()
 if log:
     with open(output_file_path, 'r') as output_file:
         lines = output_file.readlines()
-        log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tA total of {format(len(lines), ',')} have been written\n")
+        log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tA total of {format(len(lines), ',')} targets have been downloaded\n")
 
 show_progress_bar(processed_targets, total_targets, start_time)
