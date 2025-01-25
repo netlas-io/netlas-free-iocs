@@ -7,28 +7,40 @@ This repository provides a free and regularly updated database of malicious host
 
 ## Technical Description
 
-1. **Source Data**:  
+1. **Source Data**:   
    We use the [Abuse.ch SSL Certificate Blacklist](https://sslbl.abuse.ch), a publicly available feed of SSL certificates flagged for malicious activities such as phishing, malware distribution, and botnet operations.
 
-2. **Data Processing**:  
+2. **Search for Malicious Hosts**:   
    Using SHA1 hashes of SSL certificates from the Abuse.ch feed, the latest Netlas Internet Scan Data is queried to identify active hosts utilizing these certificates. Hosts identified as active and matching malicious certificates are flagged and added to the dataset.
 
-3. **Database Generation**:  
-   The processed data is exported in CSV, that contains malicious service URI, threat name, and two timestamps – "first seen" and "last seen".
+3. **Database Generation**:   
+   During each update, the script checks for existing records in the database. If a match is found, the `timestamp` (indicating the last seen time) is updated. New records are added with the time when Netlas most recently scanned this host.
 
-4. **Schedule**:  
+4. **Schedule**:   
    The database is updated daily.
 
 ## Output File
 
-The main output file (`abuse_ch_sslbl_malicious_hosts_by_netlas.csv`) contains:
-- URLs associated with malicious SSL certificates.
-- Threat names corresponding to malicious activities.
-- Timestamps for the first observed presence (`fseen`) and the last observed occurrence (`lseen`).
+The main output file `netlas_sslbl_malicious_hosts.csv` contains:
+
+   - `timestamp`: Time when the entry was added to the dataset.
+   - `host`: The malicious host's domain name or IP address.
+   - `port`: The port where the malicious service is running.
+   - `protocol`: The protocol used by the service (e.g., HTTPS).
+   - `path`: The specific path to the malicious service, the part of the URI that comes after the domain name and port. For example, in the URI `https://malicious.example.com:443/phishing`, the path is `/phishing`.
+   - `ip`: The IP address of the malicious host. In the current release, this is always an IPv4 address.
+   - `threat`: The type of threat associated with the blacklisted certificate found on this host (e.g., *CobaltStrike C&C*).
+   - `netlas:fseen`: Timestamp of the first observed presence of the host in Netlas data.
+   - `netlas:link`: Link to detailed information about the host in Netlas.
+   - `x509:sha1`: The SHA-1 hash of the SSL certificate.
+   - `x509:timestamp`: The time the SSL certificate was flagged in the source feed.
+   - `x509:link`: A link to detailed information about the SSL certificate in the source feed.
 
 ## Reproducing the Data
 
-The easiest way to use this repository is to download the ready-to-use file (`abuse_ch_sslbl_malicious_hosts_by_netlas.csv`) included in the repository, which is updated daily. However, if you wish to reproduce the data yourself, please note that a paid Netlas account is required due to the large number of API requests and the volume of data needed for processing.
+The easiest way to use this repository is to download the ready-to-use file `netlas_sslbl_malicious_hosts.csv` included in the repository, which is updated daily. 
+
+However, if you wish to reproduce the data yourself, please note that a paid Netlas account is required due to the large number of API requests and the volume of data needed for processing.
 
 To reproduce the data, follow these steps:
 

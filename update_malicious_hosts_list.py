@@ -5,6 +5,7 @@ import yaml
 from datetime import datetime
 
 CONFIG_FILE = "config.yaml"
+fieldnames = ['timestamp', 'host', 'port', 'protocol', 'path', 'ip', 'threat', 'netlas:fseen', 'netlas:link', 'x509:sha1', 'x509:timestamp', 'x509:link']
 
 def load_database(file_path):
     """Load the existing database into a dictionary."""
@@ -15,25 +16,36 @@ def load_database(file_path):
             if lines:
                 reader = csv.DictReader(lines)
                 for row in reader:
-                    key = (row['URL'], row['Threat'])
+                    key = (row['host'], row['port'], row['protocol'], row['path'], row['ip'], row['threat'])
                     database[key] = {
-                        'FSeen': row['FSeen'],
-                        'LSeen': row['LSeen']
+                        'timestamp': row['timestamp'],
+                        'netlas:fseen': row['netlas:fseen'],
+                        'netlas:link': row['netlas:link'],
+                        'x509:sha1': row['x509:sha1'],
+                        'x509:timestamp': row['x509:timestamp'],
+                        'x509:link': row['x509:link']
                     }
     return database
 
 def save_database(database, file_path):
     """Save the database dictionary back to the CSV file."""
     with open(file_path, mode='w', newline='', encoding='utf-8') as file:
-        fieldnames = ['URL', 'Threat', 'FSeen', 'LSeen']
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
-        for (url, threat), data in database.items():
+        for (host, port, protocol, path, ip, threat), data in database.items():
             writer.writerow({
-                'URL': url,
-                'Threat': threat,
-                'FSeen': data['FSeen'],
-                'LSeen': data['LSeen']
+                'timestamp': data['timestamp'], 
+                'host': host,
+                'port': port, 
+                'protocol': protocol, 
+                'path': path, 
+                'ip': ip, 
+                'threat': threat, 
+                'netlas:fseen': data['netlas:fseen'], 
+                'netlas:link': data['netlas:link'], 
+                'x509:sha1': data['x509:sha1'], 
+                'x509:timestamp': data['x509:timestamp'], 
+                'x509:link': data['x509:link']
             })
 
 def process_input_file(input_file, database):
@@ -41,23 +53,29 @@ def process_input_file(input_file, database):
     added_count = 0
     updated_count = 0
     with open(input_file, mode='r', newline='', encoding='utf-8') as file:
-        reader = csv.reader(file)
-        for row in reader:
-            url, threat, _, timestamp = row
-            key = (url, threat)
-            if key in database:
-                # Update the last seen date only if the new timestamp is later
-                existing_lseen = database[key]['LSeen']
-                if datetime.fromisoformat(timestamp) > datetime.fromisoformat(existing_lseen):
-                    database[key]['LSeen'] = timestamp
-                    updated_count += 1
-            else:
-                # Add a new entry with first seen and last seen dates
-                database[key] = {
-                    'FSeen': timestamp,
-                    'LSeen': timestamp
-                }
-                added_count += 1
+        lines = file.readlines()
+        if lines:
+            reader = csv.DictReader(lines)
+            for row in reader:
+                timestamp = row['timestamp']
+                key = (row['host'], row['port'], row['protocol'], row['path'], row['ip'], row['threat'])
+                if key in database:
+                    # Update the last seen date only if the new timestamp is later
+                    existing_timestamp = database[key]['timestamp']
+                    if datetime.fromisoformat(timestamp) > datetime.fromisoformat(existing_timestamp):
+                        database[key]['timestamp'] = timestamp
+                        updated_count += 1
+                else:
+                    # Add a new entry with first seen and last seen dates
+                    database[key] = {
+                        'timestamp': timestamp,
+                        'netlas:fseen': timestamp,
+                        'netlas:link': row['netlas:link'],
+                        'x509:sha1': row['x509:sha1'],
+                        'x509:timestamp': row['x509:timestamp'],
+                        'x509:link': row['x509:link']
+                    }
+                    added_count += 1
     return added_count, updated_count
 
 

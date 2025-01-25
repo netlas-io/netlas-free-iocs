@@ -34,9 +34,7 @@ CONFIG_FILE = "config.yaml"
 with open(CONFIG_FILE, "r") as file:
     config = yaml.safe_load(file)
 
-    dbf = config.get("database_file")
-
-
+dbf = config.get("database_file")
 # URL of the SSL Certificate Blacklist CSV file
 url = config.get("sslbl_url")
 
@@ -49,6 +47,8 @@ max_delay = config.get("max_delay")     # Maximum delay in seconds
 csv_chunk_size = config.get("csv_chunk_size") # Number of lines per request MAX=90
 flush_to_file_every = config.get("flush_to_file_every") # Maximum amount of lines stored in memmory, when exeeded will be flushed to the output file
 output_file_path = f"sslbl_netlas_output_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv" # Default output file name
+sslbl_cert_url = config.get("sslbl_cert_url")
+netlas_host_url = config.get("netlas_host_url")
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description='''
@@ -90,7 +90,7 @@ def show_progress_bar(processed, total, start_time):
     if args.quiet:
         return
     terminal_width = shutil.get_terminal_size().columns
-    reserved_space = len("Processing ") + 42 # Reserve space for percentage and numbers (e.g., " 100.00% (123/456)")
+    reserved_space = len("Processing ") + 55 # Reserve space for percentage and numbers (e.g., " 100.00% (123/456)")
     bar_length = max(terminal_width - reserved_space, 10)  # Length of the progress bar
     progress = processed / total
     blocks = int(bar_length * progress)
@@ -168,7 +168,7 @@ while True:
             cnt_of_res = netlas_connection.count(query=query, datatype="response")
             time.sleep(1)
             break
-        except Exception:
+        except Exception as ex:
             if attempt == max_retries:
                 print(f"\nAll {max_retries} retries failed. Exiting.")
                 raise
@@ -197,11 +197,13 @@ if log:
 if args.output:
     output_file_path = args.output
 output_file = open(output_file_path, mode='w', newline='', encoding='utf-8')
+fieldnames = ['timestamp', 'host', 'port', 'protocol', 'path', 'ip', 'threat', 'netlas:link', 'x509:sha1', 'x509:timestamp', 'x509:link']
 writer = csv.writer(output_file)
 print(f"Writing output to '{output_file_path}'.")
 
 targets = []
 start_time = datetime.now()
+writer.writerow(fieldnames)
 for key, value in queries_to_download.items():      # Iterate through queries
     for attempt in range(1, max_retries + 1):       # And  make some retries for each query
         try:
@@ -210,13 +212,21 @@ for key, value in queries_to_download.items():      # Iterate through queries
                 target = []                                     # Each returned response is a target
                 
                 # Building a target from URI, threat name, sha1 and timestamp
-                target.append(response.get("data", {}).get("uri"))  #  Adding URI
+                target.append(response.get("data", {}).get("last_updated"))
+                host = response.get("data", {}).get("host") 
+                target.append(host)
+                target.append(response.get("data", {}).get("port"))
+                target.append(response.get("data", {}).get("protocol"))
+                target.append(response.get("data", {}).get("path"))
+                target.append(response.get("data", {}).get("ip"))
                 sha1 = response.get("data", {}).get("certificate", {}).get("fingerprint_sha1")
                 for row in value:
                     if row[1] == sha1: # Search for threat name by SHA1 in SSL Certificate Blacklist CSV part associated with this query
                         target.append(row[2]) # Adding a threat neame
+                        target.append(f"{netlas_host_url}{host}/")
                         target.append(sha1) # Adding SHA1
-                target.append(response.get("data", {}).get("last_updated")) # Adding timestamp from the document
+                        target.append(row[0]) # Adding a cert timestamp from SSLBL
+                        target.append(f"{sslbl_cert_url}{sha1}/") # Adding a cert timestamp from SSLBL
                 targets.append(target)
                 processed_targets += 1
                 show_progress_bar(processed_targets, total_targets, start_time)

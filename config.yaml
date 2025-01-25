@@ -1,4 +1,4 @@
-database_file: abuse_ch_sslbl_malicious_hosts_by_netlas.csv
+database_file: netlas_sslbl_malicious_hosts.csv
 
 sslbl_url: "https://sslbl.abuse.ch/blacklist/sslblacklist.csv" # URL of the SSL Certificate Blacklist CSV file
 
@@ -12,3 +12,6 @@ flush_to_file_every: 1000 # Maximum amount of lines stored in memmory, when exee
 
 log_changes: true
 log_file: changes.log
+
+sslbl_cert_url: "https://sslbl.abuse.ch/ssl-certificates/sha1/"
+netlas_host_url: "https://app.netlas.io/host/"
