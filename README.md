@@ -44,10 +44,17 @@ However, if you wish to reproduce the data yourself, please note that a paid Net
 
 To reproduce the data, follow these steps:
 
-1. **Clone the repository**   
-   Download the repository to your local machine:
+1. **Install Git LFS and clone the repository**   
+   This repository uses [GitHub Large File Storage (LFS)](https://git-lfs.github.com/) for managing large files, such as the `netlas_sslbl_malicious_hosts.csv` dataset. Ensure you have Git LFS installed and configured on your system: 
+   
+   - On macOS: `brew install git-lfs`
+   - On Ubuntu/Debian: `sudo apt install git-lfs`
+   - On Windows: Download and install Git LFS from [here](https://git-lfs.github.com/).
+   
+   Enable Git LFS for your system and download the repository to your local machine:
 
    ```bash
+   git lfs install
    git clone https://github.com/netlas-io/netlas-free-iocs.git
    cd netlas-free-iocs
    ```

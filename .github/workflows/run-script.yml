@@ -8,17 +8,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository
+      # Step 1: Check out the repository with LFS support
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          lfs: true  # Ensures LFS files are fetched and checked out
 
-      # Step 2: Set up Python
+      # Step 2: Set up Git LFS (ensure it is installed and initialized)
+      - name: Install and initialize Git LFS
+        run: |
+          git lfs install
+
+      # Step 3: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Step 3: Install dependencies (if requirements.txt exists)
+      # Step 4: Install dependencies (if requirements.txt exists)
       - name: Install dependencies
         run: |
           if [ -f "requirements.txt" ]; then
@@ -27,13 +34,13 @@ jobs:
             echo "requirements.txt not found. Skipping dependency installation."
           fi
 
-      # Step 4: Run the script
+      # Step 5: Run the script
       - name: Run the script
         run: bash update.sh
         env:
           NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
 
-      # Step 5: Commit and push the changes back to the repository
+      # Step 6: Commit and push changes back to the repository (LFS support)
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
