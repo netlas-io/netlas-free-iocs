@@ -12,13 +12,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Python
+      # Step 2: Install s3cmd
+      - name: Install s3cmd
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y s3cmd
+
+      # Step 3: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Step 3: Install dependencies (if requirements.txt exists)
+      # Step 4: Install dependencies (if requirements.txt exists)
       - name: Install dependencies
         run: |
           if [ -f "requirements.txt" ]; then
@@ -27,7 +33,7 @@ jobs:
             echo "requirements.txt not found. Skipping dependency installation."
           fi
 
-      # Step 4: Extract database_file using helper script
+      # Step 5: Extract database_file using helper script
       - name: Get database_file from config.yaml
         id: get-database-file
         run: |
@@ -40,7 +46,7 @@ jobs:
         env:
           DATABASE_FILE: ""
 
-      # Step 5: Download database_file and checksum file from S3
+      # Step 6: Download database_file and checksum file from S3
       - name: Download files from S3
         run: |
           echo "[default]" > ~/.s3cfg
@@ -56,14 +62,14 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
-      # Step 6: Run the script
+      # Step 7: Run the script
       - name: Run the script
         run: bash update.sh
         env:
           NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
           DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
-      # Step 7: Verify checksum
+      # Step 8: Verify checksum
       - name: Verify file integrity
         id: verify-checksum
         run: |
@@ -79,7 +85,7 @@ jobs:
         env:
           DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
-      # Step 8: Update checksum and upload files if changed
+      # Step 9: Update checksum and upload files if changed
       - name: Upload updated files to S3
         if: always()
         run: |
@@ -97,14 +103,14 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
-      # Step 9: Remove database_file and checksum before commit
+      # Step 10: Remove database_file and checksum before commit
       - name: Clean up temporary files
         run: |
           rm -f $DATABASE_FILE $DATABASE_FILE.md5
         env:
           DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
-      # Step 10: Commit and push the changes back to the repository
+      # Step 11: Commit and push the changes back to the repository
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
