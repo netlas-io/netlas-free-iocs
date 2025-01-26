@@ -28,19 +28,90 @@ jobs:
             echo "requirements.txt not found. Skipping dependency installation."
           fi
 
-      # Step 4: Run the script
+      # Step 4: Extract database_file using helper script
+      - name: Get database_file from config.yaml
+        id: get-database-file
+        run: |
+          DATABASE_FILE=$(python helpers/get_database_file_name.py)
+          if [ -z "$DATABASE_FILE" ]; then
+            echo "Error: database_file not found in config.yaml"
+            exit 1
+          fi
+          echo "DATABASE_FILE=$DATABASE_FILE" >> $GITHUB_ENV
+        env:
+          DATABASE_FILE: ""
+
+      # Step 5: Download database_file and checksum file from S3
+      - name: Download files from S3
+        run: |
+          echo "[default]" > ~/.s3cfg
+          echo "access_key = $CF_R2_PUBLIC_BUCKET_ACCESS_KEY" >> ~/.s3cfg
+          echo "secret_key = $CF_R2_PUBLIC_BUCKET_SECRET_KEY" >> ~/.s3cfg
+          echo "host_base = $CF_ACCOUNT_ID.r2.cloudflarestorage.com" >> ~/.s3cfg
+          echo "host_bucket = %(bucket).$CF_ACCOUNT_ID.r2.cloudflarestorage.com" >> ~/.s3cfg
+          s3cmd get s3://public/$DATABASE_FILE $DATABASE_FILE || echo "Database file not found"
+          s3cmd get s3://public/$DATABASE_FILE.md5 $DATABASE_FILE.md5 || echo "Checksum file not found"
+        env:
+          CF_R2_PUBLIC_BUCKET_ACCESS_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_ACCESS_KEY }}
+          CF_R2_PUBLIC_BUCKET_SECRET_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_SECRET_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          DATABASE_FILE: ${{ env.DATABASE_FILE }}
+
+      # Step 6: Run the script
       - name: Run the script
         run: bash update.sh
         env:
           NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
+          DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
-      # Step 5: Commit and push the changes back to the repository
+      # Step 7: Verify checksum
+      - name: Verify file integrity
+        id: verify-checksum
+        run: |
+          if [ -f "$DATABASE_FILE.md5" ]; then
+            md5sum -c $DATABASE_FILE.md5 --quiet
+            if [ $? -ne 0 ]; then
+              echo "Error: Checksum verification failed for $DATABASE_FILE"
+              exit 1
+            fi
+          else
+            echo "Checksum file not found. Skipping integrity verification."
+          fi
+        env:
+          DATABASE_FILE: ${{ env.DATABASE_FILE }}
+
+      # Step 8: Update checksum and upload files if changed
+      - name: Upload updated files to S3
+        if: always()
+        run: |
+          if [ "$(md5sum $DATABASE_FILE | awk '{ print $1 }')" != "$(cat $DATABASE_FILE.md5 2>/dev/null | awk '{ print $1 }')" ]; then
+            echo "File has changed. Updating checksum and uploading to S3."
+            md5sum $DATABASE_FILE > $DATABASE_FILE.md5
+            s3cmd put $DATABASE_FILE s3://public/$DATABASE_FILE
+            s3cmd put $DATABASE_FILE.md5 s3://public/$DATABASE_FILE.md5
+          else
+            echo "File has not changed. No upload required."
+          fi
+        env:
+          CF_R2_PUBLIC_BUCKET_ACCESS_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_ACCESS_KEY }}
+          CF_R2_PUBLIC_BUCKET_SECRET_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_SECRET_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          DATABASE_FILE: ${{ env.DATABASE_FILE }}
+
+      # Step 9: Remove database_file and checksum before commit
+      - name: Clean up temporary files
+        run: |
+          rm -f $DATABASE_FILE $DATABASE_FILE.md5
+        env:
+          DATABASE_FILE: ${{ env.DATABASE_FILE }}
+
+      # Step 10: Commit and push the changes back to the repository
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Update results from script run on $(date)"
+          git commit -m "Daily update results from script run on $(date)"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
