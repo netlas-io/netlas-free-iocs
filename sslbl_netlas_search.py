@@ -255,6 +255,6 @@ output_file.close()
 if log:
     with open(output_file_path, 'r') as output_file:
         lines = output_file.readlines()
-        log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tA total of {format(len(lines), ',')} targets have been downloaded\n")
+        log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\tA total of {format(len(lines)-1, ',')} targets have been downloaded\n")
 
 show_progress_bar(processed_targets, total_targets, start_time)
