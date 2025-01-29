@@ -72,9 +72,11 @@ jobs:
       # Step 8: Check integrity and upload if necessary
       - name: Verify checksum and upload to S3 if changed
         run: |
+          CHECKSUM_MISMATCH=0
           if [ -f "$DATABASE_FILE.md5" ]; then
-            md5sum -c $DATABASE_FILE.md5 --quiet
-            if [ $? -ne 0 ]; then
+            md5sum -c $DATABASE_FILE.md5 --quiet || CHECKSUM_MISMATCH=1
+
+            if [ $CHECKSUM_MISMATCH -eq 1 ]; then
               echo "Checksum mismatch detected. Updating checksum and uploading to S3."
               md5sum $DATABASE_FILE > $DATABASE_FILE.md5
               s3cmd put $DATABASE_FILE s3://public/$DATABASE_FILE
