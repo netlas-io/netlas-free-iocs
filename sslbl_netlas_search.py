@@ -166,9 +166,9 @@ while True:
     for attempt in range(1, max_retries + 1):
         try:
             cnt_of_res = netlas_connection.count(query=query, datatype="response")
-            time.sleep(1)
+            #time.sleep(1)
             break
-        except Exception as ex:
+        except Exception:
             if attempt == max_retries:
                 print(f"\nAll {max_retries} retries failed. Exiting.")
                 raise
@@ -237,7 +237,7 @@ for key, value in queries_to_download.items():      # Iterate through queries
                         writer.writerow(target)
                     output_file.flush()
                     targets.clear()
-            time.sleep(1)
+            #time.sleep(1)
             break
         except Exception:
             if attempt == max_retries:
