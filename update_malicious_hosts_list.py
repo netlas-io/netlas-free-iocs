@@ -122,7 +122,7 @@ def main():
       log_message(message, config.get("log_file"))
 
     if not args.silent:
-        print(message)
+        print("\n"  + message)
 
 if __name__ == "__main__":
     main()
