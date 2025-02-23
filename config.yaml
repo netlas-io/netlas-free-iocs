@@ -8,10 +8,9 @@ initial_delay: 1  # Initial delay in seconds between retries
 max_delay: 60     # Maximum delay in seconds
 
 csv_chunk_size: 80 # Number of lines per request MAX=90
-flush_to_file_every: 1000 # Maximum amount of lines stored in memmory, when exeeded will be flushed to the output file
 
 log_changes: true
-log_file: changes.log
+log_file: change.log
 
 sslbl_cert_url: "https://sslbl.abuse.ch/ssl-certificates/sha1/"
 netlas_host_url: "https://app.netlas.io/host/"

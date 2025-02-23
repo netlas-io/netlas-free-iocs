@@ -96,21 +96,22 @@ def main():
 
     if not os.path.exists(input_file):
         print(f"Error: The file '{input_file}' does not exist.")
-        exit(code=-1)
-
-    # Load configuration
-    with open(CONFIG_FILE, "r") as file:
-        config = yaml.safe_load(file)
-
+        exit(1)
+    
+    try:
+        with open(CONFIG_FILE, "r") as file:
+            config = yaml.safe_load(file)
+            dbf = config.get("database_file")
+    except yaml.YAMLError as e:
+        print(f"Error parsing YAML file: {e}. Using default values.")
+    except Exception as e:
+        print(f"Error reading config file: {e}. Using default values.")
+    
     # Load the existing database
-    dbf = config.get("database_file")
     database = load_database(dbf)
 
     # Process the input file
     added_count, updated_count = process_input_file(input_file, database)
-
-    
-    
 
     if added_count > 0 or updated_count > 0:
         save_database(database, dbf)  # Save the updated database
@@ -122,7 +123,7 @@ def main():
       log_message(message, config.get("log_file"))
 
     if not args.silent:
-        print("\n"  + message)
+        print(message)
 
 if __name__ == "__main__":
     main()
