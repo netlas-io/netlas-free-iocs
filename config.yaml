@@ -1,17 +1,22 @@
-database_file: netlas_sslbl_malicious_hosts.csv
-database_base_url: "https://public.netlas.io/"
+# General configuration for the scripts
+database_file: netlas_sslbl_malicious_hosts.csv       # Name of the database file
+database_base_url: "https://public.netlas.io/"        # Base URL for the database file
 
-sslbl_url: "https://sslbl.abuse.ch/blacklist/sslblacklist.csv" # URL of the SSL Certificate Blacklist CSV file
+sslbl_url: https://sslbl.abuse.ch/blacklist/sslblacklist.csv  # URL for the SSLBL CSV file
+sslbl_cert_url: https://sslbl.abuse.ch/ssl-certificates/sha1/ # Base URL to obtain data from SSLBL by SHA1
+netlas_host_url: https://app.netlas.io/host/                  # Base URL to add links to hosts on Netlas to the database
+
 
 # Configuration for retry delays
-max_retries: 10  # Define number of retries in case of errors
-initial_delay: 1  # Initial delay in seconds between retries
-max_delay: 60     # Maximum delay in seconds
+max_retries: 10           # Define number of retries in case of errors
+initial_delay: 1          # Initial delay in seconds between retries
+max_delay: 60             # Maximum delay in seconds
+csv_chunk_size: 80        # Number of lines per request MAX=90
 
-csv_chunk_size: 80 # Number of lines per request MAX=90
+# Configuration for the logging
+log_changes: true         # Log changes to the file
+log_file: change.log      # Name of the log file
 
-log_changes: true
-log_file: change.log
-
-sslbl_cert_url: "https://sslbl.abuse.ch/ssl-certificates/sha1/"
-netlas_host_url: "https://app.netlas.io/host/"
+# Configuration for the stats
+number_of_threats: 15     # Number of threats to be shown in the stats
+min_port_count: 50      # Minimum count for a port to be added to the "Total Ports Count across Top Threats" table
