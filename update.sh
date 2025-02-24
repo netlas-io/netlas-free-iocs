@@ -1,13 +1,13 @@
 #!/bin/bash
 
-SSLBL_URL=$(yq '.sslbl_url' config.yaml)
+SSLBL_URL=$(yq -r '.sslbl_url' config.yaml)
 if [ -z "$SSLBL_URL" ]; then
     echo "Error: sslbl_url not found in config.yaml"
     exit 2
 fi
 
-DATABASE_BASE_URL=$(yq '.database_base_url' config.yaml)
-DATABASE_FILE=$(yq '.database_file' config.yaml)
+DATABASE_BASE_URL=$(yq -r '.database_base_url' config.yaml)
+DATABASE_FILE=$(yq -r '.database_file' config.yaml)
 
 echo "SSLBL_URL: $SSLBL_URL"
 echo "DATABASE_BASE_URL: $DATABASE_BASE_URL"
