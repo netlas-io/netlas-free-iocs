@@ -41,6 +41,10 @@ The CSV version of database contains:
 4. **Schedule**:   
    The database is updated daily.
 
+## Stats
+
+For detailed statistics, please refer to the [STATS.md](STATS.md) file.
+
 
 ## Reproducing the Data
 
