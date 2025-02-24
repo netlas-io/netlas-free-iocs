@@ -239,8 +239,7 @@ with Progress(
             except Exception:
                 if attempt == max_retries:
                     progress.stop()
-                    print_l(f"\nAll {max_retries} retries failed. Exiting.")
-                    exit(5)
+                    print_l(f"\nAll {max_retries} retries failed. Saving downloaded data...")
                 time.sleep(min(initial_delay * (2 ** (attempt - 1)), max_delay))
 
 # writing the last portion of lines
