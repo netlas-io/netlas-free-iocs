@@ -16,12 +16,12 @@ echo "DATABASE_FILE: $DATABASE_FILE"
 echo "Downloading the latest files from Netlas and Abuse.ch..."
 
 if [ -n "$DATABASE_FILE" ]; then
-    wget -q --show-progress -O "$DATABASE_FILE" "$DATABASE_BASE_URL""$DATABASE_FILE"
+    wget -O "$DATABASE_FILE" "$DATABASE_BASE_URL""$DATABASE_FILE"
     if [ $? -ne 0 ]; then
         echo "Error: Failed to download $DATABASE_FILE from $DATABASE_BASE_URL"
         exit 3
     fi
-    wget -q --show-progress -O "$DATABASE_FILE".md5 "$DATABASE_BASE_URL""$DATABASE_FILE".md5
+    wget -O "$DATABASE_FILE".md5 "$DATABASE_BASE_URL""$DATABASE_FILE".md5
     if [ $? -ne 0 ]; then
         echo "Error: Failed to download $DATABASE_FILE.md5 from $DATABASE_BASE_URL"
         exit 4
@@ -54,7 +54,7 @@ echo "Running the update scripts..."
 if [[ -z "$NETLAS_API_KEY" ]]; then
     python3 "$SCRIPT1" -i "$SSLBL_FILE" -o "$NETLAS_OUTPUT_FILE"
 else
-    python3 "$SCRIPT1" -i "$SSLBL_FILE" -o "$NETLAS_OUTPUT_FILE" -a "$NETLAS_API_KEY" -s
+    python3 "$SCRIPT1" -i "$SSLBL_FILE" -o "$NETLAS_OUTPUT_FILE" -a "$NETLAS_API_KEY"
 fi
 
 # Check if the first script exited successfully
