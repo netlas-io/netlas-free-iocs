@@ -33,7 +33,7 @@ jobs:
       - name: Get database_file from config.yaml
         id: get-database-file
         run: |
-          DATABASE_FILE=$(yq '.database_file' config.yaml)
+          DATABASE_FILE=$(yq -r '.database_file' config.yaml)
           if [ -z "$DATABASE_FILE" ]; then
             echo "Error: database_file not found in config.yaml"
             exit 1
