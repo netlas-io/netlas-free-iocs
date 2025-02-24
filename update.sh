@@ -16,16 +16,8 @@ echo "DATABASE_FILE: $DATABASE_FILE"
 echo "Downloading the latest files from Netlas and Abuse.ch..."
 
 if [ -n "$DATABASE_FILE" ]; then
-    wget -O "$DATABASE_FILE" "$DATABASE_BASE_URL""$DATABASE_FILE"
-    if [ $? -ne 0 ]; then
-        echo "Error: Failed to download $DATABASE_FILE from $DATABASE_BASE_URL"
-        exit 3
-    fi
-    wget -O "$DATABASE_FILE".md5 "$DATABASE_BASE_URL""$DATABASE_FILE".md5
-    if [ $? -ne 0 ]; then
-        echo "Error: Failed to download $DATABASE_FILE.md5 from $DATABASE_BASE_URL"
-        exit 4
-    fi
+    wget --quiet -O "$DATABASE_FILE" "$DATABASE_BASE_URL""$DATABASE_FILE" || true
+    wget --quiet -O "$DATABASE_FILE".md5 "$DATABASE_BASE_URL""$DATABASE_FILE".md5 || true
 else
     echo "Error: database_file not found in config.yaml"
     exit 5
@@ -42,7 +34,7 @@ NETLAS_OUTPUT_FILE="latest_search.csv"
 SSLBL_FILE="sslbl.csv"
 SSLBL_EXTENDED_FILE="sslbl_extended.json"
 
-wget -q --show-progress -O "$SSLBL_FILE" "$SSLBL_URL"
+wget --quiet -O "$SSLBL_FILE" "$SSLBL_URL"
 if [ $? -ne 0 ]; then
     echo "Error: Failed to download $SSLBL_FILE from $SSLBL_URL"
     exit 6
@@ -73,10 +65,7 @@ if [[ -f "$NETLAS_OUTPUT_FILE" ]]; then
     if [[ $? -ne 0 ]]; then
         echo "Error: $SCRIPT2 failed. Exiting."
         exit 8
-    fi
-
-    # Delete the output file after the second script completes successfully
-    rm "$NETLAS_OUTPUT_FILE"
+    fi    
 else
     echo "Output file $NETLAS_OUTPUT_FILE not found. Second script will not run."
     exit 9
@@ -86,4 +75,5 @@ fi
 python3 "$SCRIPT3" -i "$SSLBL_FILE" -o "$SSLBL_EXTENDED_FILE" -p 0
 
 echo "Removing temporary files..."
+rm "$NETLAS_OUTPUT_FILE"
 rm "$SSLBL_FILE"
