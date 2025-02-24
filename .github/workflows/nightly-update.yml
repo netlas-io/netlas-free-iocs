@@ -17,7 +17,7 @@ jobs:
       - name: Install s3cmd and yq
         run: |
           sudo apt-get update
-          sudo apt-get install -y s3cmd yq
+          sudo apt-get install -y s3cmd yq wget
 
       # Step 3: Set up Python
       - name: Set up Python
