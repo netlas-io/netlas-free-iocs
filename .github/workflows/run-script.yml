@@ -43,7 +43,7 @@ jobs:
           DATABASE_FILE: ""
 
       # Step 6: Download database_file and checksum file from S3
-      - name: Config S3
+      - name: Config S3 and get MD5 file
         run: |
           echo "[default]" > ~/.s3cfg
           echo "access_key = $CF_R2_PUBLIC_BUCKET_ACCESS_KEY" >> ~/.s3cfg
@@ -56,6 +56,7 @@ jobs:
             echo "Error: Bucket is not available."
           exit 1
           fi
+          s3cmd get s3://public/$DATABASE_FILE.md5 $DATABASE_FILE.md5 || echo "Checksum file not found"
         env:
           CF_R2_PUBLIC_BUCKET_ACCESS_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_ACCESS_KEY }}
           CF_R2_PUBLIC_BUCKET_SECRET_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_SECRET_KEY }}

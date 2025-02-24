@@ -17,7 +17,6 @@ echo "Downloading the latest files from Netlas and Abuse.ch..."
 
 if [ -n "$DATABASE_FILE" ]; then
     wget --quiet -O "$DATABASE_FILE" "$DATABASE_BASE_URL""$DATABASE_FILE" || true
-    wget --quiet -O "$DATABASE_FILE".md5 "$DATABASE_BASE_URL""$DATABASE_FILE".md5 || true
 else
     echo "Error: database_file not found in config.yaml"
     exit 5
@@ -72,6 +71,7 @@ else
 fi
 
 # Run the third script to generate extended sslbl data
+echo "Updating STATS.md"
 python3 "$SCRIPT3" -i "$SSLBL_FILE" -o "$SSLBL_EXTENDED_FILE" -p 0
 
 echo "Removing temporary files..."
