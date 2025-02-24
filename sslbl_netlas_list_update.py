@@ -101,7 +101,7 @@ def main():
     try:
         with open(CONFIG_FILE, "r") as file:
             config = yaml.safe_load(file)
-            dbf = config.get("database_file")
+            dbf = config.get("database_file", "netlas_sslbl_malicious_hosts.csv")
     except yaml.YAMLError as e:
         print(f"Error parsing YAML file: {e}. Using default values.")
     except Exception as e:

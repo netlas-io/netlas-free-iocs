@@ -1,4 +1,5 @@
 database_file: netlas_sslbl_malicious_hosts.csv
+database_base_url: "https://public.netlas.io/"
 
 sslbl_url: "https://sslbl.abuse.ch/blacklist/sslblacklist.csv" # URL of the SSL Certificate Blacklist CSV file
 

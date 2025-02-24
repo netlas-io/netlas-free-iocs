@@ -72,16 +72,16 @@ def print_l(msg: str):
 try:
     with open(CONFIG_FILE, "r") as file:
         config = yaml.safe_load(file)
-        dbf = config.get("database_file")
-        sslbl_url = config.get("sslbl_url")
-        max_retries = config.get("max_retries")  
-        initial_delay = config.get("initial_delay")
-        max_delay = config.get("max_delay")    
-        csv_chunk_size = config.get("csv_chunk_size")
-        sslbl_cert_url = config.get("sslbl_cert_url")
-        netlas_host_url = config.get("netlas_host_url")
-        log = config.get("log_changes")
-        log_file_name = config.get("log_file")
+        dbf = config.get("database_file", dbf)
+        sslbl_url = config.get("sslbl_url", sslbl_url)
+        max_retries = config.get("max_retries", max_retries)  
+        initial_delay = config.get("initial_delay", initial_delay)
+        max_delay = config.get("max_delay", max_delay)    
+        csv_chunk_size = config.get("csv_chunk_size", csv_chunk_size)
+        sslbl_cert_url = config.get("sslbl_cert_url", sslbl_cert_url)
+        netlas_host_url = config.get("netlas_host_url", netlas_host_url)
+        log = config.get("log_changes", log)
+        log_file_name = config.get("log_file", log_file_name)
 except yaml.YAMLError as e:
     console.print(f"Error parsing YAML file: {e}. Using default values.")
 except Exception as e:
