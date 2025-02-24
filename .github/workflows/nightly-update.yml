@@ -14,10 +14,10 @@ jobs:
         uses: actions/checkout@v3
 
       # Step 2: Install s3cmd
-      - name: Install s3cmd
+      - name: Install s3cmd and yq
         run: |
           sudo apt-get update
-          sudo apt-get install -y s3cmd
+          sudo apt-get install -y s3cmd yq
 
       # Step 3: Set up Python
       - name: Set up Python
@@ -25,20 +25,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Step 4: Install dependencies (if requirements.txt exists)
+      # Step 4: Install dependencies
       - name: Install dependencies
         run: |
-          if [ -f "requirements.txt" ]; then
-            pip install -r requirements.txt
-          else
-            echo "requirements.txt not found. Skipping dependency installation."
-          fi
+          pip install -r requirements.txt
 
       # Step 5: Extract database_file using helper script
       - name: Get database_file from config.yaml
         id: get-database-file
         run: |
-          DATABASE_FILE=$(python helpers/get_database_file_name.py)
+          DATABASE_FILE=$(yq '.database_file' config.yaml)
           if [ -z "$DATABASE_FILE" ]; then
             echo "Error: database_file not found in config.yaml"
             exit 1
@@ -48,15 +44,19 @@ jobs:
           DATABASE_FILE: ""
 
       # Step 6: Download database_file and checksum file from S3
-      - name: Download files from S3
+      - name: Config S3
         run: |
           echo "[default]" > ~/.s3cfg
           echo "access_key = $CF_R2_PUBLIC_BUCKET_ACCESS_KEY" >> ~/.s3cfg
           echo "secret_key = $CF_R2_PUBLIC_BUCKET_SECRET_KEY" >> ~/.s3cfg
           echo "host_base = $CF_ACCOUNT_ID.r2.cloudflarestorage.com" >> ~/.s3cfg
           echo "host_bucket = %(bucket).$CF_ACCOUNT_ID.r2.cloudflarestorage.com" >> ~/.s3cfg
-          s3cmd get s3://public/$DATABASE_FILE $DATABASE_FILE || echo "Database file not found"
-          s3cmd get s3://public/$DATABASE_FILE.md5 $DATABASE_FILE.md5 || echo "Checksum file not found"
+          if s3cmd ls s3://public/; then
+            echo "Bucket is available."
+          else
+            echo "Error: Bucket is not available."
+          exit 1
+          fi
         env:
           CF_R2_PUBLIC_BUCKET_ACCESS_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_ACCESS_KEY }}
           CF_R2_PUBLIC_BUCKET_SECRET_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_SECRET_KEY }}
@@ -107,7 +107,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Daily update results from script run on $(date)"
+          git commit -m "Update results from script run on $(date)"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
