@@ -74,10 +74,10 @@ fi
 echo "Updating STATS.md"
 
 NUMBER_OF_THREATS=$(yq -r '.number_of_threats' config.yaml 2>/dev/null || echo 10)
-MIN_PORTS_COUNT=$(yq -r '.min_ports_count' config.yaml 2>/dev/null || echo 50)
+MIN_PORT_COUNT=$(yq -r '.min_port_count' config.yaml 2>/dev/null || echo 50)
 
 python3 "$SCRIPT3" -i "$SSLBL_FILE" -o "$SSLBL_EXTENDED_FILE" -p 0
-python3 stats.py "$SSLBL_EXTENDED_FILE" "$DATABASE_FILE" -n "$NUMBER_OF_THREATS" --min-port-count "$MIN_PORTS_COUNT"
+python3 stats.py "$SSLBL_EXTENDED_FILE" "$DATABASE_FILE" -n "$NUMBER_OF_THREATS" --min-port-count "$MIN_PORT_COUNT"
 
 echo "Removing temporary files..."
 rm "$NETLAS_OUTPUT_FILE"
