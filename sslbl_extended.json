@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "c605d23d463efd765965cb733b028f7a55638542",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-02-28 07:30:38",
+        "cn": "DcRat",
+        "dn": "luffy, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-02-28 05:21:06 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 05:21:06",
+                "malware_md5": "c588d568512fcc577ca5c82ed5b6c9d6",
+                "host": "104.245.240.66",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "bd4db52256edce0fdb822773fe874c6964c9a84f",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-02-28 07:30:36",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-02-28 00:51:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 00:51:13",
+                "malware_md5": "3d94ad012fd24cad05a146448a7fe5b5",
+                "host": "86.38.225.82",
+                "port": "4782"
+            }
+        ]
+    },
+    {
         "sha1": "42d7623a5215982b12b0b521c322224747602887",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-02-27 18:05:53",
