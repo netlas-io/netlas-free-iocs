@@ -1,5 +1,335 @@
 [
     {
+        "sha1": "2c75598109c6be9793c1fc2999edd86c65d1cdf6",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:33:41",
+        "cn": "printerdiallog.fun",
+        "dn": "WE1",
+        "fseen": "2025-02-28 19:52:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 19:52:39",
+                "malware_md5": "4f2d01e34ffd3ac22df3a278c9a3a1a4",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "99260d0d8f94907d3e9a29fae7aa25b92c790528",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:33:10",
+        "cn": "pastoralkyu.click",
+        "dn": "WE1",
+        "fseen": "2025-02-28 11:28:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 11:28:20",
+                "malware_md5": "fcccc84c54dbf6e5a453247f6f7b0988",
+                "host": "104.21.35.132",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "638ddc65c1ee609695522f9b199c4b36b3213aa7",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:32:48",
+        "cn": "techpxioneers.run",
+        "dn": "WE1",
+        "fseen": "2025-02-28 13:22:53 UTC",
+        "lseen": "2025-03-01 12:22:13 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 12:22:13",
+                "malware_md5": "f78f7f93d53adf545bb1002db41217bd",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-02-28 13:22:53",
+                "malware_md5": "fef1e2b40f1f1e476361acad307d36a8",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "6e857f9935066f8f0c82fa9c2c4629fd46383d8e",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:23:09",
+        "cn": "tampermonkey03.top",
+        "dn": "WE1",
+        "fseen": "2025-02-28 15:35:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 15:35:55",
+                "malware_md5": "b2a5a92ff43ebcd50223b217e3fd4ab8",
+                "host": "172.67.142.245",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "caad70eacbd7f9662e49ee2ddc99c8acd418cd62",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:23:04",
+        "cn": "tracnquilforest.life",
+        "dn": "WE1",
+        "fseen": "2025-02-28 14:01:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 14:01:46",
+                "malware_md5": "a97bc3cac8e4f77baa766c8409bc4388",
+                "host": "172.67.164.79",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8ca911930af6770791126a0c5034c2c16487f66b",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2025-03-01 13:14:27",
+        "cn": "xiaogoubi.top",
+        "dn": "WE1",
+        "fseen": "2025-03-01 09:35:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 09:35:52",
+                "malware_md5": "d3cae3e3a42685074ab92679ead12bce",
+                "host": "104.21.35.101",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "fba438e0cdd27a740549b2566f014082d6e92a01",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-03-01 13:12:57",
+        "cn": "bitcoal.icu",
+        "dn": "WE1",
+        "fseen": "2025-02-28 23:48:09 UTC",
+        "lseen": "2025-03-01 11:52:49 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 11:52:49",
+                "malware_md5": "f1b408afa96cf7e5865da1743dc25397",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-01 00:56:59",
+                "malware_md5": "312dc2275a9e6b26c58faed2e441651b",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-02-28 23:48:09",
+                "malware_md5": "7c12bdf2a7d479d36bc47e06aa1ac93e",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9badf972e7e27499dd41481dd4d178068e75a5eb",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:05:45",
+        "cn": "starrynsightsky.icu",
+        "dn": "WE1",
+        "fseen": "2025-02-28 22:24:05 UTC",
+        "lseen": "2025-03-01 00:38:52 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 00:38:52",
+                "malware_md5": "f969c3f2c846d351f1effe1458d94d24",
+                "host": "172.67.219.27",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-02-28 22:24:05",
+                "malware_md5": "3c570a5e7ba82eea698ec56ec3427a2c",
+                "host": "104.21.59.81",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b4867d419e9a6395471b32b8d8d51cbbb6f5c98e",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:03:26",
+        "cn": "smart-living365.top",
+        "dn": "WE1",
+        "fseen": "2025-02-28 22:02:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-02-28 22:02:41",
+                "malware_md5": "8e57739b0ddda0475c66480adfa605b6",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b80504e34d5ba1bdf5e7f45d97d0482f665b7b38",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-03-01 13:00:53",
+        "cn": "quicksandcherry.xyz",
+        "dn": "WE1",
+        "fseen": "2025-03-01 00:25:19 UTC",
+        "lseen": "2025-03-01 07:55:57 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 07:55:57",
+                "malware_md5": "bf74d2524c7bc17c56407816cc586d5c",
+                "host": "188.114.96.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-01 05:52:59",
+                "malware_md5": "a5708e138cba0f240c10d946cc15792d",
+                "host": "104.21.60.214",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-01 02:09:44",
+                "malware_md5": "77bb398f922382d1ae044c57e5041321",
+                "host": "188.114.96.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-01 00:25:19",
+                "malware_md5": "1b57f7f931b666727cb535f60b6dd0e1",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3369829f3a0df3129b821aea7150a7386ef6fca1",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-03-01 13:00:21",
+        "cn": "lossfinger.xyz",
+        "dn": "WE1",
+        "fseen": "2025-03-01 00:26:50 UTC",
+        "lseen": "2025-03-01 05:10:32 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 05:10:32",
+                "malware_md5": "8ed6b2dae414e2ed43a7064b89250663",
+                "host": "104.21.16.1",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-01 00:26:50",
+                "malware_md5": "6aea212c898603354b7f5a2a806fb5df",
+                "host": "104.21.112.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "930dff84257e68f5ed44242458f3962e41c836c7",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 13:00:09",
+        "cn": "tampermonkey04.top",
+        "dn": "WE1",
+        "fseen": "2025-03-01 11:42:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 11:42:52",
+                "malware_md5": "ef5ea16238c6a852ebc12d9c1aa50029",
+                "host": "104.21.80.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c55b45777fd52ca4c7c01d1846b436f9c5694a53",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 12:59:35",
+        "cn": "tampermonkey02.top",
+        "dn": "WE1",
+        "fseen": "2025-03-01 08:22:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 08:22:51",
+                "malware_md5": "c4a0c12b2a91e43cc8617c963b7935c7",
+                "host": "172.67.191.23",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "6126c02e567d80243dbbeb9c19984611ce8db974",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-01 11:44:05",
+        "cn": "Mod Server",
+        "dn": "Mod Server",
+        "fseen": "2025-02-28 23:20:37 UTC",
+        "lseen": "2025-03-01 04:25:44 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 04:25:44",
+                "malware_md5": "802c580d85302916b4d5a7b9d5e9fa8a",
+                "host": "45.154.98.175",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2025-02-28 23:20:37",
+                "malware_md5": "55ab9b00d0938a2362b0622c769cefcf",
+                "host": "45.154.98.175",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "49c4abd82165cc4b883b38d2aff78aa0bc137ad0",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-01 11:44:01",
+        "cn": "hardswarehub.today",
+        "dn": "WE1",
+        "fseen": "2025-02-28 23:20:37 UTC",
+        "lseen": "2025-03-01 08:54:07 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-01 08:54:07",
+                "malware_md5": "c0d0b27ce5688d1912b5acfa788d08a2",
+                "host": "104.21.96.1",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-02-28 23:20:37",
+                "malware_md5": "55ab9b00d0938a2362b0622c769cefcf",
+                "host": "104.21.64.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "c605d23d463efd765965cb733b028f7a55638542",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-02-28 07:30:38",
