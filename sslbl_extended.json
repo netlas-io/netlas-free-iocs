@@ -1,5 +1,101 @@
 [
     {
+        "sha1": "64cf9ced3e96c092b3efef4bffaa62776b11815c",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2025-03-03 07:40:31",
+        "cn": "Server",
+        "dn": "Server, OU=Server, O=Server, L=SH, C=CN",
+        "fseen": "2025-03-02 23:48:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-02 23:48:24",
+                "malware_md5": "266942dc407f5352fc8183e122037fec",
+                "host": "27.124.18.161",
+                "port": "10254"
+            }
+        ]
+    },
+    {
+        "sha1": "8a3642b3eeb52f6817ed68c81c30014e9550b875",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2025-03-03 07:22:56",
+        "cn": "Server",
+        "dn": "Server, OU=Server, O=Server, L=SH, C=CN",
+        "fseen": "2025-03-02 02:18:58 UTC",
+        "lseen": "2025-03-02 11:33:07 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-02 11:33:07",
+                "malware_md5": "dee4057fa07c00cfc0300c0e231dbb1d",
+                "host": "216.118.232.26",
+                "port": "10548"
+            },
+            {
+                "timestamp": "2025-03-02 02:18:58",
+                "malware_md5": "6a87c8c0734a72fed9f863a640d4676c",
+                "host": "216.118.232.26",
+                "port": "10548"
+            }
+        ]
+    },
+    {
+        "sha1": "ece44ee62af9659402467c2da63c85ce3ddf2574",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-03 07:22:47",
+        "cn": "willpowerwav.site",
+        "dn": "WE1",
+        "fseen": "2025-03-03 01:04:50 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-03 01:04:50",
+                "malware_md5": "33645b3afd79ed29f7e6f476d7f6ed4b",
+                "host": "104.21.44.37",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "778c944e299771897ca46fbd858becfb0b72284b",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-03 07:22:01",
+        "cn": "curlinessgiddysmile.shop",
+        "dn": "WE1",
+        "fseen": "2025-03-03 07:07:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-03 07:07:20",
+                "malware_md5": "9fa8f43b9f772108dd959c4f03686ce2",
+                "host": "104.21.32.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "dc420329b989b37eed941295132567e6719af376",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-03 07:22:00",
+        "cn": "pixeelpioneers.bet",
+        "dn": "WE1",
+        "fseen": "2025-03-03 07:07:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-03 07:07:20",
+                "malware_md5": "9fa8f43b9f772108dd959c4f03686ce2",
+                "host": "104.21.60.150",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "80669aa967383be59900b5c5edc0b057b1678d72",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-03-02 13:49:45",
