@@ -1,5 +1,125 @@
 [
     {
+        "sha1": "e55a055b41ff1a8e21dd11fa7e8c4a4498e2b93f",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-03-05 06:39:14",
+        "cn": "91.240.118.2: Self-signed certificate",
+        "dn": "91.240.118.2: Self-signed certificate",
+        "fseen": "2025-03-04 11:49:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-04 11:49:37",
+                "malware_md5": "96da4c9b10159e9a9a38a2e6aacbc984",
+                "host": "91.240.118.2",
+                "port": "9769"
+            }
+        ]
+    },
+    {
+        "sha1": "1e8b619533a8677dfad894be06bc5e0fd1808632",
+        "threat": "Rhadamanthys malware distribution",
+        "listing_date": "2025-03-05 06:38:32",
+        "cn": "ovalre.us",
+        "dn": "WE1",
+        "fseen": "2025-03-04 11:49:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-04 11:49:37",
+                "malware_md5": "96da4c9b10159e9a9a38a2e6aacbc984",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1c38bd403a719a0c28959c44b029f6de9918bbe2",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-05 06:34:56",
+        "cn": "DcRat",
+        "dn": "EBOLA, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-03-05 03:01:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-05 03:01:14",
+                "malware_md5": "d62ca18a4c219eaa8293b96b7abfcd14",
+                "host": "137.184.219.32",
+                "port": "3232"
+            }
+        ]
+    },
+    {
+        "sha1": "34eba0ab9be1e3255e2749395b83ffcd2f9fdd74",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-05 06:34:22",
+        "cn": "establishnappe.space",
+        "dn": "WE1",
+        "fseen": "2025-03-04 21:12:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-04 21:12:48",
+                "malware_md5": "45649006d4445f136e8d1f44bbf1b4f2",
+                "host": "104.21.64.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e4aad640bc53bf5bde9e89c8d113d21aaa55eebc",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-05 06:33:38",
+        "cn": "codxefusion.top",
+        "dn": "WE1",
+        "fseen": "2025-03-04 20:19:53 UTC",
+        "lseen": "2025-03-05 01:22:16 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-05 01:22:16",
+                "malware_md5": "c03ff62c1802ce316603f3374ee2d884",
+                "host": "104.21.69.194",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-05 00:12:51",
+                "malware_md5": "af61e894f821b6ae4a5ccfba42e16d69",
+                "host": "172.67.212.102",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-04 20:19:53",
+                "malware_md5": "55f7d75fc1da5bf2799d59e5cc3b0661",
+                "host": "104.21.69.194",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "992529ba6dbf6542d91136ec760ea0564515eaac",
+        "threat": "Socks5Systemz C&C",
+        "listing_date": "2025-03-05 06:32:51",
+        "cn": "Vpvitpgr",
+        "dn": "Vpvitpgr",
+        "fseen": "2025-03-04 19:16:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-04 19:16:46",
+                "malware_md5": "46fc47b2108f021aad92d3c8bf22be61",
+                "host": "199.127.62.50",
+                "port": "56001"
+            }
+        ]
+    },
+    {
         "sha1": "5a1d50af1d6cb618e58550a9b082b9579e1866bf",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-03-04 13:23:29",
