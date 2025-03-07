@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "109f691e21af0b20d2f937fc5c9f4a41facfc64a",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-06 07:06:35",
+        "cn": "culasova.icu",
+        "dn": "WE1",
+        "fseen": "2025-03-06 05:10:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-06 05:10:52",
+                "malware_md5": "05b7f29d1baeac0a7513d094bfc12a92",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3d455f90934b8dc43fb4b49544cd97dbd2036aee",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-06 07:05:08",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-03-06 02:28:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-06 02:28:05",
+                "malware_md5": "208125ac20fbb6bdf1505114b1277fbe",
+                "host": "1.15.215.75",
+                "port": "4495"
+            }
+        ]
+    },
+    {
         "sha1": "e55a055b41ff1a8e21dd11fa7e8c4a4498e2b93f",
         "threat": "Rhadamanthys C&C",
         "listing_date": "2025-03-05 06:39:14",
