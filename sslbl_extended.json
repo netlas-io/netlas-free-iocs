@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "6f889da93b6ed6a42bc5ebf1ee2a3c4032bef5d3",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-08 04:48:44",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-03-07 20:17:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-07 20:17:26",
+                "malware_md5": "0ada09167fb404d9e197901919c7c391",
+                "host": "148.113.214.176",
+                "port": "7878"
+            }
+        ]
+    },
+    {
+        "sha1": "8c0e600d8b87c3daf60f86d4415c20793719fe84",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-03-08 04:48:24",
+        "cn": "DcRat",
+        "dn": "EBOLA, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-03-08 03:04:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-08 03:04:07",
+                "malware_md5": "04e428b8cc919452e07cae9081618efc",
+                "host": "103.17.38.43",
+                "port": "3232"
+            }
+        ]
+    },
+    {
+        "sha1": "5c3c41d009851d72a71c2d731cc58e398602ba03",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-08 04:48:05",
+        "cn": "pxyhelp.top",
+        "dn": "ZeroSSL RSA Domain Secure Site CA",
+        "fseen": "2025-03-08 02:24:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-08 02:24:59",
+                "malware_md5": "310164b7e8e0cca358e57b3a90d69a51",
+                "host": "194.59.31.27",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "cab7048593ffc2ce416c83dfc4923ba15a3c329b",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-03-07 19:29:47",
