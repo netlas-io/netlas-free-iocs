@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "ed74cea02e1e5e62fa1d0d7d159c4f210a6a1d33",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-11 07:59:46",
+        "cn": "nextgenideas2023.top",
+        "dn": "WE1",
+        "fseen": "2025-03-10 19:35:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-10 19:35:27",
+                "malware_md5": "7164458906178b14843ef3cbf79dc5f9",
+                "host": "172.67.197.240",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bcbf4331efcb236a1ebe9aa442b7c5e2c5521b84",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-03-11 07:51:22",
+        "cn": "snailsflesh.xyz",
+        "dn": "WE1",
+        "fseen": "2025-03-10 20:00:12 UTC",
+        "lseen": "2025-03-10 23:08:41 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-10 23:08:41",
+                "malware_md5": "38aa11d861fe701679420cea609a6e21",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-10 20:00:12",
+                "malware_md5": "55a054b1662eb3d83882783be016648d",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "19d02f7a8bd02f486a768bfb9bbe701ac66356d9",
         "threat": "DCRat C&C",
         "listing_date": "2025-03-10 18:54:58",

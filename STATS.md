@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-03-11 02:34:25
+Date of report: 2025-03-12 02:45:22
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -13,14 +13,14 @@ Date of report: 2025-03-11 02:34:25
 
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
+| OffLoader C&C              | 2025-03-10 23:08:41 | 443 | 50 | 173 | 1 |
+| LummaStealer C&C           | 2025-03-10 19:35:27 | 443 | 231 | 709 | 0 |
 | DCRat C&C                  | 2025-03-10 17:48:25 | 8848, 3232, 4449, 7000, 6666 | 225 | 12 | 0 |
 | QuasarRAT C&C              | 2025-03-10 17:46:50 | 4782, 5490, 5147, 1973, 8080 | 304 | 47 | 0 |
 | Rhadamanthys C&C           | 2025-03-10 06:05:53 | 443, 3682, 3574, 4394, 2845 | 63 | 61 | 0 |
-| LummaStealer C&C           | 2025-03-09 23:10:47 | 443 | 230 | 708 | 0 |
 | ConnectWise C&C            | 2025-03-08 02:24:59 | 443 | 2 | 1 | 0 |
 | AsyncRAT C&C               | 2025-03-07 20:17:26 | 8808, 6606, 7707, 1177, 6970 | 1202 | 77 | 0 |
 | CobaltStrike C&C           | 2025-03-07 16:54:11 | 443, 8443, 4433, 8919, 18896 | 104 | 8 | 5 |
-| OffLoader C&C              | 2025-03-07 12:36:40 | 443 | 49 | 171 | 1 |
 | Socks5Systemz C&C          | 2025-03-04 19:16:46 | 443, 56001 | 8 | 212 | 6 |
 | Rhadamanthys malware distribution | 2025-03-04 11:49:37 | 443 | 1 | 1 | 0 |
 | Malware C&C                | 2025-03-04 08:48:33 | 443, 5658, 1973, 6204, 4443 | 298 | 5 | 64 |
@@ -32,7 +32,7 @@ Date of report: 2025-03-11 02:34:25
 ## Total Ports Count across Top Threats
 | Port       | Count      |
 |------------|-----------:|
-| 443 | 3793 |
+| 443 | 3796 |
 | 8808 | 491 |
 | 6606 | 230 |
 | 7707 | 209 |
