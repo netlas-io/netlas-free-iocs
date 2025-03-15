@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-03-14 03:13:37
+Date of report: 2025-03-15 02:47:13
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -18,9 +18,9 @@ Date of report: 2025-03-14 03:13:37
 | Rhadamanthys C&C           | 2025-03-12 22:51:31 | 443, 3682, 3574, 4394, 2845 | 65 | 64 | 0 |
 | QuasarRAT C&C              | 2025-03-12 08:24:51 | 4782, 5490, 5147, 1973, 8080 | 305 | 47 | 0 |
 | OffLoader C&C              | 2025-03-11 20:44:52 | 443 | 51 | 176 | 1 |
-| VenomRAT C&C               | 2025-03-11 15:35:04 | 4449, 10548, 8080, 5000, 7777 | 30 | 9 | 0 |
+| VenomRAT C&C               | 2025-03-11 15:35:04 | 4449, 10548, 8080, 5000, 7777 | 30 | 8 | 0 |
 | ConnectWise C&C            | 2025-03-08 02:24:59 | 443 | 2 | 1 | 0 |
-| AsyncRAT C&C               | 2025-03-07 20:17:26 | 8808, 6606, 7707, 1177, 6970 | 1202 | 77 | 0 |
+| AsyncRAT C&C               | 2025-03-07 20:17:26 | 8808, 6606, 7707, 1177, 6970 | 1202 | 76 | 0 |
 | CobaltStrike C&C           | 2025-03-07 16:54:11 | 443, 8443, 4433, 8919, 18896 | 104 | 8 | 5 |
 | Socks5Systemz C&C          | 2025-03-04 19:16:46 | 443, 56001 | 8 | 212 | 6 |
 | Rhadamanthys malware distribution | 2025-03-04 11:49:37 | 443 | 1 | 1 | 0 |
