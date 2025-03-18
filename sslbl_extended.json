@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "40a7bbf408a7f12be6145e78bc81685364f9e54a",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2025-03-17 08:13:53",
+        "cn": "Server",
+        "dn": "Server, OU=Server, O=Server, L=SH, C=CN",
+        "fseen": "2025-03-16 22:43:56 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-16 22:43:56",
+                "malware_md5": "4313580b1b6a517070d4d1d4040bfd47",
+                "host": "107.149.231.1",
+                "port": "19592"
+            }
+        ]
+    },
+    {
         "sha1": "2ae6b4c437eacc7b7bfa8fa11579b9fbb2879b91",
         "threat": "OffLoader C&C",
         "listing_date": "2025-03-16 18:37:50",
