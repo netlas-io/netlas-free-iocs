@@ -1,5 +1,148 @@
 [
     {
+        "sha1": "ac0f884f3386c77fa9aebf74827e7f3a9c1d66db",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-18 06:55:34",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "859370b5e9e9e031dff99616a5635f52cd0f9228",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-03-18 06:51:46",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "2d495d1689b088d9e3f0bb0308509f5e2380f4e5",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-18 06:46:56",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "4ecbcfcf3747d39704d69b6a3bc4a7d6882dfce3",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-03-18 06:46:42",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "a91d9c7a6c28ecb3bb8c0abfe8e539fe96767761",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-18 06:46:21",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "0c79c4b127b441cc95a53b42fb2a8ff85ca42867",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-18 06:45:57",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "8b8af9d9082015d3c24e44a2277840a17b85e20c",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-03-18 06:45:52",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "93e5cadf343b826a77617f7da6757ee2c921f224",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-18 06:45:36",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "e10e744ed66ea88faf07e15df1855012a9fe5e57",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2025-03-18 06:45:34",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "8be3af0590782be681bbf2811d546f98240bd19c",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-18 06:43:46",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "fb031a78f0e028741672fd13b05f7658eac6de3e",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-18 06:43:40",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "444c23633f387aa90940d19b9f50d4c754d22aea",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-03-18 06:40:54",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "b5c5cc1e63206cc4f74b0a94414f4bbb0cddf209",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-18 06:40:38",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "40a7bbf408a7f12be6145e78bc81685364f9e54a",
         "threat": "VenomRAT C&C",
         "listing_date": "2025-03-17 08:13:53",
