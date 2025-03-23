@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-03-22 04:01:21
+Date of report: 2025-03-23 03:21:17
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
