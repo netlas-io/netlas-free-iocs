@@ -1,5 +1,94 @@
 [
     {
+        "sha1": "08368462f9d4afb19fc3fd4c380236ce5089ace3",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-24 11:44:22",
+        "cn": "wddcare.help",
+        "dn": "WE1",
+        "fseen": "2025-03-24 09:09:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 09:09:52",
+                "malware_md5": "b02b1567995588e96c2400e32856b47b",
+                "host": "172.67.137.240",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "a6c8cc9ddf26813ecce769a56be3518ab9e40485",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-24 09:27:26",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "bbc5ee2314f5d45aa66faded5af553fc5bde10a8",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-24 07:51:25",
+        "cn": "escapoly.shop",
+        "dn": "WE1",
+        "fseen": "2025-03-24 01:33:38 UTC",
+        "lseen": "2025-03-24 03:45:56 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 03:45:56",
+                "malware_md5": "01a215ef71ffdbf68a0bc34c4b0459a0",
+                "host": "104.21.50.251",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-24 01:33:38",
+                "malware_md5": "10d9d196ced560f65f905a9d41e2ee31",
+                "host": "104.21.50.251",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8f5fe5adaaf72f4e29215619627ffb7d3171f8a7",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-24 07:51:10",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-03-24 05:44:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 05:44:11",
+                "malware_md5": "a306099f591e00acd2e06f25b6807a91",
+                "host": "46.197.220.52",
+                "port": "3389"
+            }
+        ]
+    },
+    {
+        "sha1": "d2a410af354bbc56d66bb11d2af0e75ad5325585",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-03-24 07:50:31",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-03-24 03:23:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 03:23:08",
+                "malware_md5": "265cd3ec1c1ba2c6215c54b5cd39024c",
+                "host": "64.95.11.214",
+                "port": "4782"
+            }
+        ]
+    },
+    {
         "sha1": "9fe250ecd4f4a9c9eb16a624ab8232b0c946dfd3",
         "threat": "LummaStealer C&C",
         "listing_date": "2025-03-23 18:09:49",
