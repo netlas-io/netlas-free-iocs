@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "43d5b6e47ef6e2c6b5305589bab108ef50d8918a",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-03-25 19:07:57",
+        "cn": "38.180.49.11: Self-signed certificate",
+        "dn": "38.180.49.11: Self-signed certificate",
+        "fseen": "2025-03-25 18:13:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-25 18:13:17",
+                "malware_md5": "49e9b96d58afbed06ae2a23e396fa28f",
+                "host": "38.180.49.11",
+                "port": "6715"
+            }
+        ]
+    },
+    {
+        "sha1": "cb6d2d74cb1aabf449b280c5c73bc1ad07e01914",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-25 13:55:30",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-03-25 13:02:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-25 13:02:43",
+                "malware_md5": "26fae22b94c8660ab112a8cd0fcd0421",
+                "host": "164.92.194.184",
+                "port": "2298"
+            }
+        ]
+    },
+    {
+        "sha1": "fb3a52f7a8a95430c58444791689335d3fc99b78",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-25 06:23:33",
+        "cn": "trobudrunksz.click",
+        "dn": "WE1",
+        "fseen": "2025-03-25 05:06:29 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-25 05:06:29",
+                "malware_md5": "0efffb9aadcc5dc2bcb1a3ce39b1607c",
+                "host": "172.67.179.103",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3fe8a51b8da8017041faaa41bdfebe5d5d04756c",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-03-25 06:22:53",
+        "cn": "85.239.147.234: Self-signed certificate",
+        "dn": "85.239.147.234: Self-signed certificate",
+        "fseen": "2025-03-24 20:16:36 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 20:16:36",
+                "malware_md5": "c8c4cedf2d44614a3734eb6d7fe5144d",
+                "host": "85.239.147.234",
+                "port": "1838"
+            }
+        ]
+    },
+    {
+        "sha1": "15b1cbb9b08599b3038b457d041df881c5efec9f",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-25 06:22:44",
+        "cn": "livhelp.top",
+        "dn": "WE1",
+        "fseen": "2025-03-24 20:10:21 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 20:10:21",
+                "malware_md5": "c097e42bbce1a4163774c0b4915a8d20",
+                "host": "104.21.47.6",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "912eeb819702459d89f670323dd4c54256464c7b",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-25 06:22:22",
+        "cn": "galaxiay.world",
+        "dn": "WE1",
+        "fseen": "2025-03-23 19:28:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-23 19:28:42",
+                "malware_md5": "132645065f33e8d85006d629bcba1fac",
+                "host": "104.21.51.178",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "940b5b1943ef0cfda89f8d50d4a623ef417eac14",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-25 06:16:22",
+        "cn": "hacknestm.run",
+        "dn": "WE1",
+        "fseen": "2025-03-24 19:37:00 UTC",
+        "lseen": "2025-03-25 04:46:56 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-25 04:46:56",
+                "malware_md5": "ab7c08922cfdc13e99fbc9c654ca77e9",
+                "host": "104.21.16.1",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-24 19:37:00",
+                "malware_md5": "4b3c1c29d3f8a68c71ed6cdc9374eea3",
+                "host": "104.21.16.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "011fb17fee431d157431c9f45ede6de2d18ce889",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-03-25 06:16:02",
+        "cn": "77.223.214.15: Self-signed certificate",
+        "dn": "77.223.214.15: Self-signed certificate",
+        "fseen": "2025-03-24 19:01:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 19:01:12",
+                "malware_md5": "8903a3a26cd448747ae51dc64e359211",
+                "host": "77.223.214.15",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "08368462f9d4afb19fc3fd4c380236ce5089ace3",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-03-24 11:44:22",
