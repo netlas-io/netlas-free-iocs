@@ -1,5 +1,167 @@
 [
     {
+        "sha1": "24d2d4587f63e088d81748782350d3c2ef08e8bc",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-03-26 18:34:06",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-03-26 17:49:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-26 17:49:18",
+                "malware_md5": "e8ecf83250f2badd7aa0c240fdc7be04",
+                "host": "84.67.89.127",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "1d6a8e18e18d564e0c6c53bd174245ad5b793eeb",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-03-26 13:03:40",
+        "cn": "vegetablebasket.icu",
+        "dn": "WE1",
+        "fseen": "2025-03-26 09:11:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-26 09:11:12",
+                "malware_md5": "f69fe896be9a2dc8fe54781fc3c709c6",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f17173d5df179bf0cfb9bb05748af81ffbed1671",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-26 13:02:50",
+        "cn": "wyghelp.top",
+        "dn": "WE1",
+        "fseen": "2025-03-26 07:50:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-26 07:50:40",
+                "malware_md5": "3530d3d2a57605656ecff72177d1d063",
+                "host": "172.67.176.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "33d32f0f89ae704da07de18e3234608231c4646a",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-03-26 13:01:34",
+        "cn": "Oivmkuuyzrt",
+        "dn": "Oivmkuuyzrt",
+        "fseen": "2025-03-25 08:23:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-25 08:23:00",
+                "malware_md5": "fae797f9e86201d9a803e88e92fe73f0",
+                "host": "107.189.24.187",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "5a80394d0238fd366463cc97f9cbde767cf55595",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-26 07:09:35",
+        "cn": "rwbhelp.top",
+        "dn": "Cloudflare TLS Issuing ECC CA 1",
+        "fseen": "2025-03-26 06:47:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-26 06:47:27",
+                "malware_md5": "edc44494af73429f66b80cde7f1bcdda",
+                "host": "104.21.112.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3edf3ac1b45560871d368851490eada413814598",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-26 07:08:55",
+        "cn": "dreamvacationstop.top",
+        "dn": "WE1",
+        "fseen": "2025-03-26 00:17:04 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-26 00:17:04",
+                "malware_md5": "2b490365578bce17968421062c47b31d",
+                "host": "104.21.32.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e1d3d96b4292aba9b6abd5db7b5a6e022645d346",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-03-26 07:08:39",
+        "cn": "goldensounew.world",
+        "dn": "WE1",
+        "fseen": "2025-03-26 00:07:16 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-26 00:07:16",
+                "malware_md5": "5262ae68de3cf2b72af73b819e6f75d9",
+                "host": "104.21.92.126",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f4f2779210a1e98e87c2416e1ea0bbb9e8e56c6c",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-26 07:07:41",
+        "cn": "kuwcare.help",
+        "dn": "WE1",
+        "fseen": "2025-03-24 21:40:21 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-24 21:40:21",
+                "malware_md5": "9d0097327784499091fb56dcc8a09f39",
+                "host": "104.21.24.75",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4c1feec17a98fa5edab2dce1324df2e79217eb83",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-03-26 07:04:47",
+        "cn": "bcqhelp.top",
+        "dn": "WE1",
+        "fseen": "2025-03-25 20:29:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-03-25 20:29:43",
+                "malware_md5": "c25c6161cb51dd6e1921516bc039d776",
+                "host": "104.21.22.16",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "43d5b6e47ef6e2c6b5305589bab108ef50d8918a",
         "threat": "Rhadamanthys C&C",
         "listing_date": "2025-03-25 19:07:57",
