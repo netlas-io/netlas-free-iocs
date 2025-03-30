@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-03-29 02:52:04
+Date of report: 2025-03-30 02:51:26
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -16,7 +16,7 @@ Date of report: 2025-03-29 02:52:04
 | QuasarRAT C&C              | 2025-03-26 17:49:18 | 4782, 5490, 5147, 1973, 8080 | 308 | 38 | 0 |
 | OffLoader C&C              | 2025-03-26 09:11:12 | 443 | 65 | 199 | 1 |
 | ConnectWise C&C            | 2025-03-26 07:50:40 | 443, 8443 | 90 | 98 | 2 |
-| LummaStealer C&C           | 2025-03-26 00:17:04 | 443 | 275 | 713 | 0 |
+| LummaStealer C&C           | 2025-03-26 00:17:04 | 443 | 275 | 707 | 0 |
 | Rhadamanthys C&C           | 2025-03-25 18:13:17 | 443, 3682, 3574, 4394, 2845 | 80 | 67 | 0 |
 | AsyncRAT C&C               | 2025-03-25 13:02:43 | 8808, 6606, 7707, 1177, 6970 | 1217 | 81 | 0 |
 | ACRStealer C&C             | 2025-03-23 15:00:01 | 443 | 6 | 7 | 0 |
