@@ -1,5 +1,185 @@
 [
     {
+        "sha1": "b5c7df153b025bcd24184b52be04c611f30e00bf",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-02 18:45:24",
+        "cn": "Qtsqxlfa",
+        "dn": "Qtsqxlfa",
+        "fseen": "2025-04-02 08:13:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-02 08:13:13",
+                "malware_md5": "b22f45402dae61f1d58483ecc3927682",
+                "host": "136.243.132.112",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "1769738720d0a82d32ec92a33e54d5d2c930afdf",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-02 18:45:19",
+        "cn": "aquesolp.run",
+        "dn": "WE1",
+        "fseen": "2025-04-02 08:08:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-02 08:08:08",
+                "malware_md5": "e8771d86c54285660646c0d67b310f7b",
+                "host": "172.67.201.178",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e88727d4f95f0a366c2b3b4a742950a14eff04a4",
+        "threat": "WarmCookie C&C",
+        "listing_date": "2025-04-02 08:50:36",
+        "cn": "C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "dn": "C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "fseen": "2024-09-30 21:21:44 UTC",
+        "lseen": "2025-04-02 07:43:43 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-02 07:43:43",
+                "malware_md5": "c7274a9e48f874a8c2d8c402d60cdf4d",
+                "host": "192.36.57.50",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-02 07:41:45",
+                "malware_md5": "8b9178700e6738aeb688a3f6ae28f02e",
+                "host": "192.36.57.50",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-03-20 06:29:13",
+                "malware_md5": "e1f0e4a4bbfcb84300f426e22714f548",
+                "host": "192.36.57.50",
+                "port": "443"
+            },
+            {
+                "timestamp": "2024-10-24 23:50:03",
+                "malware_md5": "7dea02845300c31f60e21494c492c870",
+                "host": "185.161.251.26",
+                "port": "443"
+            },
+            {
+                "timestamp": "2024-10-24 21:12:34",
+                "malware_md5": "80cd37d9eb33507bf054f32ce2380b09",
+                "host": "185.161.251.26",
+                "port": "443"
+            },
+            {
+                "timestamp": "2024-10-24 20:57:00",
+                "malware_md5": "e08edc1510052adc297d6af47022a70b",
+                "host": "185.161.251.26",
+                "port": "443"
+            },
+            {
+                "timestamp": "2024-09-30 21:21:44",
+                "malware_md5": "ce11273ce7f7ad03716168e4f26dbd85",
+                "host": "38.180.91.117",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "50a29797931d4ec9b3e355e619e2f3d52f780701",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-02 07:41:19",
+        "cn": "polersx.top",
+        "dn": "WE1",
+        "fseen": "2025-04-02 07:30:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-02 07:30:30",
+                "malware_md5": "e335c5c434b642bec3747232d8c280df",
+                "host": "104.21.92.128",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bf917273120e1959162fd5e9d6033f3c3eb0ecbc",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-02 07:25:58",
+        "cn": "Bfkdx",
+        "dn": "Bfkdx",
+        "fseen": "2025-04-01 20:58:31 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-01 20:58:31",
+                "malware_md5": "301986dca28c2834e20466175d54141e",
+                "host": "2.58.56.66",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "13c7bcbca5970b0180e05d3d6870ee79c7f72216",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-04-02 06:51:07",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-04-02 01:49:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-02 01:49:51",
+                "malware_md5": "b5358c5ea7dbfd0c71c7bca8ed087943",
+                "host": "5.188.206.134",
+                "port": "5850"
+            }
+        ]
+    },
+    {
+        "sha1": "43498f1a718703d03faf18abbcbf30ec4c025d78",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-02 06:50:43",
+        "cn": "dreliefr.digital",
+        "dn": "WE1",
+        "fseen": "2025-04-01 15:17:06 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-01 15:17:06",
+                "malware_md5": "e0f0847f75c43abc42790cb7a38a43a0",
+                "host": "104.21.56.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c1d226578093ad6af42b372bd8315781ed45c436",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-02 06:50:34",
+        "cn": "TDSF",
+        "dn": "TDSF",
+        "fseen": "2025-04-01 15:28:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-01 15:28:40",
+                "malware_md5": "065916df76a29b60fae9879d48f6a23c",
+                "host": "178.117.80.225",
+                "port": "3998"
+            }
+        ]
+    },
+    {
         "sha1": "3c045b0399acdf2f2ca9aade2382e8524d331193",
         "threat": "OffLoader C&C",
         "listing_date": "2025-04-01 14:43:04",
