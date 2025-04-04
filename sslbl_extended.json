@@ -1,5 +1,149 @@
 [
     {
+        "sha1": "49c9970cdb377da6b87a37fcab55a8f2fb88107f",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-03 16:02:37",
+        "cn": "fastbenerfa.shop",
+        "dn": "WE1",
+        "fseen": "2025-04-03 15:01:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 15:01:49",
+                "malware_md5": "ec862d34911c1ab24c2bbe0f39fc9816",
+                "host": "172.67.161.213",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "12ee846bd8ca260bc9b70e968d3ec808a8450756",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-03 15:59:23",
+        "cn": "unicornu.digital",
+        "dn": "WE1",
+        "fseen": "2025-04-03 15:04:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 15:04:20",
+                "malware_md5": "81ae0c0c9eae396b19a71cf79eb99cff",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "fe65631e92a3c26fedf9115ad7f8f7b0eea130b5",
+        "threat": "LummaStealer malware distribution",
+        "listing_date": "2025-04-03 07:23:56",
+        "cn": "uueui.shop",
+        "dn": "Cloudflare TLS Issuing ECC CA 1",
+        "fseen": "2025-04-03 06:51:02 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 06:51:02",
+                "malware_md5": "27a293cf9aae14d8ef1a5b7f990a2b13",
+                "host": "104.21.80.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "2018209981e619fd5769448e2f66cfd04633cba6",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-03 07:23:09",
+        "cn": "lnhelp.top",
+        "dn": "WE1",
+        "fseen": "2025-04-03 06:43:09 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 06:43:09",
+                "malware_md5": "9ab9542e8f79116b661cd1119a235b5a",
+                "host": "104.21.16.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "384e5d61fa270a2e039b9e741986b89331e1b82c",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-03 07:23:06",
+        "cn": "inhelp.top",
+        "dn": "WE1",
+        "fseen": "2025-04-03 06:42:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 06:42:13",
+                "malware_md5": "1f61bd72e6029ca925af0e416f157851",
+                "host": "104.21.80.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e6efcc6bb41355b5f108833414747725481c7653",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-03 07:21:35",
+        "cn": "nsdhelp.top",
+        "dn": "WE1",
+        "fseen": "2025-04-03 06:41:47 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 06:41:47",
+                "malware_md5": "12d370284225be3da2430549b183e37d",
+                "host": "172.67.162.193",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c8814488ebd1ba77f522e85742f7170cdaeaeea0",
+        "threat": "OrcusRAT C&C",
+        "listing_date": "2025-04-03 06:36:17",
+        "cn": "99de6787a35b457c87e9184df4acec0972e872e0071447d5920deb14d21cea34",
+        "dn": "99de6787a35b457c87e9184df4acec0972e872e0071447d5920deb14d21cea34",
+        "fseen": "2025-04-03 05:50:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 05:50:59",
+                "malware_md5": "64091b1213f1511a9d35ef25bda3d2ec",
+                "host": "78.24.217.160",
+                "port": "10134"
+            }
+        ]
+    },
+    {
+        "sha1": "9d0e5285692afd41adcbe4eab464bf855b7b72af",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-03 06:36:03",
+        "cn": "zetcare.help",
+        "dn": "WE1",
+        "fseen": "2025-04-03 06:21:50 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-03 06:21:50",
+                "malware_md5": "d725066c7ba7a9d0efdefea4c09b1cd0",
+                "host": "104.21.62.239",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "b5c7df153b025bcd24184b52be04c611f30e00bf",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-04-02 18:45:24",
