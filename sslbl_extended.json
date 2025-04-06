@@ -1,5 +1,137 @@
 [
     {
+        "sha1": "7f9bad807a40f1225f0534d0803bc1e91c51dc0c",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-04-05 06:01:44",
+        "cn": "DcRat",
+        "dn": "Loader Panel, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-04-04 19:53:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-04 19:53:38",
+                "malware_md5": "bf8ba044da8c6783ba3083b66f2a8468",
+                "host": "92.255.85.66",
+                "port": "1414"
+            }
+        ]
+    },
+    {
+        "sha1": "29a5ed6a10426e4d4e90ea6e89b35156710b2327",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-04-05 06:01:30",
+        "cn": "Venom",
+        "dn": "Venom Server, OU=alexeikun, O=Venom By alexeikun, L=SH, C=CN",
+        "fseen": "2025-04-04 19:36:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-04 19:36:07",
+                "malware_md5": "e6340580cea590beb1e4beb8e96102cb",
+                "host": "93.127.131.26",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "f2e0989ebbcdc4d0ca9c0c8088dc76a595a034d9",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-04-05 06:01:13",
+        "cn": "DcRat",
+        "dn": "Loader Panel, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-04-04 19:23:19 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-04 19:23:19",
+                "malware_md5": "3ed2c8676f7efffa35ba48d1a1e42a59",
+                "host": "92.255.85.2",
+                "port": "1414"
+            }
+        ]
+    },
+    {
+        "sha1": "a0d9a33f50dd2e8361c784f94315b343832615ac",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-05 05:58:07",
+        "cn": "mintbehavior.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-04 19:32:58 UTC",
+        "lseen": "2025-04-05 01:59:32 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-05 01:59:32",
+                "malware_md5": "16486c1290f3f11b0e6fb12da608956f",
+                "host": "172.67.156.223",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-05 01:15:38",
+                "malware_md5": "3a77cc52546fdd03831ccca9952edf0a",
+                "host": "172.67.156.223",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-04 19:32:58",
+                "malware_md5": "e4d2643dfa039cd1c85d22b89da96c82",
+                "host": "104.21.8.54",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f881e07b51c72fb084f34e92c44826baf375c68f",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-05 05:58:05",
+        "cn": "trailrifle.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-04 19:32:58 UTC",
+        "lseen": "2025-04-05 01:59:32 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-05 01:59:32",
+                "malware_md5": "16486c1290f3f11b0e6fb12da608956f",
+                "host": "104.21.3.118",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-05 01:15:38",
+                "malware_md5": "3a77cc52546fdd03831ccca9952edf0a",
+                "host": "172.67.130.171",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-04 19:32:58",
+                "malware_md5": "e4d2643dfa039cd1c85d22b89da96c82",
+                "host": "172.67.130.171",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0c6aefca4706f856204f44d961916e9ac9abc319",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-04-05 05:56:14",
+        "cn": "DcRat",
+        "dn": "Loader Panel, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-04-04 19:13:57 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-04 19:13:57",
+                "malware_md5": "feb73639e8afd7905a45295c07f9c0fe",
+                "host": "92.255.57.221",
+                "port": "1414"
+            }
+        ]
+    },
+    {
         "sha1": "a98deee2d49bdf1c5183b3079e9b28e281586f6f",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-04-04 18:01:54",
