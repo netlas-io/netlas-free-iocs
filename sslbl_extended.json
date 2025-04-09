@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "e02ddb0e7267f8222cccda5fef72f87420f96e8f",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-08 05:44:37",
+        "cn": "writingdrink.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-07 19:30:31 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-07 19:30:31",
+                "malware_md5": "0e16fa8638b369f09d56fe436b2afe12",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "70599f2772f70a3b618d9707b816ba280a458517",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-04-07 18:27:19",
