@@ -1,5 +1,77 @@
 [
     {
+        "sha1": "25da58f95868fe1800fd01aede350c19ac0de13d",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2025-04-14 11:17:54",
+        "cn": "ZhongGuo",
+        "dn": "ZhongGuo",
+        "fseen": "2025-04-13 22:15:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-13 22:15:23",
+                "malware_md5": "1fe1a6d73cc6dd777256f50753fc760a",
+                "host": "49.7.54.162",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "2da47477d9e239c62f0e4c8f20defc542cdb4a49",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-14 09:37:32",
+        "cn": "siwlverhelm.live",
+        "dn": "WE1",
+        "fseen": "2025-04-13 18:26:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-13 18:26:52",
+                "malware_md5": "5d7ec731c8e0748c7e8d2b9cd07b93da",
+                "host": "104.21.64.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "748c84d318a269be91bf0b0fd0d70de8c66ecb18",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-14 09:37:25",
+        "cn": "jesxterplay.run",
+        "dn": "Cloudflare TLS Issuing ECC CA 1",
+        "fseen": "2025-04-13 18:25:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-13 18:25:39",
+                "malware_md5": "26e8e71a6a3631d980fe7c98883cfe49",
+                "host": "104.21.96.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "51979b2d1e8426881cda3b97b6c68533700f0958",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-14 09:37:24",
+        "cn": "jawdedmirror.run",
+        "dn": "WE1",
+        "fseen": "2025-04-13 18:25:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-13 18:25:38",
+                "malware_md5": "26e8e71a6a3631d980fe7c98883cfe49",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "1cdd2314662e50eb534888d49047e612e0595daf",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-04-13 07:51:19",
