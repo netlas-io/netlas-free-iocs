@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "20e93bf1e1c48941b8562c6c47709cd36e0e61ac",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-04-16 15:59:11",
+        "cn": "5.75.214.250",
+        "dn": "5.75.214.250",
+        "fseen": "2025-04-16 07:26:33 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 07:26:33",
+                "malware_md5": "d1001279f97da2bb4c8ee392f38f3b9e",
+                "host": "5.75.214.250",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f8fe5d1d1cc7b9fec237a049f15621d8e59b1fe9",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-16 15:58:54",
+        "cn": "Eeyxhwm",
+        "dn": "Eeyxhwm",
+        "fseen": "2025-04-15 16:37:49 UTC",
+        "lseen": "2025-04-16 16:09:13 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 16:09:13",
+                "malware_md5": "1cf0e65d554533deaf1e0de541aeff49",
+                "host": "113.162.241.199",
+                "port": "56001"
+            },
+            {
+                "timestamp": "2025-04-15 23:35:00",
+                "malware_md5": "a91b9fbcff5fe0216fa2a953efbf08ae",
+                "host": "113.162.241.199",
+                "port": "56001"
+            },
+            {
+                "timestamp": "2025-04-15 16:37:49",
+                "malware_md5": "1d087ee86b2a8a07287ddf72394cac5a",
+                "host": "113.162.241.199",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "b2007b42bc1d233dafb8d93452a98bd2cedc4a88",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-16 15:22:28",
+        "cn": "AY Server",
+        "dn": "AY Server",
+        "fseen": "2025-04-16 12:39:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 12:39:46",
+                "malware_md5": "e4fea23c2d3f0ab4836a78964fb03d6b",
+                "host": "172.86.70.97",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "8a411f36f3ea0f234acf37dfcc6be39d84a0fba4",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-16 15:21:47",
+        "cn": "tendencyrose.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-15 15:07:57 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-15 15:07:57",
+                "malware_md5": "00b6d4fe21a26196bd24480bed5050c5",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7c46bd6805db23ee2bee8d9d9fad593028e585b8",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-16 15:21:46",
+        "cn": "snakecheese.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-15 15:07:57 UTC",
+        "lseen": "2025-04-16 13:55:57 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 13:55:57",
+                "malware_md5": "3eb71c2db3c57a8160960afa936e63a2",
+                "host": "104.21.96.20",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-15 15:07:57",
+                "malware_md5": "00b6d4fe21a26196bd24480bed5050c5",
+                "host": "172.67.150.68",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "b0ceea5cfe802f324de5a4d641a3dc250faa04e8",
         "threat": "Socks5Systemz C&C",
         "listing_date": "2025-04-15 15:18:03",
