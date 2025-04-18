@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-04-17 02:39:05
+Date of report: 2025-04-18 02:37:03
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -13,11 +13,11 @@ Date of report: 2025-04-17 02:39:05
 
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
+| LummaStealer C&C           | 2025-04-17 14:02:26 | 443, 56001 | 338 | 394 | 0 |
+| OffLoader C&C              | 2025-04-17 10:49:27 | 443 | 90 | 255 | 1 |
 | AsyncRAT C&C               | 2025-04-16 16:09:13 | 8808, 6606, 7707, 1177, 6970 | 1237 | 91 | 4 |
-| OffLoader C&C              | 2025-04-16 13:55:57 | 443 | 86 | 251 | 1 |
 | Vidar C&C                  | 2025-04-16 07:26:33 | 443, 5432, 9000, 2024 | 81 | 20 | 5 |
 | Socks5Systemz C&C          | 2025-04-15 15:32:12 | 443, 56001 | 12 | 220 | 7 |
-| LummaStealer C&C           | 2025-04-15 14:25:38 | 443, 56001 | 333 | 455 | 0 |
 | Rhadamanthys C&C           | 2025-04-15 10:13:57 | 443, 3682, 3574, 4394, 2845 | 95 | 78 | 0 |
 | DCRat C&C                  | 2025-04-14 15:12:05 | 8848, 1414, 3232, 4449, 56001 | 241 | 29 | 0 |
 | ConnectWise C&C            | 2025-04-14 09:59:34 | 443, 8443 | 114 | 122 | 2 |
@@ -32,7 +32,7 @@ Date of report: 2025-04-17 02:39:05
 ## Total Ports Count across Top Threats
 | Port       | Count      |
 |------------|-----------:|
-| 443 | 2216 |
+| 443 | 2225 |
 | 8808 | 488 |
 | 6606 | 236 |
 | 7707 | 211 |

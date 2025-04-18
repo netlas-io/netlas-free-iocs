@@ -1,5 +1,167 @@
 [
     {
+        "sha1": "0acaefb7e039253e1a0037c267116ef07cb8e8dd",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-17 14:27:21",
+        "cn": "magicelasti.click",
+        "dn": "WE1",
+        "fseen": "2025-04-17 14:02:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 14:02:26",
+                "malware_md5": "f2dc20c6aa1db8a94de0b2d718bc299a",
+                "host": "172.67.218.26",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e6a4e0f093c1cc44f3ae867eb74c9c450113de34",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-17 11:16:53",
+        "cn": "sistermonkey.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-17 10:49:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 10:49:27",
+                "malware_md5": "ec7893021cd77ba56c8520fb419f904e",
+                "host": "104.21.78.15",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "2a1fe561f488736bd0e5cf311e9a260fc573a88a",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-17 11:16:52",
+        "cn": "basketscarf.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-17 10:49:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 10:49:27",
+                "malware_md5": "ec7893021cd77ba56c8520fb419f904e",
+                "host": "172.67.184.23",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e556dca82592864753f0d9e3fcc9ff3b2b376936",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-17 05:41:01",
+        "cn": "thundercoall.live",
+        "dn": "WE1",
+        "fseen": "2025-04-16 22:53:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 22:53:17",
+                "malware_md5": "e0239fa69aee38817ef04770b76370ad",
+                "host": "104.21.48.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e7720b041f4facc27454728dc3ad450ae451ef31",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-17 05:41:00",
+        "cn": "nighetwhisper.top",
+        "dn": "WE1",
+        "fseen": "2025-04-16 22:53:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 22:53:17",
+                "malware_md5": "e0239fa69aee38817ef04770b76370ad",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d2944d27d607cf990ddabb0bcb8f8117db0238af",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-17 05:40:39",
+        "cn": "lettucetest.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-17 00:08:47 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 00:08:47",
+                "malware_md5": "1384f1f8c52f605aa933c86680e52102",
+                "host": "104.21.112.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "397384803a553cb05532c0f888d5ad7564559ff4",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-17 05:40:09",
+        "cn": "connectionwood.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-16 21:45:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-16 21:45:23",
+                "malware_md5": "0e0876cca468dc7a898bd3b63785afb1",
+                "host": "104.21.80.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9cb4d076571f57ec78b0b1e6499dca87663cb775",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-17 05:39:15",
+        "cn": "ecoexpanpd.live",
+        "dn": "WE1",
+        "fseen": "2025-04-17 00:03:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 00:03:32",
+                "malware_md5": "3912a1713bcf28520109f240c39adac2",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "df47ed74d73b79513109f2ba0fef32672dd1937a",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-04-17 05:38:07",
+        "cn": "twilitghtarc.live",
+        "dn": "WE1",
+        "fseen": "2025-04-17 00:16:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 00:16:55",
+                "malware_md5": "e04d87c8c7694a041186851cdb666628",
+                "host": "104.21.48.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "20e93bf1e1c48941b8562c6c47709cd36e0e61ac",
         "threat": "Vidar C&C",
         "listing_date": "2025-04-16 15:59:11",
