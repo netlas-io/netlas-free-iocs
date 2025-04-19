@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "0c0595ce2b9b6f4f39e202281fd4130998ec0a21",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-18 04:46:28",
+        "cn": "DcRat",
+        "dn": "gvvv, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-04-17 22:33:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-17 22:33:00",
+                "malware_md5": "7f4913f6d7bdfafef529d6dad5fcae3c",
+                "host": "196.251.117.118",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "742491008440aec36196ebe10d7c57b7bfb6dd9d",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-18 04:46:21",
+        "cn": "sistertime.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-18 03:02:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-18 03:02:37",
+                "malware_md5": "05afdac3121f68de6d014542f215daf1",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "0acaefb7e039253e1a0037c267116ef07cb8e8dd",
         "threat": "LummaStealer C&C",
         "listing_date": "2025-04-17 14:27:21",
