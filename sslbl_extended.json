@@ -1,5 +1,65 @@
 [
     {
+        "sha1": "9379a448d7822e004191dc6e824b91066479268f",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-04-19 11:17:17",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-04-18 16:53:28 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-18 16:53:28",
+                "malware_md5": "95430cf0fa4bd633605eabf8f46ef895",
+                "host": "8.134.74.227",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f5832f3c62e829699663c72111db268b843c437c",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-04-19 11:16:18",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-04-18 16:54:17 UTC",
+        "lseen": "2025-04-18 17:25:55 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-18 17:25:55",
+                "malware_md5": "233a781d28bd3b3a86178c48af135297",
+                "host": "118.195.162.44",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-18 16:54:17",
+                "malware_md5": "1cf1421522589eb224737b65c03efe45",
+                "host": "118.195.162.44",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7eff76b3e2ac0218e992a2632e22d0ca96a0155e",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-19 11:14:23",
+        "cn": "lumbersmile.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-19 02:37:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-19 02:37:00",
+                "malware_md5": "a6845093a7bbbec523cb98b6b05ff162",
+                "host": "104.21.65.85",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "0c0595ce2b9b6f4f39e202281fd4130998ec0a21",
         "threat": "AsyncRAT C&C",
         "listing_date": "2025-04-18 04:46:28",
