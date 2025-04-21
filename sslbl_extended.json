@@ -1,5 +1,107 @@
 [
     {
+        "sha1": "3c8dc9710a89724bab83255b2272d900552ec479",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-20 06:48:37",
+        "cn": "sigcare.help",
+        "dn": "WE1",
+        "fseen": "2025-04-19 12:17:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-19 12:17:41",
+                "malware_md5": "2ee30c87f9120f11832b45a4a3c63a9d",
+                "host": "104.21.65.37",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "20559e75c7c1cb7d93bbd80b5283098665558f1b",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-20 06:47:34",
+        "cn": "lowwood.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-20 00:00:30 UTC",
+        "lseen": "2025-04-20 05:59:14 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-20 05:59:14",
+                "malware_md5": "b6b23468e7b264f2d3ec50146c966f29",
+                "host": "104.21.32.1",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-20 00:00:30",
+                "malware_md5": "10d6eb40ca9a942b9945d34ae0d2f637",
+                "host": "104.21.16.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "46d7f50eee2b8b090da7033bc74e4982cd13203e",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-20 06:47:33",
+        "cn": "auntapproval.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-20 00:00:31 UTC",
+        "lseen": "2025-04-20 05:59:14 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-20 05:59:14",
+                "malware_md5": "b6b23468e7b264f2d3ec50146c966f29",
+                "host": "104.21.54.71",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-20 00:00:31",
+                "malware_md5": "10d6eb40ca9a942b9945d34ae0d2f637",
+                "host": "172.67.136.96",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "819c07da991f7ff134bb89764d71c87937a9cc71",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-20 06:45:48",
+        "cn": "dustfurniture.xyz",
+        "dn": "WE1",
+        "fseen": "2025-04-19 16:29:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-19 16:29:39",
+                "malware_md5": "0323c0e2499017aedb76887a671878db",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8a1520038226f51df562bc1bde6a6fd3b0320752",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-20 06:45:00",
+        "cn": "xdrcare.help",
+        "dn": "WE1",
+        "fseen": "2025-04-19 05:55:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-19 05:55:05",
+                "malware_md5": "84d6cddb7b1ace91327ec96ee2927fa2",
+                "host": "172.67.175.150",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "9379a448d7822e004191dc6e824b91066479268f",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-04-19 11:17:17",
