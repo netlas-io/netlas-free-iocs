@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "18d5c59bc38ac75a6f664bf4cbfbfecdaa6d6544",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2025-04-24 13:10:40",
+        "cn": "xiaogoubi.top",
+        "dn": "WE1",
+        "fseen": "2025-04-24 07:02:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-24 07:02:07",
+                "malware_md5": "f1e703dc7afbbd90e43beb75224cf0d5",
+                "host": "104.21.35.101",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "fb641e5fdc1d054ff056dfff9e86619f6081df40",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-24 06:07:24",
+        "cn": "Nfdptllspob",
+        "dn": "Nfdptllspob",
+        "fseen": "2025-04-23 12:22:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-23 12:22:24",
+                "malware_md5": "6ea269c2c562e363b5a77df663888d26",
+                "host": "45.141.233.236",
+                "port": "56001"
+            }
+        ]
+    },
+    {
         "sha1": "aad26d274760d8fcb43936c7ed3b6de68cdbe7ec",
         "threat": "OffLoader C&C",
         "listing_date": "2025-04-23 17:52:26",
