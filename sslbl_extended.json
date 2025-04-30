@@ -1,5 +1,119 @@
 [
     {
+        "sha1": "1a0bfd6992ea5fc456902d689c9c61158b0de734",
+        "threat": "PureCrypter C&C",
+        "listing_date": "2025-04-29 06:14:32",
+        "cn": "Cplhiazhtm",
+        "dn": "Cplhiazhtm",
+        "fseen": "2025-04-28 14:02:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-28 14:02:38",
+                "malware_md5": "2d1c3be3c99d00d39b3ee660ce3e4812",
+                "host": "185.193.48.51",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "25ca3317b7932bcd57b1f8e2c66d072da414f037",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-29 05:38:26",
+        "cn": "edpcare.help",
+        "dn": "WE1",
+        "fseen": "2025-04-28 12:45:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-28 12:45:17",
+                "malware_md5": "f29d2d48eb583e91ceb36de44ea2c848",
+                "host": "104.21.33.155",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d4a03ee46e842799c23ac36213da1ec8a22cd07d",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-04-29 05:38:02",
+        "cn": "wealthperson.icu",
+        "dn": "WE1",
+        "fseen": "2025-04-28 12:29:49 UTC",
+        "lseen": "2025-04-29 03:18:16 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-29 03:18:16",
+                "malware_md5": "f379c2c6c908891061ee47bcd8c871cc",
+                "host": "188.114.96.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-29 00:48:26",
+                "malware_md5": "dc1812a13d361e852bde21eb35939bd5",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-29 00:09:23",
+                "malware_md5": "d55007e49f4b59ccfd5cc7072b93e626",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-28 21:29:31",
+                "malware_md5": "babaef5c2df06ff2bf65eadc0c2ed934",
+                "host": "188.114.96.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-04-28 12:29:49",
+                "malware_md5": "1b6fe6fc65595bfab877687ca7a94a8c",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "2813b06c84c438b5e512c29aec131d97aad05765",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-04-29 05:35:18",
+        "cn": "mymcare.help",
+        "dn": "WE1",
+        "fseen": "2025-04-28 08:27:22 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-28 08:27:22",
+                "malware_md5": "665f53c9c58ac4eacf358ea54ee5c662",
+                "host": "104.21.112.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7f81eae2cf9ddd982f3767167f738b47dd73321b",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-04-29 05:26:53",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-04-28 15:10:40 UTC",
+        "lseen": "2025-04-28 15:10:41 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-04-28 15:10:41",
+                "malware_md5": "253f2f81c335265caba1ce6c1f3cd725",
+                "host": "176.65.144.19",
+                "port": "8848"
+            }
+        ]
+    },
+    {
         "sha1": "fcabd6cb94b81c9d8a86953233cd56fab637f02b",
         "threat": "LummaStealer C&C",
         "listing_date": "2025-04-28 08:27:11",
