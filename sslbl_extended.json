@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "c2f2a4370418b91cd26412c6d2388364e41e8a06",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-05-02 06:11:17",
+        "cn": "girlsgrain.xyz",
+        "dn": "WE1",
+        "fseen": "2025-05-01 17:41:48 UTC",
+        "lseen": "2025-05-01 20:57:57 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-01 20:57:57",
+                "malware_md5": "d1af87f5db31e061bde25f534c46a41e",
+                "host": "188.114.96.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-01 17:41:48",
+                "malware_md5": "b3f1952e08a242f6c98b00036a709357",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7b7cccd28ddc0223fda0fff655be63c10cdf3fa8",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-05-02 06:08:10",
+        "cn": "docaccesshub.top",
+        "dn": "R11",
+        "fseen": "2025-05-01 20:30:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-01 20:30:41",
+                "malware_md5": "75b1a795d5268e7d31d617fdd414db1e",
+                "host": "199.127.63.129",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "1287e58f88068ea709943c00a6af304e67b87b02",
         "threat": "CobaltStrike C&C",
         "listing_date": "2025-05-01 12:56:05",
