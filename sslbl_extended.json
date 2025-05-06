@@ -1,5 +1,173 @@
 [
     {
+        "sha1": "82bc4f41d91d80b76276bdf3a6fa7b1d108c6dd0",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-05-05 13:40:36",
+        "cn": "lsacare.help",
+        "dn": "WE1",
+        "fseen": "2025-05-05 08:15:01 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-05 08:15:01",
+                "malware_md5": "f5f78dcf61d11951ad31a05a31a49546",
+                "host": "104.21.68.81",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ccc3fd1becb55afb15710db81dfeabe5122215af",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-05-05 08:29:24",
+        "cn": "Cehsdzud",
+        "dn": "Cehsdzud",
+        "fseen": "2025-05-05 02:55:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-05 02:55:40",
+                "malware_md5": "c0ed50d34174929a9eb4426fed0deacb",
+                "host": "103.199.18.235",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "3dfcc2bdb13bc459285bbaa5bf0779673a4bae2d",
+        "threat": "Socks5Systemz C&C",
+        "listing_date": "2025-05-05 07:56:47",
+        "cn": "80.64.18.59",
+        "dn": "Sectigo RSA Domain Validation Secure Server CA",
+        "fseen": "2025-05-05 04:23:39 UTC",
+        "lseen": "2025-05-05 06:19:54 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-05 06:19:54",
+                "malware_md5": "e2f3dee9d4dc44f536b509040ffd592b",
+                "host": "80.64.18.59",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-05 04:23:39",
+                "malware_md5": "cf5a3d63c9e058ad23d18596976246ed",
+                "host": "80.64.18.59",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8668168272c773b5ce5670077c1448a9e45f3d49",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-05-05 07:51:31",
+        "cn": "sisterwood.icu",
+        "dn": "WE1",
+        "fseen": "2025-05-04 20:08:10 UTC",
+        "lseen": "2025-05-05 06:06:35 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-05 06:06:35",
+                "malware_md5": "e0b02b7ebca2a68fe9cc489190f125a5",
+                "host": "172.67.131.69",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-05 05:25:46",
+                "malware_md5": "d9ba1bd4775c9f532e232608856732e6",
+                "host": "104.21.10.89",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-05 01:32:04",
+                "malware_md5": "b3f658b338d872fb2b5c5b90868cc83c",
+                "host": "104.21.10.89",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-04 20:08:10",
+                "malware_md5": "141ba6e6bbf652fbf4ca924f5e9f4b13",
+                "host": "104.21.10.89",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "048142fcc2312120698e46da4127c4f7b2ea9661",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-05-05 07:51:30",
+        "cn": "verserelation.xyz",
+        "dn": "WE1",
+        "fseen": "2025-05-04 20:08:10 UTC",
+        "lseen": "2025-05-05 06:06:35 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-05 06:06:35",
+                "malware_md5": "e0b02b7ebca2a68fe9cc489190f125a5",
+                "host": "104.21.90.149",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-05 05:25:46",
+                "malware_md5": "d9ba1bd4775c9f532e232608856732e6",
+                "host": "104.21.90.149",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-05 01:32:04",
+                "malware_md5": "b3f658b338d872fb2b5c5b90868cc83c",
+                "host": "104.21.90.149",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-04 20:08:10",
+                "malware_md5": "141ba6e6bbf652fbf4ca924f5e9f4b13",
+                "host": "104.21.90.149",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "414ffec8d6867bc2620abaa259c8a8da60aa6241",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-05-05 07:31:28",
+        "cn": "ncdcare.help",
+        "dn": "WE1",
+        "fseen": "2025-05-04 18:20:03 UTC",
+        "lseen": "2025-05-04 18:20:04 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-04 18:20:04",
+                "malware_md5": "428c1283b59113318a7065080dcd5175",
+                "host": "172.67.152.204",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bb02ae8505ab985f26a571762dc53f08e7f32d47",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-05-05 07:31:07",
+        "cn": "cmykhpanel.top",
+        "dn": "WE1",
+        "fseen": "2025-05-04 18:45:29 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-04 18:45:29",
+                "malware_md5": "3a884660e33ae1df115050acaa8680af",
+                "host": "172.67.213.136",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "0e42cb506b6bfc02b56c689f998084ab2f3a035b",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-05-04 17:24:16",
