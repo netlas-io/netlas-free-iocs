@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "c738b01565771193f3000a7d69f985ffbd9d43d7",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-07 18:02:09",
+        "cn": "wleusb vsjn",
+        "dn": "wleusb vsjn",
+        "fseen": "2025-05-07 14:04:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-07 14:04:40",
+                "malware_md5": "9ee7ef66e5e78a1d28c978b143b739a9",
+                "host": "176.143.53.10",
+                "port": "7000"
+            }
+        ]
+    },
+    {
+        "sha1": "126a7bf575292faab9fa83270a24d5bd18335d46",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-07 09:13:19",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-05-07 04:27:31 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-07 04:27:31",
+                "malware_md5": "e707b826dcf9af02e2d6b666f44f4a68",
+                "host": "94.26.90.81",
+                "port": "5437"
+            }
+        ]
+    },
+    {
         "sha1": "a634d700ed1b6ac7fc8dd0b2ec17bcb186970aaa",
         "threat": "ResolverRAT C&C",
         "listing_date": "2025-05-06 07:10:15",
