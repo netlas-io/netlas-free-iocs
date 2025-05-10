@@ -1,5 +1,77 @@
 [
     {
+        "sha1": "e4fa5c3779c23994693ee0225788eb61e3ef4878",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-05-09 14:50:46",
+        "cn": "doorwanzeh.live",
+        "dn": "WE1",
+        "fseen": "2025-05-09 14:32:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-09 14:32:24",
+                "malware_md5": "d1c13c56cf7a60ff948ca3b93aada1a0",
+                "host": "104.21.42.14",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ef3991bf8bea89f0c5a5bd926dfda343384a00fc",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-05-09 14:44:53",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-05-08 23:26:28 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-08 23:26:28",
+                "malware_md5": "4c5c5b8ddbdb18beb955c0c78c81b86c",
+                "host": "148.113.214.176",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "2dac6c1522520305390ec08af5f31f5ceeb82837",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-05-09 14:44:38",
+        "cn": "sleetpotato.icu",
+        "dn": "WE1",
+        "fseen": "2025-05-08 23:26:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-08 23:26:51",
+                "malware_md5": "31e6336ed1bc5c5e7ec4f0f8722b2fd7",
+                "host": "172.67.202.145",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "79440c3daed74b229330f3ba8e1da6f46dcf3395",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-05-09 14:43:19",
+        "cn": "ygdxhc rinj",
+        "dn": "ygdxhc rinj",
+        "fseen": "2025-05-08 18:57:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-08 18:57:49",
+                "malware_md5": "43f514a660ed47510f31348202b620f7",
+                "host": "66.85.27.173",
+                "port": "1985"
+            }
+        ]
+    },
+    {
         "sha1": "e53d71cff2f0ced22b386790900e7f3a8e78d097",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-05-08 05:22:07",
