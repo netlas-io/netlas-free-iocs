@@ -1,5 +1,137 @@
 [
     {
+        "sha1": "87179bede26c8e22d078f8167fbea908ac030f83",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-14 12:43:43",
+        "cn": "wbuhpe koate",
+        "dn": "wbuhpe koate",
+        "fseen": "2025-05-13 17:06:09 UTC",
+        "lseen": "2025-05-13 17:58:19 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-13 17:58:19",
+                "malware_md5": "3eb5a848ab9411dff2063a1bd8431501",
+                "host": "176.65.143.168",
+                "port": "3535"
+            },
+            {
+                "timestamp": "2025-05-13 17:06:09",
+                "malware_md5": "214de503c54a777ccc681138de768608",
+                "host": "176.65.143.168",
+                "port": "3535"
+            }
+        ]
+    },
+    {
+        "sha1": "46404b0bf425ea26e5863b0d7da6c20b65bc1e92",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-05-14 12:32:46",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-05-14 04:19:45 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-14 04:19:45",
+                "malware_md5": "a8c0a77e48ac5dcec3b10c9cd44289cb",
+                "host": "176.65.142.234",
+                "port": "6874"
+            }
+        ]
+    },
+    {
+        "sha1": "664e5f33e73814e2516cbf4c8502f58ff535dd64",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-05-14 12:32:35",
+        "cn": "185.40.86.132: Self-signed certificate",
+        "dn": "185.40.86.132: Self-signed certificate",
+        "fseen": "2025-05-13 18:35:36 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-13 18:35:36",
+                "malware_md5": "af9fa64a9e2d4a78aa0064ea1c8a3eb9",
+                "host": "185.40.86.132",
+                "port": "7005"
+            }
+        ]
+    },
+    {
+        "sha1": "e8932260e8b2f91fe5993b4f1feac2b4b9f15c01",
+        "threat": "Mythic C&C",
+        "listing_date": "2025-05-14 12:31:23",
+        "cn": "O=Mythic C2",
+        "dn": "O=Mythic C2",
+        "fseen": "2025-05-14 09:22:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-14 09:22:27",
+                "malware_md5": "db35f4ddb2db895f6342a4c969f83f4f",
+                "host": "161.132.51.146",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b6c509c6a9523cd25695786f82b6892235462038",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-14 12:31:04",
+        "cn": "ildhya snaj",
+        "dn": "ildhya snaj",
+        "fseen": "2025-05-13 22:25:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-13 22:25:24",
+                "malware_md5": "dac04e511722609ead43aae0c8de9fcd",
+                "host": "51.89.207.171",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "1c0a71a9d907468a3323a4993e3329700faded24",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-05-14 12:30:20",
+        "cn": "svhhelp.top",
+        "dn": "Cloudflare TLS Issuing ECC CA 1",
+        "fseen": "2025-05-13 22:12:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-13 22:12:42",
+                "malware_md5": "1c0c784cfb8d6d58a4d7abaeed92d94b",
+                "host": "104.21.16.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "a9b0a1b6fb4444f4df4b283e002e57b78cdc477d",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-05-14 12:26:06",
+        "cn": "testcawepr.run",
+        "dn": "WE1",
+        "fseen": "2025-05-14 12:04:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-14 12:04:05",
+                "malware_md5": "e905c4e968de0d1a9bfe3bf7dce221d5",
+                "host": "104.21.96.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "2b91b399aff60253b3ce475217e09c594b97fde8",
         "threat": "Vidar C&C",
         "listing_date": "2025-05-13 10:26:37",
