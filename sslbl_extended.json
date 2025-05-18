@@ -1,5 +1,95 @@
 [
     {
+        "sha1": "cc737f9ed7c38bccce27faedd3b718b8a6b9fb05",
+        "threat": "AdaptixC2 C&C",
+        "listing_date": "2025-05-17 18:33:44",
+        "cn": "C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "dn": "C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "fseen": "2025-05-17 10:21:34 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-17 10:21:34",
+                "malware_md5": "ec2fe26228a454bcd392c732d70a66e2",
+                "host": "192.153.57.189",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9f3c764abd518cb110af410c3bfd3cef5a67a246",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-05-17 14:31:03",
+        "cn": "5.75.210.140",
+        "dn": "5.75.210.140",
+        "fseen": "2025-05-17 14:12:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-17 14:12:14",
+                "malware_md5": "ffb1dfb14143a9667bc7c818192dc6a7",
+                "host": "5.75.210.140",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ca083a47c9d5c59bfa33ab56978e4d1f7b5b0017",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-05-17 06:45:40",
+        "cn": "Bdaklaui",
+        "dn": "Bdaklaui",
+        "fseen": "2025-05-16 20:24:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-16 20:24:43",
+                "malware_md5": "2744f25a963b50f5967d1a0e6eee16f8",
+                "host": "139.99.85.213",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "f86db339d16731f5efeb92d6971a421f565add09",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-05-17 06:27:50",
+        "cn": "retechlabp.run",
+        "dn": "WE1",
+        "fseen": "2025-05-17 01:39:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-17 01:39:58",
+                "malware_md5": "7e5062d38e14859f4f6b0227e88b43ed",
+                "host": "104.21.112.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8bba8acadfc5465ace4a73eeede07957a419cf6b",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-05-17 06:23:15",
+        "cn": "system",
+        "dn": "system",
+        "fseen": "2025-05-16 21:35:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-16 21:35:12",
+                "malware_md5": "378d603ba3c1490cee31591d874fa179",
+                "host": "65.21.143.162",
+                "port": "7707"
+            }
+        ]
+    },
+    {
         "sha1": "085aad6f0a15f1628c47ff6a6129889cb183ed1a",
         "threat": "ResolverRAT C&C",
         "listing_date": "2025-05-16 19:14:54",
