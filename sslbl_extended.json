@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "abc92d685774d58eb4c1f163a79d4bc30e6b9d80",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-05-19 12:05:11",
+        "cn": "strengbllk.live",
+        "dn": "WE1",
+        "fseen": "2025-05-19 02:56:09 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-19 02:56:09",
+                "malware_md5": "399667810fbb2721d9f9a18b8e804c47",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "cc737f9ed7c38bccce27faedd3b718b8a6b9fb05",
         "threat": "AdaptixC2 C&C",
         "listing_date": "2025-05-17 18:33:44",
