@@ -1,5 +1,185 @@
 [
     {
+        "sha1": "c3acb7849f4c86391094e9d28fd45d054b89d8cd",
+        "threat": "RemcosRAT C&C",
+        "listing_date": "2025-05-23 14:44:08",
+        "cn": "charon",
+        "dn": "charon",
+        "fseen": "2025-05-23 11:07:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 11:07:27",
+                "malware_md5": "ed1a21cbee9b72e77aff1bc79f328b65",
+                "host": "171.22.120.227",
+                "port": "5599"
+            }
+        ]
+    },
+    {
+        "sha1": "8dce7264ee5054196910821293cbddab884c87be",
+        "threat": "RemcosRAT C&C",
+        "listing_date": "2025-05-23 14:44:06",
+        "cn": "elysium.local",
+        "dn": "elysium.local",
+        "fseen": "2025-05-23 11:07:28 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 11:07:28",
+                "malware_md5": "ed1a21cbee9b72e77aff1bc79f328b65",
+                "host": "85.158.108.139",
+                "port": "7712"
+            }
+        ]
+    },
+    {
+        "sha1": "48c7eaefcb498829c4f40340b87716f1ea50d73a",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2025-05-23 08:12:59",
+        "cn": "Venom",
+        "dn": "Venom Server, OU=alexeikun, O=Venom By alexeikun, L=SH, C=CN",
+        "fseen": "2025-05-22 22:13:45 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-22 22:13:45",
+                "malware_md5": "ecf33100b53c8a06ce8f7c837fd4fd44",
+                "host": "176.65.134.10",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "05d31317d7e34f7de24fa54bcf315af579e0f80b",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-23 08:11:40",
+        "cn": "wxpf xebrag",
+        "dn": "wxpf xebrag",
+        "fseen": "2025-05-22 11:56:19 UTC",
+        "lseen": "2025-05-22 13:07:38 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-22 13:07:38",
+                "malware_md5": "7a7dc7ffa31358aea9087a32bec54ffd",
+                "host": "196.251.116.252",
+                "port": "4449"
+            },
+            {
+                "timestamp": "2025-05-22 12:56:50",
+                "malware_md5": "df034952813f8941fd04c3d5cea05d4c",
+                "host": "196.251.116.252",
+                "port": "4449"
+            },
+            {
+                "timestamp": "2025-05-22 12:02:49",
+                "malware_md5": "ddc1ff13806b8cf09a247393e3a7a46f",
+                "host": "196.251.116.252",
+                "port": "4449"
+            },
+            {
+                "timestamp": "2025-05-22 11:56:19",
+                "malware_md5": "a21fca1637671ada42b57c6bcea74639",
+                "host": "196.251.116.252",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "f303a82788be8293ef9efc18a761597809ea5387",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-05-23 07:59:48",
+        "cn": "Venom",
+        "dn": "Ven Server, OU=alexeikun, O=Venom By alexeikun, L=SH, C=CN",
+        "fseen": "2025-05-22 10:24:10 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-22 10:24:10",
+                "malware_md5": "d52c56ffa8d04fbc50cce9dba7e89641",
+                "host": "185.236.231.64",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "8369b3cc88cfb2d50e26e927edda9a82ab96b8d3",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-05-23 07:57:42",
+        "cn": "lovepnl.top",
+        "dn": "WE1",
+        "fseen": "2025-05-22 21:11:21 UTC",
+        "lseen": "2025-05-22 21:11:22 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-22 21:11:22",
+                "malware_md5": "39eb758f09050fd9cdc1b455d6da1ada",
+                "host": "104.21.32.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b799b47a15fcb5032fabc3a6b98c4cc325ad7825",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2025-05-23 07:53:35",
+        "cn": "VenomRAT",
+        "dn": "VenomRAT Server, OU=qwqdanchun, O=VenomRAT By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-05-23 01:56:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 01:56:52",
+                "malware_md5": "72d4cf811b86f5f68ec253cdc1d3d282",
+                "host": "185.170.154.231",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "50d67132de2414909b0dd3babde45f134885d9a6",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-23 07:53:29",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-05-22 13:01:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-22 13:01:27",
+                "malware_md5": "7dd67aed24e15f71156891d0b21d1fc2",
+                "host": "95.104.60.98",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "36dbbfb0fc1736676c9e5e79238507a13ca6b74f",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-23 07:51:44",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-05-22 07:50:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-22 07:50:32",
+                "malware_md5": "bba8d9b47ea99a1fbc87d78ed7339f26",
+                "host": "193.161.193.99",
+                "port": "38594"
+            }
+        ]
+    },
+    {
         "sha1": "89d1a03ab5bfaf01d9bcc749e09e7f25148d31ab",
         "threat": "LummaStealer C&C",
         "listing_date": "2025-05-22 06:10:04",
