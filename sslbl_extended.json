@@ -1,5 +1,149 @@
 [
     {
+        "sha1": "e7a36f6961ec886c25153e85e776341d0b945dd4",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-05-24 19:32:31",
+        "cn": "rhadamanthys.local",
+        "dn": "rhadamanthys.local",
+        "fseen": "2025-05-23 23:41:28 UTC",
+        "lseen": "2025-05-23 23:55:19 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 23:55:19",
+                "malware_md5": "d0a5867e1a9aebdcb07f6b2317da1b0b",
+                "host": "45.153.34.143",
+                "port": "8888"
+            },
+            {
+                "timestamp": "2025-05-23 23:53:57",
+                "malware_md5": "7af5fa300b0936d97fc9f67993c91578",
+                "host": "45.153.34.143",
+                "port": "8888"
+            },
+            {
+                "timestamp": "2025-05-23 23:41:28",
+                "malware_md5": "31a88e48266a0c3804cfbbf6cfa621d6",
+                "host": "45.153.34.143",
+                "port": "8888"
+            }
+        ]
+    },
+    {
+        "sha1": "d8ace792b4e5b642896e2d5dd050ff6aa172f658",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-05-24 19:32:11",
+        "cn": "rhadamanthys.local",
+        "dn": "rhadamanthys.local",
+        "fseen": "2025-05-24 17:11:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-24 17:11:55",
+                "malware_md5": "3e04a83946205df02e7298ad1d7b2fc8",
+                "host": "45.153.34.122",
+                "port": "8888"
+            }
+        ]
+    },
+    {
+        "sha1": "95eb462b5553a3438e092b3b59334b2b30279438",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-05-24 15:33:44",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2025-05-23 16:50:01 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 16:50:01",
+                "malware_md5": "3f228a6bde567b2da6daafd3d7ff787b",
+                "host": "147.185.221.28",
+                "port": "47461"
+            }
+        ]
+    },
+    {
+        "sha1": "aa0632e334027d86f009b801d87341eeae71cfc9",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-05-24 15:33:27",
+        "cn": "sunground.info",
+        "dn": "WE1",
+        "fseen": "2025-05-23 18:09:10 UTC",
+        "lseen": "2025-05-23 21:37:50 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 21:37:50",
+                "malware_md5": "0b886f83b4f6085b37cf1f1933fde010",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-23 19:52:46",
+                "malware_md5": "371c4ed1126e0a3ceb881781c157cde8",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-23 18:09:10",
+                "malware_md5": "174767a96fe63b939bf14797f39d46cf",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "6ff9627e0c160e4b84bbdc36bef4e1c4e3f98272",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-05-24 15:33:26",
+        "cn": "eggisland.info",
+        "dn": "WE1",
+        "fseen": "2025-05-23 18:09:10 UTC",
+        "lseen": "2025-05-23 21:37:50 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 21:37:50",
+                "malware_md5": "0b886f83b4f6085b37cf1f1933fde010",
+                "host": "104.21.80.1",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-23 19:52:46",
+                "malware_md5": "371c4ed1126e0a3ceb881781c157cde8",
+                "host": "104.21.64.1",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-05-23 18:09:10",
+                "malware_md5": "174767a96fe63b939bf14797f39d46cf",
+                "host": "104.21.96.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9b6787afc372bf7847a4bd4c8a0028f788a7b254",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-05-24 11:16:24",
+        "cn": "charon",
+        "dn": "charon",
+        "fseen": "2025-05-23 15:44:47 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-23 15:44:47",
+                "malware_md5": "5e60b8e7e426f90ce32590e6ccf36de5",
+                "host": "195.10.205.78",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "c3acb7849f4c86391094e9d28fd45d054b89d8cd",
         "threat": "RemcosRAT C&C",
         "listing_date": "2025-05-23 14:44:08",
