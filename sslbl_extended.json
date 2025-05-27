@@ -1,5 +1,119 @@
 [
     {
+        "sha1": "eb1b848254b2fd5f059021463760a0dd02b5f846",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-05-26 15:26:47",
+        "cn": "Oeefvbw",
+        "dn": "Oeefvbw",
+        "fseen": "2025-05-26 14:51:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-26 14:51:42",
+                "malware_md5": "1913fb4d75da08f752b36da0fba18383",
+                "host": "139.99.17.151",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "9b591b81bd00b154ed8c1e17fc8133d98210ae34",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-05-26 15:21:24",
+        "cn": "Ljbhw",
+        "dn": "Ljbhw",
+        "fseen": "2025-05-25 19:02:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-25 19:02:13",
+                "malware_md5": "3c047c6a929bfd51faf8ee3ce2fcef90",
+                "host": "31.58.169.44",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "c6884d375d2cd6e3375ae6bbd82f310c811b9c18",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-05-26 14:53:11",
+        "cn": "elysium.local",
+        "dn": "elysium.local",
+        "fseen": "2025-05-25 19:01:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-25 19:01:37",
+                "malware_md5": "162e14546e2cda7f8c8ef3e629c96c67",
+                "host": "45.153.34.122",
+                "port": "4433"
+            }
+        ]
+    },
+    {
+        "sha1": "2fe8704a80e31416c6d44a7a194e264c1ab8f133",
+        "threat": "AdaptixC2 C&C",
+        "listing_date": "2025-05-26 14:50:35",
+        "cn": "C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "dn": "C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "fseen": "2025-05-25 06:31:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-25 06:31:17",
+                "malware_md5": "a8ed0650c2d4ebf68f6bd3c3be9be4ee",
+                "host": "172.96.137.160",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8a419ba0f5136f67789dcbb1477f296159de6002",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-05-26 05:50:51",
+        "cn": "Pvpokhca",
+        "dn": "Pvpokhca",
+        "fseen": "2025-05-25 00:53:43 UTC",
+        "lseen": "2025-05-25 19:16:35 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-25 19:16:35",
+                "malware_md5": "3c9db27e2216960d81f6b671ff4b7c99",
+                "host": "66.29.136.74",
+                "port": "56001"
+            },
+            {
+                "timestamp": "2025-05-25 00:53:43",
+                "malware_md5": "51a159abaf350572436e0076e6a04f44",
+                "host": "66.29.136.74",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "4b195d2a85648f8108335c9b00a6778cbbe256c5",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-05-26 05:50:40",
+        "cn": "Tqapitjtcjh",
+        "dn": "Tqapitjtcjh",
+        "fseen": "2025-05-25 05:05:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-05-25 05:05:25",
+                "malware_md5": "815df68cb9e0fe27f6bce699f7016030",
+                "host": "136.244.82.86",
+                "port": "56001"
+            }
+        ]
+    },
+    {
         "sha1": "9719cd7619868ed2eee88414cad60145b7e4cbb7",
         "threat": "ResolverRAT C&C",
         "listing_date": "2025-05-25 15:42:51",
