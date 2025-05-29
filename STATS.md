@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-05-28 02:45:16
+Date of report: 2025-05-29 02:46:07
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -14,9 +14,9 @@ Date of report: 2025-05-28 02:45:16
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
 | Rhadamanthys C&C           | 2025-05-27 16:15:02 | 443, 3682, 3574, 4394, 8888 | 106 | 54 | 8 |
-| LummaStealer C&C           | 2025-05-26 23:41:40 | 443, 56001 | 400 | 328 | 0 |
+| LummaStealer C&C           | 2025-05-26 23:41:40 | 443, 56001 | 400 | 324 | 0 |
 | ResolverRAT C&C            | 2025-05-26 22:35:52 | 56001 | 14 | 19 | 0 |
-| OffLoader C&C              | 2025-05-25 08:30:35 | 443 | 149 | 279 | 1 |
+| OffLoader C&C              | 2025-05-25 08:30:35 | 443 | 149 | 277 | 1 |
 | Vidar C&C                  | 2025-05-25 06:31:26 | 443, 5432, 9000, 2024 | 86 | 14 | 6 |
 | AdaptixC2 C&C              | 2025-05-25 06:31:17 | 443 | 2 | 2 | 1 |
 | AsyncRAT C&C               | 2025-05-25 04:03:20 | 8808, 6606, 7707, 1177, 6970 | 1264 | 86 | 47 |
