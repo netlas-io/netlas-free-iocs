@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "9dd989ca69c310a0fe96271dbfcf74a71560fc95",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-06 06:12:13",
+        "cn": "whoab bqhh",
+        "dn": "whoab bqhh",
+        "fseen": "2025-06-06 03:05:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-06 03:05:55",
+                "malware_md5": "cb8c94401e839b730b97dc5339bec791",
+                "host": "147.185.221.29",
+                "port": "2020"
+            }
+        ]
+    },
+    {
+        "sha1": "ab7a24d6e3a41340ad26dbf32674ba8096d8f18d",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-06-06 05:41:49",
+        "cn": "parsleyhandbook.life",
+        "dn": "WE1",
+        "fseen": "2025-06-05 21:24:02 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-05 21:24:02",
+                "malware_md5": "0f2f06a2426072eff1763e90d2529070",
+                "host": "104.21.93.211",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "df4f9a0657d5e96f0fb03001a8723a6dc221ef46",
         "threat": "Rhadamanthys C&C",
         "listing_date": "2025-06-05 15:41:47",
