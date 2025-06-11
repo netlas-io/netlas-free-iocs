@@ -1,5 +1,95 @@
 [
     {
+        "sha1": "49c6331d7111faa61a83113d7df882087ce757f7",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-06-10 05:14:14",
+        "cn": "rhadamanthys.local",
+        "dn": "rhadamanthys.local",
+        "fseen": "2025-06-10 01:48:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-10 01:48:49",
+                "malware_md5": "f37dbddb289ca12f4ff2abed60505594",
+                "host": "45.153.34.181",
+                "port": "4588"
+            }
+        ]
+    },
+    {
+        "sha1": "2f28768eda7d542e3b177a621c2a477222c89686",
+        "threat": "Havoc C&C",
+        "listing_date": "2025-06-10 05:13:32",
+        "cn": "143.198.215.97",
+        "dn": "143.198.215.97",
+        "fseen": "2025-06-09 17:35:45 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-09 17:35:45",
+                "malware_md5": "772ec5b6c381dbb852293b63d52b3a6f",
+                "host": "165.22.189.77",
+                "port": "8080"
+            }
+        ]
+    },
+    {
+        "sha1": "e1e0263c65c57baa0955a3ea0636bb8240539af2",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-10 05:13:17",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-06-10 00:16:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-10 00:16:23",
+                "malware_md5": "edf5ee6173907a5c75650016186ea5a8",
+                "host": "185.244.29.181",
+                "port": "1604"
+            }
+        ]
+    },
+    {
+        "sha1": "e4cd4a39392491afc748ba7268199ec78e88754e",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-06-10 05:12:59",
+        "cn": "Ryqtpuf",
+        "dn": "Ryqtpuf",
+        "fseen": "2025-06-09 14:26:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-09 14:26:55",
+                "malware_md5": "bc945643b66017a308bb35c5693b9db2",
+                "host": "192.30.139.187",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "aba16f925ee3e6164de91a2cb98e0dcbf177283d",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-10 05:12:53",
+        "cn": "kfcr ldcxc",
+        "dn": "kfcr ldcxc",
+        "fseen": "2025-06-09 18:52:34 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-09 18:52:34",
+                "malware_md5": "dc2871e9160d6701da3198d772362fd6",
+                "host": "193.151.108.34",
+                "port": "4782"
+            }
+        ]
+    },
+    {
         "sha1": "d0082144bfe514c3b0bc6be54f119582fb531ec1",
         "threat": "Malware C&C",
         "listing_date": "2025-06-09 15:11:15",
