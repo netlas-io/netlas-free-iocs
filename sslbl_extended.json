@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "916509400d6f6be6c1e7bb743eec65fbe09dde21",
+        "threat": "njrat C&C",
+        "listing_date": "2025-06-11 19:58:24",
+        "cn": "cczq.net",
+        "dn": "cczq.net",
+        "fseen": "2025-06-11 00:17:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-11 00:17:30",
+                "malware_md5": "39d633fcd31987e37982bbe0c23071f0",
+                "host": "37.46.117.69",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e42f97b9d7ade9ce8eaaaabc100d95a3d9bff5a8",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-11 04:34:42",
+        "cn": "zgdnfk jwrpmn",
+        "dn": "zgdnfk jwrpmn",
+        "fseen": "2025-06-10 18:41:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-10 18:41:52",
+                "malware_md5": "3d18453464f0fc96200da4dc7f379ba6",
+                "host": "193.161.193.99",
+                "port": "41484"
+            }
+        ]
+    },
+    {
         "sha1": "49c6331d7111faa61a83113d7df882087ce757f7",
         "threat": "Rhadamanthys C&C",
         "listing_date": "2025-06-10 05:14:14",
