@@ -1,5 +1,125 @@
 [
     {
+        "sha1": "1bc378737c291fc3f31699e1dffc8397ae4b3156",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-12 15:45:08",
+        "cn": "DcRat",
+        "dn": "VenomRAT Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-06-12 15:17:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-12 15:17:14",
+                "malware_md5": "2fcb19a11bf4d4378266ee26fec1a27c",
+                "host": "193.181.46.43",
+                "port": "6666"
+            }
+        ]
+    },
+    {
+        "sha1": "996284deb752f85467a2bddba348f198d79577c2",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-12 09:08:30",
+        "cn": "leeu ljwb",
+        "dn": "leeu ljwb",
+        "fseen": "2025-06-11 20:09:12 UTC",
+        "lseen": "2025-06-11 20:56:07 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-11 20:56:07",
+                "malware_md5": "dae6808a77a4df7c75ae7b7eb6ce29c2",
+                "host": "193.23.216.36",
+                "port": "9999"
+            },
+            {
+                "timestamp": "2025-06-11 20:09:12",
+                "malware_md5": "a23ac2cc778cdf1573cc6300df633a28",
+                "host": "193.23.216.36",
+                "port": "9999"
+            }
+        ]
+    },
+    {
+        "sha1": "6cad2c37bb138214bc1b51e9e4c9bdb687a9264f",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-12 09:08:08",
+        "cn": "knpc kbycii",
+        "dn": "knpc kbycii",
+        "fseen": "2025-06-11 18:25:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-11 18:25:46",
+                "malware_md5": "96fdc7d96ef69c8db1479ba38854afd3",
+                "host": "193.161.193.99",
+                "port": "23464"
+            }
+        ]
+    },
+    {
+        "sha1": "0952d153afac92b503dc042932bbf9b34891c4a4",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-12 08:49:46",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-06-12 08:16:42 UTC",
+        "lseen": "2025-06-12 08:16:43 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-12 08:16:43",
+                "malware_md5": "8bd4a5fdcc3ff0fcba25e3a707223e36",
+                "host": "198.55.98.155",
+                "port": "8809"
+            }
+        ]
+    },
+    {
+        "sha1": "30683709c6900a6c8819ed76f705217a3c802701",
+        "threat": "Malware C&C",
+        "listing_date": "2025-06-12 08:49:10",
+        "cn": "orange",
+        "dn": "orange",
+        "fseen": "2025-06-11 19:46:06 UTC",
+        "lseen": "2025-06-12 03:29:10 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-12 03:29:10",
+                "malware_md5": "2720c31ae5ad9a3c907b1841529fa1af",
+                "host": "213.209.150.104",
+                "port": "8181"
+            },
+            {
+                "timestamp": "2025-06-11 19:46:06",
+                "malware_md5": "9985ec7d0337feb2c3680b0d87994b3c",
+                "host": "213.209.150.104",
+                "port": "8181"
+            }
+        ]
+    },
+    {
+        "sha1": "93aeff39b535e2465dc1172e23a82ef497658521",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-12 08:48:30",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-06-11 23:39:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-11 23:39:17",
+                "malware_md5": "287405f361962670fc37385200be98df",
+                "host": "155.94.155.214",
+                "port": "8849"
+            }
+        ]
+    },
+    {
         "sha1": "916509400d6f6be6c1e7bb743eec65fbe09dde21",
         "threat": "njrat C&C",
         "listing_date": "2025-06-11 19:58:24",
