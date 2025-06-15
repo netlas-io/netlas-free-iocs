@@ -1,5 +1,95 @@
 [
     {
+        "sha1": "f21c8bce0aa88fecaba79332fff4e1a56dd95357",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-14 14:04:24",
+        "cn": "aprcare.help",
+        "dn": "WE1",
+        "fseen": "2025-06-14 12:48:06 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-14 12:48:06",
+                "malware_md5": "ba32d51e734ff0cff4c5810283eb5174",
+                "host": "104.21.80.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "73cb3a67276e1b671b5f6a03bb528f2561f339bc",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-14 13:14:50",
+        "cn": "eroitk qrom",
+        "dn": "eroitk qrom",
+        "fseen": "2025-06-14 09:06:33 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-14 09:06:33",
+                "malware_md5": "b309cbbe604573341726504333e1116b",
+                "host": "45.77.58.225",
+                "port": "4733"
+            }
+        ]
+    },
+    {
+        "sha1": "5020a4476f718510fac1da065c5014ae33acc2b2",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-14 12:52:14",
+        "cn": "zgflx vmmz",
+        "dn": "zgflx vmmz",
+        "fseen": "2025-06-14 04:20:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-14 04:20:00",
+                "malware_md5": "33f9a5a0d6cbc672cff93a6d9f983c1e",
+                "host": "5.206.224.138",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "6b60e811f874b97271c5ec191a5171d3aec9d0bc",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-14 12:52:02",
+        "cn": "jpyz hhmlu",
+        "dn": "jpyz hhmlu",
+        "fseen": "2025-06-13 22:34:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-13 22:34:08",
+                "malware_md5": "7d9bcb450fb08d9b45db8548d7bf8836",
+                "host": "45.131.65.61",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "23b16fb632248726e9c8f874220d1143f2869a1a",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-14 12:51:23",
+        "cn": "hvgeb.top",
+        "dn": "WE1",
+        "fseen": "2025-06-13 21:13:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-13 21:13:25",
+                "malware_md5": "7962d7223dc0b125d62ce6c4e59b1d10",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "bb03b15176c2a8d927aeed6ede03093b6a985f8a",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-06-13 10:38:20",
