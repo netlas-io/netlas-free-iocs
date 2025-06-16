@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-06-15 03:24:04
+Date of report: 2025-06-16 03:25:29
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -22,9 +22,9 @@ Date of report: 2025-06-15 03:24:04
 | Rhadamanthys C&C           | 2025-06-10 01:48:49 | 443, 3682, 3574, 8888, 4394 | 122 | 93 | 11 |
 | Havoc C&C                  | 2025-06-09 17:35:45 | 443, 8080 | 7 | 2 | 0 |
 | DeerStealer C&C            | 2025-06-09 13:33:48 | 443 | 1 | 2 | 0 |
-| LummaStealer C&C           | 2025-06-09 09:11:27 | 443, 56001 | 437 | 329 | 0 |
+| LummaStealer C&C           | 2025-06-09 09:11:27 | 443, 56001 | 437 | 321 | 0 |
 | Vidar C&C                  | 2025-06-09 06:11:57 | 443, 5432, 9000, 2024 | 95 | 49 | 3 |
-| OffLoader C&C              | 2025-06-08 09:34:25 | 443 | 162 | 281 | 1 |
+| OffLoader C&C              | 2025-06-08 09:34:25 | 443 | 162 | 279 | 1 |
 | ACRStealer C&C             | 2025-06-06 14:20:06 | 443 | 14 | 14 | 0 |
 | DCRat C&C                  | 2025-06-05 07:14:38 | 8848, 1414, 3232, 4449, 56001 | 245 | 21 | 0 |
 | Amadey C&C                 | 2025-06-05 06:02:49 | 443 | 1 | 5 | 0 |
