@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "75f7cde979b32caa86130131435763d5f78cca06",
+        "threat": "njrat C&C",
+        "listing_date": "2025-06-16 12:06:56",
+        "cn": "Server",
+        "dn": "Server",
+        "fseen": "2025-06-16 02:49:21 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-16 02:49:21",
+                "malware_md5": "2554a2511f4207a16c267ac2a049199a",
+                "host": "45.141.86.87",
+                "port": "1080"
+            }
+        ]
+    },
+    {
+        "sha1": "8f55640a9b012eab055537666eb3addac6e3e859",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-16 12:06:47",
+        "cn": "sjyq lpzbme",
+        "dn": "sjyq lpzbme",
+        "fseen": "2025-06-16 02:37:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-16 02:37:48",
+                "malware_md5": "3a3d94f2534613faf05c256e8c98d1c9",
+                "host": "185.241.208.96",
+                "port": "4449"
+            }
+        ]
+    },
+    {
         "sha1": "f21c8bce0aa88fecaba79332fff4e1a56dd95357",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-06-14 14:04:24",
