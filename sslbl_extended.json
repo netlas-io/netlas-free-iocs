@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "c62ad8c3f5b8b270afcb22de27b229d657280ca5",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-17 05:55:00",
+        "cn": "rfcahelp.us",
+        "dn": "WE1",
+        "fseen": "2025-06-16 04:14:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-16 04:14:55",
+                "malware_md5": "1f1406dcdb2c17dceab5342797c8d31f",
+                "host": "104.21.16.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "36be2ba319ffc88ead06c9464800b1f6fbfaa55b",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-17 05:47:49",
+        "cn": "gtysx.top",
+        "dn": "WE1",
+        "fseen": "2025-06-16 08:03:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-16 08:03:46",
+                "malware_md5": "43f306c414eb33aec556d94084e1494c",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bcf14ad8e7be37f925ba12e2ae22cedd1946ebf1",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-06-17 05:44:34",
+        "cn": "Wzlfoqm",
+        "dn": "Wzlfoqm",
+        "fseen": "2025-06-15 18:03:34 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-15 18:03:34",
+                "malware_md5": "f1c6fa77fb988c55b569f42752c97397",
+                "host": "84.32.41.37",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "8d7cf4b75aeb2e434c572b9c1b1eeb3c463de929",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-17 05:44:11",
+        "cn": "itdcare.help",
+        "dn": "WE1",
+        "fseen": "2025-06-17 04:02:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-17 04:02:43",
+                "malware_md5": "bcff1c573499bd4090d4d70ff891112a",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "5b2b98edecddc971d1ac94b58eb28d72444f8c63",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-17 05:43:53",
+        "cn": "Venom",
+        "dn": "Venom server, OU=alexeikun, O=Venom By alexeikun, L=SH, C=CN",
+        "fseen": "2025-06-16 22:09:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-16 22:09:40",
+                "malware_md5": "9492690b19dae3e209c8e9d84f5335bb",
+                "host": "147.189.128.28",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "3490d0810833bd0de46702bcb2daf0a087d1a2b5",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-17 05:42:56",
+        "cn": "jrzlive.help",
+        "dn": "WE1",
+        "fseen": "2025-06-16 18:12:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-16 18:12:18",
+                "malware_md5": "7c2f565de905b47c50efecfb9dfbc1e6",
+                "host": "104.21.58.211",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "75f7cde979b32caa86130131435763d5f78cca06",
         "threat": "njrat C&C",
         "listing_date": "2025-06-16 12:06:56",
