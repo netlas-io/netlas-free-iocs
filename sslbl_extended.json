@@ -1,5 +1,251 @@
 [
     {
+        "sha1": "ecc57d5ff72666465d709616a52cea29891bd7d5",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-06-19 13:09:24",
+        "cn": "DcRat",
+        "dn": "RedixRat, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-06-19 11:13:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-19 11:13:46",
+                "malware_md5": "4add19dc7c3695f36c42807f2fc456c3",
+                "host": "89.248.173.136",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "2beb2f30d30bbaa87ea07c44640d9ced630b5265",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-06-19 08:03:49",
+        "cn": "Feomttugpk",
+        "dn": "Feomttugpk",
+        "fseen": "2025-06-18 09:51:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 09:51:48",
+                "malware_md5": "5581d45f028ed0ba831a0feaee9a7695",
+                "host": "50.114.115.185",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "d34cce51055d05970ce51892f955df99c34350a7",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2025-06-19 08:00:47",
+        "cn": "api.micosoftr.icu",
+        "dn": "R10",
+        "fseen": "2025-06-19 03:26:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-19 03:26:00",
+                "malware_md5": "44a624cc1a9e81146f8559e7ae0a1353",
+                "host": "43.163.107.212",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1e7a7c3eda808d859a2fe157ba5328fc99021e49",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-19 06:34:57",
+        "cn": "nvgh paoal",
+        "dn": "nvgh paoal",
+        "fseen": "2025-06-18 17:19:06 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 17:19:06",
+                "malware_md5": "13f99fad7d152cc285341132a549ebe4",
+                "host": "94.143.231.171",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "b08004d3f6724b6dfb4b4a528b13d9820d45ef09",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-19 06:34:42",
+        "cn": "uisgfi.top",
+        "dn": "WE1",
+        "fseen": "2025-06-18 07:29:10 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 07:29:10",
+                "malware_md5": "49316bfe5060a2e2a15bc1efca26d3f9",
+                "host": "104.21.80.161",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "5824fb68b975ac3fdf7a675cd39b0489eaadd9ba",
+        "threat": "Metasploit C&C",
+        "listing_date": "2025-06-19 06:28:24",
+        "cn": "brias.net",
+        "dn": "brias.net",
+        "fseen": "2025-06-18 21:45:09 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 21:45:09",
+                "malware_md5": "10ecf68cb435b7f0875eacd6a1316f99",
+                "host": "194.59.250.34",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b7eb651f8d91960b104d5019e1eadeaef50e652e",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-19 06:12:27",
+        "cn": "jerbg tjkxzm",
+        "dn": "jerbg tjkxzm",
+        "fseen": "2025-06-19 02:34:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-19 02:34:13",
+                "malware_md5": "3f415a00c1c794110e23290dd62f2b01",
+                "host": "111.170.174.134",
+                "port": "19198"
+            }
+        ]
+    },
+    {
+        "sha1": "d16d2aa2c18f2ba6f7aec0b92215358c2a4f4ac0",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-19 06:12:18",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-06-19 02:11:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-19 02:11:37",
+                "malware_md5": "3c983aa11b9a3dfaf7857dd83dda503d",
+                "host": "173.249.29.108",
+                "port": "1452"
+            }
+        ]
+    },
+    {
+        "sha1": "3f99e0b7631e4de031e80fd021e7f348bf599bda",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-19 06:12:14",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-06-18 22:43:22 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 22:43:22",
+                "malware_md5": "15388f350fd976ef009279a217c3bc19",
+                "host": "173.249.29.108",
+                "port": "4212"
+            }
+        ]
+    },
+    {
+        "sha1": "73384f1d8c96f50159b36367b95179b4f56b2c2b",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-19 06:09:59",
+        "cn": "acml-sconnect-com.online",
+        "dn": "WE1",
+        "fseen": "2025-06-18 23:37:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 23:37:07",
+                "malware_md5": "137e00c7f228bae322231be4b5da9fc1",
+                "host": "104.21.64.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1685fedac3afb26f2a0e1f2f7a6cea5f0e9c9a55",
+        "threat": "OrcusRAT C&C",
+        "listing_date": "2025-06-19 06:09:43",
+        "cn": "OrcusServerCertificate",
+        "dn": "OrcusServerCertificate",
+        "fseen": "2025-06-18 19:52:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 19:52:05",
+                "malware_md5": "30adcb147d40c0bb0ad17b4b89e69bdf",
+                "host": "154.197.69.170",
+                "port": "6512"
+            }
+        ]
+    },
+    {
+        "sha1": "72ee21dfd636b61f6b25116305098f55419b6f72",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-19 06:09:16",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-06-18 16:47:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 16:47:12",
+                "malware_md5": "dda507032f2fd9bfa326dfa3aab54ffe",
+                "host": "87.121.105.130",
+                "port": "1337"
+            }
+        ]
+    },
+    {
+        "sha1": "e320203a27a9445f7e8cc730c90c73fb5d711b9e",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-06-19 05:42:44",
+        "cn": "crushedwildly.top",
+        "dn": "WE1",
+        "fseen": "2025-06-12 20:34:15 UTC",
+        "lseen": "2025-06-18 23:06:42 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-18 23:06:42",
+                "malware_md5": "b3c9fe85a24a06e71b384bc37cbc0b89",
+                "host": "104.21.23.35",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-06-17 22:03:24",
+                "malware_md5": "2896923e3691258dae92f2c6a6241489",
+                "host": "104.21.23.35",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-06-12 20:34:15",
+                "malware_md5": "bcb1a69df17052d530fbec4bc17a3d34",
+                "host": "104.21.23.35",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "dc507eda025a6c4278f1a1fa1933f8e8ddee2488",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-06-18 16:18:08",
