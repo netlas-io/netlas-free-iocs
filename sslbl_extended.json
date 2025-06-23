@@ -1,5 +1,29 @@
 [
     {
+        "sha1": "78bbd617ffbbb2d5880fc1de550c716e7b9ad718",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-22 08:32:58",
+        "cn": "tysn kfgp",
+        "dn": "tysn kfgp",
+        "fseen": "2025-06-20 23:36:32 UTC",
+        "lseen": "2025-06-20 23:43:08 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-20 23:43:08",
+                "malware_md5": "ae2a5b6bf9028a6c315a42de74578dac",
+                "host": "196.251.80.125",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2025-06-20 23:36:32",
+                "malware_md5": "d6a12328da8cfa514ac640f7ee3e2518",
+                "host": "196.251.80.125",
+                "port": "4782"
+            }
+        ]
+    },
+    {
         "sha1": "ecc57d5ff72666465d709616a52cea29891bd7d5",
         "threat": "DCRat C&C",
         "listing_date": "2025-06-19 13:09:24",
