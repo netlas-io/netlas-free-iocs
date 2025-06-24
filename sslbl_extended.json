@@ -1,5 +1,77 @@
 [
     {
+        "sha1": "aa86858bae7fafaa5d3c9cb16f39cbd2bec66318",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2025-06-23 06:49:19",
+        "cn": "googleshop.xyz",
+        "dn": "WE1",
+        "fseen": "2025-06-23 05:32:22 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 05:32:22",
+                "malware_md5": "74d1b14b174ab424df6db2c98f3577c0",
+                "host": "172.67.147.223",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "73f6aba46443959a5d0b9f6e1ec40e8d29ab8eec",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-23 06:47:00",
+        "cn": "onmolatori.icu",
+        "dn": "WE1",
+        "fseen": "2025-06-23 02:37:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 02:37:25",
+                "malware_md5": "666e3e79e229c9625a34811b87c4bcd2",
+                "host": "172.67.138.230",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "12bb2a663b6a0f2574e7f195a316c76ccac51a62",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-23 06:46:31",
+        "cn": "Venom",
+        "dn": "Venom Server, OU=alexeikun, O=Venom By alexeikun, L=SH, C=CN",
+        "fseen": "2025-06-23 02:44:31 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 02:44:31",
+                "malware_md5": "66dbf8e307b8f692be86fb6916cc0d6d",
+                "host": "86.54.42.31",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "b514155540732da73e2a0e14b1f1d4a4c001b8c5",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-23 06:43:58",
+        "cn": "iezsff dqzacb",
+        "dn": "iezsff dqzacb",
+        "fseen": "2025-06-22 23:25:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-22 23:25:26",
+                "malware_md5": "54fa08084013eb9d068aa56de1292ab0",
+                "host": "185.254.96.157",
+                "port": "4782"
+            }
+        ]
+    },
+    {
         "sha1": "78bbd617ffbbb2d5880fc1de550c716e7b9ad718",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-06-22 08:32:58",
