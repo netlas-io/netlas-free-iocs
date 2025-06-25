@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "e919637be586e99fea3b7b41c6a330e326958437",
+        "threat": "ResolverRAT C&C",
+        "listing_date": "2025-06-24 05:56:41",
+        "cn": "Atcekkwnzim",
+        "dn": "Atcekkwnzim",
+        "fseen": "2025-06-23 23:16:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 23:16:12",
+                "malware_md5": "d2c3166a0b7caaa2375823690cff29b7",
+                "host": "51.79.200.150",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "75a793445f525a19e53fdb13b818763a227ec976",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-06-24 05:31:47",
+        "cn": "WMSvc-SHA2-WINDOWS-MT6GOID",
+        "dn": "WMSvc-SHA2-WINDOWS-MT6GOID",
+        "fseen": "2025-06-24 01:59:36 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-24 01:59:36",
+                "malware_md5": "e09e710b32833a5ace5eaccd9b00b4f9",
+                "host": "85.117.242.126",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e67418e586adf899a6bdd8401355e851eb8db9bb",
+        "threat": "Havoc C&C",
+        "listing_date": "2025-06-24 05:31:22",
+        "cn": "147.182.217.64",
+        "dn": "147.182.217.64",
+        "fseen": "2025-06-24 00:42:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-24 00:42:14",
+                "malware_md5": "59cfcaf9a606daf3cdc748300be6c6ee",
+                "host": "147.182.217.64",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "a7a74d510ba63a2f02a2af8f1a17230d60331f84",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-06-24 05:31:06",
+        "cn": "Venom",
+        "dn": "Venom Server, OU=alexeikun, O=Venom By alexeikun, L=SH, C=CN",
+        "fseen": "2025-06-24 01:16:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-24 01:16:20",
+                "malware_md5": "69ce65da7100dd37599599cb17b888e2",
+                "host": "77.90.153.56",
+                "port": "2411"
+            }
+        ]
+    },
+    {
+        "sha1": "45c9611a9840e621d8f9a43340a37b191b65354a",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-24 05:30:45",
+        "cn": "mmeymu gqtiq",
+        "dn": "mmeymu gqtiq",
+        "fseen": "2025-06-23 15:24:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 15:24:20",
+                "malware_md5": "a21ca06de8479719bf3d88094225df70",
+                "host": "45.131.65.61",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "330d7704e2be7c17c95f5368c4da6042fdb1da80",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-24 05:30:41",
+        "cn": "zkznq fnxm",
+        "dn": "zkznq fnxm",
+        "fseen": "2025-06-23 21:42:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 21:42:26",
+                "malware_md5": "cb29cedcf4e5dee527094a40602dc9b2",
+                "host": "194.58.46.231",
+                "port": "7788"
+            }
+        ]
+    },
+    {
+        "sha1": "b022ffb18be721c00b7e6de120043b1ad3e4333c",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-06-24 05:29:44",
+        "cn": "railpail.info",
+        "dn": "WE1",
+        "fseen": "2025-06-18 06:14:29 UTC",
+        "lseen": "2025-06-23 04:28:44 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 04:28:44",
+                "malware_md5": "6fedd7ebb27cce06b6857dde36c3b480",
+                "host": "104.21.75.33",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-06-18 06:14:29",
+                "malware_md5": "43262fcee29c76e7242b30662cd95b3d",
+                "host": "104.21.75.33",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8002eacc5e7458311ffe9a9896d3ed96a5ae5535",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-06-24 05:29:43",
+        "cn": "eyeagreement.info",
+        "dn": "WE1",
+        "fseen": "2025-06-23 04:28:44 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-23 04:28:44",
+                "malware_md5": "6fedd7ebb27cce06b6857dde36c3b480",
+                "host": "172.67.162.42",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "aa86858bae7fafaa5d3c9cb16f39cbd2bec66318",
         "threat": "CobaltStrike C&C",
         "listing_date": "2025-06-23 06:49:19",
