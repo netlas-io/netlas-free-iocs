@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "029c128ec7f6c5a62ea19f5ad525cd1487971ce4",
+        "threat": "HijackLoader C&C",
+        "listing_date": "2025-06-25 06:50:28",
+        "cn": "cdnhelofin.pro",
+        "dn": "WE1",
+        "fseen": "2025-06-24 11:50:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-24 11:50:03",
+                "malware_md5": "19924c316f997840a6029aa73e2e34e7",
+                "host": "104.21.16.58",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "892d8901c1c3e1f90736ac7a2e8f6c81f77100cc",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-06-25 06:26:43",
+        "cn": "cornmealjustly.lat",
+        "dn": "WE1",
+        "fseen": "2025-06-24 16:50:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-24 16:50:43",
+                "malware_md5": "e55743b98a78053821eef82b7f7b9e8d",
+                "host": "104.21.80.1",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f259d9b049afe8497df9b08958f76b97df977342",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-06-25 06:24:44",
+        "cn": "njrb ezadq",
+        "dn": "njrb ezadq",
+        "fseen": "2025-06-25 04:33:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-06-25 04:33:54",
+                "malware_md5": "e1c6e8aa6da2c36cae2daa0fcadee5eb",
+                "host": "45.80.158.130",
+                "port": "4782"
+            }
+        ]
+    },
+    {
         "sha1": "e919637be586e99fea3b7b41c6a330e326958437",
         "threat": "ResolverRAT C&C",
         "listing_date": "2025-06-24 05:56:41",
