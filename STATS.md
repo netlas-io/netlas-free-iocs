@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-06-27 03:03:25
+Date of report: 2025-06-28 03:16:00
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -21,7 +21,7 @@ Date of report: 2025-06-27 03:03:25
 | Havoc C&C                  | 2025-06-24 00:42:14 | 443, 8080 | 8 | 3 | 0 |
 | ResolverRAT C&C            | 2025-06-23 23:16:12 | 56001, 7777 | 22 | 29 | 0 |
 | CobaltStrike C&C           | 2025-06-23 05:32:22 | 443, 8443, 4433, 8919, 18896 | 116 | 11 | 5 |
-| OffLoader C&C              | 2025-06-23 04:28:44 | 443 | 164 | 265 | 1 |
+| OffLoader C&C              | 2025-06-23 04:28:44 | 443 | 164 | 265 | 2 |
 | DCRat C&C                  | 2025-06-19 11:13:46 | 8848, 1414, 3232, 4449, 56001 | 246 | 22 | 0 |
 | Metasploit C&C             | 2025-06-18 21:45:09 | 443, 7810 | 4 | 2 | 1 |
 | OrcusRAT C&C               | 2025-06-18 19:52:05 | 10134, 3570, 9030, 7777, 1604 | 175 | 9 | 0 |
