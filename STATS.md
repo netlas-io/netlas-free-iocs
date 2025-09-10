@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-09-09 03:45:35
+Date of report: 2025-09-10 03:37:40
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -13,7 +13,7 @@ Date of report: 2025-09-09 03:45:35
 
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
-| QuasarRAT C&C              | 2025-06-25 04:33:54 | 4782, 5490, 5147, 1973, 443 | 391 | 22 | 0 |
+| QuasarRAT C&C              | 2025-06-25 04:33:54 | 4782, 5490, 5147, 1973, 443 | 391 | 21 | 0 |
 | ACRStealer C&C             | 2025-06-24 16:50:43 | 443 | 16 | 4 | 0 |
 | HijackLoader C&C           | 2025-06-24 11:50:03 | 443 | 1 | 1 | 0 |
 | ConnectWise C&C            | 2025-06-24 01:59:36 | 443, 8443 | 162 | 18 | 3 |
@@ -26,8 +26,8 @@ Date of report: 2025-09-09 03:45:35
 | Metasploit C&C             | 2025-06-18 21:45:09 | 443, 7810 | 4 | 1 | 4 |
 | OrcusRAT C&C               | 2025-06-18 19:52:05 | 10134, 3570, 9030, 7777, 1604 | 175 | 1 | 0 |
 | LummaStealer C&C           | 2025-06-18 06:35:47 | 443, 56001 | 440 | 7 | 5 |
-| Rhadamanthys C&C           | 2025-06-18 04:47:28 | 443, 3682, 8888, 3574, 4394 | 124 | 2 | 11 |
-| njrat C&C                  | 2025-06-16 02:49:21 | 1604, 9830, 56003, 10220, 1605 | 8 | 2 | 0 |
+| Rhadamanthys C&C           | 2025-06-18 04:47:28 | 443, 3682, 8888, 3574, 4394 | 124 | 2 | 9 |
+| njrat C&C                  | 2025-06-16 02:49:21 | 1604, 9830, 56003, 10220, 1605 | 8 | 1 | 0 |
 
 ## Total Ports Count across Top Threats
 | Port       | Count      |
