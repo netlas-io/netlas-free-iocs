@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-09-13 03:32:47
+Date of report: 2025-09-14 03:42:26
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -13,10 +13,10 @@ Date of report: 2025-09-13 03:32:47
 
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
-| QuasarRAT C&C              | 2025-06-25 04:33:54 | 4782, 5490, 5147, 1973, 443 | 391 | 13 | 0 |
+| QuasarRAT C&C              | 2025-06-25 04:33:54 | 4782, 5490, 5147, 1973, 443 | 391 | 11 | 0 |
 | ACRStealer C&C             | 2025-06-24 16:50:43 | 443 | 16 | 3 | 0 |
 | HijackLoader C&C           | 2025-06-24 11:50:03 | 443 | 1 | 1 | 0 |
-| ConnectWise C&C            | 2025-06-24 01:59:36 | 443, 8443 | 162 | 16 | 3 |
+| ConnectWise C&C            | 2025-06-24 01:59:36 | 443, 8443 | 162 | 15 | 3 |
 | AsyncRAT C&C               | 2025-06-24 01:16:20 | 8808, 6606, 7707, 1177, 6970 | 1279 | 6 | 25 |
 | Havoc C&C                  | 2025-06-24 00:42:14 | 443, 8080 | 8 | 1 | 0 |
 | ResolverRAT C&C            | 2025-06-23 23:16:12 | 56001, 7777 | 22 | 3 | 0 |
