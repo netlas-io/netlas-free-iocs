@@ -1,5 +1,179 @@
 [
     {
+        "sha1": "73d587192f9577de6cb54a84fbaca70f7809e6cf",
+        "threat": "Latrodectus C&C",
+        "listing_date": "2025-09-18 17:36:28",
+        "cn": "zyvxdw.com",
+        "dn": "WE1",
+        "fseen": "2025-09-18 16:22:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 16:22:37",
+                "malware_md5": "a04bc829d2fa5a4a63d613fa1eb88d34",
+                "host": "188.114.96.2",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4614828b77aa3ea3a75e043efdf8183e8a0e4890",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-09-18 14:03:47",
+        "cn": "unknowntool.shop",
+        "dn": "WE1",
+        "fseen": "2025-09-18 12:52:46 UTC",
+        "lseen": "2025-09-18 13:49:50 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 13:49:50",
+                "malware_md5": "19cd3c6d17d45c9de97240011b9e6b1d",
+                "host": "188.114.97.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-18 13:30:59",
+                "malware_md5": "383b73d28acbe34d99f8d97a88f624d8",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-18 12:52:46",
+                "malware_md5": "385771f2dbeeec2a8c4e0204e5dbfbcc",
+                "host": "172.67.130.119",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "609516f74b3b47762d5b1a6f7554b09d75cda982",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2025-09-18 14:03:46",
+        "cn": "gamedb.shop",
+        "dn": "WE1",
+        "fseen": "2025-09-18 13:30:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 13:30:58",
+                "malware_md5": "383b73d28acbe34d99f8d97a88f624d8",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b4e451491f1908039213b0d5d7aa362a50635be6",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-09-18 06:04:42",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-09-17 16:15:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-17 16:15:52",
+                "malware_md5": "d6df6f96a08a21be356413a2b053d1bc",
+                "host": "185.208.158.56",
+                "port": "7707"
+            }
+        ]
+    },
+    {
+        "sha1": "299b2cce9cbeb207f0dc5e5357d3d8d4402fc810",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-09-18 06:04:13",
+        "cn": "carexie.top",
+        "dn": "WE1",
+        "fseen": "2025-09-18 01:27:31 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 01:27:31",
+                "malware_md5": "ea3ee0712cde24b0e2e14068d404158c",
+                "host": "172.67.164.150",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3e9e8f4f01dd140d77c476dda05dab7f401963d3",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-09-18 06:03:41",
+        "cn": "verserun.xyz",
+        "dn": "WE1",
+        "fseen": "2025-09-17 21:19:23 UTC",
+        "lseen": "2025-09-18 06:13:58 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 06:13:58",
+                "malware_md5": "eca693b9d64371b429c48423ea3f4b9e",
+                "host": "172.67.148.127",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-17 22:33:11",
+                "malware_md5": "b53d1a6a0dff2bd68dc2d73d93843ec0",
+                "host": "172.67.148.127",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-17 22:10:19",
+                "malware_md5": "aa0580a68d372d7e2815411a4222b299",
+                "host": "104.21.39.209",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-17 21:19:23",
+                "malware_md5": "8510eb9c862df3ed54766afa80c48d05",
+                "host": "172.67.148.127",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "08912db279674f1398bba99a1a3dd5e1d30a5cbe",
+        "threat": "Latrodectus C&C",
+        "listing_date": "2025-09-18 05:55:14",
+        "cn": "sizako.com",
+        "dn": "WE1",
+        "fseen": "2025-09-18 04:16:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 04:16:52",
+                "malware_md5": "3249b521c1c424d8cdb4cefb15291105",
+                "host": "172.67.223.106",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ab9a3e6801c26d4e10eebe95109626e973807f27",
+        "threat": "Latrodectus C&C",
+        "listing_date": "2025-09-18 05:34:28",
+        "cn": "localhost, C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "dn": "localhost, C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "fseen": "2025-09-18 04:16:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-18 04:16:52",
+                "malware_md5": "3249b521c1c424d8cdb4cefb15291105",
+                "host": "109.120.137.203",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "72fb37db5ee6079d11877e96d1d0fbe44b26bb14",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2025-09-17 12:55:48",
