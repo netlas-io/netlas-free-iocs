@@ -1,5 +1,65 @@
 [
     {
+        "sha1": "de60c09784c590445ebe2782665124fccd3beb8c",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-09-28 14:17:56",
+        "cn": "pickleblade.xyz",
+        "dn": "WE1",
+        "fseen": "2025-09-28 09:36:28 UTC",
+        "lseen": "2025-09-28 13:33:05 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-28 13:33:05",
+                "malware_md5": "6bb5dbe1ac45b76e80bb5652447127d4",
+                "host": "188.114.96.7",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-28 09:36:28",
+                "malware_md5": "df31e4b7afdb8bf095300d037036a70a",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "77280949b2ef2bdba39fe946051d8d2c286ee5ea",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-09-28 13:38:36",
+        "cn": "industrywashington.net",
+        "dn": "industrywashington.net",
+        "fseen": "2025-09-28 12:56:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-28 12:56:32",
+                "malware_md5": "796a2856b5cfc1fda9d184927e3920eb",
+                "host": "103.245.231.187",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "67dca07b2fd51d743f55e4ef391b1133887eed01",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-09-28 13:37:58",
+        "cn": "febservices.app",
+        "dn": "febservices.app",
+        "fseen": "2025-09-28 13:21:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-28 13:21:48",
+                "malware_md5": "f6aef42f378de27b578513c4abc2be14",
+                "host": "202.71.14.181",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "82d2a5a4761ee59c2f38652fb474c93be2e54e9a",
         "threat": "HijackLoader C&C",
         "listing_date": "2025-09-27 13:21:03",
