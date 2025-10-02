@@ -1,5 +1,203 @@
 [
     {
+        "sha1": "4f2d05ea7ba4eef54f7152c24423cd580cb7d061",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-10-01 13:33:54",
+        "cn": "zilmadradensell.space",
+        "dn": "R13",
+        "fseen": "2025-10-01 12:11:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-01 12:11:25",
+                "malware_md5": "52aadb0982a986a6e9b7ba27a130cd57",
+                "host": "86.104.74.199",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "66380fa2185488979ddee047db6c81d0c60b7aa0",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-10-01 13:33:53",
+        "cn": "tintaricalycher.cfd",
+        "dn": "R12",
+        "fseen": "2025-10-01 12:11:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-01 12:11:25",
+                "malware_md5": "52aadb0982a986a6e9b7ba27a130cd57",
+                "host": "45.158.127.121",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9829af2368984684e9dde71025984e5b999f8788",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-10-01 10:14:29",
+        "cn": "5.75.222.230",
+        "dn": "5.75.222.230",
+        "fseen": "2025-10-01 00:30:19 UTC",
+        "lseen": "2025-10-01 00:30:26 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-01 00:30:26",
+                "malware_md5": "5a74d53177d8c0b792e7ec32e7a9fa38",
+                "host": "5.75.222.230",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "aa418e9c784b10cbf41384cccef4a7a56313618e",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-10-01 10:13:29",
+        "cn": "167.235.18.228",
+        "dn": "167.235.18.228",
+        "fseen": "2025-09-30 20:00:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 20:00:11",
+                "malware_md5": "5bb28a8930019e4a93b7a4aaa98f8d08",
+                "host": "167.235.18.228",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "13ba2f1db866f43e69ee2d8ee7e3375e7c684604",
+        "threat": "HijackLoader C&C",
+        "listing_date": "2025-10-01 10:13:01",
+        "cn": "Swhhspakr",
+        "dn": "Swhhspakr",
+        "fseen": "2025-09-30 20:59:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 20:59:59",
+                "malware_md5": "3e827a95c10fda4fe6eb380305d35e5d",
+                "host": "94.103.92.204",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "05ac9092f23f34f23ff64b7b70a7f507e6935ac1",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-10-01 10:12:34",
+        "cn": "shirtstraw.info",
+        "dn": "WE1",
+        "fseen": "2025-09-30 19:12:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 19:12:55",
+                "malware_md5": "0c819b0cf799417bb33878f3c5893d46",
+                "host": "188.114.97.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e53d4553ab47b9506b83fd464697742efd8a2cd9",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-10-01 10:12:33",
+        "cn": "shoestop.info",
+        "dn": "WE1",
+        "fseen": "2025-09-30 19:12:55 UTC",
+        "lseen": "2025-09-30 19:34:05 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 19:34:05",
+                "malware_md5": "0b226b6691563f4218e70fa9afda3b18",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-30 19:12:55",
+                "malware_md5": "0c819b0cf799417bb33878f3c5893d46",
+                "host": "188.114.96.7",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "180ed3294a41ecbca99124ce184fd53b5459a831",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-10-01 08:47:27",
+        "cn": "resultsites.systems",
+        "dn": "resultsites.systems",
+        "fseen": "2025-09-30 19:52:00 UTC",
+        "lseen": "2025-09-30 22:03:59 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 22:03:59",
+                "malware_md5": "242753fe48252f366637e42fd898a7b8",
+                "host": "80.97.160.217",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-30 20:02:20",
+                "malware_md5": "91e5d6f4154a2a6e57d37cffb253bb5a",
+                "host": "80.97.160.217",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-30 19:52:00",
+                "malware_md5": "41eae43794ef311ba0ee9bcfb44771c0",
+                "host": "80.97.160.217",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d889008ec41e885b2da52719d2633678cd99120f",
+        "threat": "Latrodectus C&C",
+        "listing_date": "2025-10-01 05:04:22",
+        "cn": "localhost, C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "dn": "localhost, C=AU, ST=Some-State, O=Internet Widgits Pty Ltd",
+        "fseen": "2025-09-30 17:32:57 UTC",
+        "lseen": "2025-09-30 17:32:58 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 17:32:58",
+                "malware_md5": "9aa60c1580ca1d6afeafbf8515673349",
+                "host": "91.92.242.97",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "080ab38e4e20e5783d21b10862b0dd882eac3dcf",
+        "threat": "Latrodectus C&C",
+        "listing_date": "2025-10-01 05:04:21",
+        "cn": "bsqygl.com",
+        "dn": "WE1",
+        "fseen": "2025-09-30 17:32:57 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-09-30 17:32:57",
+                "malware_md5": "9aa60c1580ca1d6afeafbf8515673349",
+                "host": "172.67.197.92",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "cb93936a5ce8f247902442e5b508a6efdd046ec8",
         "threat": "QuasarRAT C&C",
         "listing_date": "2025-09-30 15:15:50",
