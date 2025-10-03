@@ -1,5 +1,89 @@
 [
     {
+        "sha1": "5a3902172098270527e220526ca24494727971ac",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-10-02 06:14:06",
+        "cn": "wseedde4.xyz",
+        "dn": "ZeroSSL RSA Domain Secure Site CA",
+        "fseen": "2025-10-01 14:12:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-01 14:12:54",
+                "malware_md5": "e158975fdfddbe69eea4bef8ba456d2a",
+                "host": "45.88.186.125",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4b8359446e6b7e7bc69b21c450fbafcd4f928ae6",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-10-02 06:11:31",
+        "cn": "annualtext.com",
+        "dn": "annualtext.com",
+        "fseen": "2025-09-28 19:01:59 UTC",
+        "lseen": "2025-10-01 13:50:51 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-01 13:50:51",
+                "malware_md5": "be318b96814333439a7632d81066d007",
+                "host": "185.177.239.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-29 23:46:27",
+                "malware_md5": "ecc7a7d1d57d46a2209269ecfa5a4f2c",
+                "host": "185.177.239.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-29 23:07:48",
+                "malware_md5": "001e8ad1e0d0800e75b1fa32b07d2a46",
+                "host": "185.177.239.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-29 17:34:20",
+                "malware_md5": "ae020aefe396b7da0993ca995702ba6e",
+                "host": "185.177.239.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-29 14:43:35",
+                "malware_md5": "1e254a78635cd20665f77ad24069e006",
+                "host": "185.177.239.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-09-28 19:01:59",
+                "malware_md5": "018e92d56d9e87a889870bf081aa8689",
+                "host": "185.177.239.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0af17e1fcb7dece1677aae5685e5b110ff62eef8",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-10-02 06:11:12",
+        "cn": "estateage.dev",
+        "dn": "estateage.dev",
+        "fseen": "2025-10-01 16:06:33 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-01 16:06:33",
+                "malware_md5": "23fd0e2412f5c4bf58ced430df11e0ab",
+                "host": "23.27.163.180",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "4f2d05ea7ba4eef54f7152c24423cd580cb7d061",
         "threat": "Rhadamanthys C&C",
         "listing_date": "2025-10-01 13:33:54",
