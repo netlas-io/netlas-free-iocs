@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "52ce48f619f429bd1536997c7ae57a45ecb0c438",
+        "threat": "Malware C&C",
+        "listing_date": "2025-10-03 12:11:42",
+        "cn": "localhost",
+        "dn": "localhost",
+        "fseen": "2025-10-02 11:45:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-02 11:45:46",
+                "malware_md5": "3d4475a9ee10bc542e031045b7a6e5b3",
+                "host": "179.43.149.210",
+                "port": "7416"
+            }
+        ]
+    },
+    {
+        "sha1": "ad2d09765bb53fc52897a336ed39c99232f7a4c1",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-10-03 06:46:38",
+        "cn": "plftg tddco, O=6rHpU88jUzEP, L=KowCLlU261, C=JT",
+        "dn": "plftg tddco, O=6rHpU88jUzEP, L=KowCLlU261, C=JT",
+        "fseen": "2025-10-02 18:24:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-02 18:24:03",
+                "malware_md5": "a35c0b1a869a170cb86d2fdcf0176680",
+                "host": "147.185.221.211",
+                "port": "63788"
+            }
+        ]
+    },
+    {
         "sha1": "5a3902172098270527e220526ca24494727971ac",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-10-02 06:14:06",
