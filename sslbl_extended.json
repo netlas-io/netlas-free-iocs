@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "bf0b77de0046e53200e5287be0916f6921e86336",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-10-04 10:46:00",
+        "cn": "91.98.175.72",
+        "dn": "91.98.175.72",
+        "fseen": "2025-10-03 22:18:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-03 22:18:58",
+                "malware_md5": "983dec637c124b26732e1115fead34cc",
+                "host": "91.98.175.72",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e33db1f571fdb786ecc8e5a4b43131fdcbe2c0d1",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-10-04 10:44:54",
+        "cn": "5.78.110.33",
+        "dn": "5.78.110.33",
+        "fseen": "2025-10-03 17:40:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-03 17:40:13",
+                "malware_md5": "097631100aadc521a627f2d45ac49cb0",
+                "host": "5.78.110.33",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c75f347253ebf8a4c26053d2db7ce5bf3e1417f5",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-10-04 10:44:38",
+        "cn": "fxvneh qgrtom",
+        "dn": "fxvneh qgrtom",
+        "fseen": "2025-10-04 08:57:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-04 08:57:51",
+                "malware_md5": "0a5dff3b5dcf60c517a5f579cbb1ae71",
+                "host": "147.185.221.17",
+                "port": "54766"
+            }
+        ]
+    },
+    {
+        "sha1": "fc216972dbec1903de5622107dc97b6c33535074",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-10-04 10:43:27",
+        "cn": "qbqrw brmfe, O=W2Au8D4XOVN75r, L=4s0UsqRVjaRe, C=IS",
+        "dn": "qbqrw brmfe, O=W2Au8D4XOVN75r, L=4s0UsqRVjaRe, C=IS",
+        "fseen": "2025-10-03 17:16:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-03 17:16:25",
+                "malware_md5": "b724595e676f5fc8ffadb0780b31b5bd",
+                "host": "147.185.221.211",
+                "port": "57499"
+            }
+        ]
+    },
+    {
+        "sha1": "2e14c326f940b962e2ecefe69a5ee4fc12d26cab",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-10-04 10:43:21",
+        "cn": "AsyncRAT 3424242442Server1",
+        "dn": "AsyncRAT 3424242442Server1",
+        "fseen": "2025-10-03 13:34:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-03 13:34:20",
+                "malware_md5": "aead2b5876f531cd4df9dd1b9eb31d9e",
+                "host": "5.175.234.65",
+                "port": "1336"
+            }
+        ]
+    },
+    {
+        "sha1": "1ba0c65fc6e2512514aa96ed7c2c4d70050f3f18",
+        "threat": "Rhadamanthys C&C",
+        "listing_date": "2025-10-04 10:43:07",
+        "cn": "ukafter.cloud",
+        "dn": "ukafter.cloud",
+        "fseen": "2025-10-04 00:25:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-10-04 00:25:13",
+                "malware_md5": "899e003c5a3561ce640c6683b908e1b4",
+                "host": "37.221.66.101",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "52ce48f619f429bd1536997c7ae57a45ecb0c438",
         "threat": "Malware C&C",
         "listing_date": "2025-10-03 12:11:42",
