@@ -27,7 +27,6 @@ import yaml
 import argparse
 import re
 import netlas
-from netlas.helpers import get_api_key
 from itertools import islice
 from datetime import datetime
 from rich.console import Console
@@ -65,7 +64,7 @@ console.quiet = args.silent
 def print_l(msg: str):
     console.print(msg)
     if log:
-        log_file.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]\t{msg}\n")
+        log_file.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}]\t{msg}\n")
 
 
 # Loading configuration
@@ -105,7 +104,7 @@ except Exception as e:
 # Ensure the API key is defined and Initialize Netlas connection
 api_key = args.apikey
 if not api_key:
-    api_key = get_api_key()
+    api_key = netlas.helpers.get_api_key()
     if not api_key:
         console.print("Error: Netlas API Key undefined!")
         exit(2)
@@ -194,11 +193,8 @@ else:
 
 
 fieldnames = ['timestamp', 'host', 'port', 'protocol', 'path', 'ip', 'threat', 'netlas:link', 'x509:sha1', 'x509:timestamp', 'x509:link']
-writer = csv.writer(output_file)
-console.print(f"Writing output to '{output_file_path}'.")
-
 targets = []
-writer.writerow(fieldnames)
+
 # Iterate through each row and count how many results are there for each query
 with Progress(
     SpinnerColumn(),
@@ -214,7 +210,10 @@ with Progress(
             try:
                 for resp in netlas_connection.download_all(key):    # Iterate through responses returned for current query
                     response = json.loads(resp.decode("utf-8"))     # Decode response from binary
-                    target = []                                     # Each returned response is a target
+                    target = []                                     # Each returned response is a target                    
+
+                    if len(response["data"]) == 0:
+                        raise Exception("Netlas download for query " + key + " returned empty data.")
                     
                     # Building a target from URI, threat name, sha1 and timestamp
                     target.append(response.get("data", {}).get("last_updated"))
@@ -236,13 +235,17 @@ with Progress(
                     processed_targets += 1
                     progress.update(task, advance=1)
                 break
-            except Exception:
+            except Exception as ex:
                 if attempt == max_retries:
                     progress.stop()
-                    print_l(f"\nAll {max_retries} retries failed. Saving downloaded data...")
+                    print_l(f"\nAll {max_retries} retries failed.")
+                    print_l(str(ex))
+                    exit(5)
                 time.sleep(min(initial_delay * (2 ** (attempt - 1)), max_delay))
 
-# writing the last portion of lines
+writer = csv.writer(output_file)
+console.print(f"Writing output to '{output_file_path}'.")
+writer.writerow(fieldnames)
 for target in targets:
     writer.writerow(target)
 output_file.flush() 

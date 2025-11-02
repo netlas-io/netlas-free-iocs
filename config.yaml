@@ -11,7 +11,7 @@ netlas_host_url: https://app.netlas.io/host/                  # Base URL to add 
 max_retries: 10           # Define number of retries in case of errors
 initial_delay: 1          # Initial delay in seconds between retries
 max_delay: 60             # Maximum delay in seconds
-csv_chunk_size: 80        # Number of lines per request MAX=90
+csv_chunk_size: 30        # Number of lines per request MAX=90
 
 # Configuration for the logging
 log_changes: true         # Log changes to the file
