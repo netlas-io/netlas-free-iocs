@@ -216,7 +216,7 @@ with Progress(
                         raise Exception("Netlas download for query " + key + " returned empty data.")
                     
                     # Building a target from URI, threat name, sha1 and timestamp
-                    target.append(response.get("data", {}).get("last_updated"))
+                    target.append(response.get("data", {}).get("@timestamp"))
                     host = response.get("data", {}).get("host") 
                     target.append(host)
                     target.append(response.get("data", {}).get("port"))
