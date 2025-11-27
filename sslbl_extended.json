@@ -1,5 +1,29 @@
 [
     {
+        "sha1": "f30a84e5e4404701c9cdf35dc9f041e9387dd669",
+        "threat": "WallStealer C&C",
+        "listing_date": "2025-11-26 11:43:59",
+        "cn": "arabianairlines.sbs",
+        "dn": "R12",
+        "fseen": "2025-11-24 00:46:40 UTC",
+        "lseen": "2025-11-24 01:37:17 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-11-24 01:37:17",
+                "malware_md5": "13481448883db4fc226e8be6548f682e",
+                "host": "185.100.157.118",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-11-24 00:46:40",
+                "malware_md5": "10b659d63138655a7f03cd652352e23d",
+                "host": "185.100.157.118",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "12b35a8ec2b2eeeeca8cd423572a2a1e03325bdb",
         "threat": "DeerStealer C&C",
         "listing_date": "2025-11-23 06:25:43",
