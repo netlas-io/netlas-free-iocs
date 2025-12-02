@@ -1,5 +1,35 @@
 [
     {
+        "sha1": "635cdd5ea708ffedf1b084a9b7c55c3c3dca17b3",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-01 15:00:08",
+        "cn": "bbl.whitehallalliance.co.uk",
+        "dn": "E8",
+        "fseen": "2025-12-01 12:52:17 UTC",
+        "lseen": "2025-12-01 14:55:57 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-01 14:55:57",
+                "malware_md5": "e23a525858f0e16bdb90820944225348",
+                "host": "138.199.167.241",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-01 13:54:27",
+                "malware_md5": "01617795399fcefc5149421125a2a348",
+                "host": "138.199.167.241",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-01 12:52:17",
+                "malware_md5": "0a898fb92c64405c43179f8cf54d4359",
+                "host": "138.199.167.241",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "8cefee8d802734490dd43f2920ed11afc5323858",
         "threat": "Vidar C&C",
         "listing_date": "2025-11-30 16:03:00",
