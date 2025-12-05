@@ -1,5 +1,245 @@
 [
     {
+        "sha1": "999bb8821f120870be5aa56ec743627cf67ffd17",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-04 21:06:13",
+        "cn": "78.153.155.147",
+        "dn": "78.153.155.147",
+        "fseen": "2025-12-04 16:36:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 16:36:55",
+                "malware_md5": "0a728f3c423c957839b9fb8ec69008b5",
+                "host": "78.153.155.147",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "dc0113fb2c5c3bcd8dcad83080861eaa9e9b4156",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-04 21:02:52",
+        "cn": "xrt.abalawi.com",
+        "dn": "E7",
+        "fseen": "2025-12-03 18:43:09 UTC",
+        "lseen": "2025-12-04 03:27:48 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 03:27:48",
+                "malware_md5": "a7ce1d1490ae264d6b00c7124662140a",
+                "host": "46.224.34.145",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-04 02:21:39",
+                "malware_md5": "8f833d364f428a9c077d409ebda9c7f4",
+                "host": "46.224.34.145",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-03 19:10:05",
+                "malware_md5": "68d1fef81d6af5ff55559e05e43d44bd",
+                "host": "46.224.34.145",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-03 18:43:09",
+                "malware_md5": "39382a477d9c56dd0f39eb25baae7c9a",
+                "host": "46.224.34.145",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0831c75f233d7a6b5069670d3b862817ea50b533",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-04 20:58:29",
+        "cn": "d4d.aqarhoosh.com",
+        "dn": "E7",
+        "fseen": "2025-12-04 18:12:57 UTC",
+        "lseen": "2025-12-04 18:52:29 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 18:52:29",
+                "malware_md5": "90eb9f537c4bfdd6d38f1b8370fe4c99",
+                "host": "46.62.240.214",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-04 18:12:57",
+                "malware_md5": "7e5d37084bb5975f5c49871257c0e688",
+                "host": "46.62.240.214",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "463d2faa6b38a16140bc5dc7cfbffc6c5d30761c",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-04 20:51:40",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-12-04 19:58:09 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 19:58:09",
+                "malware_md5": "29e4eff4750fca078dc0d406bce81575",
+                "host": "46.246.12.7",
+                "port": "4444"
+            }
+        ]
+    },
+    {
+        "sha1": "2f5dc800ba6e420a1019dc0fd14226f205ed0835",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-12-04 20:41:08",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-12-04 16:19:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 16:19:43",
+                "malware_md5": "38e1c01e184a5eeb563488c6018ec4dc",
+                "host": "45.145.225.236",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "5abaca7247c1bb7492cc14b058b26a07ce480f31",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-04 20:40:23",
+        "cn": "212.11.64.161",
+        "dn": "212.11.64.161",
+        "fseen": "2025-12-04 13:43:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 13:43:32",
+                "malware_md5": "745b11bb32e95013f15ad0d6961a73e1",
+                "host": "212.11.64.161",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0e99a98457bd1018024f60e405ba25f45afbda9f",
+        "threat": "DCRat C&C",
+        "listing_date": "2025-12-04 20:40:11",
+        "cn": "Gptydizwve",
+        "dn": "Gptydizwve",
+        "fseen": "2025-12-04 10:20:21 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 10:20:21",
+                "malware_md5": "ca614dca6906f2697845e3a05f808f33",
+                "host": "191.96.207.153",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "2658bc5e77c8f46e9b7ab19e39ac3586dce5994a",
+        "threat": "Malware C&C",
+        "listing_date": "2025-12-04 20:37:47",
+        "cn": "Gsbhifwc",
+        "dn": "Gsbhifwc",
+        "fseen": "2025-12-04 07:44:10 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 07:44:10",
+                "malware_md5": "4b6ed72e31145d2ff5c728409952c586",
+                "host": "85.208.84.110",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "ee893dd1ac6e86c0fc314543f3a1c8855b4e0010",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-12-04 20:36:33",
+        "cn": "apdlive.top",
+        "dn": "WE1",
+        "fseen": "2025-12-04 16:44:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 16:44:26",
+                "malware_md5": "0af452e22048db0b95469ab7914b9384",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3581e9cc8d250929c19ac08fd592430cd63145ba",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-04 10:18:44",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-12-04 06:53:06 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 06:53:06",
+                "malware_md5": "805ef0d13b176f08ad181cea3bb2ace0",
+                "host": "172.245.93.109",
+                "port": "9990"
+            }
+        ]
+    },
+    {
+        "sha1": "1af063753cd3a9491c82807c3e25f805519c6e5a",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-04 10:18:31",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2025-12-04 03:43:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-04 03:43:32",
+                "malware_md5": "46dccd2fa2065a761ab6114614f948b5",
+                "host": "192.227.217.229",
+                "port": "17229"
+            }
+        ]
+    },
+    {
+        "sha1": "c31308a551fcc811ddcd8af515501106bd1b9e7f",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-04 10:18:01",
+        "cn": "DcRat",
+        "dn": "Powder, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-12-03 19:58:29 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-03 19:58:29",
+                "malware_md5": "89458f63f6bafb059ada3e89cef88a1f",
+                "host": "152.69.230.218",
+                "port": "1002"
+            }
+        ]
+    },
+    {
         "sha1": "df26c9fe62f56d8f47d090c6bb1cd49653f16625",
         "threat": "ACRStealer C&C",
         "listing_date": "2025-12-03 19:42:09",
