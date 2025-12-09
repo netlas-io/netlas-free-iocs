@@ -1,5 +1,515 @@
 [
     {
+        "sha1": "99011a01967d5a2ba405e05a217d705804deff09",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 19:00:27",
+        "cn": "gru.diraiat.com",
+        "dn": "E8",
+        "fseen": "2025-12-08 16:52:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-08 16:52:14",
+                "malware_md5": "035c6a2f88481c6e4e6032173cf35b2d",
+                "host": "91.99.178.158",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "2950f06bceb099cbdacb8e5b896807d4b46cc4bd",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 16:17:27",
+        "cn": "gog.nigeriaafricatime.com",
+        "dn": "E8",
+        "fseen": "2025-11-21 20:32:34 UTC",
+        "lseen": "2025-11-24 19:28:23 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-11-24 19:28:23",
+                "malware_md5": "079116c9fe16606c1a5b007d9f800246",
+                "host": "46.62.240.209",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-11-23 19:32:23",
+                "malware_md5": "03fd023c82dd5ef95da3f851959c2714",
+                "host": "46.62.240.209",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-11-21 20:52:41",
+                "malware_md5": "0846300b7dc2d7a0fbdfc30325c07fb8",
+                "host": "46.62.240.209",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-11-21 20:32:34",
+                "malware_md5": "0747be990f5061df09310d5d9d505579",
+                "host": "46.62.240.209",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c344524aea265b1f791b3516b4b73eaccd84c49c",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 16:17:07",
+        "cn": "ugg.noisolation.org.uk",
+        "dn": "E8",
+        "fseen": "2025-11-20 12:52:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-11-20 12:52:11",
+                "malware_md5": "3133e3d00a2645a04eb49b3b49d48481",
+                "host": "5.75.215.164",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7f17a71a98e559a597aa779ded721a1efa3eb82d",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 16:14:51",
+        "cn": "91.124.149.226",
+        "dn": "91.124.149.226",
+        "fseen": "2025-12-07 15:18:53 UTC",
+        "lseen": "2025-12-07 15:18:54 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 15:18:54",
+                "malware_md5": "0844e5d237ec9420945d8fbf17306ff5",
+                "host": "91.124.149.226",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cacb2adb56672828e9d356706d449160097a0f33",
+        "threat": "DonutLoader C&C",
+        "listing_date": "2025-12-08 15:53:48",
+        "cn": "content-distribution-v2.pro",
+        "dn": "WE1",
+        "fseen": "2025-12-04 19:12:00 UTC",
+        "lseen": "2025-12-06 20:52:47 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-06 20:52:47",
+                "malware_md5": "b83ac9a525ee2ed6c399519a969063d8",
+                "host": "104.21.0.182",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-06 17:53:02",
+                "malware_md5": "b793cfd5febf15596fdd27cf86bcfccd",
+                "host": "104.21.0.182",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-06 17:29:51",
+                "malware_md5": "8b9520972a997667b422772e0fa20de9",
+                "host": "104.21.0.182",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-06 16:42:30",
+                "malware_md5": "78712a92a9c501daa73c25f7097f3e33",
+                "host": "172.67.128.46",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-05 15:37:48",
+                "malware_md5": "c1c257c6f8b6e6ad8ef618c1e4593260",
+                "host": "172.67.128.46",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-05 15:35:47",
+                "malware_md5": "25c96be2f82306ce1e8a6169fc48acd2",
+                "host": "104.21.0.182",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-05 15:27:09",
+                "malware_md5": "f90c0aa1ddae119d68441cc776010e0a",
+                "host": "172.67.128.46",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-04 19:22:23",
+                "malware_md5": "64e5241c9819e57ac911863312d726fc",
+                "host": "172.67.128.46",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-04 19:12:00",
+                "malware_md5": "8d49293d20fba985a8db9e27e0519b00",
+                "host": "104.21.0.182",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "44d0f031924ffd9dfa42ca651bfd01135b57a9ab",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 15:48:13",
+        "cn": "192.177.26.164",
+        "dn": "192.177.26.164",
+        "fseen": "2025-12-07 17:45:18 UTC",
+        "lseen": "2025-12-07 21:51:47 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 21:51:47",
+                "malware_md5": "679e1520f189112df2c4d9b3632f0312",
+                "host": "192.177.26.164",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 17:45:18",
+                "malware_md5": "ca006fc96b075894b94019da0842fce2",
+                "host": "192.177.26.164",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "258a25b56ecabb5540f854642278dffbdd7e1e6d",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 15:45:42",
+        "cn": "185.196.8.106",
+        "dn": "185.196.8.106",
+        "fseen": "2025-12-08 02:56:06 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-08 02:56:06",
+                "malware_md5": "29b7bbc1254e1f5af8e40503b7cbe8ed",
+                "host": "185.196.8.106",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bebc4e8632a3c0c0559463298a4a7c39c3a0ca29",
+        "threat": "MaksRAT C&C",
+        "listing_date": "2025-12-08 15:33:21",
+        "cn": "avocado.gay",
+        "dn": "WE1",
+        "fseen": "2025-11-27 20:11:50 UTC",
+        "lseen": "2025-12-08 12:52:32 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-08 12:52:32",
+                "malware_md5": "f95cbd8909254e547055f53768f37e22",
+                "host": "172.67.203.124",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-02 22:07:05",
+                "malware_md5": "01f22e75af63ab43808aff5301e4b214",
+                "host": "104.21.22.84",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-11-27 20:11:50",
+                "malware_md5": "a181a69259ee76035ba7520f217e4dff",
+                "host": "104.21.22.84",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "aebe846393cee6199796dc1524f82c22f5f1bb35",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-08 15:27:11",
+        "cn": "dildo",
+        "dn": "dildo",
+        "fseen": "2025-12-07 23:14:57 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 23:14:57",
+                "malware_md5": "a64463768d1888f39e57ac1d9ae8b3e3",
+                "host": "193.111.78.83",
+                "port": "1604"
+            }
+        ]
+    },
+    {
+        "sha1": "2f0654bc0b155cba85aa0be287860feff2045195",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-08 15:27:08",
+        "cn": "Qrsmyrq",
+        "dn": "Qrsmyrq",
+        "fseen": "2025-12-07 23:08:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 23:08:18",
+                "malware_md5": "cb4f426bdbfbfd374dea87eec77b0c07",
+                "host": "45.63.106.178",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "1e7d2f0b4081a2aa0e2f57ece2c43cb55ca1eab0",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2025-12-08 15:26:18",
+        "cn": "157.180.40.106",
+        "dn": "157.180.40.106",
+        "fseen": "2025-11-24 08:33:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-11-24 08:33:17",
+                "malware_md5": "fff9bf5651f972a0f9350032e26f68d3",
+                "host": "157.180.40.106",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1890dd7f152fb95ad17dfd795ce3b2b1de1380ea",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2025-12-08 15:26:18",
+        "cn": "telemetry-updatehub.cc",
+        "dn": "WE1",
+        "fseen": "2025-11-24 08:33:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-11-24 08:33:17",
+                "malware_md5": "fff9bf5651f972a0f9350032e26f68d3",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f575632951a2d54b6dd6d6303907273c0ed0d69b",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2025-12-08 15:24:33",
+        "cn": "146.103.127.43",
+        "dn": "146.103.127.43",
+        "fseen": "2025-12-07 21:46:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 21:46:54",
+                "malware_md5": "26f1a4ac89e775135068e3ca90c8360f",
+                "host": "146.103.127.43",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ceca62498c594c3f9f080ad3fa333fcbd5ab5be5",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-12-08 15:23:19",
+        "cn": "fqxtcare.top",
+        "dn": "WE1",
+        "fseen": "2025-12-07 17:14:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 17:14:39",
+                "malware_md5": "0dae4542a27c6bd001d6d57d3406182d",
+                "host": "172.67.209.132",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1eedee7ab4a874d1e9cd528db66dccc1815f4e7a",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-08 15:22:53",
+        "cn": "flavorwood.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-07 16:29:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 16:29:14",
+                "malware_md5": "0b73e34ba66d48cb983fe2b2ea446270",
+                "host": "172.67.172.19",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "aedd58bafc69e5cfba94eadfc0db1250c243b10f",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2025-12-08 15:12:15",
+        "cn": "146.103.117.116",
+        "dn": "146.103.117.116",
+        "fseen": "2025-12-07 21:44:14 UTC",
+        "lseen": "2025-12-07 21:47:20 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 21:47:20",
+                "malware_md5": "898936ec86579062afef3f663139da67",
+                "host": "146.103.117.116",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 21:44:14",
+                "malware_md5": "d8376cf9f048b4babe249ab1888502d3",
+                "host": "146.103.117.116",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c55657b0090664aab8c6dec5879c38e2a95404b2",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2025-12-08 15:10:39",
+        "cn": "188.137.254.85",
+        "dn": "188.137.254.85",
+        "fseen": "2025-12-07 12:10:54 UTC",
+        "lseen": "2025-12-07 21:50:21 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 21:50:21",
+                "malware_md5": "af8da22236c58f7b40986059e4d78db6",
+                "host": "188.137.254.85",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 21:46:56",
+                "malware_md5": "fa30da460329469d226d88da4993fbe7",
+                "host": "188.137.254.85",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 12:10:54",
+                "malware_md5": "0173aab20cdf12c2c8eb888f43ccdacb",
+                "host": "188.137.254.85",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7871b048db91db3e508dcb9025d765b8a01c8168",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-08 15:08:03",
+        "cn": "forkmice.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-06 16:52:20 UTC",
+        "lseen": "2025-12-07 16:48:13 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-07 16:48:13",
+                "malware_md5": "2fef0e932fa8cd2ae000643f6f39834f",
+                "host": "172.67.161.166",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-06 19:07:55",
+                "malware_md5": "fdeb87c0f52b9f2597cc21f778af6afc",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-06 18:53:46",
+                "malware_md5": "581d66ec237c7c81b668895a49b2940a",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-06 16:52:20",
+                "malware_md5": "770d0db34c43372b4926405fee03fd79",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "762d043c034c76c2983a41f6107555eda634ec2d",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-08 08:09:18",
+        "cn": "hto.diraiat.com",
+        "dn": "E7",
+        "fseen": "2025-12-07 12:19:41 UTC",
+        "lseen": "2025-12-08 07:00:04 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-08 07:00:04",
+                "malware_md5": "a54c9e4cf2425e7acbdac649eb9ed4b5",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-08 02:05:27",
+                "malware_md5": "643ae912235fcfffbddf28c6df6efbbb",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 21:51:40",
+                "malware_md5": "679e1520f189112df2c4d9b3632f0312",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 19:51:55",
+                "malware_md5": "1562194519266156874de0b74291383c",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 17:15:45",
+                "malware_md5": "2769c366c883d47596f569856322b7fe",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 17:12:59",
+                "malware_md5": "0db89c34913cd45da0057ef5ddcc34c7",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 17:03:32",
+                "malware_md5": "0d0993ddb7ccbb48377d412763323985",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 14:40:33",
+                "malware_md5": "5728c495e52e029c0ca0efac85d1902b",
+                "host": "46.62.240.211",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-07 12:19:41",
+                "malware_md5": "05274d84d761445a7d893712d7bc6519",
+                "host": "46.62.240.211",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "573b729fac950570e3b37f6f69ec60bcae56b291",
         "threat": "Vidar C&C",
         "listing_date": "2025-12-06 18:04:42",
