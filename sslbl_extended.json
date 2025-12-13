@@ -1,5 +1,101 @@
 [
     {
+        "sha1": "aef87c27347dcc635eadd305506e254126bedc43",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2025-12-12 14:49:32",
+        "cn": "Axmfvhg",
+        "dn": "Axmfvhg",
+        "fseen": "2025-12-12 11:50:02 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-12 11:50:02",
+                "malware_md5": "c246098dbf6d3490be16ad892d89dd48",
+                "host": "23.94.126.118",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "6e751a35d2d9de163d6447f3f7301a4e87394a32",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-12 14:36:01",
+        "cn": "mng.keyzsoft.com",
+        "dn": "E8",
+        "fseen": "2025-12-12 10:01:48 UTC",
+        "lseen": "2025-12-12 14:06:02 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-12 14:06:02",
+                "malware_md5": "c75d3ff79a867666354ba4d8c149b4c4",
+                "host": "95.216.181.100",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-12 13:09:44",
+                "malware_md5": "f8d40f916a1d2f0b7f7d6db12407cd07",
+                "host": "95.216.181.100",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-12 12:28:27",
+                "malware_md5": "a6f91fa0879ebba68c0cce12aa4b0043",
+                "host": "95.216.181.100",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-12 10:01:48",
+                "malware_md5": "7253605609db2e88c191a34fb7d0e6e6",
+                "host": "95.216.181.100",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "40641ff77ae7b58d5b435664d7b47399730bf4a0",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-12 14:36:01",
+        "cn": "138.226.236.29",
+        "dn": "138.226.236.29",
+        "fseen": "2025-12-12 13:09:43 UTC",
+        "lseen": "2025-12-12 13:20:57 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-12 13:20:57",
+                "malware_md5": "8049e40f6408a113d182efb53a33f203",
+                "host": "138.226.236.29",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-12 13:09:44",
+                "malware_md5": "f8d40f916a1d2f0b7f7d6db12407cd07",
+                "host": "138.226.236.29",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d290f26e5af29e87034418cfd5b100d7d2fead9d",
+        "threat": "QuirkyLoader C&C",
+        "listing_date": "2025-12-12 07:08:42",
+        "cn": "Nvnvkeud",
+        "dn": "Nvnvkeud",
+        "fseen": "2025-12-11 15:58:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-11 15:58:38",
+                "malware_md5": "17c46534a9b860bc0638b0d8fac00ae8",
+                "host": "45.88.186.227",
+                "port": "8096"
+            }
+        ]
+    },
+    {
         "sha1": "50def7da0eb236fcb1d55eb802039ddd95049da9",
         "threat": "Vidar C&C",
         "listing_date": "2025-12-11 13:34:11",
