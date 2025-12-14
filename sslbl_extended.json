@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "f9b08d699ab97ed486168aaaac37ed968ab9a003",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-13 08:20:46",
+        "cn": "138.226.236.74",
+        "dn": "138.226.236.74",
+        "fseen": "2025-12-13 03:53:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-13 03:53:11",
+                "malware_md5": "7034ebeb54664cda46d9912af82ceb84",
+                "host": "138.226.236.74",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3a840cfe7dc5cc616f2c9cf7f456d75246c6de7f",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-13 08:20:45",
+        "cn": "fix.keyzsoft.net",
+        "dn": "E8",
+        "fseen": "2025-12-13 03:53:11 UTC",
+        "lseen": "2025-12-13 05:49:20 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-13 05:49:20",
+                "malware_md5": "a3927e961b299509d5f6b63b8fb7e505",
+                "host": "157.90.147.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-13 03:53:11",
+                "malware_md5": "7034ebeb54664cda46d9912af82ceb84",
+                "host": "157.90.147.67",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "aef87c27347dcc635eadd305506e254126bedc43",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2025-12-12 14:49:32",
