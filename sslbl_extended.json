@@ -1,5 +1,131 @@
 [
     {
+        "sha1": "4b1edb0875427c553bf5d42681e7a9fa8f93a35e",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-12-15 17:10:07",
+        "cn": "pedhelp.top",
+        "dn": "WE1",
+        "fseen": "2025-12-15 15:13:48 UTC",
+        "lseen": "2025-12-15 15:13:49 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-15 15:13:49",
+                "malware_md5": "d832807449fc75d30427f01be1b441c8",
+                "host": "172.67.205.223",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c294112c931ab5f7a0f0195b65ed59679442ccea",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-15 10:11:47",
+        "cn": "80.253.251.180",
+        "dn": "80.253.251.180",
+        "fseen": "2025-12-15 00:44:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-15 00:44:24",
+                "malware_md5": "6db0f6c2030d4da076b7a243caaf16d0",
+                "host": "80.253.251.180",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "34d7f089684ee3ab9faf204b7d0a3a6d88826497",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-12-15 09:57:08",
+        "cn": "akjycare.live",
+        "dn": "WE1",
+        "fseen": "2025-12-14 22:21:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-14 22:21:40",
+                "malware_md5": "2a0c3749a9eeca367971f2a270b58cb8",
+                "host": "104.21.56.191",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "13d50d3d407cb47a518087f05fcfc527a90df75c",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-15 09:48:54",
+        "cn": "138.226.236.229",
+        "dn": "138.226.236.229",
+        "fseen": "2025-12-15 03:57:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-15 03:57:58",
+                "malware_md5": "d824a5056c32684c2dac88e2017507da",
+                "host": "138.226.236.229",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "69b032a3fbc6d20d24fb410b437e1a31fb7619c8",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-12-15 09:47:32",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2025-12-14 19:43:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-14 19:43:00",
+                "malware_md5": "2fa95cff02b6b16349a15a4225a2f8af",
+                "host": "91.92.34.48",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "867495e11203801b69a9b94dea107c28332108b6",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-15 09:47:23",
+        "cn": "77.238.247.248",
+        "dn": "77.238.247.248",
+        "fseen": "2025-12-14 18:14:16 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-14 18:14:16",
+                "malware_md5": "b1934824b71b183127402016fb472e0b",
+                "host": "77.238.247.248",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "49b2e8a3d6248c6c13dae420dcf4b636eec3c5a8",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-15 07:14:23",
+        "cn": "193.33.195.12",
+        "dn": "193.33.195.12",
+        "fseen": "2025-12-14 18:11:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-14 18:11:08",
+                "malware_md5": "24ce367debbee108e0788d873f3fd839",
+                "host": "193.33.195.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "bf39408fcf66c8f2d9018d2aeb6bf743cf4ecabc",
         "threat": "Vidar C&C",
         "listing_date": "2025-12-14 07:29:50",
