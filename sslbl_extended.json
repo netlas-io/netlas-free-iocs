@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "61c106b455763479993736bd9605bd3503d083ad",
+        "threat": "Malware C&C",
+        "listing_date": "2025-12-16 14:26:52",
+        "cn": "142.44.142.149",
+        "dn": "142.44.142.149",
+        "fseen": "2025-12-15 15:40:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-15 15:40:24",
+                "malware_md5": "063884e73a986aee6b1ea1e9d71d6856",
+                "host": "142.44.142.149",
+                "port": "5001"
+            }
+        ]
+    },
+    {
+        "sha1": "6c3ecd6d81bf00e4610f3fd0f77d922a4e00139a",
+        "threat": "Stealc C&C",
+        "listing_date": "2025-12-16 14:26:41",
+        "cn": "fttyyu-could.icu",
+        "dn": "WE1",
+        "fseen": "2025-12-15 19:55:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-15 19:55:51",
+                "malware_md5": "d72963e0d3e5368ea2918e7f3f9dfbbe",
+                "host": "104.21.29.36",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "4b1edb0875427c553bf5d42681e7a9fa8f93a35e",
         "threat": "ConnectWise C&C",
         "listing_date": "2025-12-15 17:10:07",
