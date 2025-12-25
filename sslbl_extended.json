@@ -1,5 +1,65 @@
 [
     {
+        "sha1": "55d4b831d65ff226d922a2811fdc63844de3132c",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-24 15:24:31",
+        "cn": "beliefpicture.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-24 03:28:03 UTC",
+        "lseen": "2025-12-24 14:54:45 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-24 14:54:45",
+                "malware_md5": "00bbdd05ac72c482f3d62c62a45f319e",
+                "host": "104.21.72.92",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-24 03:28:03",
+                "malware_md5": "c9fc0a580aff39fdb3018f85e36651d5",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1a5aa767c2675014c5c0a10b2d9f4c63844a84f8",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2025-12-24 15:24:29",
+        "cn": "DcRat",
+        "dn": "xxcxcx, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2025-12-24 13:35:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-24 13:35:18",
+                "malware_md5": "25a1c9119dae966ad01442e3e7a34507",
+                "host": "2.56.109.247",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "fdca450de4393b70b271dc71ada5208aef3bcf49",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-24 15:24:18",
+        "cn": "144.124.246.74",
+        "dn": "144.124.246.74",
+        "fseen": "2025-12-24 12:16:09 UTC",
+        "lseen": "2025-12-24 12:16:10 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-24 12:16:10",
+                "malware_md5": "fa35125ea4d401d91a8b101c94d5ba19",
+                "host": "144.124.246.74",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "57f2f129b4b92f8a5a9b673485771a148c5d6159",
         "threat": "Malware distribution",
         "listing_date": "2025-12-23 17:08:37",
