@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "8e22e996d0215c4e2cb73e5621cb9de904b861cf",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2025-12-25 15:05:26",
+        "cn": "Qthrlno",
+        "dn": "Qthrlno",
+        "fseen": "2025-12-25 03:17:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-25 03:17:51",
+                "malware_md5": "a20549cc494317598f8bc7474709b396",
+                "host": "31.57.147.175",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "8b31dc2519edfe1fdac0ab790b3eae4bcb7ac4b3",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-25 14:17:55",
+        "cn": "whistlesong.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-25 13:51:08 UTC",
+        "lseen": "2025-12-25 14:00:47 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-25 14:00:47",
+                "malware_md5": "043168681a8a9a42723ce9623a8e9fc2",
+                "host": "172.67.217.56",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-25 13:51:08",
+                "malware_md5": "013192ccf0f1e5d66a5821f004f0b201",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "5afb5e6087c16b75b0bcf2a8aa2f1a530d333563",
+        "threat": "DeerStealer C&C",
+        "listing_date": "2025-12-25 14:09:29",
+        "cn": "shannonmystiqueeldritch.com",
+        "dn": "WE1",
+        "fseen": "2025-12-25 12:29:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-25 12:29:39",
+                "malware_md5": "1a92e165fed7d1c4e90b2f12cf3c1989",
+                "host": "172.67.210.27",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "46d2b4f1f4f2badc2f587f68386945a0c835c4ba",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-25 12:27:07",
+        "cn": "157.180.74.152",
+        "dn": "157.180.74.152",
+        "fseen": "2025-12-25 03:45:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-25 03:45:39",
+                "malware_md5": "7c794b1a8f89ae0de8363e71f97884b2",
+                "host": "157.180.74.152",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "156578689662f3a0d71a36352f92c42f87a8eb90",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-25 12:26:10",
+        "cn": "138.226.236.255",
+        "dn": "138.226.236.255",
+        "fseen": "2025-12-24 20:43:22 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-24 20:43:22",
+                "malware_md5": "adbe81a811b8d050e9bbd390c15bd28a",
+                "host": "138.226.236.255",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4cb2614dfeccc27e90b40f1422750626bbf2eb3f",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-25 12:25:53",
+        "cn": "193.233.198.6",
+        "dn": "193.233.198.6",
+        "fseen": "2025-12-24 20:07:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-24 20:07:59",
+                "malware_md5": "6750769b384d02ceec1faada4da76e1e",
+                "host": "193.233.198.6",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "93b9c85725b9f19295be8a265e241e56e777fc04",
+        "threat": "DeerStealer C&C",
+        "listing_date": "2025-12-25 12:24:10",
+        "cn": "andredorethrenody.com",
+        "dn": "WE1",
+        "fseen": "2025-12-23 21:47:43 UTC",
+        "lseen": "2025-12-23 21:47:44 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-23 21:47:44",
+                "malware_md5": "6d3199fa4fe168391a99939ef5f8e560",
+                "host": "188.114.96.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "263ba9c3bdeb2b09c8108913060a355361a1424c",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-12-25 12:13:18",
+        "cn": "suhcare.live",
+        "dn": "WE1",
+        "fseen": "2025-12-23 18:29:34 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-23 18:29:34",
+                "malware_md5": "16859231625c89bec76f92ca5bab26b5",
+                "host": "104.21.82.250",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "55d4b831d65ff226d922a2811fdc63844de3132c",
         "threat": "OffLoader C&C",
         "listing_date": "2025-12-24 15:24:31",
