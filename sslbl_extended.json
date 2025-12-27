@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "77ccc60769c2fcec1b720094cdaa0ff49e37227d",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-26 07:38:52",
+        "cn": "192.177.26.222",
+        "dn": "192.177.26.222",
+        "fseen": "2025-12-26 01:44:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-26 01:44:41",
+                "malware_md5": "eee20037033445a0311435fbe80d951d",
+                "host": "192.177.26.222",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "8e22e996d0215c4e2cb73e5621cb9de904b861cf",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2025-12-25 15:05:26",
