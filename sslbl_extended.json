@@ -1,5 +1,65 @@
 [
     {
+        "sha1": "18f6fb081557a654b26c348d6d9e6bffeb064e6f",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-27 09:27:57",
+        "cn": "fingercrayon.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-27 05:20:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-27 05:20:20",
+                "malware_md5": "ff9a581dc999411eda70acdb416db634",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0b3c03d2685bcf32115f71fad8323c8c79f3ecf3",
+        "threat": "Vidar C&C",
+        "listing_date": "2025-12-27 07:39:11",
+        "cn": "138.226.236.253",
+        "dn": "138.226.236.253",
+        "fseen": "2025-12-27 00:25:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-27 00:25:42",
+                "malware_md5": "a7afd92cd18fe9da0d151914a7ad69dc",
+                "host": "138.226.236.253",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e3f74b63bb455a42d4351baff1f1eccd69ae5747",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-27 07:38:54",
+        "cn": "89.124.68.75",
+        "dn": "89.124.68.75",
+        "fseen": "2025-12-26 19:43:10 UTC",
+        "lseen": "2025-12-26 19:53:18 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-26 19:53:18",
+                "malware_md5": "2a32e0b2188674e7b7085a1c18c4ea9c",
+                "host": "89.124.68.75",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-26 19:43:10",
+                "malware_md5": "1e50fab9198cd2629ebe6963924b3661",
+                "host": "89.124.68.75",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "77ccc60769c2fcec1b720094cdaa0ff49e37227d",
         "threat": "Vidar C&C",
         "listing_date": "2025-12-26 07:38:52",
