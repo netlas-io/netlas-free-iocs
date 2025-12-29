@@ -1,5 +1,83 @@
 [
     {
+        "sha1": "2be6327a2b03aed6322898941f4e6c7ca29de8e5",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2025-12-28 11:29:16",
+        "cn": "rdakp ndnfcr",
+        "dn": "rdakp ndnfcr",
+        "fseen": "2025-12-27 13:30:17 UTC",
+        "lseen": "2025-12-27 13:30:25 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-27 13:30:25",
+                "malware_md5": "8c2dcf91ce2dca5a97e9f876cbabc02b",
+                "host": "193.161.193.99",
+                "port": "50842"
+            }
+        ]
+    },
+    {
+        "sha1": "12184cf278f7a334418580b93a2459f0358fd9fd",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2025-12-28 11:29:07",
+        "cn": "185.121.233.78",
+        "dn": "185.121.233.78",
+        "fseen": "2025-12-27 14:47:16 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-27 14:47:16",
+                "malware_md5": "5e8ff1073c3f0550f1e3a36269d199f3",
+                "host": "185.121.233.78",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "733f676f539126a33ba45b6e2c8d3c9aee267dd8",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-28 11:22:15",
+        "cn": "micesisters.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-28 04:31:04 UTC",
+        "lseen": "2025-12-28 04:58:17 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-28 04:58:17",
+                "malware_md5": "a111ccd2fc04257625961590d5d2cecc",
+                "host": "172.67.137.21",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-28 04:31:04",
+                "malware_md5": "8fab6ffbd57dd0b299f1e5608753d9c2",
+                "host": "172.67.137.21",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9e3a099b0392f90a85defa0a590527fc24c856ac",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2025-12-28 11:22:13",
+        "cn": "hpkr.help",
+        "dn": "R13",
+        "fseen": "2025-12-27 22:27:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-27 22:27:17",
+                "malware_md5": "30c7788f201140452ba7fdf21e8557cd",
+                "host": "31.220.99.103",
+                "port": "8443"
+            }
+        ]
+    },
+    {
         "sha1": "18f6fb081557a654b26c348d6d9e6bffeb064e6f",
         "threat": "OffLoader C&C",
         "listing_date": "2025-12-27 09:27:57",
