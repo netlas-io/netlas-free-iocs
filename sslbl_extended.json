@@ -1,5 +1,101 @@
 [
     {
+        "sha1": "ad6e2e21ac68c72c8c702a51c4a6578277c15c0c",
+        "threat": "Guildma C&C",
+        "listing_date": "2025-12-30 15:15:02",
+        "cn": "floresfloripomeiaverde.cfd",
+        "dn": "WE1",
+        "fseen": "2025-12-30 14:19:21 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-30 14:19:21",
+                "malware_md5": "92cf042794ee74850a7b90358fe75191",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3a474c04a2644f781bb3e4609b9f966791e104b5",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-30 15:10:30",
+        "cn": "pickleblade.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-30 10:52:19 UTC",
+        "lseen": "2025-12-30 10:52:20 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-30 10:52:20",
+                "malware_md5": "241855aff064f666aba8b88cfb5e9aa2",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4b497ae5c83a1f18738d5eca13d3b85e56fffd92",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-30 15:10:10",
+        "cn": "bedroomdesire.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-30 00:21:40 UTC",
+        "lseen": "2025-12-30 14:15:03 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-30 14:15:03",
+                "malware_md5": "96e0c10f8fef9f87907d19dcafeb1f59",
+                "host": "172.67.163.37",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-30 12:57:40",
+                "malware_md5": "431a7be4eecfca124456b9df4d0bcbbc",
+                "host": "104.21.15.168",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-30 08:34:25",
+                "malware_md5": "c00bed163a90982bfec3a50b63cc6199",
+                "host": "104.21.15.168",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-30 08:11:33",
+                "malware_md5": "ccc3bfdd79323575f97359e0d21aa209",
+                "host": "172.67.163.37",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-30 00:21:40",
+                "malware_md5": "124e0c24437e4e49274627f71f3c808f",
+                "host": "172.67.163.37",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "85f0fd986ad4a7955a5ea85764038f3bbb695cba",
+        "threat": "OffLoader C&C",
+        "listing_date": "2025-12-30 15:09:58",
+        "cn": "verysypname.com",
+        "dn": "E8",
+        "fseen": "2025-12-30 09:44:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-30 09:44:42",
+                "malware_md5": "0df7f4045510dd2f9296b3719a60473c",
+                "host": "149.28.240.119",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "c2433ae2f074166a3dacd6c8201c89d66a1e0cc1",
         "threat": "ACRStealer C&C",
         "listing_date": "2025-12-29 08:48:38",
