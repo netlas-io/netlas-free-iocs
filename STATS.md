@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2025-12-31 02:55:25
+Date of report: 2026-01-01 03:09:08
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -18,7 +18,7 @@ Date of report: 2025-12-31 02:55:25
 | ACRStealer C&C             | 2025-12-29 08:06:40 | 443 | 76 | 55 | 7 |
 | Vidar C&C                  | 2025-12-29 01:50:37 | 443, 5432, 9000, 2024, 56001 | 267 | 515 | 18 |
 | DCRat C&C                  | 2025-12-28 22:47:30 | 8848, 56001, 4449, 1414, 3232 | 270 | 7 | 0 |
-| ConnectWise C&C            | 2025-12-27 22:27:17 | 443, 8443, 9113 | 280 | 29 | 58 |
+| ConnectWise C&C            | 2025-12-27 22:27:17 | 443, 8443, 9113 | 280 | 28 | 74 |
 | QuasarRAT C&C              | 2025-12-27 13:30:25 | 4782, 56001, 443, 4787, 5490 | 597 | 42 | 0 |
 | DeerStealer C&C            | 2025-12-25 12:29:39 | 443 | 18 | 5 | 0 |
 | PureLogsStealer C&C        | 2025-12-25 03:17:51 | 56001, 1976, 443, 7614, 6739 | 22 | 8 | 2 |
