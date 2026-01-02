@@ -1,5 +1,131 @@
 [
     {
+        "sha1": "6bd23ff65ef66b7c0589133e5a3119f2d91ab3f1",
+        "threat": "GCleaner C&C",
+        "listing_date": "2026-01-01 07:37:40",
+        "cn": "momcherries.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-31 14:36:31 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-31 14:36:31",
+                "malware_md5": "01a5055466ebf24712e3bf9b9b38f3ab",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c8aad9c5f82a60570499842e439e5853a2a4fcf1",
+        "threat": "GCleaner C&C",
+        "listing_date": "2026-01-01 07:37:38",
+        "cn": "umbrellaroad.info",
+        "dn": "WE1",
+        "fseen": "2025-12-31 14:36:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-31 14:36:30",
+                "malware_md5": "01a5055466ebf24712e3bf9b9b38f3ab",
+                "host": "104.21.86.206",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "6159992b2c6d63eb26c215499bba43316b6c91f7",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-01-01 07:36:41",
+        "cn": "81.19.141.151",
+        "dn": "81.19.141.151",
+        "fseen": "2025-12-31 15:31:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2025-12-31 15:31:59",
+                "malware_md5": "89dc8624daf991ef16c53a55a5f12a56",
+                "host": "81.19.141.151",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7cf99ff9b35a8f0a7307c92e3b1feeca96179038",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-01-01 07:36:18",
+        "cn": "landerror.xyz",
+        "dn": "WE1",
+        "fseen": "2025-12-31 15:38:24 UTC",
+        "lseen": "2026-01-01 06:40:38 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-01 06:40:38",
+                "malware_md5": "f60d607079fa3b9c1e10279392bc1242",
+                "host": "104.21.48.38",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-01-01 06:02:22",
+                "malware_md5": "e3e7610f4e8cdc9e2e797f7c556c36c0",
+                "host": "172.67.176.175",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-01-01 02:31:59",
+                "malware_md5": "8417660e714899985190771ab305c468",
+                "host": "172.67.176.175",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-01-01 02:30:23",
+                "malware_md5": "7deef5f7baebb82a9f665f2b97b302cc",
+                "host": "104.21.48.38",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-31 23:36:34",
+                "malware_md5": "3584a0ce567e122d2fb981ed4ff21b81",
+                "host": "104.21.48.38",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-31 21:45:04",
+                "malware_md5": "19b3b3c9d5fdb5918d9750956987aa9c",
+                "host": "172.67.176.175",
+                "port": "443"
+            },
+            {
+                "timestamp": "2025-12-31 15:38:24",
+                "malware_md5": "070c9181336bce658613e171513b95f0",
+                "host": "104.21.48.38",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f14faecdb4b6a8e4722eff35b08ea8dfadf7b5f4",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-01-01 07:36:01",
+        "cn": "zyulzv jsbr",
+        "dn": "zyulzv jsbr",
+        "fseen": "2026-01-01 06:16:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-01 06:16:07",
+                "malware_md5": "e71c46117853a32f1075b2cb1dd7d297",
+                "host": "193.161.193.99",
+                "port": "39122"
+            }
+        ]
+    },
+    {
         "sha1": "ad6e2e21ac68c72c8c702a51c4a6578277c15c0c",
         "threat": "Guildma C&C",
         "listing_date": "2025-12-30 15:15:02",
