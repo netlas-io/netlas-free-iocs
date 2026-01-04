@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2026-01-03 02:51:44
+Date of report: 2026-01-04 03:09:15
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -14,7 +14,7 @@ Date of report: 2026-01-03 02:51:44
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
 | OffLoader C&C              | 2026-01-01 06:40:38 | 443 | 269 | 116 | 1 |
-| QuasarRAT C&C              | 2026-01-01 06:16:07 | 4782, 56001, 443, 4787, 5490 | 598 | 41 | 0 |
+| QuasarRAT C&C              | 2026-01-01 06:16:07 | 4782, 56001, 443, 4787, 5490 | 598 | 40 | 0 |
 | ACRStealer C&C             | 2025-12-31 15:31:59 | 443 | 77 | 54 | 7 |
 | GCleaner C&C               | 2025-12-31 14:36:31 | 443 | 2 | 2 | 0 |
 | Guildma C&C                | 2025-12-30 14:19:21 | 443 | 2 | 3 | 0 |
