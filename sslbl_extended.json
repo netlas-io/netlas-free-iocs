@@ -1,5 +1,71 @@
 [
     {
+        "sha1": "6b965254f0991e2c19ba17ce4ba589dd6c2f2fda",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-01-13 07:20:45",
+        "cn": "hydrantdolls.xyz",
+        "dn": "WE1",
+        "fseen": "2026-01-12 22:42:37 UTC",
+        "lseen": "2026-01-13 05:06:18 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-13 05:06:18",
+                "malware_md5": "9dce9075dbb782b676e25233648636a8",
+                "host": "172.67.134.135",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-01-12 22:42:37",
+                "malware_md5": "2b4a4c4d1054ba9e36dd76c7b91dc539",
+                "host": "172.67.134.135",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bee0ff91f5800361e8e470af7c0a12f06b8fdcf8",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-01-13 07:20:23",
+        "cn": "roofreaction.xyz",
+        "dn": "WE1",
+        "fseen": "2026-01-13 03:05:28 UTC",
+        "lseen": "2026-01-13 03:06:09 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-13 03:06:09",
+                "malware_md5": "7690352e11c0e6f08010fc7dff4e9034",
+                "host": "104.21.36.208",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-01-13 03:05:29",
+                "malware_md5": "76f8655ac0368c20d9a2eb638c1f9b24",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "15640ab78d74431d1643b4eb62ae3d9153666ae8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-01-13 07:19:45",
+        "cn": "138.226.237.179",
+        "dn": "138.226.237.179",
+        "fseen": "2026-01-12 16:02:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-12 16:02:11",
+                "malware_md5": "d5bf470fb1d60242547c841bf7a53f11",
+                "host": "138.226.237.179",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "8c03dadea265fd3a083ceb6610d6a89411d635ea",
         "threat": "PureHVNC C&C",
         "listing_date": "2026-01-12 15:18:58",
