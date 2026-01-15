@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "1a7a89a6ee2a284e574d92f0033efc0a37a66a72",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-01-14 13:34:11",
+        "cn": "95.217.27.33",
+        "dn": "95.217.27.33",
+        "fseen": "2026-01-14 08:47:55 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-14 08:47:55",
+                "malware_md5": "df38dc6f2526c1a052ea9f5716f33524",
+                "host": "95.217.27.33",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "6b965254f0991e2c19ba17ce4ba589dd6c2f2fda",
         "threat": "OffLoader C&C",
         "listing_date": "2026-01-13 07:20:45",
