@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "e1eee0b991daeddda5eb790822cace341505480d",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-01-16 16:20:14",
+        "cn": "DcRat",
+        "dn": "EBOLA, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2026-01-16 05:05:56 UTC",
+        "lseen": "2026-01-16 05:18:06 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-16 05:18:06",
+                "malware_md5": "83baf96ff40cee219b6a30cc6361dc62",
+                "host": "193.161.193.99",
+                "port": "38016"
+            },
+            {
+                "timestamp": "2026-01-16 05:05:56",
+                "malware_md5": "2bb81912e255e7aa671785d0d8a1e609",
+                "host": "193.161.193.99",
+                "port": "38016"
+            }
+        ]
+    },
+    {
+        "sha1": "6ea8fc3980ed947d6d2c509c02a2e439c8d5f7e1",
+        "threat": "DCRat C&C",
+        "listing_date": "2026-01-16 16:19:43",
+        "cn": "DcRat",
+        "dn": "DcRat Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2026-01-15 15:53:28 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-15 15:53:28",
+                "malware_md5": "bcc6f02f3bb5d589b02573408de915d6",
+                "host": "212.38.88.162",
+                "port": "8848"
+            }
+        ]
+    },
+    {
         "sha1": "9b483450f76d361de12dac4cdfe6370f291692b9",
         "threat": "ACRStealer C&C",
         "listing_date": "2026-01-15 16:06:49",
