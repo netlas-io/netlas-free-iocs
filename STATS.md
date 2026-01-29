@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2026-01-28 03:05:59
+Date of report: 2026-01-29 03:26:40
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -13,7 +13,7 @@ Date of report: 2026-01-28 03:05:59
 
 | Threat                     | Last Seen           | Top Ports          | Certs        | SSLBL Relevant   | Netlas Data Relevant  |
 |----------------------------|---------------------|--------------------|-------------:|-----------------:|----------------------:|
-| ConnectWise C&C            | 2026-01-21 14:42:39 | 443, 8443, 9113 | 285 | 24 | 30 |
+| ConnectWise C&C            | 2026-01-21 14:42:39 | 443, 8443, 9113 | 285 | 22 | 30 |
 | QuasarRAT C&C              | 2026-01-21 14:39:33 | 4782, 56001, 443, 4787, 5490 | 606 | 26 | 0 |
 | Vidar C&C                  | 2026-01-21 14:36:53 | 443, 5432, 9000, 2024, 56001 | 302 | 375 | 12 |
 | Socks5Systemz C&C          | 2026-01-21 08:57:51 | 443, 56001 | 18 | 6 | 13 |
