@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2026-01-29 03:26:40
+Date of report: 2026-01-30 03:28:30
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -19,7 +19,7 @@ Date of report: 2026-01-29 03:26:40
 | Socks5Systemz C&C          | 2026-01-21 08:57:51 | 443, 56001 | 18 | 6 | 13 |
 | AsyncRAT C&C               | 2026-01-20 19:54:40 | 8808, 6606, 7707, 1177, 4449 | 1375 | 39 | 0 |
 | DCRat C&C                  | 2026-01-15 15:53:28 | 8848, 56001, 4449, 1414, 3232 | 271 | 8 | 0 |
-| ACRStealer C&C             | 2026-01-15 11:45:45 | 443 | 80 | 42 | 5 |
+| ACRStealer C&C             | 2026-01-15 11:45:45 | 443 | 80 | 40 | 5 |
 | OffLoader C&C              | 2026-01-15 04:57:31 | 443 | 290 | 149 | 7 |
 | PureHVNC C&C               | 2026-01-14 18:01:05 | 56001 | 2 | 2 | 0 |
 | SantaStealer C&C           | 2026-01-14 07:13:20 | 443 | 1 | 2 | 0 |
