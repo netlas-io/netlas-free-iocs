@@ -1,5 +1,77 @@
 [
     {
+        "sha1": "5336e04495132330a766b2332013eff8bd9481e6",
+        "threat": "BRAT C&C",
+        "listing_date": "2026-02-01 16:09:11",
+        "cn": "xln-manage.lol",
+        "dn": "WE1",
+        "fseen": "2026-01-31 23:51:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-31 23:51:54",
+                "malware_md5": "f50846dcf09e0c7ce582040fb128ebf3",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "436f02b3a63406707f6467d4880a691a2a3f53ea",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-02-01 07:25:26",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-01-31 22:51:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-31 22:51:27",
+                "malware_md5": "073f385aefeec02d4797df68d5d16f99",
+                "host": "193.161.193.99",
+                "port": "38238"
+            }
+        ]
+    },
+    {
+        "sha1": "f1bb8bd97d70c986438f0cd5f46cd2992875659a",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-02-01 07:24:57",
+        "cn": "jawar3d Server",
+        "dn": "jawar3d Server",
+        "fseen": "2026-01-31 18:35:38 UTC",
+        "lseen": "2026-01-31 22:41:28 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-01-31 22:41:28",
+                "malware_md5": "1aa2e49cdfae604498f0fc2b89574b5d",
+                "host": "193.161.193.99",
+                "port": "32447"
+            },
+            {
+                "timestamp": "2026-01-31 19:37:35",
+                "malware_md5": "15fccfe68cf6bb91efd83a0ced865aad",
+                "host": "193.161.193.99",
+                "port": "32447"
+            },
+            {
+                "timestamp": "2026-01-31 19:27:18",
+                "malware_md5": "0184d7d4750eb288fe7f981c80667d80",
+                "host": "193.161.193.99",
+                "port": "32447"
+            },
+            {
+                "timestamp": "2026-01-31 18:35:38",
+                "malware_md5": "1585ed5484f965473b91bf67fa977842",
+                "host": "193.161.193.99",
+                "port": "32447"
+            }
+        ]
+    },
+    {
         "sha1": "0f4e5aaccb97182bf96d4dec2745543d2500e161",
         "threat": "SalatStealer C&C",
         "listing_date": "2026-01-31 16:45:32",
