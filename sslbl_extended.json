@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "e224a0e12477fad80756859e96bf89af4af904ef",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-02-05 07:23:48",
+        "cn": "151.247.193.213",
+        "dn": "151.247.193.213",
+        "fseen": "2026-02-05 01:25:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-05 01:25:32",
+                "malware_md5": "76f9ef6d21ada8e0bcfb9c21cffa61ff",
+                "host": "151.247.193.213",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1ea8ec48d9f0b8873db62ceb0d56bc89bd5b326e",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-02-05 07:17:25",
+        "cn": "sxbeg klui, O=Ir7E77PG3XKZ, L=Ha54xlLjspHY, C=FJ",
+        "dn": "sxbeg klui, O=Ir7E77PG3XKZ, L=Ha54xlLjspHY, C=FJ",
+        "fseen": "2026-02-04 16:12:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-04 16:12:49",
+                "malware_md5": "18f64c948c1334d86aadd0f6e6fd39a5",
+                "host": "154.90.61.163",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "971eff3b46008afa8e51412a1f92e56fb16c0c8b",
         "threat": "Vidar C&C",
         "listing_date": "2026-02-04 13:29:30",
