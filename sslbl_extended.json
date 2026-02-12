@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "a38f2bfbc5ca952122a8e9fd9e5ed3bb2b734063",
+        "threat": "XillenStealer C&C",
+        "listing_date": "2026-02-11 16:47:46",
+        "cn": "interim-data-flow.digital",
+        "dn": "WE1",
+        "fseen": "2026-02-11 08:38:02 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-11 08:38:02",
+                "malware_md5": "c503d7e73e0ffa77fbfed9c7997b695d",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "6c6fcbd08c8130664b80e2282843d693d849f3aa",
         "threat": "Vidar C&C",
         "listing_date": "2026-02-09 17:30:34",
