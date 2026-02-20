@@ -1,5 +1,179 @@
 [
     {
+        "sha1": "de82f1f7daacb7b5d91bee3382a3e0a36037ded7",
+        "threat": "SantaStealer C&C",
+        "listing_date": "2026-02-19 12:48:53",
+        "cn": "velvet-parrot.com",
+        "dn": "E7",
+        "fseen": "2026-02-18 17:20:49 UTC",
+        "lseen": "2026-02-19 09:15:40 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-19 09:15:40",
+                "malware_md5": "7bcfefeb53a07032cd85fd8cd6ab0601",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-19 08:14:58",
+                "malware_md5": "c7151afbf872966bfea591cb0c62179e",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-19 05:50:32",
+                "malware_md5": "0634ce4c8dcf31eea7f733905515a831",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-19 05:25:06",
+                "malware_md5": "f9020f2b28f3006145a5af763a1ed6c9",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-19 03:21:22",
+                "malware_md5": "2445d691d3a05a3bb50c06549d959ab5",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-19 03:20:18",
+                "malware_md5": "55c87e91299305ff7b187c1c86168d2a",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-19 01:15:08",
+                "malware_md5": "221c8fb78e870d01d151e909001deefe",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-18 22:58:28",
+                "malware_md5": "8046820a29305a3aed30c1de0c1c0fc3",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-18 18:29:03",
+                "malware_md5": "17ec15eacfaa003fb4ff1d8a2c5d9884",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-18 17:20:49",
+                "malware_md5": "2d8cd7f71ee96307da390f09028790af",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c96e7c1cbfdcff64e90557779edd3af8a1b6a6c4",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-02-19 07:50:17",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-02-19 07:39:15 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-19 07:39:15",
+                "malware_md5": "26bd189b85859591b87b6ad76c83d4b2",
+                "host": "136.0.157.17",
+                "port": "9304"
+            }
+        ]
+    },
+    {
+        "sha1": "682a5d662e691f728b8279c889f9d70dafc8bbc4",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-02-19 07:04:19",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-02-18 17:11:19 UTC",
+        "lseen": "2026-02-18 17:20:55 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-18 17:20:55",
+                "malware_md5": "3dd5c4df8024954b7cf424e170baf7af",
+                "host": "91.92.243.47",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-02-18 17:11:19",
+                "malware_md5": "589a56978552986c0b7a724452989e4b",
+                "host": "91.92.243.47",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "17a5a3ef6c810022d695d6e0642ac0ccf8505600",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-02-19 07:02:26",
+        "cn": "deathshop.xyz",
+        "dn": "WE1",
+        "fseen": "2026-02-19 05:36:15 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-19 05:36:15",
+                "malware_md5": "252201253151cdb84260ccd97c50732d",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cf716cb4e11c0b7c8b7deda04db0df9332b5a5f9",
+        "threat": "EternalRocks C&C",
+        "listing_date": "2026-02-19 07:01:56",
+        "cn": "144.124.236.99",
+        "dn": "144.124.236.99",
+        "fseen": "2026-02-18 20:04:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-18 20:04:49",
+                "malware_md5": "1fdfd8a1f7e677467efdb94c765b97ab",
+                "host": "144.124.236.99",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cbf3cc0a64579eda87484e0d426cd801cdc95406",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-02-19 07:00:44",
+        "cn": "raterake.cfd",
+        "dn": "WE1",
+        "fseen": "2026-02-18 19:29:06 UTC",
+        "lseen": "2026-02-18 20:39:40 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-18 20:39:40",
+                "malware_md5": "2033edf0b7eca1c16dc00e1a681618f1",
+                "host": "172.67.177.155",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-18 19:29:06",
+                "malware_md5": "1d619ef181802eecd6fd6400472e8475",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "66afb632b2131a12c4ee5896e88bc485662077eb",
         "threat": "Vidar C&C",
         "listing_date": "2026-02-18 16:57:37",
