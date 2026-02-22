@@ -1,5 +1,5 @@
 ## TOP-15 Most Recent Threats from Abuse.ch SSLBL
-Date of report: 2026-02-21 03:24:50
+Date of report: 2026-02-22 03:40:07
 
 **Columns Description**
 - **Threat**: The name or identifier of the threat
@@ -17,7 +17,7 @@ Date of report: 2026-02-21 03:24:50
 | QuasarRAT C&C              | 2026-02-19 07:39:15 | 4782, 56001, 443, 4787, 5490 | 620 | 39 | 1 |
 | OffLoader C&C              | 2026-02-19 05:36:15 | 443 | 334 | 276 | 11 |
 | EternalRocks C&C           | 2026-02-18 20:04:49 | 443 | 5 | 7 | 1 |
-| Vidar C&C                  | 2026-02-18 14:32:08 | 443, 5432, 9000, 2024, 56001 | 372 | 710 | 36 |
+| Vidar C&C                  | 2026-02-18 14:32:08 | 443, 5432, 9000, 2024, 56001 | 372 | 708 | 36 |
 | PureHVNC C&C               | 2026-02-18 04:37:17 | 56001 | 5 | 5 | 1 |
 | SimpleHelp C&C             | 2026-02-18 00:56:33 | 443 | 8 | 4 | 3 |
 | Socks5Systemz C&C          | 2026-02-17 23:55:47 | 443, 56001 | 19 | 7 | 14 |
