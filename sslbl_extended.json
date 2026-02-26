@@ -1,5 +1,35 @@
 [
     {
+        "sha1": "6543b239d6afc8dda842420dae98d6ea199eca95",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-02-25 10:26:45",
+        "cn": "144.124.246.132",
+        "dn": "144.124.246.132",
+        "fseen": "2026-02-24 06:51:32 UTC",
+        "lseen": "2026-02-24 19:51:14 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-24 19:51:14",
+                "malware_md5": "dc5b7f8f482851a533491791e4394073",
+                "host": "144.124.246.132",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-24 07:10:03",
+                "malware_md5": "1435b920708fddebc7d95044bed7f947",
+                "host": "144.124.246.132",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-24 06:51:33",
+                "malware_md5": "2294094885d3f9af1d222859c2743791",
+                "host": "144.124.246.132",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "deb508613e3293efe553c8d8d97ef35be71b5c5c",
         "threat": "Malware C&C",
         "listing_date": "2026-02-24 15:08:23",
