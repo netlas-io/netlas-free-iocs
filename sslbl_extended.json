@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "71d30109639e95033261ac02f9af0383f116b04d",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2026-02-28 10:32:42",
+        "cn": "194.164.34.182",
+        "dn": "194.164.34.182",
+        "fseen": "2026-02-27 20:36:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-27 20:36:13",
+                "malware_md5": "02c0b897cf5fbd8a6bc2db316c40fd43",
+                "host": "194.164.34.182",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "15f062f1105b3c69d4115feb35fa8a012b9e44bf",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-02-28 10:27:06",
+        "cn": "Instance Platforms",
+        "dn": "Instance Platforms",
+        "fseen": "2026-02-28 02:51:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-28 02:51:07",
+                "malware_md5": "00e56c2a8643f9e9468ff8089754be80",
+                "host": "158.94.208.36",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "f1bc1295c44190efd73ccd02bf1a141c6d734103",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-02-28 10:09:28",
+        "cn": "cricket-matters.com",
+        "dn": "WE1",
+        "fseen": "2026-02-27 15:22:17 UTC",
+        "lseen": "2026-02-28 08:25:12 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-28 08:25:12",
+                "malware_md5": "3569bb22ecae7f75c4ff6d612e090687",
+                "host": "104.21.81.56",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-28 02:46:35",
+                "malware_md5": "6fdff05a839d16331d09803cf2bad974",
+                "host": "104.21.81.56",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-27 20:22:52",
+                "malware_md5": "f9131edf95a0ec263a8a4d7e6214240d",
+                "host": "172.67.157.41",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-27 20:19:24",
+                "malware_md5": "d1e897e45e42f293036f8ca251dfbd6b",
+                "host": "172.67.157.41",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-27 20:04:40",
+                "malware_md5": "706caa75b592935c6a9daca877b7b1ee",
+                "host": "172.67.157.41",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-27 17:03:51",
+                "malware_md5": "4a297bce61aaa3b15d5bcfc532fa6db4",
+                "host": "172.67.157.41",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-27 15:22:17",
+                "malware_md5": "c3386900ff75beb655f599b7ee2f3037",
+                "host": "172.67.157.41",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "842225ef85c564000eadbdb8c1a0d60ef0133df5",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-02-28 09:51:35",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2026-02-28 00:07:45 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-02-28 00:07:45",
+                "malware_md5": "42f0956497e42518a1d0b32c27cf1653",
+                "host": "193.161.193.99",
+                "port": "34245"
+            }
+        ]
+    },
+    {
         "sha1": "ae8015c70ccb9dc07b523bf3e5888e199591c9b3",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-02-27 17:03:17",
