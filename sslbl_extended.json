@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "50b26b2afc3c8e881d4dee00bbaad11e2f74232a",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-03-01 14:44:08",
+        "cn": "91.99.21.118",
+        "dn": "91.99.21.118",
+        "fseen": "2026-02-28 12:45:46 UTC",
+        "lseen": "2026-03-01 13:07:05 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-01 13:07:05",
+                "malware_md5": "5c9fe278491bdaedc9c2359258cce9ce",
+                "host": "91.99.21.118",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-02-28 12:45:46",
+                "malware_md5": "3d03433a402f316111648377dff2b873",
+                "host": "91.99.21.118",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "6f892ab7af6b9a1ff019ea78a091107536f00e81",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-03-01 14:41:16",
+        "cn": "146.103.104.188",
+        "dn": "146.103.104.188",
+        "fseen": "2026-03-01 12:33:13 UTC",
+        "lseen": "2026-03-01 12:33:14 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-01 12:33:14",
+                "malware_md5": "c060664821f70bb0406ac6591943a6e8",
+                "host": "146.103.104.188",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "71d30109639e95033261ac02f9af0383f116b04d",
         "threat": "AmateraStealer C&C",
         "listing_date": "2026-02-28 10:32:42",
