@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "23c94cd261c3b8f773e75058ec03edc2a23d8858",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-03-06 10:53:57",
+        "cn": "Sxqosi",
+        "dn": "Sxqosi",
+        "fseen": "2026-03-05 16:08:56 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-05 16:08:56",
+                "malware_md5": "1bb6d21c5200e2084a5864171b4fb522",
+                "host": "206.82.9.232",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "e6695638f614e1601ecd6371c876351654623e06",
+        "threat": "RevStealer C&C",
+        "listing_date": "2026-03-06 09:59:07",
+        "cn": "akjqdf.xyz",
+        "dn": "WE1",
+        "fseen": "2026-03-05 15:19:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-05 15:19:27",
+                "malware_md5": "879a1d9ba05e991a7154f66cad565e86",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "55079857bbb8b752780408b8f5ab6e0b6d41b96f",
         "threat": "Vidar C&C",
         "listing_date": "2026-03-05 19:12:10",
