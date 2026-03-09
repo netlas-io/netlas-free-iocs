@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "1906000bcbc6369f6361efa108bb803414e8e130",
+        "threat": "Malware C&C",
+        "listing_date": "2026-03-08 19:31:53",
+        "cn": "coffetime.xyz",
+        "dn": "E8",
+        "fseen": "2026-03-08 17:47:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-08 17:47:00",
+                "malware_md5": "6ae48c13af23b2ac3e868be1ba600c69",
+                "host": "77.91.96.54",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "472eb1f7d78f14512fb0fe4c9f1c62ae4b25d024",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-03-08 19:23:07",
+        "cn": "45.150.34.229",
+        "dn": "45.150.34.229",
+        "fseen": "2026-03-08 17:43:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-08 17:43:48",
+                "malware_md5": "7786acef10a6deb70cca0fa0d5cbb3f7",
+                "host": "45.150.34.229",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "fecbcfd7dcdac7eb882a84d60e0a0f8aa8413fe0",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-03-08 16:38:21",
+        "cn": "mouthfruit.cfd",
+        "dn": "E7",
+        "fseen": "2026-03-08 05:04:06 UTC",
+        "lseen": "2026-03-08 14:03:28 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-08 14:03:28",
+                "malware_md5": "10216dc6ad0fff441abb7a5133f0d424",
+                "host": "172.67.131.241",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-03-08 05:04:06",
+                "malware_md5": "0409f32e7fae6c95a8674e78f4335284",
+                "host": "104.21.12.62",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d98a4d1dd928b3fa1f070ebc2349b4fc5ea9c893",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-03-08 07:10:23",
+        "cn": "Function Secure",
+        "dn": "Function Secure",
+        "fseen": "2026-03-06 12:04:10 UTC",
+        "lseen": "2026-03-07 14:13:02 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-07 14:13:02",
+                "malware_md5": "7bef3e6e3f7be3ad936259e7e9270cf0",
+                "host": "77.83.39.211",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-03-07 11:47:55",
+                "malware_md5": "6d5ef24004f40e89d60695afc7ba88fd",
+                "host": "77.83.39.211",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-03-06 12:04:10",
+                "malware_md5": "6af99d08e9295db93ad869af5ec1422e",
+                "host": "77.83.39.211",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "e2a5b820d463b605090d3d833d12252a22cd4510",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-03-08 06:49:56",
+        "cn": "46.149.74.97",
+        "dn": "46.149.74.97",
+        "fseen": "2026-03-07 18:36:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-07 18:36:54",
+                "malware_md5": "b722afd45b1f7a24eb991248f6197613",
+                "host": "46.149.74.97",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f78a257ac3bdf0503c3c8e10b84fcee62452df64",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-03-08 06:47:52",
+        "cn": "basketballyear.xyz",
+        "dn": "E7",
+        "fseen": "2026-03-08 03:51:14 UTC",
+        "lseen": "2026-03-08 05:05:10 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-08 05:05:10",
+                "malware_md5": "00bc086c076777f063fe8688cf8ce95a",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-03-08 03:51:14",
+                "malware_md5": "029c27baf0f8a7999d08a802c7bd36e0",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1ace32f015a4033140d846ea8c663a5d207804cb",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-03-08 06:47:25",
+        "cn": "cakeeyes.info",
+        "dn": "WE1",
+        "fseen": "2026-03-07 17:59:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-07 17:59:58",
+                "malware_md5": "070d1fcaf93d346991402ebbf00835c3",
+                "host": "172.67.219.247",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "1f0736f9b04b5580fae76c56ad9b5b4d3db31171",
         "threat": "ResolverRAT C&C",
         "listing_date": "2026-03-07 19:09:51",
