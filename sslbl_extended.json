@@ -1,5 +1,83 @@
 [
     {
+        "sha1": "581cff3c3ff5140030c1b2dae80093f37df765df",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-03-10 08:39:49",
+        "cn": "JOYUSO=hjkdashjksdajkh",
+        "dn": "JOYUSO=hjkdashjksdajkh",
+        "fseen": "2026-03-10 07:14:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-10 07:14:41",
+                "malware_md5": "8dce0d06b6259380d2d60379a80774f4",
+                "host": "185.241.211.79",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "7ca748d42ca714a0017f176dd942ae77739b34be",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-03-10 07:36:28",
+        "cn": "91.214.78.85",
+        "dn": "91.214.78.85",
+        "fseen": "2026-03-09 15:16:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-09 15:16:18",
+                "malware_md5": "55ba58159c835dabb64ab4016d88dbcc",
+                "host": "91.214.78.85",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "abc97e073da46b3dfe0c8a5ccfc416eeb221631c",
+        "threat": "AmateraStealer C&C",
+        "listing_date": "2026-03-10 07:35:02",
+        "cn": "141.98.234.25",
+        "dn": "141.98.234.25",
+        "fseen": "2026-03-10 02:40:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-10 02:40:32",
+                "malware_md5": "9141fa2d159cda2ba71eae9bf431505b",
+                "host": "141.98.234.25",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "80c481f9b55d711b33854644fd736f4b642b42b8",
+        "threat": "DeerStealer C&C",
+        "listing_date": "2026-03-10 06:46:01",
+        "cn": "4c98286e.sni.cloudflaressl.com",
+        "dn": "WE1",
+        "fseen": "2026-03-10 01:12:14 UTC",
+        "lseen": "2026-03-10 01:12:20 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-10 01:12:20",
+                "malware_md5": "d3694ee1989931156cc1c6efbb814fd1",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-03-10 01:12:14",
+                "malware_md5": "2e778fac021722f40ec5664aafcb1fc5",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "597545892f122729047032705d557fe787138c32",
         "threat": "Vidar C&C",
         "listing_date": "2026-03-09 15:24:41",
