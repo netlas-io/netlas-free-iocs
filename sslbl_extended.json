@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "f8bb07018f233155ce6f17c64dce253ec5734981",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-03-22 19:16:02",
+        "cn": "Seyycj",
+        "dn": "Seyycj",
+        "fseen": "2026-03-20 23:23:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-20 23:23:52",
+                "malware_md5": "088ad6e10dace3937dbb0252681b9972",
+                "host": "139.180.185.122",
+                "port": "56001"
+            }
+        ]
+    },
+    {
         "sha1": "daa4e094b47b8c884475fc642924f7891d537687",
         "threat": "Loda C&C",
         "listing_date": "2026-03-21 10:47:10",
