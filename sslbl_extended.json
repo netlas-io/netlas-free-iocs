@@ -1,5 +1,137 @@
 [
     {
+        "sha1": "3892e7a2c8bd6e4755701c9d1d6af34795a75b5a",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-03-25 16:14:46",
+        "cn": "rltag llxm",
+        "dn": "rltag llxm",
+        "fseen": "2026-03-25 14:50:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 14:50:23",
+                "malware_md5": "0c72a8408ea2e7ee01caabfaecd8161d",
+                "host": "193.161.193.99",
+                "port": "48355"
+            }
+        ]
+    },
+    {
+        "sha1": "f05a2876d9129ec057ecaedfac9cc37ebe2138ad",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2026-03-25 16:13:37",
+        "cn": "silverhost.vg",
+        "dn": "E8",
+        "fseen": "2026-03-25 14:37:39 UTC",
+        "lseen": "2026-03-25 15:11:03 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 15:11:03",
+                "malware_md5": "65514b0d3d49fd77b970af23ad2df25f",
+                "host": "31.56.176.28",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-03-25 14:37:39",
+                "malware_md5": "cfe566843052713f5faebdcddd93b3f8",
+                "host": "31.56.176.28",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1faf3762722a11f385dc5d9d4eb22a51594e83f5",
+        "threat": "VenomRAT C&C",
+        "listing_date": "2026-03-25 16:13:14",
+        "cn": "Service Analytics",
+        "dn": "Service Analytics",
+        "fseen": "2026-03-25 14:33:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 14:33:03",
+                "malware_md5": "1350b10189d061d630ab614be7935351",
+                "host": "80.66.84.167",
+                "port": "4242"
+            }
+        ]
+    },
+    {
+        "sha1": "460e554589554e5dbaeb2c6f4c6aaf93e31da41a",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2026-03-25 16:12:32",
+        "cn": "Tjqtaewvuap",
+        "dn": "Tjqtaewvuap",
+        "fseen": "2026-03-25 14:31:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 14:31:08",
+                "malware_md5": "22292985ca1931cf9c18a2a501e355eb",
+                "host": "178.16.54.51",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "d59f81b85fcc5e75eddaea46f9fedaa93aa45e6f",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-03-25 16:12:14",
+        "cn": "glassmove.xyz",
+        "dn": "WE1",
+        "fseen": "2026-03-25 12:24:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 12:24:52",
+                "malware_md5": "ba9990e0ffcd27a234b7c5331e8f52c5",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "db26d8f749b02626d054a844e5ab5f6cf01c3ba5",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-03-25 16:11:49",
+        "cn": "Queue Guard",
+        "dn": "Queue Guard",
+        "fseen": "2026-03-25 05:59:57 UTC",
+        "lseen": "2026-03-25 05:59:58 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 05:59:58",
+                "malware_md5": "1cc9d4a4142f3a124d422751a57c1321",
+                "host": "31.13.190.10",
+                "port": "4877"
+            }
+        ]
+    },
+    {
+        "sha1": "9413d052ea89e6c879e577b62e5a55436f55dd8d",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-03-25 08:17:05",
+        "cn": "46.224.169.62",
+        "dn": "46.224.169.62",
+        "fseen": "2026-03-25 00:40:35 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 00:40:35",
+                "malware_md5": "29413048035f0030b1347951d1f170d9",
+                "host": "46.224.169.62",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "f0558a6d99572f494ab316c7dc3e1f08076908f8",
         "threat": "Malware C&C",
         "listing_date": "2026-03-24 13:22:44",
