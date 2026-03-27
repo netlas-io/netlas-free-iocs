@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "be269f8ead3a0b0603dfb229617307426ecb5102",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-03-26 08:36:17",
+        "cn": "212.34.128.99",
+        "dn": "212.34.128.99",
+        "fseen": "2026-03-26 03:24:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-26 03:24:03",
+                "malware_md5": "3a028a471d2164cbc764890d5a7d93a4",
+                "host": "212.34.128.99",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bfb00181d113469c1bfa7c591625ea5e80a02d71",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-03-26 07:50:39",
+        "cn": "81.90.29.241",
+        "dn": "81.90.29.241",
+        "fseen": "2026-03-26 05:40:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-26 05:40:30",
+                "malware_md5": "775b692c642db0ad2e1bfbc005ed8307",
+                "host": "81.90.29.241",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "01fca6410fefef1530ac71c5e34d6985a6e23643",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-03-26 07:46:12",
+        "cn": "qgvyk vuuhdj",
+        "dn": "qgvyk vuuhdj",
+        "fseen": "2026-03-26 01:39:22 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-26 01:39:22",
+                "malware_md5": "0eb6fb07a0d7741301b84cbaf80b3c2f",
+                "host": "212.227.82.135",
+                "port": "7878"
+            }
+        ]
+    },
+    {
+        "sha1": "4b1e26306f87b52a186829f27e64af12633a8f3f",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-03-26 07:46:05",
+        "cn": "wingevent.info",
+        "dn": "E7",
+        "fseen": "2026-03-26 02:32:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-26 02:32:26",
+                "malware_md5": "0fccff90777230a28e30896a321fa589",
+                "host": "104.21.78.75",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "36ab4c53471d9071a08c916360e6b9e44b7bcf51",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-03-26 07:45:16",
+        "cn": "159.89.20.198",
+        "dn": "159.89.20.198",
+        "fseen": "2026-03-26 01:06:35 UTC",
+        "lseen": "2026-03-26 04:40:42 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-26 04:40:42",
+                "malware_md5": "467188395b44af2f7f0fa5dbf866464f",
+                "host": "159.89.20.198",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-03-26 01:06:35",
+                "malware_md5": "8e06533898482dcc8fb5fdc23db3fb5a",
+                "host": "159.89.20.198",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "24873d6536a6e9ecd8e3cf86e7fec4e5689afda0",
+        "threat": "AdaptixC2 C&C",
+        "listing_date": "2026-03-26 07:44:25",
+        "cn": "localhost",
+        "dn": "localhost",
+        "fseen": "2026-03-26 00:53:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-26 00:53:54",
+                "malware_md5": "662e2b6cfc95fd6d9ce92b135235a331",
+                "host": "103.216.158.60",
+                "port": "6333"
+            }
+        ]
+    },
+    {
+        "sha1": "aa61baea020e30d4e9279369359932319ca0d2ec",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-03-26 07:44:11",
+        "cn": "Vector Server CA",
+        "dn": "Vector Server CA",
+        "fseen": "2026-03-25 22:58:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 22:58:58",
+                "malware_md5": "d0ca7ca22e49496160584d385654dbc8",
+                "host": "185.241.208.20",
+                "port": "1200"
+            }
+        ]
+    },
+    {
+        "sha1": "759db291f7e5f856cde3b98fb1855dc531060deb",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-03-26 07:43:20",
+        "cn": "Cluster Innovations",
+        "dn": "Cluster Innovations",
+        "fseen": "2026-03-25 14:57:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-25 14:57:40",
+                "malware_md5": "587e3aa65dfc99428b3883bd55844b36",
+                "host": "41.216.188.231",
+                "port": "4449"
+            }
+        ]
+    },
+    {
         "sha1": "3892e7a2c8bd6e4755701c9d1d6af34795a75b5a",
         "threat": "QuasarRAT C&C",
         "listing_date": "2026-03-25 16:14:46",
