@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "ca8379ace3a696f4d68c40670d25330165101e17",
+        "threat": "RodexRMM C&C",
+        "listing_date": "2026-04-04 12:40:37",
+        "cn": "casasdeicom.cc",
+        "dn": "E8",
+        "fseen": "2026-03-30 18:47:01 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-30 18:47:01",
+                "malware_md5": "afe95e474ca25a220d1fea7072495169",
+                "host": "45.61.135.109",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "2a3041427baffe71000819e2aaef9b3da5d3a5c4",
+        "threat": "RodexRMM C&C",
+        "listing_date": "2026-04-04 12:23:22",
+        "cn": "preziosamagazines.cc",
+        "dn": "E7",
+        "fseen": "2026-04-03 12:48:50 UTC",
+        "lseen": "2026-04-03 12:53:05 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-03 12:53:05",
+                "malware_md5": "c2e55a9a7bace204f133314830d46dcb",
+                "host": "45.61.151.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-03 12:48:50",
+                "malware_md5": "6a87b2060e11772379205f10f1ed0783",
+                "host": "45.61.151.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "98c4ebd74e323dbf48000595c478afa4b953928f",
         "threat": "SheetRAT C&C",
         "listing_date": "2026-04-01 15:28:40",
