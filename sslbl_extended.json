@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "c23dec61c90a195517b1a3f585a9792097443d1e",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-04-11 08:43:24",
+        "cn": "SSLRaton",
+        "dn": "SSLRaton",
+        "fseen": "2026-04-10 06:57:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-10 06:57:49",
+                "malware_md5": "e0120fde5dc76e36923da4d3cd1b4a65",
+                "host": "194.182.64.133",
+                "port": "5099"
+            }
+        ]
+    },
+    {
+        "sha1": "cfcc12d65074e250d9a78b5e3c6f9f8676c32893",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-11 08:35:54",
+        "cn": "partyfriends.cfd",
+        "dn": "WE1",
+        "fseen": "2026-04-10 04:19:34 UTC",
+        "lseen": "2026-04-10 04:19:35 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-10 04:19:35",
+                "malware_md5": "d3564b157360f9d240bfcdce947cd6cb",
+                "host": "188.114.97.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "8c475e004037f89aef507d1ac97bf45ba952cc80",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-11 08:34:49",
+        "cn": "grandfatherquiver.xyz",
+        "dn": "WE1",
+        "fseen": "2026-04-10 01:16:10 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-10 01:16:10",
+                "malware_md5": "d25cbfb8e9fdca797fcf523a96b78169",
+                "host": "188.114.96.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f803ae013add053d1b0a3a5f1f460d5adb96a6e3",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-11 08:34:47",
+        "cn": "babyvein.xyz",
+        "dn": "WE1",
+        "fseen": "2026-04-09 23:05:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-09 23:05:17",
+                "malware_md5": "d1b4826a55c2caa639d3a6c3b393c7d6",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "2e15b765de2ed706d93067a04c00d3d19f468d69",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-04-11 08:33:48",
+        "cn": "Service Dev",
+        "dn": "Service Dev",
+        "fseen": "2026-04-09 10:55:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-09 10:55:37",
+                "malware_md5": "7b09b2e67f2cd0fb3d34ec39ab76d087",
+                "host": "38.49.208.124",
+                "port": "7889"
+            }
+        ]
+    },
+    {
+        "sha1": "63d2bad0351c5f0fef7b9118485300d4d09639db",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-04-11 07:35:44",
+        "cn": "Keeper Digital",
+        "dn": "Keeper Digital",
+        "fseen": "2026-04-10 22:09:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-10 22:09:17",
+                "malware_md5": "0de12b55e0b71af4c928e24cc7192ba8",
+                "host": "96.126.176.104",
+                "port": "8443"
+            }
+        ]
+    },
+    {
         "sha1": "64887c68018383ce388d77b04d08fd918f97b3c1",
         "threat": "PureHVNC C&C",
         "listing_date": "2026-04-09 14:24:41",
