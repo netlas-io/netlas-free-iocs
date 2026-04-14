@@ -1,5 +1,95 @@
 [
     {
+        "sha1": "021068795797aa6c83cb175fed0fc5da9247e7ca",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-04-13 12:24:45",
+        "cn": "DcRat",
+        "dn": "Mouse Server, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2026-04-13 06:57:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-13 06:57:46",
+                "malware_md5": "22d9278e2b76cc19ed68568f8f8f6e44",
+                "host": "118.107.0.154",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "c02490981880a8827ecc22ee918275d443173cf9",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-13 12:24:05",
+        "cn": "wasteturkey.xyz",
+        "dn": "E8",
+        "fseen": "2026-04-13 05:13:19 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-13 05:13:19",
+                "malware_md5": "1f62ec4c660bb0d8dffd0f9f75cbd19f",
+                "host": "172.67.193.250",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e3555b48a77af5b8012ecc54676f7123783f7549",
+        "threat": "Malware distribution",
+        "listing_date": "2026-04-13 12:18:55",
+        "cn": "adobeready.online",
+        "dn": "E7",
+        "fseen": "2026-04-13 00:31:57 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-13 00:31:57",
+                "malware_md5": "a49d925d9f27aadb99f7f2cfb45e48e1",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1895b08f5a49e666e1ed20d115b4960b05a2c01c",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-04-13 12:09:08",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2026-04-12 15:53:19 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-12 15:53:19",
+                "malware_md5": "0dd19326cddd649b4552cfb73b664f96",
+                "host": "87.242.106.13",
+                "port": "64106"
+            }
+        ]
+    },
+    {
+        "sha1": "fddec1007b0bfffee14304afaeff19a985c3b4c8",
+        "threat": "DeerStealer C&C",
+        "listing_date": "2026-04-13 09:48:00",
+        "cn": "ljubanawaterburythody.com",
+        "dn": "E8",
+        "fseen": "2026-04-12 22:10:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-12 22:10:51",
+                "malware_md5": "4aec1f9f7f49416bc14a490260ee5e17",
+                "host": "104.21.55.230",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "f8f2497277c03b96a3b4a8ef77e0a0792478fae5",
         "threat": "Vidar C&C",
         "listing_date": "2026-04-12 14:59:29",
