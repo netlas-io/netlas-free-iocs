@@ -1,5 +1,197 @@
 [
     {
+        "sha1": "88c1ef23b741f6701204f8d79dcc8cede3f28c3f",
+        "threat": "WeedHack C&C",
+        "listing_date": "2026-04-15 18:25:42",
+        "cn": "94d154f0dc",
+        "dn": "94d154f0dc",
+        "fseen": "2026-04-15 17:06:58 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 17:06:58",
+                "malware_md5": "d10a619145bfd62a5f65584b4cbcd033",
+                "host": "45.153.34.18",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "c41b9af97db6c261ebd747f97b334a780bb2667d",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2026-04-15 11:33:01",
+        "cn": "logintoaccount.site",
+        "dn": "E8",
+        "fseen": "2026-04-13 04:08:23 UTC",
+        "lseen": "2026-04-15 10:09:12 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 10:09:12",
+                "malware_md5": "471bcb6c43fa97ede55e4a5d1c38f4f3",
+                "host": "172.67.220.196",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-13 04:08:23",
+                "malware_md5": "001a6ea668e4407e7a977ac61df9ccf1",
+                "host": "104.21.38.82",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "6b9710d5bb761d4f36d1f99ee108052dee0a6b86",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2026-04-15 11:30:59",
+        "cn": "swchx.com",
+        "dn": "E8",
+        "fseen": "2026-04-15 07:59:04 UTC",
+        "lseen": "2026-04-15 09:54:02 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 09:54:02",
+                "malware_md5": "a259eb72788914747d6bc8bca288fd0c",
+                "host": "52.220.247.175",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-15 07:59:04",
+                "malware_md5": "e337dc31d924cc81916ff40bb3385ffe",
+                "host": "52.220.247.175",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "a04036db29a3c4ab6e89e5a535baecc8b678fbb9",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-15 11:16:21",
+        "cn": "bellplayground.xyz",
+        "dn": "WE1",
+        "fseen": "2026-04-15 09:02:36 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 09:02:36",
+                "malware_md5": "d95e98a94e6b7c8ab6b183cd6e92c56e",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4d303a7858b8d0411d6f171866329cdcb69e81d3",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-04-15 07:45:29",
+        "cn": "jamesmullertech.live",
+        "dn": "WE1",
+        "fseen": "2026-04-15 06:58:46 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 06:58:46",
+                "malware_md5": "4d45a7a9b9e184021d7d15f3c41e458b",
+                "host": "188.114.97.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0db9a318abda4351b84491535bd4d9ee01a88bfa",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-04-15 07:14:21",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2026-04-15 02:52:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 02:52:23",
+                "malware_md5": "35e4d013a817a8c438d77abb984576c3",
+                "host": "36.50.135.229",
+                "port": "25014"
+            }
+        ]
+    },
+    {
+        "sha1": "272e76f605bec1da1ea719df8dc0e7269de7d44e",
+        "threat": "LummaStealer C&C",
+        "listing_date": "2026-04-15 07:12:40",
+        "cn": "holypriest.gl",
+        "dn": "E8",
+        "fseen": "2026-04-15 02:57:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 02:57:05",
+                "malware_md5": "3371606e97a321058ccb0f8d2b84a561",
+                "host": "104.252.175.169",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "55cbbc80d889fa59b5b473a4215f05f7273b76c4",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-15 07:11:52",
+        "cn": "62.238.14.63",
+        "dn": "62.238.14.63",
+        "fseen": "2026-04-14 20:47:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-14 20:47:48",
+                "malware_md5": "1ad72d47a32fd29eba8229076b23fd65",
+                "host": "62.238.14.63",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4fd73d3921ff83cf350667813040a50f53198e59",
+        "threat": "Guildma C&C",
+        "listing_date": "2026-04-15 07:10:10",
+        "cn": "contabilidadeonline.top",
+        "dn": "E8",
+        "fseen": "2026-04-14 20:00:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-14 20:00:17",
+                "malware_md5": "2af4c095e81bccd80ada7e79fedfc66f",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b6f66c511f1e9320019cfd3971931cd37163cbbb",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-04-15 06:14:11",
+        "cn": "thomphon.com",
+        "dn": "E7",
+        "fseen": "2026-04-14 23:31:34 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-14 23:31:34",
+                "malware_md5": "dc96668d007df0a545bf1334e10e80fa",
+                "host": "172.67.223.84",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "54cd35dc5d5f8e7068ccd2c1d24222187784f90a",
         "threat": "QuasarRAT C&C",
         "listing_date": "2026-04-14 19:46:46",
