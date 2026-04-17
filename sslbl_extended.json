@@ -1,5 +1,167 @@
 [
     {
+        "sha1": "11344933894b37ecf2ba315ded6d752eff899716",
+        "threat": "Malware C&C",
+        "listing_date": "2026-04-16 18:34:11",
+        "cn": "103.53.80.103",
+        "dn": "103.53.80.103",
+        "fseen": "2026-04-16 09:45:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-16 09:45:42",
+                "malware_md5": "969f966a33a5004dd8db85a49178acf8",
+                "host": "103.53.80.103",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "a37f6c18cf9097917437a4ac38798dee443f302e",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-16 18:26:28",
+        "cn": "blogdospesados.com.br",
+        "dn": "WE1",
+        "fseen": "2026-04-16 11:02:57 UTC",
+        "lseen": "2026-04-16 17:06:17 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-16 17:06:17",
+                "malware_md5": "fbb635df89fcbaff0248724410f2a9ed",
+                "host": "172.67.179.100",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-16 15:12:36",
+                "malware_md5": "6695ae857e67b6283d49c6531a253db6",
+                "host": "104.21.88.131",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-16 11:02:57",
+                "malware_md5": "dc17d8e9f92d83ec92f9789f0f0d720d",
+                "host": "172.67.179.100",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "acf9e95ac84738ad4a8e484bd9fc59c3376ea518",
+        "threat": "NetSupport C&C",
+        "listing_date": "2026-04-16 14:10:03",
+        "cn": "gofasterthanever.com",
+        "dn": "E8",
+        "fseen": "2026-04-16 13:41:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-16 13:41:38",
+                "malware_md5": "74e6c43964c65897fb5207c0106beecf",
+                "host": "94.158.244.198",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "70be78023c4e1f0f4a94b4c65929de136ad55275",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-16 13:01:49",
+        "cn": "46.225.155.213",
+        "dn": "46.225.155.213",
+        "fseen": "2026-04-16 12:34:28 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-16 12:34:28",
+                "malware_md5": "de3c6dc21330f6c501ada99d2206e27f",
+                "host": "46.225.155.213",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c1298a4447ff2d5dc3b13b39257a66b52e178f77",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-16 05:39:04",
+        "cn": "websitearaxa.com",
+        "dn": "WE1",
+        "fseen": "2026-04-16 00:54:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-16 00:54:54",
+                "malware_md5": "033a49eb29d1ca3979757f3263ff6417",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "17fd07fadd07777f543e7f16694be4ff848d9811",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-04-16 05:37:02",
+        "cn": "SSLRaton",
+        "dn": "SSLRaton",
+        "fseen": "2026-04-15 21:54:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 21:54:03",
+                "malware_md5": "cae4007e50a1d4a0abcc4b915c925091",
+                "host": "104.249.10.75",
+                "port": "8080"
+            }
+        ]
+    },
+    {
+        "sha1": "df53283a8245fd412a47d02c17cbb3c6de1109a2",
+        "threat": "WeedHack C&C",
+        "listing_date": "2026-04-16 05:36:32",
+        "cn": "weedhack.xyz",
+        "dn": "R12",
+        "fseen": "2026-04-15 16:52:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 16:52:27",
+                "malware_md5": "10f2de71d69b570e12a1f08b49498475",
+                "host": "185.178.208.185",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-15 16:52:27",
+                "malware_md5": "10f2de71d69b570e12a1f08b49498475",
+                "host": "185.178.208.185",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e0127cb029c9d3778d15d3948b41ecdc8b44fb03",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-04-16 05:36:10",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-04-15 16:23:47 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 16:23:47",
+                "malware_md5": "c2c9568a0a8cae9ac3145d27ae34ee3e",
+                "host": "86.135.2.35",
+                "port": "7752"
+            }
+        ]
+    },
+    {
         "sha1": "88c1ef23b741f6701204f8d79dcc8cede3f28c3f",
         "threat": "WeedHack C&C",
         "listing_date": "2026-04-15 18:25:42",
