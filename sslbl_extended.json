@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "5eae97dda45d2d2e5f056a5490cf31d7c8c6d10c",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-17 19:17:33",
+        "cn": "cebolinhaburger.com",
+        "dn": "WE1",
+        "fseen": "2026-04-17 17:44:08 UTC",
+        "lseen": "2026-04-17 19:08:33 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 19:08:33",
+                "malware_md5": "cdef123c6b8fa7dfc3b48ef037417345",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-17 17:44:08",
+                "malware_md5": "27678c494bd0fcef96159c4654c2273c",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "143869dfe5d39a552b1960012a6efb89821b7b39",
+        "threat": "SantaStealer C&C",
+        "listing_date": "2026-04-17 18:57:23",
+        "cn": "goldspins.club",
+        "dn": "E7",
+        "fseen": "2026-04-17 12:53:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 12:53:37",
+                "malware_md5": "0f964e8ae75535f91f60aaafdfb1202e",
+                "host": "104.21.45.47",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f78be258c92a94888f2e283ddb807dcc22689c86",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-04-17 18:43:44",
+        "cn": "JOYUSO=hjkdashjksdajkh",
+        "dn": "JOYUSO=hjkdashjksdajkh",
+        "fseen": "2026-04-17 14:03:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 14:03:07",
+                "malware_md5": "0780b2cd45865c18beed6a995d1800c3",
+                "host": "193.233.19.233",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ba27d3fc47d6aa4c0760bb0df84ba2fbb222a7e1",
+        "threat": "SimpleHelp C&C",
+        "listing_date": "2026-04-17 18:39:08",
+        "cn": "union.moosynomo.cloud",
+        "dn": "R12",
+        "fseen": "2026-04-17 15:06:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 15:06:18",
+                "malware_md5": "078210cfe733ea4db6a46f094e1c874a",
+                "host": "198.23.210.54",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "fbcc12262a5020c472cea81fd415980a42d1eeaa",
+        "threat": "SimpleHelp C&C",
+        "listing_date": "2026-04-17 13:16:52",
+        "cn": "systemops.net",
+        "dn": "R13",
+        "fseen": "2026-04-17 03:58:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 03:58:23",
+                "malware_md5": "18c0aa930bd67cec81ff6cb6379bd8b3",
+                "host": "141.140.0.142",
+                "port": "1514"
+            }
+        ]
+    },
+    {
+        "sha1": "eca99021f65f962d0ffc0d4cda1a9fe9456750df",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-04-17 12:29:43",
+        "cn": "Cache Innovations",
+        "dn": "Cache Innovations",
+        "fseen": "2026-04-17 05:45:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 05:45:40",
+                "malware_md5": "62dbfa25cb76943051c592ab1b42b1ce",
+                "host": "5.101.84.202",
+                "port": "8996"
+            }
+        ]
+    },
+    {
+        "sha1": "e7af95eaaa4c87398f4c4c80a66972f342bb3328",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-17 12:29:34",
+        "cn": "pickleblade.xyz",
+        "dn": "WE1",
+        "fseen": "2026-04-17 03:38:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 03:38:07",
+                "malware_md5": "129f989791ab50bb7c21b90047e06f8a",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "037598803e2603499edbf7275e43f7dd82abd8f3",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-04-17 12:27:42",
+        "cn": "spoonducks.cfd",
+        "dn": "E7",
+        "fseen": "2026-04-17 10:42:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-17 10:42:40",
+                "malware_md5": "2798a09d5c7928d90e08483597313968",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "11344933894b37ecf2ba315ded6d752eff899716",
         "threat": "Malware C&C",
         "listing_date": "2026-04-16 18:34:11",
