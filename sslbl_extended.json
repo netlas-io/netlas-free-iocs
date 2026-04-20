@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "7744bcd680050c7c33f8e1d6b8ba239174ccfa0e",
+        "threat": "NetSupport RAT malware distribution",
+        "listing_date": "2026-04-18 11:32:07",
+        "cn": "xrplnode.dev",
+        "dn": "E7",
+        "fseen": "2026-03-21 16:17:20 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-21 16:17:20",
+                "malware_md5": "3ae21c9b5ae68a09b878ca97ffde163a",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "5eae97dda45d2d2e5f056a5490cf31d7c8c6d10c",
         "threat": "Vidar C&C",
         "listing_date": "2026-04-17 19:17:33",
