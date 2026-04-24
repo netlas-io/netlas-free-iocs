@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "386e3878708b3662a447b7e33cc91a0466e9b8a8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-23 05:36:33",
+        "cn": "ducard.com.br",
+        "dn": "WE1",
+        "fseen": "2026-04-21 22:48:54 UTC",
+        "lseen": "2026-04-23 05:20:37 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-23 05:20:37",
+                "malware_md5": "799cfbbba792bc1ef820f5f3c96cdf97",
+                "host": "104.21.74.169",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-23 05:20:19",
+                "malware_md5": "eca863e5c96a59267878e4f9a7e32b46",
+                "host": "104.21.74.169",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-22 02:49:54",
+                "malware_md5": "158df6032f23a39927b2e01f1986aae9",
+                "host": "104.21.74.169",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-21 22:48:54",
+                "malware_md5": "a1877b208863f2618edbd713031c7962",
+                "host": "104.21.74.169",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "ea714daf2e106b7297763178ab7c6e38753ac5bd",
         "threat": "Vidar C&C",
         "listing_date": "2026-04-21 19:05:14",
