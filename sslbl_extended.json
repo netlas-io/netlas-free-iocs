@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "273c74ce7170a85b37f91741ce7faa534639e29a",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-04-26 19:16:02",
+        "cn": "scoffatop.icu",
+        "dn": "E8",
+        "fseen": "2026-04-24 03:21:15 UTC",
+        "lseen": "2026-04-26 18:56:18 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-26 18:56:18",
+                "malware_md5": "0438a6412eec4414cecf1a2f058818a8",
+                "host": "188.114.96.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 20:50:34",
+                "malware_md5": "f629e1555b00a41ba50eaeb172615cc4",
+                "host": "188.114.97.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 16:45:47",
+                "malware_md5": "056207e13f91698b94ead7c21cc5a1ba",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 02:53:53",
+                "malware_md5": "1cef47ff53bb155051f262e95cabbd20",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-24 03:21:15",
+                "malware_md5": "2664e252e59f65c5cb9c9e1e9ab8ba1b",
+                "host": "188.114.96.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e7aa9efcff318eb419f2e54bd93aa2e061e70d1c",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-04-26 18:27:56",
+        "cn": "venloc.com.br",
+        "dn": "WE1",
+        "fseen": "2026-04-26 12:00:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-26 12:00:48",
+                "malware_md5": "9449a30930b6974dd9b2b788f43bfa05",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "baec0b516b841d0291da5463777d12e63c0851a9",
+        "threat": "CountLoader C&C",
+        "listing_date": "2026-04-26 17:59:46",
+        "cn": "snconor.vg",
+        "dn": "E7",
+        "fseen": "2026-04-25 01:29:36 UTC",
+        "lseen": "2026-04-25 20:45:45 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-25 20:45:45",
+                "malware_md5": "35f1a9e998e7ef6a52c1390be86084c3",
+                "host": "139.177.198.215",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 20:34:27",
+                "malware_md5": "6ad2a953a2149a5f0e3cd4bf2296394a",
+                "host": "139.177.198.215",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 20:25:17",
+                "malware_md5": "096b3526c47ce5225b93bd729c4528bb",
+                "host": "139.177.198.215",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 14:23:42",
+                "malware_md5": "c5f69e9a2792c75f2b47c74674306a44",
+                "host": "139.177.198.215",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 14:21:32",
+                "malware_md5": "47204e1f890fba6a8a443ed29a57ac48",
+                "host": "139.177.198.215",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 01:29:36",
+                "malware_md5": "fa0f3c85d447ab23166e9c5e90d68198",
+                "host": "139.177.198.215",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "6b3dc8ea0ad9cf783a6542661b85560c17abe94d",
         "threat": "PureHVNC C&C",
         "listing_date": "2026-04-25 16:16:47",
