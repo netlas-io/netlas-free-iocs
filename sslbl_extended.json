@@ -1,5 +1,29 @@
 [
     {
+        "sha1": "0b28f0c230c982807f2446a5adb26323534a8444",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-04-29 10:26:27",
+        "cn": "Keeper Secure",
+        "dn": "Keeper Secure",
+        "fseen": "2026-04-27 00:39:21 UTC",
+        "lseen": "2026-04-29 08:34:39 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-29 08:34:39",
+                "malware_md5": "ef550978657954819eb7364490741b75",
+                "host": "5.101.84.202",
+                "port": "8996"
+            },
+            {
+                "timestamp": "2026-04-27 00:39:21",
+                "malware_md5": "15ede4e6e3d758ef935d974c2a4aebd4",
+                "host": "5.101.84.202",
+                "port": "8996"
+            }
+        ]
+    },
+    {
         "sha1": "273c74ce7170a85b37f91741ce7faa534639e29a",
         "threat": "ACRStealer C&C",
         "listing_date": "2026-04-26 19:16:02",
