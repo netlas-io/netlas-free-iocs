@@ -1,5 +1,89 @@
 [
     {
+        "sha1": "def45d954161dc6bf420131f900bd7cd9fd688c1",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-04-30 06:22:03",
+        "cn": "roadflo.icu",
+        "dn": "E8",
+        "fseen": "2026-04-29 17:34:44 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-29 17:34:44",
+                "malware_md5": "cd4498de5256187c30b00af658e3342d",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "82b9581b23420a72f504d4ad65414393f93c410d",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-04-30 06:21:26",
+        "cn": "qumarox.icu",
+        "dn": "E8",
+        "fseen": "2026-04-24 07:17:26 UTC",
+        "lseen": "2026-04-29 16:55:39 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-29 16:55:39",
+                "malware_md5": "5851296b482aec0267f5b3590ba4c209",
+                "host": "104.21.14.151",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-29 01:12:24",
+                "malware_md5": "0f51a57a4b24e624b8a032e346cd988d",
+                "host": "172.67.159.182",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-25 21:28:40",
+                "malware_md5": "0dc0be1dd7b7cad4b6987fad47bc4797",
+                "host": "104.21.14.151",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-24 07:17:26",
+                "malware_md5": "35ab590ce8c5e4554cc6585afd1f5a6b",
+                "host": "104.21.14.151",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ccacd6753457d5feb57148d43c3c418441bc777a",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-04-30 06:21:26",
+        "cn": "kindterra.cfd",
+        "dn": "E7",
+        "fseen": "2026-04-27 11:58:23 UTC",
+        "lseen": "2026-04-29 16:56:43 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-29 16:56:43",
+                "malware_md5": "8fa5ca244f9c7f58250eab769a838fcf",
+                "host": "188.114.96.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-29 16:55:38",
+                "malware_md5": "5851296b482aec0267f5b3590ba4c209",
+                "host": "172.67.155.10",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-04-27 11:58:23",
+                "malware_md5": "256c4eaa1036bcb0c221eb29e4821942",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "0b28f0c230c982807f2446a5adb26323534a8444",
         "threat": "PureHVNC C&C",
         "listing_date": "2026-04-29 10:26:27",
