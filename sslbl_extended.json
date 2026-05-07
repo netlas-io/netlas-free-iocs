@@ -1,5 +1,65 @@
 [
     {
+        "sha1": "275d98e8ac40fa51490a1982fd621954d6ffe4c1",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-05-06 10:15:38",
+        "cn": "hidayahnetwork.com",
+        "dn": "WE1",
+        "fseen": "2026-05-05 13:49:28 UTC",
+        "lseen": "2026-05-05 22:16:40 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-05 22:16:40",
+                "malware_md5": "be1d866dfc974531f665b1b0e833fde4",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-05 22:14:00",
+                "malware_md5": "eae7d33886411325202cfbf73e0d9902",
+                "host": "188.114.96.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-05 22:13:48",
+                "malware_md5": "dffb88012eb96c6febc0e1969f47bcf6",
+                "host": "172.67.194.13",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-05 19:46:59",
+                "malware_md5": "37d0a408bb1b0110b94b410d3066a329",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-05 13:49:28",
+                "malware_md5": "ffbb6d34e5378169d86494d6c33a3337",
+                "host": "188.114.97.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "642658f7ab86668339d1f98c7fb6a4200589db02",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-05-06 07:45:07",
+        "cn": "Frontend Analytics",
+        "dn": "Frontend Analytics",
+        "fseen": "2026-05-05 20:58:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-05 20:58:51",
+                "malware_md5": "23e505ce3759a9e1793590c14b62abc8",
+                "host": "91.92.241.8",
+                "port": "3000"
+            }
+        ]
+    },
+    {
         "sha1": "5ee1e0ab5f0782e83d62722e9a7ee91062102652",
         "threat": "PureHVNC C&C",
         "listing_date": "2026-05-05 14:07:57",
