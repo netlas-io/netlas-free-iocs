@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "76f87f2fb9c132bdc5fa55c996c303ae7c6dac8f",
+        "threat": "SantaStealer C&C",
+        "listing_date": "2026-05-17 16:09:06",
+        "cn": "seall-vernous.com",
+        "dn": "E8",
+        "fseen": "2026-05-17 16:08:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-17 16:08:08",
+                "malware_md5": "e97ccad98551fcc4497ff4afa1b7bafa",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "971333b66a8266c1bf37aba686b9b89fcd9a9e44",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-05-17 16:04:34",
+        "cn": "chadasvendas.com",
+        "dn": "WE1",
+        "fseen": "2026-05-15 20:00:22 UTC",
+        "lseen": "2026-05-17 16:05:21 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-17 16:05:21",
+                "malware_md5": "426ac4cb4a0165892ec43d23097a5c12",
+                "host": "104.21.65.65",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-15 21:13:57",
+                "malware_md5": "eb86309e55579f5832810a583b6315e5",
+                "host": "172.67.188.246",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-15 20:38:32",
+                "malware_md5": "f5478b06e40c475eec522a2e83c35f56",
+                "host": "104.21.65.65",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-15 20:00:22",
+                "malware_md5": "7126b6c75596a2a0ded0d2db6d70770d",
+                "host": "104.21.65.65",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "d401a5c721a25dd94d6eb02284f5e7b918c2b5df",
         "threat": "Vidar C&C",
         "listing_date": "2026-05-15 16:03:42",
