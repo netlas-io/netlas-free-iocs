@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "b58e61aaef8465db4eb766b265504bad4288195f",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-05-19 15:52:57",
+        "cn": "Cloud Certify",
+        "dn": "Cloud Certify",
+        "fseen": "2026-05-13 06:09:12 UTC",
+        "lseen": "2026-05-13 14:53:18 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-13 14:53:18",
+                "malware_md5": "e4f1b613a8c01a7358c521b5bb30951a",
+                "host": "193.138.195.187",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-05-13 13:20:00",
+                "malware_md5": "a5b88eb9e3856311329cfcc54fee7138",
+                "host": "193.138.195.187",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-05-13 10:02:51",
+                "malware_md5": "37111bdfa5cbe4796569a39dd3530294",
+                "host": "193.138.195.187",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-05-13 06:09:12",
+                "malware_md5": "241bbc069a9daf31e02a5dfed64122ef",
+                "host": "193.138.195.187",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "73aa7640cd4b4b4a1adc4feac2b43c4269a869a0",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-05-19 05:54:32",
+        "cn": "API Innovations",
+        "dn": "API Innovations",
+        "fseen": "2026-05-18 04:52:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-18 04:52:11",
+                "malware_md5": "9fab8e01c3e06e09e10b7ccbf1935500",
+                "host": "64.89.160.73",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "dc56ac0921f789585377f19e9ef12cfa1bc0d6c2",
         "threat": "ResolverRAT C&C",
         "listing_date": "2026-05-18 12:08:24",
