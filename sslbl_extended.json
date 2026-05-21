@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "50e95582f4719b4eb6c316e332813b41adf449ed",
+        "threat": "Malware C&C",
+        "listing_date": "2026-05-20 08:04:28",
+        "cn": "localhost",
+        "dn": "localhost",
+        "fseen": "2026-05-19 14:47:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-19 14:47:41",
+                "malware_md5": "4f849cb0846b198f5788c3fe9b897f4e",
+                "host": "91.92.240.197",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "b58e61aaef8465db4eb766b265504bad4288195f",
         "threat": "PureHVNC C&C",
         "listing_date": "2026-05-19 15:52:57",
