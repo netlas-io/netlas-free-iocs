@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "2bad04fe6ae5d917a7757a7d3124d59ff3ac314c",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-05-26 04:30:27",
+        "cn": "constzoo.surf",
+        "dn": "E8",
+        "fseen": "2026-05-25 23:30:51 UTC",
+        "lseen": "2026-05-26 04:28:59 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-26 04:28:59",
+                "malware_md5": "86d0c1fa0d13812c56b1da7522d94710",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-26 00:51:14",
+                "malware_md5": "d7764dfc94844fc7ea9e9ae771e36811",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-26 00:31:00",
+                "malware_md5": "cd1d120f31b2510c6a68d4f4d294f594",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-25 23:30:51",
+                "malware_md5": "afe35a657ea5aed591505db40d59a6db",
+                "host": "188.114.96.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "37873872b4ee0938065d51f7571aaf09b5aad19c",
         "threat": "Vidar C&C",
         "listing_date": "2026-05-24 14:09:48",
