@@ -1,5 +1,71 @@
 [
     {
+        "sha1": "0e5e7e69a3b202c3bcbe3ad00778738ac17b337a",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-05-27 08:39:50",
+        "cn": "matriculadores.com",
+        "dn": "WE1",
+        "fseen": "2026-05-26 18:50:27 UTC",
+        "lseen": "2026-05-26 22:29:59 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-26 22:29:59",
+                "malware_md5": "17137086254ecbdcf567a1dc1bf06a0b",
+                "host": "172.67.165.215",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-26 20:58:28",
+                "malware_md5": "122c336deeb6a5644bd9f1f77928edfb",
+                "host": "104.21.58.228",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-26 18:50:27",
+                "malware_md5": "852a99d04c113b14a601389cbb8ba0fe",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0f2238bc817a0980aad4917bfe0d50f2b722a917",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-05-27 08:13:02",
+        "cn": "Worker Digital",
+        "dn": "Worker Digital",
+        "fseen": "2026-05-18 06:15:16 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-18 06:15:16",
+                "malware_md5": "bb851ca4d9f938fadf70391dd42954da",
+                "host": "108.171.192.181",
+                "port": "4477"
+            }
+        ]
+    },
+    {
+        "sha1": "d97825d45bfc538a5d364592bedc811585f20599",
+        "threat": "PureHVNC C&C",
+        "listing_date": "2026-05-27 08:10:37",
+        "cn": "Core Trust",
+        "dn": "Core Trust",
+        "fseen": "2026-05-22 04:56:50 UTC",
+        "lseen": "2026-05-22 04:56:51 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-05-22 04:56:51",
+                "malware_md5": "8abebc8e81f353813442b467f7d36584",
+                "host": "154.39.0.19",
+                "port": "7676"
+            }
+        ]
+    },
+    {
         "sha1": "80916b4d991f80a56fa11f2664d3f5fa9689b75e",
         "threat": "MagazineStealer C&C",
         "listing_date": "2026-05-26 14:47:10",
