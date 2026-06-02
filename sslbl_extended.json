@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "c977d795cf06f3bdb9e88ec4700aebe3d3bbaf08",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-06-01 05:51:52",
+        "cn": "91.98.17.80",
+        "dn": "91.98.17.80",
+        "fseen": "2026-05-30 10:21:48 UTC",
+        "lseen": "2026-06-01 00:17:13 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-01 00:17:13",
+                "malware_md5": "1307bd15d0553af6d80d7496c0f90499",
+                "host": "46.225.253.9",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-31 16:16:43",
+                "malware_md5": "552582c6e2dcffde06cc0e1814ee83bd",
+                "host": "46.225.253.9",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-31 08:54:16",
+                "malware_md5": "e34ac3a7fd85f7d59762adf823b91fd3",
+                "host": "46.225.254.27",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-30 10:21:48",
+                "malware_md5": "136467e4ba7efd2fb7035f5b33a1755e",
+                "host": "46.225.253.9",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "7e1b7861379d0043ae42bac6a060e5a230bd2576",
         "threat": "Vidar C&C",
         "listing_date": "2026-05-31 09:20:53",
