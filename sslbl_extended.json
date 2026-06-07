@@ -1,5 +1,191 @@
 [
     {
+        "sha1": "a01bd4e7cb1064b5af288d0fbc48a06314f4c9af",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-06-06 08:22:31",
+        "cn": "proxygrid.cc",
+        "dn": "E7",
+        "fseen": "2026-06-06 04:37:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-06 04:37:32",
+                "malware_md5": "b7c9ad4f95f4010fd324ddd387ec44ad",
+                "host": "104.21.13.149",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e88df6fa5cbae7002d552047f52594c7dbe46baa",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-06-06 08:17:57",
+        "cn": "Instance Global",
+        "dn": "Instance Global",
+        "fseen": "2026-06-06 04:38:33 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-06 04:38:33",
+                "malware_md5": "b7513a69ae95d72dd703962d2ec323ca",
+                "host": "172.245.95.9",
+                "port": "7601"
+            }
+        ]
+    },
+    {
+        "sha1": "1826e244059546f2728d9dca86494828c95d0313",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-06-06 07:03:33",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2026-06-06 02:29:33 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-06 02:29:33",
+                "malware_md5": "dc388607c19fbbed4d35c99f08e1bc54",
+                "host": "147.78.1.223",
+                "port": "8265"
+            }
+        ]
+    },
+    {
+        "sha1": "44d317f1bdfcf7670d288c912cecd0737bc4cc1b",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-06-06 07:03:14",
+        "cn": "95.217.235.139",
+        "dn": "95.217.235.139",
+        "fseen": "2026-06-05 23:25:28 UTC",
+        "lseen": "2026-06-05 23:25:29 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-05 23:25:29",
+                "malware_md5": "9791aacf1f67c771db4dd7b51ac7daa4",
+                "host": "95.217.235.139",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ae590545961e96de860ea7434c0e8c69b924de6f",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-06-06 07:02:21",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-06-05 21:53:29 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-05 21:53:29",
+                "malware_md5": "55c53a2e55992cc43397dfefcfeffe02",
+                "host": "158.160.75.185",
+                "port": "40918"
+            }
+        ]
+    },
+    {
+        "sha1": "839f5f87d73ca215f864886dc5852a55faf89287",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-06-06 07:01:29",
+        "cn": "tretinoin.ink",
+        "dn": "R12",
+        "fseen": "2026-06-05 13:50:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-05 13:50:00",
+                "malware_md5": "dd2921d9ebc08f5f8aaede061b773fed",
+                "host": "194.26.192.187",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "5d56416d22dff9c9c1fa6afa542760ffb799b627",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-06-06 07:00:42",
+        "cn": "Vault National",
+        "dn": "Vault National",
+        "fseen": "2026-06-05 14:08:26 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-05 14:08:26",
+                "malware_md5": "45ba849db33a977b59cfb071c149ee3d",
+                "host": "184.95.51.11",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "6fdf1f145d05c569111ae66cca64e713dc122150",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2026-06-06 06:59:38",
+        "cn": "mehboobaftab58.workers.dev",
+        "dn": "E8",
+        "fseen": "2026-06-05 12:34:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-05 12:34:30",
+                "malware_md5": "c8d85c3dbc504c68098c07383c145a7a",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1635aa6d937f44887d7871b10ce2ccbdf76d09f0",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-06-06 06:45:46",
+        "cn": "captcha-checkpoint.top",
+        "dn": "WE1",
+        "fseen": "2026-06-06 05:49:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-06 05:49:23",
+                "malware_md5": "7bcc97717e1ac907d9c7da4d24b6a5db",
+                "host": "188.114.97.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d913080ef794a3bb0a60e395bfd72c00cc4712ac",
+        "threat": "HijackLoader C&C",
+        "listing_date": "2026-06-06 06:28:06",
+        "cn": "webupdateflow.com",
+        "dn": "E7",
+        "fseen": "2026-05-31 08:48:47 UTC",
+        "lseen": "2026-06-05 20:46:27 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-05 20:46:27",
+                "malware_md5": "166cd028ca2a92e6c5693d0e2a5e4ca9",
+                "host": "104.21.71.144",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-05-31 08:48:47",
+                "malware_md5": "d32256f627eac93d890d31fd4ecc4966",
+                "host": "172.67.145.123",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "e1c32b52b297f07860e5c2ff0b0ef604d8d929fc",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-06-05 05:40:02",
