@@ -1,5 +1,47 @@
 [
     {
+        "sha1": "454a92d16f440ad8f180e21da8ee6552b151c25c",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-06-07 07:24:38",
+        "cn": "firesupport.com",
+        "dn": "WE1",
+        "fseen": "2026-06-06 00:10:41 UTC",
+        "lseen": "2026-06-07 06:25:48 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-07 06:25:48",
+                "malware_md5": "ecbc94732380bce604572eb328280bf5",
+                "host": "172.67.128.38",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-07 03:14:10",
+                "malware_md5": "19a3318fa6659477a7104792c206439f",
+                "host": "172.67.128.38",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-06 17:39:24",
+                "malware_md5": "4b1aa17dce581f97639086ac7cb6ee40",
+                "host": "104.21.0.174",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-06 03:04:38",
+                "malware_md5": "213e62b398ed6c3ba2127080d84879c6",
+                "host": "104.21.0.174",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-06 00:10:41",
+                "malware_md5": "99fa9d65c82cf9781403de59182e7bff",
+                "host": "172.67.128.38",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "a01bd4e7cb1064b5af288d0fbc48a06314f4c9af",
         "threat": "ACRStealer C&C",
         "listing_date": "2026-06-06 08:22:31",
