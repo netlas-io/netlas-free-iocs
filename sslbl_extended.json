@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "7a87b6d493b26e7a16255788436690996b49f273",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-06-08 19:01:42",
+        "cn": "aura-checkpoint.top",
+        "dn": "WE1",
+        "fseen": "2026-06-08 14:55:35 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-08 14:55:35",
+                "malware_md5": "baa732585a95afc62b2041e20c265b3f",
+                "host": "172.67.164.155",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "a72f1227b88e5c8d436899f9f098a57504a1ef9e",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-06-08 19:00:16",
+        "cn": "Tunnel Code",
+        "dn": "Tunnel Code",
+        "fseen": "2026-04-25 21:36:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-25 21:36:18",
+                "malware_md5": "7e099b63a9a5e5526ae0ac7690a8a8af",
+                "host": "20.81.43.36",
+                "port": "8030"
+            }
+        ]
+    },
+    {
         "sha1": "454a92d16f440ad8f180e21da8ee6552b151c25c",
         "threat": "Vidar C&C",
         "listing_date": "2026-06-07 07:24:38",
