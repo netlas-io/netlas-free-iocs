@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "e81bedd0d62805a9bcad2b1cd652435cd9a59bcc",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-06-12 06:18:44",
+        "cn": "verif-code.lol",
+        "dn": "WE1",
+        "fseen": "2026-06-12 06:16:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-12 06:16:54",
+                "malware_md5": "cc363067c71322806673c8fc506bb806",
+                "host": "104.21.73.192",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "48cf152a0f547ca2ee9668e57c7136e157ec96f5",
         "threat": "ConnectWise C&C",
         "listing_date": "2026-06-11 08:10:39",
