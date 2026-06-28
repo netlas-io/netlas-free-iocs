@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "85725890743b16375132651911e3f692115128a8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-06-27 06:45:40",
+        "cn": "psgiran.news",
+        "dn": "WE1",
+        "fseen": "2026-06-26 21:17:21 UTC",
+        "lseen": "2026-06-27 01:39:01 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-27 01:39:01",
+                "malware_md5": "193177af43f8f24851b76d2866a11e1f",
+                "host": "172.67.175.210",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-26 22:01:09",
+                "malware_md5": "dd10dad714d3276dc8bb6237152ee9cf",
+                "host": "104.21.83.120",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-26 21:23:17",
+                "malware_md5": "4383e880ce10d524e1edad8f058d23bc",
+                "host": "104.21.83.120",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-06-26 21:17:21",
+                "malware_md5": "871252e0dc4ef2ac5167a5577013ee74",
+                "host": "104.21.83.120",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "35f7eb4f519f8878beb88a02587ce4d82df24ce6",
         "threat": "KongTuke C&C",
         "listing_date": "2026-06-25 19:05:26",
