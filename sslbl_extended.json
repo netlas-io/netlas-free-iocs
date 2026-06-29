@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "078541bcc8ca1f620034dc2b29cbd968faf02ea6",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-06-28 08:04:50",
+        "cn": "tommy-r.lol",
+        "dn": "WE1",
+        "fseen": "2026-06-26 14:44:09 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-26 14:44:09",
+                "malware_md5": "3e3dcec5647f305e133ad11bef0ec2e5",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "85725890743b16375132651911e3f692115128a8",
         "threat": "Vidar C&C",
         "listing_date": "2026-06-27 06:45:40",
