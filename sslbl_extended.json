@@ -1,5 +1,191 @@
 [
     {
+        "sha1": "988bb7e571418b2800a0cc2d33a794ecf1eb42a7",
+        "threat": "Malware C&C",
+        "listing_date": "2026-07-03 12:22:09",
+        "cn": "ManageEngine",
+        "dn": "ManageEngineCA",
+        "fseen": "2026-07-03 06:37:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-03 06:37:11",
+                "malware_md5": "07260334f87ea73da4bc6bf3e7703e78",
+                "host": "202.61.160.145",
+                "port": "8383"
+            }
+        ]
+    },
+    {
+        "sha1": "a37d8c8b3e427201148b485e4b23a59067fd3812",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-07-03 09:24:03",
+        "cn": "Ggdnfld",
+        "dn": "Ggdnfld",
+        "fseen": "2026-07-02 15:42:19 UTC",
+        "lseen": "2026-07-02 15:58:07 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-02 15:58:07",
+                "malware_md5": "fbfe4c2ffe4f4eba18c3c784bcd27528",
+                "host": "85.239.149.83",
+                "port": "56001"
+            },
+            {
+                "timestamp": "2026-07-02 15:42:19",
+                "malware_md5": "dfcc75c15d845541948899841cbf0114",
+                "host": "85.239.149.83",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "fa925f013a4c8ed98cda12d1d8f06ef638b11301",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-07-03 07:17:53",
+        "cn": "PureRAT Agent",
+        "dn": "PureRAT Agent",
+        "fseen": "2026-07-03 04:00:23 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-03 04:00:23",
+                "malware_md5": "944a5082efee84168eb67ad10143fa3a",
+                "host": "45.192.211.83",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "6617b3218632fe78cd223bfae98ae55ef69c13c2",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-07-03 07:17:37",
+        "cn": "icicleexpansion.xyz",
+        "dn": "WE1",
+        "fseen": "2026-07-03 01:56:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-03 01:56:03",
+                "malware_md5": "c62549ca7540f4e7d8c74826b64a0544",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0d9b7493086b8a7b2687ee21026ed1cb8eac55e5",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-07-03 07:16:51",
+        "cn": "gptest.gdplay.xyz",
+        "dn": "YR2",
+        "fseen": "2026-07-02 20:28:25 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-02 20:28:25",
+                "malware_md5": "1f8b9b58d2a5c14f71b86a158c846bd1",
+                "host": "46.224.16.213",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "adee7459752a33ec85d89a1837d84e9e75f8ac6e",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-07-03 07:16:38",
+        "cn": "underwearbrick.space",
+        "dn": "WE1",
+        "fseen": "2026-07-02 19:26:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-02 19:26:24",
+                "malware_md5": "1a2baecd882a5ffa6c6929b74e3bafc8",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ac563907d31a21443760cee92a98b50bba6152aa",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-07-03 07:15:08",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-07-02 15:32:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-02 15:32:43",
+                "malware_md5": "0c78720e1c3df66ab5a7c60a9e0c8502",
+                "host": "188.174.38.243",
+                "port": "9215"
+            }
+        ]
+    },
+    {
+        "sha1": "c7e0ca50174d919b1026d232418e208969a4d818",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-07-03 07:15:06",
+        "cn": "tommy-m.lol",
+        "dn": "WE1",
+        "fseen": "2026-07-02 14:29:15 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-02 14:29:15",
+                "malware_md5": "461b178002c7b29a53d9180efd455692",
+                "host": "172.67.215.225",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cdccad6e6ef6dc82ff5cfb3cb15d71bfb4df7d1a",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-07-03 07:14:21",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2026-07-02 13:11:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-02 13:11:42",
+                "malware_md5": "a1cdb3fea0437aab03b9fbd4dcce6416",
+                "host": "158.160.75.185",
+                "port": "43098"
+            }
+        ]
+    },
+    {
+        "sha1": "a3f065adb1d37aa01e6632753e8db17fb392d558",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-07-03 06:41:59",
+        "cn": "tommy-y.lol",
+        "dn": "WE1",
+        "fseen": "2026-07-03 06:41:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-03 06:41:11",
+                "malware_md5": "909055f515c9fa397b5d97341b5c39fd",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "c165baaa2bb8cd1021237ebda0b2cfee01d71177",
         "threat": "RatonRAT C&C",
         "listing_date": "2026-07-02 12:18:29",
