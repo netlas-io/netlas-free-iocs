@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "7a8f361d188e552651fea1204d5399d889312da2",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-07-12 08:12:14",
+        "cn": "tb88tank.top",
+        "dn": "WE1",
+        "fseen": "2026-07-11 16:45:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-11 16:45:07",
+                "malware_md5": "e2bf0c363effd71ba037480cf6f8d19a",
+                "host": "104.21.65.33",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "a133ce088d9ead15855e1343b8e643736d47d7d9",
         "threat": "ACRStealer C&C",
         "listing_date": "2026-07-11 07:17:27",
