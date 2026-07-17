@@ -1,5 +1,155 @@
 [
     {
+        "sha1": "d490abc2eba705abb1b6391b9be0a12f1e75331b",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-07-16 07:15:54",
+        "cn": "Platform Shield",
+        "dn": "Platform Shield",
+        "fseen": "2026-07-15 14:31:21 UTC",
+        "lseen": "2026-07-15 15:33:45 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-15 15:33:45",
+                "malware_md5": "e9a760bdd778e40a7ec3aa6d9e9861cc",
+                "host": "64.89.160.76",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-07-15 14:31:21",
+                "malware_md5": "6359a5acabcdabe63e38bc1c47f32690",
+                "host": "64.89.160.76",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "e86cb30b97c8af13b305fa5cdc7357e23f633447",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-07-16 06:49:28",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2026-07-16 02:19:45 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-16 02:19:45",
+                "malware_md5": "fe5ea86baf480aa7bd6f81542a83b9ce",
+                "host": "5.56.25.183",
+                "port": "7033"
+            }
+        ]
+    },
+    {
+        "sha1": "c4e9396a3a0543fa79cc0a8f23395f90a15e03b0",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-07-16 06:46:02",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2026-07-15 17:26:24 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-15 17:26:24",
+                "malware_md5": "fc8e887dd140b4b7775f1ab374de42cd",
+                "host": "216.250.250.247",
+                "port": "4521"
+            }
+        ]
+    },
+    {
+        "sha1": "83424f01b8b7262f3a3cd61048d3337afdcca58a",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-07-16 06:45:48",
+        "cn": "f-codebase.lol",
+        "dn": "WE1",
+        "fseen": "2026-07-15 20:34:29 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-15 20:34:29",
+                "malware_md5": "6bd29e0d97542ff1ec5fc7e3053d11ef",
+                "host": "172.67.161.43",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1db0412338ca7c2407e54aeb6791beeedd146c4c",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-07-16 06:43:46",
+        "cn": "PureRAT Agent",
+        "dn": "PureRAT Agent",
+        "fseen": "2026-07-15 14:42:09 UTC",
+        "lseen": "2026-07-15 14:42:10 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-15 14:42:10",
+                "malware_md5": "547262f05e47bc0c4a56c29611ef0b0c",
+                "host": "144.31.168.100",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "4264b1c47eac055ce604ef3509d23cd7e3bd584b",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-07-16 06:42:33",
+        "cn": "78.40.209.75",
+        "dn": "78.40.209.75",
+        "fseen": "2026-07-15 10:10:16 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-15 10:10:16",
+                "malware_md5": "73c52089f08fd3c78e5acc88971c6b83",
+                "host": "78.40.209.75",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "dfefdeb13f78e83fe980b5f8cea29436df4d7ade",
+        "threat": "SheetRAT C&C",
+        "listing_date": "2026-07-16 06:41:44",
+        "cn": "Prostovsky",
+        "dn": "Prostovsky",
+        "fseen": "2026-07-15 02:25:47 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-15 02:25:47",
+                "malware_md5": "36358fdd96f1dc6ec7f582e860eb2b84",
+                "host": "31.77.144.86",
+                "port": "9469"
+            }
+        ]
+    },
+    {
+        "sha1": "4b75d1218c87bc4192b6be37dbd990c11859fef8",
+        "threat": "Metasploit C&C",
+        "listing_date": "2026-07-16 06:34:06",
+        "cn": "toxotis.live",
+        "dn": "WE1",
+        "fseen": "2026-07-14 23:36:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-14 23:36:18",
+                "malware_md5": "2a686e557915555e143ac2809803c3ad",
+                "host": "104.21.52.246",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "47a42b7e960e081fb973d80964554f4dea813c9d",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-07-15 09:19:00",
