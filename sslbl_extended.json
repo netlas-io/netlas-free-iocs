@@ -1,5 +1,71 @@
 [
     {
+        "sha1": "1e5253b44aa68a4b31f0dfc07df48b31798debca",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-07-18 18:09:52",
+        "cn": "eventgateway.cc",
+        "dn": "WE1",
+        "fseen": "2026-07-18 16:33:37 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-18 16:33:37",
+                "malware_md5": "778aad49c1279d5a647759894155d40a",
+                "host": "172.67.201.79",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7f563e6df9b87f615f2d492ba68d5df373a6ca26",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-07-18 17:51:37",
+        "cn": "vexlatech.cc",
+        "dn": "WE1",
+        "fseen": "2026-07-16 18:32:43 UTC",
+        "lseen": "2026-07-18 16:39:00 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-18 16:39:00",
+                "malware_md5": "d1e5cbeac0e02e97a34aca7c9c54db5c",
+                "host": "188.114.97.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-18 16:33:38",
+                "malware_md5": "778aad49c1279d5a647759894155d40a",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-18 09:07:33",
+                "malware_md5": "aa5cace033012b4f2bb85134d923ccda",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-18 09:07:07",
+                "malware_md5": "47da0fb0e853a628cba7f1810a5854d4",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-17 04:34:20",
+                "malware_md5": "d56bade23427db1d4adffcb112954d2d",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-16 18:32:43",
+                "malware_md5": "1a02039200028ef04c60fab456e03bb6",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "a6df6eca49e13a8c5ebba1f86ca4c5766b1c1b97",
         "threat": "KongTuke C&C",
         "listing_date": "2026-07-17 13:34:18",
