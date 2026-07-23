@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "cfce3aaff2ad3eae49b37a60d606984bd1492e16",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-07-22 07:30:49",
+        "cn": "Host Defend",
+        "dn": "Host Defend",
+        "fseen": "2026-07-22 05:37:33 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-22 05:37:33",
+                "malware_md5": "baf04b7fede5dba9777f68c602a0c79d",
+                "host": "158.94.211.212",
+                "port": "8443"
+            }
+        ]
+    },
+    {
         "sha1": "b8b339de5ea80d17fb5ce2eb144d7ba28b33337a",
         "threat": "RatonRAT C&C",
         "listing_date": "2026-07-21 12:29:18",
