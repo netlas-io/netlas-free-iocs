@@ -1,5 +1,41 @@
 [
     {
+        "sha1": "7b5604ee44715ba0b4e92c2281f30c5a3416ca41",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-07-24 06:41:26",
+        "cn": "metricsengine.cc",
+        "dn": "WE1",
+        "fseen": "2026-07-23 21:14:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-23 21:14:30",
+                "malware_md5": "7d777f7028547b710b411a15047ab8c2",
+                "host": "104.21.22.224",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d08e16884011f6910fe8087a74dac507ff7d2a6a",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-07-24 06:40:18",
+        "cn": "exhumepacifier.cc",
+        "dn": "WE1",
+        "fseen": "2026-07-23 21:21:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-23 21:21:07",
+                "malware_md5": "c2ecaa75f36469ba0d2591d8dc94b62c",
+                "host": "104.21.5.91",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "8f0de55e89d97b4f3581f77805955a2b719563b8",
         "threat": "PureRAT C&C",
         "listing_date": "2026-07-23 19:10:41",
