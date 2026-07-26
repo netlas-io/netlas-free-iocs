@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "45bbc5ebc131cca9663c35c95459564007049d07",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-07-25 12:04:12",
+        "cn": "2.28.9.232",
+        "dn": "2.28.9.232",
+        "fseen": "2026-07-25 11:10:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-25 11:10:14",
+                "malware_md5": "9bd97475aa0d8fb22a284d070a2ee795",
+                "host": "2.28.9.232",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "7b5604ee44715ba0b4e92c2281f30c5a3416ca41",
         "threat": "ACRStealer C&C",
         "listing_date": "2026-07-24 06:41:26",
