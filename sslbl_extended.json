@@ -1,5 +1,29 @@
 [
     {
+        "sha1": "131d534087149d0095a326dcb33e77afcbec308c",
+        "threat": "AnimateClipper C&C",
+        "listing_date": "2026-07-26 11:17:38",
+        "cn": "quorashift.cc",
+        "dn": "WE1",
+        "fseen": "2026-07-25 20:03:50 UTC",
+        "lseen": "2026-07-26 03:46:36 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-26 03:46:36",
+                "malware_md5": "450e0227f0118633049d3c4f1e79fafc",
+                "host": "172.67.163.225",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-25 20:03:50",
+                "malware_md5": "331dc3004c365938ff7c66177e36a25f",
+                "host": "104.21.57.126",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "45bbc5ebc131cca9663c35c95459564007049d07",
         "threat": "Vidar C&C",
         "listing_date": "2026-07-25 12:04:12",
