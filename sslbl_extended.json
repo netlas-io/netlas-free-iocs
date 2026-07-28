@@ -1,5 +1,89 @@
 [
     {
+        "sha1": "283042355c89f2c59e260246d1488a73a8bef7b2",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-07-27 08:30:02",
+        "cn": "Web Allied",
+        "dn": "Web Allied",
+        "fseen": "2026-07-27 07:03:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-27 07:03:08",
+                "malware_md5": "404f0d36fcbe5c4643e821403a4827eb",
+                "host": "204.44.93.88",
+                "port": "8449"
+            }
+        ]
+    },
+    {
+        "sha1": "e6cc4eebe2d73c7174be4be73bc00d4642122ac4",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-07-27 07:00:32",
+        "cn": "broadwalkindia.com",
+        "dn": "YR2",
+        "fseen": "2026-07-26 22:12:48 UTC",
+        "lseen": "2026-07-27 07:23:32 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-27 07:23:32",
+                "malware_md5": "312fb655b23543270fca82aee6359ad3",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-27 07:11:48",
+                "malware_md5": "bc40fa0a76a14871c59644404430cf25",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-27 07:07:55",
+                "malware_md5": "2622dc67f73396b698ae2b60ee82a5e0",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-27 00:19:01",
+                "malware_md5": "1cc9617281fc4505af569a4915e42a08",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-27 00:17:56",
+                "malware_md5": "81729e5e6c1936b27f016a20897d30f1",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-26 22:58:00",
+                "malware_md5": "636a4a206e84c88baeba66425e33ee16",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-26 22:32:55",
+                "malware_md5": "cb3416ca351652997b09bc64c62e5531",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-26 22:32:51",
+                "malware_md5": "3464135169dd3733163a502f959014ad",
+                "host": "176.53.159.66",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-07-26 22:12:48",
+                "malware_md5": "d5254b68ad505660d433d8eed93c371f",
+                "host": "176.53.159.66",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "131d534087149d0095a326dcb33e77afcbec308c",
         "threat": "AnimateClipper C&C",
         "listing_date": "2026-07-26 11:17:38",
