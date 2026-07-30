@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "0b260881d660a14c3c0b2e61a6685839c8053bc9",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-07-29 08:12:44",
+        "cn": "tommy-er.top",
+        "dn": "WE1",
+        "fseen": "2026-07-27 19:12:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-27 19:12:54",
+                "malware_md5": "9e0ce52338351211fec9443046441d03",
+                "host": "104.21.48.54",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "11a9b0c571e681f4f9e7780e3aff1fe8c2f3d676",
+        "threat": "KongTuke C&C",
+        "listing_date": "2026-07-29 08:12:37",
+        "cn": "tommy-eg.top",
+        "dn": "WE1",
+        "fseen": "2026-07-28 17:04:00 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-28 17:04:00",
+                "malware_md5": "d835118a9c1f24a92b2f66c9265075b1",
+                "host": "188.114.96.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e15c7bdeb747a9fff47c514a10229a2a59d1157d",
+        "threat": "AnimateClipper C&C",
+        "listing_date": "2026-07-29 07:48:05",
+        "cn": "propertyfind.cc",
+        "dn": "WE1",
+        "fseen": "2026-07-28 23:10:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-07-28 23:10:08",
+                "malware_md5": "ca789369076efaafc596f836d928abdd",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "283042355c89f2c59e260246d1488a73a8bef7b2",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-07-27 08:30:02",
