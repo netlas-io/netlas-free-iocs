@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "be12aa485facf3375cc2416e1f8fb28541136b83",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-08-29 10:34:43",
+        "cn": "user30.ssservice.io",
+        "dn": "YR1",
+        "fseen": "2026-08-29 06:32:30 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-08-29 06:32:30",
+                "malware_md5": "1ab9ac736cf2c059c0aeb1c48a3011ad",
+                "host": "217.145.226.130",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d43c9f366658adf98f67c12dd8fcb3bca52db900",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-08-29 10:34:28",
+        "cn": "12naga.org",
+        "dn": "WE1",
+        "fseen": "2026-08-28 15:38:00 UTC",
+        "lseen": "2026-08-29 07:48:45 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-08-29 07:48:45",
+                "malware_md5": "cbec833e4e0d7a6e5448263e785a1090",
+                "host": "172.67.202.117",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-08-29 07:18:12",
+                "malware_md5": "de1e9aadede5639c534684894b55c9d8",
+                "host": "172.67.202.117",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-08-29 06:49:52",
+                "malware_md5": "0444cf33a8dacca8000818d1d0c4acf7",
+                "host": "104.21.93.13",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-08-28 15:38:00",
+                "malware_md5": "7289b97fbf78c156ef5794bdcc5ffa6a",
+                "host": "172.67.202.117",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "b34240912bc1f09b2e2342363647616b1088a1b0",
         "threat": "PureRAT C&C",
         "listing_date": "2026-08-29 06:37:51",
