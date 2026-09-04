@@ -1,5 +1,245 @@
 [
     {
+        "sha1": "e85536b156e0cd96f57d1925fb4f9fadaf825b9a",
+        "threat": "Malware C&C",
+        "listing_date": "2026-09-03 13:40:41",
+        "cn": "walmagua.cc",
+        "dn": "YE2",
+        "fseen": "2026-09-03 12:42:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-03 12:42:52",
+                "malware_md5": "0fcf3fb5ca960ee1c04513aaa994bd7d",
+                "host": "80.240.25.167",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4157992dbca11ebbe0938db99c79c0769ff4e1b1",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-09-03 06:13:51",
+        "cn": "Iwpgymsygk",
+        "dn": "Iwpgymsygk",
+        "fseen": "2026-09-03 04:28:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-03 04:28:43",
+                "malware_md5": "8e628dc3987d4d9061ab894e30eb34c0",
+                "host": "153.75.227.196",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "5e9de84aab8968d3a10710904a0844d0c360d2a8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-03 05:31:24",
+        "cn": "13balien.org",
+        "dn": "WE1",
+        "fseen": "2026-09-02 14:10:34 UTC",
+        "lseen": "2026-09-03 04:54:17 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-03 04:54:17",
+                "malware_md5": "a4d13e782a2f1fe7f59d6c60539908de",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 04:41:37",
+                "malware_md5": "afee8b1b35405c2cbf5be6ea4d515561",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 04:09:16",
+                "malware_md5": "7eba73fde69fbfbaedb7cfa1aef66e99",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 03:47:32",
+                "malware_md5": "6aa6d5b82ddc1dde86b8c685b99c3b89",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 02:31:17",
+                "malware_md5": "301772d8458c540c5881e387d360970c",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 02:19:04",
+                "malware_md5": "2f0f03f5d91dbec8e44c87504ce2c89b",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 01:59:00",
+                "malware_md5": "ab1801280f0266457be50d78ac198581",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 01:54:15",
+                "malware_md5": "9a161422c933602162575732787e6a1e",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 01:49:15",
+                "malware_md5": "35ec690a3ffff6dc3fd104e644bb2c13",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 01:22:11",
+                "malware_md5": "2bbe831a8ae270b33c14256675ac1fc4",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 00:25:46",
+                "malware_md5": "26f9eca6e0a5c76606eea0060011d070",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 23:54:48",
+                "malware_md5": "24f04f3200687970d67f3d25d862caed",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 23:34:59",
+                "malware_md5": "234a425649ba6a22e8f488edb2421709",
+                "host": "188.114.97.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 23:11:24",
+                "malware_md5": "9bf34cdd5ded1a967fa2bf428071ea89",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 21:47:17",
+                "malware_md5": "1bda530c9b1bfb3037e5d60445ed487f",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 20:56:16",
+                "malware_md5": "0f80e4f22f658b423b08200fa930aa13",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 19:56:35",
+                "malware_md5": "2e4cb2205425cb606a0bdc0a2ecc3abe",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 19:37:23",
+                "malware_md5": "11e741893c0d27194267569eaba78a6f",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 19:28:48",
+                "malware_md5": "11338ef131b7668b528ff929cbfef039",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 18:58:45",
+                "malware_md5": "31f4986728b8c317d340f3d878a84f01",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 18:58:31",
+                "malware_md5": "caceea71d546b5324465c18a06b1be42",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 18:37:41",
+                "malware_md5": "07a901f7b9d81145e70f6aea10c3e1ae",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 18:36:28",
+                "malware_md5": "05efa20b8424ea384e02d40507aa66ec",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 17:48:03",
+                "malware_md5": "add0230dd2b8aed2b45ef888f73cfa2c",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 17:13:01",
+                "malware_md5": "0b159430f2e60ff6413f067a02d2a86a",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 16:30:27",
+                "malware_md5": "c1d7a0d80b01eb4510794aeae8975701",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 16:22:34",
+                "malware_md5": "06da232d5203b47f3159b7b646af6ee7",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 16:22:21",
+                "malware_md5": "0d9f5babfe91722fb698582dc56f7894",
+                "host": "172.67.216.90",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 16:19:52",
+                "malware_md5": "0819645be89d854b6f61f89dee113e6b",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 16:09:55",
+                "malware_md5": "46e4d0c20bd47db22b78998552846605",
+                "host": "104.21.86.67",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 15:20:12",
+                "malware_md5": "0775021d72001992af8d27683be4db2c",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-02 14:10:34",
+                "malware_md5": "77181625fe6febd72c2753f4fa5304a6",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "d2ea1d53e2027b0378fa9346965edbcc0215e251",
         "threat": "DCRat C&C",
         "listing_date": "2026-09-02 15:54:37",
