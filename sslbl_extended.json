@@ -1,5 +1,179 @@
 [
     {
+        "sha1": "755c81877937861388f42dc73d5a6bf24c96e13b",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-09-04 12:19:09",
+        "cn": "PureRAT Agent",
+        "dn": "PureRAT Agent",
+        "fseen": "2026-09-04 12:15:27 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-04 12:15:27",
+                "malware_md5": "500ce6e52543c9dd173f875ed7e44d6b",
+                "host": "192.253.226.78",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "972c98978e420c02a8d8c5f87930dadc70adbbd8",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-09-04 11:30:12",
+        "cn": "flyingoxconsole.lol",
+        "dn": "YR2",
+        "fseen": "2026-09-04 08:25:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-04 08:25:03",
+                "malware_md5": "1145ad47b2c97b7b61571fbb9fc939b6",
+                "host": "192.159.99.212",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cd4fbb7112546836c61911e6b3a09770b6aebf29",
+        "threat": "DCAgentRMM C&C",
+        "listing_date": "2026-09-04 10:00:04",
+        "cn": "ManageEngine",
+        "dn": "ManageEngineCA",
+        "fseen": "2026-09-04 06:50:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-04 06:50:32",
+                "malware_md5": "4396ace58f4094a290e3d3751d99b58d",
+                "host": "202.61.160.202",
+                "port": "8383"
+            }
+        ]
+    },
+    {
+        "sha1": "09cc432d307b2b2d67a102c9a579f24b511cfea2",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-04 09:50:32",
+        "cn": "46.62.133.5",
+        "dn": "46.62.133.5",
+        "fseen": "2026-09-04 07:02:48 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-04 07:02:48",
+                "malware_md5": "9eeb237d312237e8c854dee063d699fc",
+                "host": "46.62.133.5",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "17ee516f7e99548d2b4d735f2100f2754d814288",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-04 09:45:14",
+        "cn": "distrolink.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-03 15:14:28 UTC",
+        "lseen": "2026-09-04 04:26:08 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-04 04:26:08",
+                "malware_md5": "9b7a37a70ee0de66116fe937651ed9da",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-04 03:59:14",
+                "malware_md5": "8c42d65d4b7d4aa978e1edca66b141d0",
+                "host": "188.114.97.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-04 02:44:12",
+                "malware_md5": "47b5b7715b9db4cefaee70a1f5bed91d",
+                "host": "188.114.96.3",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 23:44:09",
+                "malware_md5": "1a42fb244b343c8f575d4778a1674bb8",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 23:27:50",
+                "malware_md5": "1990e9ee509616dbb31fa5225ae5c227",
+                "host": "188.114.96.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 23:24:11",
+                "malware_md5": "1944a4902eb202b02e09c5a64e27cfee",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 20:34:31",
+                "malware_md5": "09a388a1654f6ae5e2c3fc07adce2aae",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 18:28:44",
+                "malware_md5": "03b4a1dad2024c154d7a8c6990c87b5a",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 17:46:00",
+                "malware_md5": "06f8385742a85d8cce6b419898436fd3",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 15:17:11",
+                "malware_md5": "2ee46b2873e1f537f12ac49737bfb73a",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-03 15:14:28",
+                "malware_md5": "1e5b18fa0749ad13c190fd0200a2eb75",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1bf12565f5b66f9f938f92411d31aea37d9676e8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-04 06:48:27",
+        "cn": "2.29.21.253",
+        "dn": "2.29.21.253",
+        "fseen": "2026-09-04 01:20:46 UTC",
+        "lseen": "2026-09-04 06:14:14 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-04 06:14:14",
+                "malware_md5": "fef84f151576974104114e694bf93d84",
+                "host": "2.29.21.253",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-04 01:20:46",
+                "malware_md5": "ca7ca4816f3263902d5c60434d3aff35",
+                "host": "2.29.21.253",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "e85536b156e0cd96f57d1925fb4f9fadaf825b9a",
         "threat": "Malware C&C",
         "listing_date": "2026-09-03 13:40:41",
