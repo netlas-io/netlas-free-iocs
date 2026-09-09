@@ -1,5 +1,113 @@
 [
     {
+        "sha1": "44c6dc94a23e05350af1ff687fef8b78cb089b8b",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-09-08 07:57:36",
+        "cn": "relay.maedertechsl.com",
+        "dn": "YR2",
+        "fseen": "2026-09-07 17:42:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-07 17:42:11",
+                "malware_md5": "91e26a7568327d87a38f9a453ef05ad4",
+                "host": "45.61.170.60",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "32c779b627c28c168bcf744948c35f45462e9307",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-09-08 07:48:16",
+        "cn": "Poptccu",
+        "dn": "Poptccu",
+        "fseen": "2026-09-08 03:43:22 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-08 03:43:22",
+                "malware_md5": "7a436940373475bd5be44a654879ca8e",
+                "host": "103.68.109.6",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "cb2d6049ca9e2a20d92f8ee6ae28060d9d460b85",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-08 07:47:43",
+        "cn": "foldstation.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-08 03:25:45 UTC",
+        "lseen": "2026-09-08 06:32:21 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-08 06:32:21",
+                "malware_md5": "f161d3108c7982f4a3de7711430f8796",
+                "host": "104.21.89.61",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-08 05:35:01",
+                "malware_md5": "ce990011a3ea2c86924afd53526a1634",
+                "host": "172.67.138.124",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-08 03:25:45",
+                "malware_md5": "6c091fab2a0907400e4470fd00a138a7",
+                "host": "172.67.138.124",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "bd12ed0d3f8dac14cb7de27202b10331831dc8c7",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-08 07:46:44",
+        "cn": "fleshproduce.xyz",
+        "dn": "WE1",
+        "fseen": "2026-09-08 00:36:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-08 00:36:12",
+                "malware_md5": "2a359b549490112b5fb5499919018721",
+                "host": "172.67.191.148",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "4c12b6aa784f92a3c50fb7d99289ca32fe21ad4c",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-08 07:45:48",
+        "cn": "Node Data",
+        "dn": "Node Data",
+        "fseen": "2026-09-07 23:05:16 UTC",
+        "lseen": "2026-09-08 05:57:53 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-08 05:57:53",
+                "malware_md5": "850fb35e2ca5fde86ba19efc6e44a491",
+                "host": "2.27.62.123",
+                "port": "4449"
+            },
+            {
+                "timestamp": "2026-09-07 23:05:16",
+                "malware_md5": "2b30c1d4c01cba4ba4bed0d36c73b726",
+                "host": "2.27.62.123",
+                "port": "4449"
+            }
+        ]
+    },
+    {
         "sha1": "b5daf66c6f8a99f2d6fe3fc678264598ec140049",
         "threat": "PureRAT C&C",
         "listing_date": "2026-09-07 06:44:32",
