@@ -1,5 +1,143 @@
 [
     {
+        "sha1": "4a5cf0f4e8da154ed1c60ba064f0e733ce9c373e",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-10 13:47:04",
+        "cn": "95.182.87.117",
+        "dn": "95.182.87.117",
+        "fseen": "2026-09-10 06:41:32 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-10 06:41:32",
+                "malware_md5": "97cab87497880891257f959da907042e",
+                "host": "95.182.87.117",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "da016d8c7ef2176f549cd35927d92a6d9cc9e253",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-10 05:58:29",
+        "cn": "Lambda Solutions",
+        "dn": "Lambda Solutions",
+        "fseen": "2026-09-03 13:05:00 UTC",
+        "lseen": "2026-09-09 18:45:12 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-09 18:45:12",
+                "malware_md5": "2c9a835f41069f01db46d3d505b1919c",
+                "host": "5.230.201.228",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-09-09 16:52:54",
+                "malware_md5": "b34ccbd46ae2bfd18dd021f679138aa0",
+                "host": "5.230.201.228",
+                "port": "8443"
+            },
+            {
+                "timestamp": "2026-09-03 13:05:00",
+                "malware_md5": "4c746709f87844913f5205cf6e2e45da",
+                "host": "5.230.201.228",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "199e1fd0a2f1c805aae75b33803d0e27b874b892",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-10 05:57:16",
+        "cn": "friendsstack.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-09 18:02:35 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-09 18:02:35",
+                "malware_md5": "23506fb7d30af4711626e702f78bb53c",
+                "host": "104.21.93.235",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "5df1d8183a0c35eed21884c00e84299ded6ece0c",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-10 05:54:53",
+        "cn": "Node Code",
+        "dn": "Node Code",
+        "fseen": "2026-03-18 05:55:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-18 05:55:41",
+                "malware_md5": "fd28c00a4ed55a778d7928ab34371378",
+                "host": "46.151.182.12",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "ad1e251a18db0657b238f75305b312593a6276a4",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-10 05:54:46",
+        "cn": "Relay Cloud",
+        "dn": "Relay Cloud",
+        "fseen": "2026-09-10 02:28:52 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-10 02:28:52",
+                "malware_md5": "641621f2584dc31f78ec04afd77969a3",
+                "host": "46.151.182.69",
+                "port": "933"
+            }
+        ]
+    },
+    {
+        "sha1": "28f2252914fd660fb663fae3995bfa2202285cfe",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-10 05:53:19",
+        "cn": "Lambda Soft",
+        "dn": "Lambda Soft",
+        "fseen": "2026-09-10 05:24:44 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-10 05:24:44",
+                "malware_md5": "90606f943f0360cda289735b31ef836f",
+                "host": "46.151.182.12",
+                "port": "8288"
+            }
+        ]
+    },
+    {
+        "sha1": "048bd151ab0a9c0add6d5bba9dc73521e42d9a20",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-09-10 05:52:55",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2026-09-10 01:37:28 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-10 01:37:28",
+                "malware_md5": "67ee6305e9d1017148aa909f0c29391c",
+                "host": "102.220.161.94",
+                "port": "80"
+            }
+        ]
+    },
+    {
         "sha1": "7f350973861d149efb83b0a1f51d0e0db0329dda",
         "threat": "Malware distribution",
         "listing_date": "2026-09-09 18:10:15",
