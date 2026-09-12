@@ -1,5 +1,71 @@
 [
     {
+        "sha1": "0a1192b7efc4408315bb36a29eaa149bf2306e0c",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-11 05:41:28",
+        "cn": "Engine Dynamics",
+        "dn": "Engine Dynamics",
+        "fseen": "2026-09-10 15:47:49 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-10 15:47:49",
+                "malware_md5": "5d4c88d1f27e232b6328829f610b639f",
+                "host": "2.27.62.140",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "031491e9d9e07391f330aef5bbdce9febbf1fe90",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-11 05:40:59",
+        "cn": "orbittrack.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-10 16:17:40 UTC",
+        "lseen": "2026-09-11 05:23:27 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-11 05:23:27",
+                "malware_md5": "7314ca5b37b8d67dd57fc48909cffb4e",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-11 00:27:22",
+                "malware_md5": "2fe7614556cf141cfbc8c0fe38c4a418",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-10 16:17:40",
+                "malware_md5": "0edd83a05c96b8340650ffb79589aae4",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b43fde87eccd529d630ac6c5aa28931a3e6d52bf",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-11 05:40:42",
+        "cn": "quiltdress.xyz",
+        "dn": "WE1",
+        "fseen": "2026-09-10 19:17:28 UTC",
+        "lseen": "2026-09-10 19:17:29 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-10 19:17:29",
+                "malware_md5": "0e1c504fb2f629306da5a6a092d0b69f",
+                "host": "172.67.192.252",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "4a5cf0f4e8da154ed1c60ba064f0e733ce9c373e",
         "threat": "Vidar C&C",
         "listing_date": "2026-09-10 13:47:04",
