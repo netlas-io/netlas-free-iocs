@@ -1,5 +1,83 @@
 [
     {
+        "sha1": "e458b2ccf8647aee41d64e46d1baadfc49e9e853",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-14 15:24:00",
+        "cn": "bikecondition.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-14 13:10:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-14 13:10:59",
+                "malware_md5": "0e342e9894f7743b9a07763f3507f893",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "14bc0ce6c63bf1c1554b4cd1772c60b57c38ab09",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-14 06:36:14",
+        "cn": "62.238.22.252",
+        "dn": "62.238.22.252",
+        "fseen": "2026-09-13 19:45:19 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-13 19:45:19",
+                "malware_md5": "d17056a751c6548b0b4a540794d84c10",
+                "host": "62.238.22.252",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-13 19:45:19",
+                "malware_md5": "d17056a751c6548b0b4a540794d84c10",
+                "host": "62.238.22.252",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "7bc298ef18b49cfd44b5b429209035207250e25e",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-14 06:35:59",
+        "cn": "46.62.145.171",
+        "dn": "46.62.145.171",
+        "fseen": "2026-09-13 19:41:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-13 19:41:40",
+                "malware_md5": "284a89ed1463b727dfc3d638f2686e48",
+                "host": "46.62.145.171",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d8f9205907b3bd3de4fb0513e5c53f167064a452",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-14 06:35:25",
+        "cn": "whistlebook.cfd",
+        "dn": "YE2",
+        "fseen": "2026-09-13 20:54:14 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-13 20:54:14",
+                "malware_md5": "17dd5a6edbab333cdefc0d21de215d39",
+                "host": "172.67.164.235",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "009a05eaf082d20ae13a65abda12afd959cd76de",
         "threat": "VenomRAT C&C",
         "listing_date": "2026-09-13 19:23:01",
