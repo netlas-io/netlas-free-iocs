@@ -1,5 +1,171 @@
 [
     {
+        "sha1": "adcff1c66a3ba1c9446886eb9f6efdbec4f17688",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-09-21 16:26:12",
+        "cn": "gridstack.cc",
+        "dn": "YE2",
+        "fseen": "2026-09-20 09:59:11 UTC",
+        "lseen": "2026-09-21 16:23:45 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-21 16:23:45",
+                "malware_md5": "8fee84d6ea90fa8aa56838964500baa7",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-20 09:59:11",
+                "malware_md5": "8b25ea4a948d407ce8a15fab0870e68e",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "99500e5de097a58d95775e1f9da85597851bdb71",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-09-21 15:49:25",
+        "cn": "CCC",
+        "dn": "meow~, OU=IT Department, O=Google Inc., L=BJ, C=CN",
+        "fseen": "2026-09-21 14:29:55 UTC",
+        "lseen": "2026-09-21 14:29:56 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-21 14:29:56",
+                "malware_md5": "df31c4b967940efba4a16015628edb17",
+                "host": "143.92.48.166",
+                "port": "22"
+            }
+        ]
+    },
+    {
+        "sha1": "54e1ddda090bff894e88ccc2a784f0e9f4c46d97",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-21 15:48:46",
+        "cn": "wishcourt.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-21 13:14:43 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-21 13:14:43",
+                "malware_md5": "1583f9ee746cfd8b9c8f077ceee2b3c8",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9b798f7d87edcf42680454660f593afd696ef8ca",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-09-21 13:21:04",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-09-21 09:15:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-21 09:15:40",
+                "malware_md5": "d7df7432facecf6777ca95e027a71523",
+                "host": "41.41.128.115",
+                "port": "5005"
+            }
+        ]
+    },
+    {
+        "sha1": "e20ecba521fd923644d154963d32d5cd29f4c0b1",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-21 07:57:31",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "9028baa7a4f17d812e2c497cdc6dbe5594780325",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-21 07:53:24",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "31ce37e696cdff32d3042b1f9be493c1e43b4b6e",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-21 07:53:19",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "ea74c0bba5834a0445661f91c3a220811eb965a3",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-21 07:53:12",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "4385dfcee56c1ede34b61cbc84666afe4946cf2a",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-09-21 07:52:50",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "0bf61cf448206d51a0b7a0cdece647df3ea1196f",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-21 07:52:03",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "a7bc5bdb50a33449b1f9c6037a703e58caa406bf",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-21 07:50:23",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "198fea94392f134f8578e6057c3b6679243e58c3",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-21 07:50:00",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "0db74536080bbf99f4e8e8b53efd477d1ccaf3e0",
         "threat": "Malware C&C",
         "listing_date": "2026-09-20 09:46:58",
