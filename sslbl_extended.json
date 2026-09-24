@@ -1,5 +1,560 @@
 [
     {
+        "sha1": "9780ed18b0a63e77e19611e7f46f640a64c1ad5e",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-24 05:23:20",
+        "cn": "1jp88.org",
+        "dn": "WE1",
+        "fseen": "2026-09-24 00:26:12 UTC",
+        "lseen": "2026-09-24 05:01:43 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-24 05:01:43",
+                "malware_md5": "7bf487e3659b8796ad0a9b3697668bc5",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-24 02:18:40",
+                "malware_md5": "42985c62aa4823a801b3eafffe73b5e8",
+                "host": "188.114.97.0",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-24 01:54:18",
+                "malware_md5": "87682a4223132ad13841147e724cc0b5",
+                "host": "172.67.169.253",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-24 00:26:12",
+                "malware_md5": "37b62b1ae68591b711c1f7901617896e",
+                "host": "172.67.169.253",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cadf6b3f7ceb64de2253e8c0734b867a2762987a",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-24 05:23:07",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "e0fdfb5fb34b59f3d9d4999eecec5cdfdd47be13",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-24 05:18:54",
+        "cn": "songsbeginner.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-23 15:32:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 15:32:08",
+                "malware_md5": "0448958e077aad87d22036f1ceddfc0f",
+                "host": "172.67.136.89",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0ce212056f34e68b2912a643dc8488d63512b4a5",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-24 05:15:25",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "9c6bff6fdc543dd366ea35f536945acd7177853a",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-09-24 05:14:33",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "75fa04b2a1f77a646a0839d5239fe330a41cd551",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-24 05:14:18",
+        "cn": "sparkrub.xyz",
+        "dn": "YE1",
+        "fseen": "2026-09-23 20:52:53 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 20:52:53",
+                "malware_md5": "233c78843938c1e74f8c2ff1db6d9bb7",
+                "host": "172.67.175.132",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "de58e571469c72f26cfb59884e06e2aa5db7d6ff",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-09-23 15:11:06",
+        "cn": "belieftrack.cfd",
+        "dn": "WE1",
+        "fseen": "2026-09-23 13:23:56 UTC",
+        "lseen": "2026-09-23 15:23:28 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 15:23:28",
+                "malware_md5": "0985ae2922f370d72822fd9a042300b0",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-23 13:23:56",
+                "malware_md5": "0950acd6919415bb705dd9eebf7df166",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "180512bde178c27cef6b8597f301558d88f853e2",
+        "threat": "SeroRAT C&C",
+        "listing_date": "2026-09-23 15:11:04",
+        "cn": "SeroServer",
+        "dn": "SeroServer",
+        "fseen": "2026-09-23 13:31:07 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 13:31:07",
+                "malware_md5": "0448117db2de1fa0b55eaaf97048f430",
+                "host": "147.45.43.160",
+                "port": "7777"
+            }
+        ]
+    },
+    {
+        "sha1": "82ad60b5fe3e77f88effbb586db3795a41e5f60b",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-09-23 09:49:42",
+        "cn": "wnmw oishgq",
+        "dn": "wnmw oishgq",
+        "fseen": "2026-09-04 20:03:30 UTC",
+        "lseen": "2026-09-11 06:00:27 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-11 06:00:27",
+                "malware_md5": "750a928b4836eb0ec0e3cc10b4b1fd84",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-08 04:22:32",
+                "malware_md5": "999c28b77bcb64139dc80901dfbce677",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-07 05:10:36",
+                "malware_md5": "dbbcd20c1807a2a2f6f0bceb899aee14",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-07 05:06:53",
+                "malware_md5": "db23176aecbec1d03cc47c0fcdcf211b",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-07 04:32:24",
+                "malware_md5": "c5c6ccefaec1268d1e02dbd65719631c",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-07 04:28:03",
+                "malware_md5": "c402fbdadb71b0db21eb7336c9020d5b",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-07 03:32:38",
+                "malware_md5": "9e420a868218c09cc1498a1ac46c6085",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-06 01:24:17",
+                "malware_md5": "adb97a4ba31db339c57c65d2c850cc74",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-05 20:12:11",
+                "malware_md5": "2305a2a5d39a9491be66a406f961fa38",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-05 16:29:17",
+                "malware_md5": "0087ace4ab56724d8dc228330c9abb5b",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-05 02:54:58",
+                "malware_md5": "be5bb51ee31c9db844588731f6f6b5f5",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-05 02:30:55",
+                "malware_md5": "af70e15ec382229522aacb0c99453f2a",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-05 02:00:51",
+                "malware_md5": "972ea81d3ac636c02930997493d3d26e",
+                "host": "162.35.105.142",
+                "port": "4782"
+            },
+            {
+                "timestamp": "2026-09-04 20:03:30",
+                "malware_md5": "1da0fc41236dfd32bc19c20615f096c2",
+                "host": "162.35.105.142",
+                "port": "4782"
+            }
+        ]
+    },
+    {
+        "sha1": "95688000a5176c85f77eb00ba69faef202ae6c24",
+        "threat": "SeroRAT C&C",
+        "listing_date": "2026-09-23 09:29:41",
+        "cn": "SeroServer",
+        "dn": "SeroServer",
+        "fseen": "2026-03-29 00:27:19 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-03-29 00:27:19",
+                "malware_md5": "4d7bb7fb9d7d91c7412aca8cc05fcb49",
+                "host": "176.160.157.96",
+                "port": "7878"
+            }
+        ]
+    },
+    {
+        "sha1": "2c718d1d6454ad663cf963baecf3a1c81495716a",
+        "threat": "SeroRAT C&C",
+        "listing_date": "2026-09-23 09:29:37",
+        "cn": "SeroServer",
+        "dn": "SeroServer",
+        "fseen": "2026-04-01 19:46:41 UTC",
+        "lseen": "2026-04-15 20:52:05 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-04-15 20:52:05",
+                "malware_md5": "7ee0293386a80aeb3a80dcc68d8c7239",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-04-01 19:46:41",
+                "malware_md5": "04ddc7dda0c15e22004d46edc29c192e",
+                "host": "176.160.157.96",
+                "port": "7878"
+            }
+        ]
+    },
+    {
+        "sha1": "5f1f3725db5f77872c27b2d4b1a6c8c32e4ee257",
+        "threat": "SeroRAT C&C",
+        "listing_date": "2026-09-23 09:28:53",
+        "cn": "SeroServer",
+        "dn": "SeroServer",
+        "fseen": "2026-04-23 04:43:29 UTC",
+        "lseen": "2026-06-21 22:54:46 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-06-21 22:54:46",
+                "malware_md5": "1f4b9d3c78457ec9a1d0249696e6d131",
+                "host": "176.160.157.96",
+                "port": "6669"
+            },
+            {
+                "timestamp": "2026-05-27 01:54:31",
+                "malware_md5": "cf5ee1a12b467b8a5d44354c3e6051d5",
+                "host": "176.160.157.96",
+                "port": "8887"
+            },
+            {
+                "timestamp": "2026-05-20 06:54:53",
+                "malware_md5": "7a44f0b104dde313917e30d8d2aa8ab2",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-05-14 16:52:39",
+                "malware_md5": "f77cfad4cadff7777249aa8d1aab0168",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-05-10 03:20:04",
+                "malware_md5": "98f592617fda0e116aba0bc467af5990",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-05-03 17:24:55",
+                "malware_md5": "e2aafabbae84d258998e1b8bd64923c8",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-04-30 13:20:13",
+                "malware_md5": "7cc1da433e19987f29e99406dbbad489",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-04-29 21:30:05",
+                "malware_md5": "108e5c7335fd7d0696bdb80525a767b8",
+                "host": "176.160.157.96",
+                "port": "7878"
+            },
+            {
+                "timestamp": "2026-04-23 04:43:29",
+                "malware_md5": "1cd78549ff4bfbc19670921e44ec29f4",
+                "host": "176.160.157.96",
+                "port": "7878"
+            }
+        ]
+    },
+    {
+        "sha1": "b29e88da94c7ec5eac25efc49b444efcfb61b7de",
+        "threat": "SeroRAT C&C",
+        "listing_date": "2026-09-23 09:26:41",
+        "cn": "SeroServer",
+        "dn": "SeroServer",
+        "fseen": "2026-08-25 20:02:51 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-08-25 20:02:51",
+                "malware_md5": "1a869dfe58e0284678f8c306e5399029",
+                "host": "172.208.66.86",
+                "port": "7777"
+            }
+        ]
+    },
+    {
+        "sha1": "9c041662f67bfc6c80fb45353b0d8689858eac3c",
+        "threat": "SeroRAT C&C",
+        "listing_date": "2026-09-23 09:26:14",
+        "cn": "SurumanServer",
+        "dn": "SurumanServer",
+        "fseen": "2026-09-23 01:20:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 01:20:18",
+                "malware_md5": "47a365df16e87f0063aa8fb5a6a6df36",
+                "host": "89.34.90.34",
+                "port": "7777"
+            }
+        ]
+    },
+    {
+        "sha1": "2d55d1a98da553c64dca5168488b90de1ac2b6dc",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-23 09:10:45",
+        "cn": "77.91.100.107",
+        "dn": "77.91.100.107",
+        "fseen": "2026-09-22 18:21:09 UTC",
+        "lseen": "2026-09-23 01:59:53 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 01:59:53",
+                "malware_md5": "4bba265fef2d74878d9072f4b3227c56",
+                "host": "77.91.100.107",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-09-22 18:21:09",
+                "malware_md5": "f395d8e21d58d4ee1b852a1a951ba3b1",
+                "host": "77.91.100.107",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "35a0137a8428cd4eed7271f69f576e22389c2718",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-09-23 08:37:34",
+        "cn": "Relay Protect",
+        "dn": "Relay Protect",
+        "fseen": "2026-09-23 05:42:17 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 05:42:17",
+                "malware_md5": "41236a9e3911cff85a89555d16c69a86",
+                "host": "2.27.62.208",
+                "port": "4449"
+            }
+        ]
+    },
+    {
+        "sha1": "8ebcb44e692f32d2a4894ada4a06079a48bdf1a6",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-23 08:02:55",
+        "cn": "spookilyaqua.cc",
+        "dn": "YE2",
+        "fseen": "2026-09-22 15:03:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-22 15:03:39",
+                "malware_md5": "8a9294887013b416cdec0309c5489ded",
+                "host": "172.67.140.60",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "0217bf61b7498d77ca6ba321aefd3cd7b47310c0",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-09-23 08:01:54",
+        "cn": "packetshift.cc",
+        "dn": "WE1",
+        "fseen": "2026-09-22 15:45:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-22 15:45:41",
+                "malware_md5": "366ff58afe7e17ce899c4ea8fb8b23a7",
+                "host": "104.21.27.252",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "cb7fcaede3c6bb75e73ee72b8de7c23de2953dd4",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-09-23 08:00:33",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2026-09-22 20:43:47 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-22 20:43:47",
+                "malware_md5": "dbee6a6551b55be8eb00be4b3af44559",
+                "host": "143.246.43.117",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e368d5f28111dd2b577e949c59b254f7de1dae2b",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-23 07:59:52",
+        "cn": "172.238.110.27",
+        "dn": "172.238.110.27",
+        "fseen": "2026-09-22 22:50:44 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-22 22:50:44",
+                "malware_md5": "c4c5d693964153a0b99ad786d45785c7",
+                "host": "172.238.110.27",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "990472ad57a4d7dcb13689a21b0c84252f5cf0a5",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-09-23 07:58:14",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2026-09-23 00:30:09 UTC",
+        "lseen": "2026-09-23 00:30:26 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 00:30:26",
+                "malware_md5": "d1164a36d786795d855bc78a98d22549",
+                "host": "217.60.76.250",
+                "port": "7707"
+            }
+        ]
+    },
+    {
+        "sha1": "ca37313c6e61b15e4027fe2609233851a70e572e",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-09-23 07:57:26",
+        "cn": "PureRAT Agent",
+        "dn": "PureRAT Agent",
+        "fseen": "2026-09-23 03:29:02 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 03:29:02",
+                "malware_md5": "5eed43720a16fc000081d5ddbe0f5cac",
+                "host": "93.152.214.28",
+                "port": "7222"
+            }
+        ]
+    },
+    {
+        "sha1": "b85ab05112c6848ccf2dd6889903e1268cdc6a75",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-09-23 07:57:15",
+        "cn": "Quasar Server CA",
+        "dn": "Quasar Server CA",
+        "fseen": "2026-09-23 06:10:35 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-23 06:10:35",
+                "malware_md5": "d7f113b4444c278ea5906d58a0552a65",
+                "host": "31.56.209.140",
+                "port": "4530"
+            }
+        ]
+    },
+    {
         "sha1": "2e57d619d591a232e8f11d850822531b3bda29a4",
         "threat": "Malware C&C",
         "listing_date": "2026-09-22 17:54:51",
