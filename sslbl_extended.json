@@ -1,5 +1,59 @@
 [
     {
+        "sha1": "06ba62804f9d40f0ffb38ecd4c42b0229921cbde",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-24 13:01:38",
+        "cn": "45.86.64.51",
+        "dn": "45.86.64.51",
+        "fseen": "2026-09-24 11:47:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-24 11:47:38",
+                "malware_md5": "19683bc8e63ef657cd9470173069e46a",
+                "host": "45.86.64.51",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "aca5d4a8d82ba3feb8e85cd90158efba0d02f03f",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-09-24 12:54:24",
+        "cn": "hazelnook.cc",
+        "dn": "YE1",
+        "fseen": "2026-09-24 09:44:04 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-24 09:44:04",
+                "malware_md5": "31bf1196a86f2e6248002115194bb71a",
+                "host": "188.114.96.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "fd081cbaf79596b443b9d591f9dd1390268db7f0",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-09-24 05:45:33",
+        "cn": "217.60.103.124",
+        "dn": "217.60.103.124",
+        "fseen": "2026-09-24 00:51:34 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-09-24 00:51:34",
+                "malware_md5": "3a78b8ba0bf8cf68620a3147b091b2e5",
+                "host": "217.60.103.124",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "9780ed18b0a63e77e19611e7f46f640a64c1ad5e",
         "threat": "Vidar C&C",
         "listing_date": "2026-09-24 05:23:20",
