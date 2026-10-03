@@ -1,5 +1,101 @@
 [
     {
+        "sha1": "8c4c2867daf5d6ef1cc9d304fb4c6be488cd645a",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-02 16:02:09",
+        "cn": "househub.cfd",
+        "dn": "YE1",
+        "fseen": "2026-10-02 15:47:27 UTC",
+        "lseen": "2026-10-02 16:24:55 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-02 16:24:55",
+                "malware_md5": "0b555d9ca2811b5d142b9d9aae4f67d3",
+                "host": "104.21.50.169",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-02 15:47:27",
+                "malware_md5": "02a4c39356614ae8739c6a3dac90c81e",
+                "host": "172.67.164.103",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d89e701e024880cfd5f20e3f6ca748ee002f6bcd",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-10-02 08:24:53",
+        "cn": "*.pluginupdatepdf.pro",
+        "dn": "YE1",
+        "fseen": "2026-10-01 15:58:11 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-01 15:58:11",
+                "malware_md5": "f9b26c03b294c0a05398462482860b27",
+                "host": "144.172.102.119",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "ff21ba4cde93cf84c7160e7bbf2d54a236e3f0ba",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-10-02 08:21:55",
+        "cn": "rcblgelow.com",
+        "dn": "YR1",
+        "fseen": "2026-10-01 15:56:39 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-01 15:56:39",
+                "malware_md5": "5d16a60f33b76f526032193a51abbdd8",
+                "host": "144.172.108.214",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "5a0eb0b51d758eeb090d150a8664bafbcaa4bc3d",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-02 08:11:27",
+        "cn": "beardiscovery.xyz",
+        "dn": "WE1",
+        "fseen": "2026-10-02 01:10:41 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-02 01:10:41",
+                "malware_md5": "40ddee8e46cc8ee381a814a0e2d35f1c",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "b243f74faeb0e8cf30b79e84c846f40b31ce5f55",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-02 08:11:20",
+        "cn": "188.34.166.234",
+        "dn": "188.34.166.234",
+        "fseen": "2026-10-01 22:33:59 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-01 22:33:59",
+                "malware_md5": "021efe07b3ec63b6de74d20ebcc42497",
+                "host": "188.34.166.234",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "d2bf0b9b894431307b05b47812645ef42cf169e6",
         "threat": "ConnectWise C&C",
         "listing_date": "2026-10-01 14:33:24",
