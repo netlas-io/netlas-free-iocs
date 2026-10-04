@@ -1,5 +1,83 @@
 [
     {
+        "sha1": "33330e829893dd29699f09a04726f7d489b32157",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-03 10:57:14",
+        "cn": "104.105.28.246",
+        "dn": "104.105.28.246",
+        "fseen": "2026-10-02 19:06:12 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-02 19:06:12",
+                "malware_md5": "66dfc5cb2cadbb4dd09a3f8538098c25",
+                "host": "104.105.28.246",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "58b3990b07e9caaa2c504a5b9759d14eefcbc5e5",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-10-03 10:57:02",
+        "cn": "AsyncRAT Server",
+        "dn": "AsyncRAT Server",
+        "fseen": "2026-10-03 00:15:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-03 00:15:40",
+                "malware_md5": "3cdb5ff86c49e550410b2dbcadd1004c",
+                "host": "147.50.252.47",
+                "port": "7707"
+            }
+        ]
+    },
+    {
+        "sha1": "64c5f719aa0111be2ac04d785a8904b5baa22a88",
+        "threat": "AsyncRAT C&C",
+        "listing_date": "2026-10-03 10:55:26",
+        "cn": "DcRat",
+        "dn": "??????, OU=qwqdanchun, O=DcRat By qwqdanchun, L=SH, C=CN",
+        "fseen": "2026-10-03 04:38:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-03 04:38:54",
+                "malware_md5": "c46da7317a8290e48bca0b873642453b",
+                "host": "38.76.213.221",
+                "port": "8848"
+            }
+        ]
+    },
+    {
+        "sha1": "ef85e36f55755b6b85e9b3739ff7bfbb90f22e3b",
+        "threat": "BridgeAgent C&C",
+        "listing_date": "2026-10-03 06:27:08",
+        "cn": "153.52.77.210",
+        "dn": "Bridge Agent Control Runtime Root CA",
+        "fseen": "2026-10-02 22:20:35 UTC",
+        "lseen": "2026-10-02 22:31:05 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-02 22:31:05",
+                "malware_md5": "734ed8b5811c89c69b0d8963d3b38bdf",
+                "host": "153.52.77.210",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-02 22:20:35",
+                "malware_md5": "06d5333f7d48aede561155bc021ebadd",
+                "host": "153.52.77.210",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "8c4c2867daf5d6ef1cc9d304fb4c6be488cd645a",
         "threat": "OffLoader C&C",
         "listing_date": "2026-10-02 16:02:09",
