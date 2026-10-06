@@ -4520,3 +4520,7 @@ All 10 retries failed. Saving downloaded data...
 [2026-10-05 06:26:05]	Found 99,879 targets to download.
 [2026-10-05 06:39:55]	A total of 99,879 targets have been downloaded
 [2026-10-05 06:40:00]	Comparison: Database updated successfully. 1118 entries added, 1774 entries updated.
+[2026-10-06 06:59:42]	Using Abuse.ch SSL Certificate Blacklist CSV dated 2026-10-06 06:52:06
+[2026-10-06 07:02:37]	Found 99,889 targets to download.
+[2026-10-06 07:12:00]	A total of 99,889 targets have been downloaded
+[2026-10-06 07:12:05]	Comparison: Database updated successfully. 10 entries added, 0 entries updated.
