@@ -1,5 +1,101 @@
 [
     {
+        "sha1": "dad953249b7dc6a1491183ca1f790b78038872c8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-09 19:08:42",
+        "cn": "33pedia.org",
+        "dn": "YE2",
+        "fseen": "2026-10-09 18:36:06 UTC",
+        "lseen": "2026-10-09 19:17:58 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-09 19:17:58",
+                "malware_md5": "7cb7b1df426480747b23699de656e6de",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-09 18:36:06",
+                "malware_md5": "9c2d17c7cf9be978bb06c9ac20365293",
+                "host": "188.114.96.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3013447f5f36ed0c97f878cd6106853088a49ef8",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-09 18:40:04",
+        "cn": "94.237.14.115",
+        "dn": "94.237.14.115",
+        "fseen": "2026-10-09 15:41:16 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-09 15:41:16",
+                "malware_md5": "4f088f1bc965ff0e11a9c75e4ee3f97a",
+                "host": "94.237.14.115",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3f7c12ee118bce0a51bcb4c1896fa9a79b30bfb7",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-10-09 14:57:51",
+        "cn": "Gqzgtiy",
+        "dn": "Gqzgtiy",
+        "fseen": "2026-10-09 14:42:54 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-09 14:42:54",
+                "malware_md5": "1114a6a8fa077c07ab9add98adefb366",
+                "host": "85.239.149.106",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "f1007872f795727c952c1f2b20966ec193b646a4",
+        "threat": "MATCHBOIL C&C",
+        "listing_date": "2026-10-09 09:14:20",
+        "cn": "Ezdabxeuax",
+        "dn": "Ezdabxeuax",
+        "fseen": "2026-10-09 08:05:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-09 08:05:05",
+                "malware_md5": "eb0da1bf4db13bbb8bc8fbf752274746",
+                "host": "77.83.196.3",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "f1d3bed8c625dc1785842ced7f1cf6aadb85942a",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-09 09:11:00",
+        "cn": "172.236.214.203",
+        "dn": "172.236.214.203",
+        "fseen": "2026-10-08 23:29:18 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-08 23:29:18",
+                "malware_md5": "e136fadd3494833f1c7d073df3a0772f",
+                "host": "172.236.214.203",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "f9ec94288d3a56dcecced514f673587156167472",
         "threat": "Vidar C&C",
         "listing_date": "2026-10-09 06:11:50",
