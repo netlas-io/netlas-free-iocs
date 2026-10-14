@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "e6c0468f46efe40f3127d33641bfc3df8b2e5c7d",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-10-13 07:58:17",
+        "cn": "Container Safe",
+        "dn": "Container Safe",
+        "fseen": "2026-10-13 02:26:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-13 02:26:42",
+                "malware_md5": "eb131d9ff33a76c90b7bd4e3b637e88b",
+                "host": "45.133.116.111",
+                "port": "1208"
+            }
+        ]
+    },
+    {
         "sha1": "4664c47d412c00bf067a325ffa9790db75efbe75",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-10-13 06:59:39",
