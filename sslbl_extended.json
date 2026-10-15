@@ -1,5 +1,65 @@
 [
     {
+        "sha1": "09545cca9c36c76f4982c4b648041a1606799b53",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-14 05:49:58",
+        "cn": "104.105.24.45",
+        "dn": "104.105.24.45",
+        "fseen": "2026-10-13 20:38:40 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-13 20:38:40",
+                "malware_md5": "6247ac6aae6cd1963299aa5801f64e75",
+                "host": "104.105.24.45",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "d333c0b7e380afd2f156555b8110c00177b62e5d",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-14 05:48:36",
+        "cn": "73kcom.org",
+        "dn": "YE1",
+        "fseen": "2026-10-13 16:52:41 UTC",
+        "lseen": "2026-10-13 21:50:18 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-13 21:50:18",
+                "malware_md5": "22a1f122b80d8aa6645c04adf6a2f5dc",
+                "host": "172.67.155.208",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-13 20:42:05",
+                "malware_md5": "1cd431f2551899475d0f7d2e343fe2cb",
+                "host": "172.67.155.208",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-13 20:37:17",
+                "malware_md5": "756292201950433bdbeb154252bbe44c",
+                "host": "172.67.155.208",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-13 17:03:17",
+                "malware_md5": "0ae8e161f582fc95fca4643761041cce",
+                "host": "172.67.155.208",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-13 16:52:41",
+                "malware_md5": "096a6d78d037bc37449d784c98700784",
+                "host": "172.67.155.208",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "e6c0468f46efe40f3127d33641bfc3df8b2e5c7d",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-10-13 07:58:17",
