@@ -1,5 +1,29 @@
 [
     {
+        "sha1": "0922f0b5df139ddc07c5f43fea6d84c885ecc833",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-17 11:06:23",
+        "cn": "8-hhh.org",
+        "dn": "WE1",
+        "fseen": "2026-10-17 09:04:44 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-17 09:04:44",
+                "malware_md5": "2b048e8bc871eff2f268f5bd9fb882eb",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-17 09:04:44",
+                "malware_md5": "3e92b3d9726103e81fc19cfe29104f27",
+                "host": "188.114.97.3",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "09545cca9c36c76f4982c4b648041a1606799b53",
         "threat": "Vidar C&C",
         "listing_date": "2026-10-14 05:49:58",
