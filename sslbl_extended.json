@@ -1,5 +1,23 @@
 [
     {
+        "sha1": "9001ac2344ddd1b2e32f5d25b5e56b323e6fc862",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-20 05:22:47",
+        "cn": "abanda88.org",
+        "dn": "WE1",
+        "fseen": "2026-10-19 21:53:08 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-19 21:53:08",
+                "malware_md5": "3c69bdf2a2fccadd618956f1d0843d7c",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
         "sha1": "38151a6b2438b2b645a27a891e1e15786f11a783",
         "threat": "PureLogsStealer C&C",
         "listing_date": "2026-10-18 12:25:30",
