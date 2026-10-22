@@ -1,5 +1,714 @@
 [
     {
+        "sha1": "7a5cbff9325f0ca3de3f020b3ba02e51390807cf",
+        "threat": "Malware C&C",
+        "listing_date": "2026-10-22 04:23:04",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "7ed29169b508169575d0d26850aca8a93044067c",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-10-22 04:17:21",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "082cdbff4a21322dcf87bbc200976465f072ae6e",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-10-22 04:05:14",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "a546ecee7425b15ec2b0b63cd012b897d627cdc9",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-10-22 04:04:56",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "815ef869856dfa28c55e7c5e07f1d0cce6a4e426",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-10-22 04:04:27",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "9eabf92b1ca6728e2a32c3a090b11c177ac686c3",
+        "threat": "ConnectWise C&C",
+        "listing_date": "2026-10-22 04:03:59",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "ad4757ff933072cc46f34e8c2935df4a2835905f",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-22 04:03:38",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "be6dd6d95188274b338310b78e2bc1315a90f64f",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-10-22 04:02:41",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "c5dac4c5a4feb2fec8886ae4e28e8c9bb87b19e9",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-22 03:53:27",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "e4c69c59c688b6b22688718fd601e7a3bc6e2c8a",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-21 15:55:24",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "c2cc28a75ec95c7f4109d6af0e02b9c1273fb774",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-21 11:43:21",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "ee44c0aa609918ca30691fe0f49b87945d450bcd",
+        "threat": "Malware C&C",
+        "listing_date": "2026-10-21 09:43:46",
+        "cn": "localhost",
+        "dn": "localhost",
+        "fseen": "2026-10-20 12:18:19 UTC",
+        "lseen": "2026-10-20 12:31:07 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 12:31:07",
+                "malware_md5": "aad06fce949caaf37d7410c43c22f4a6",
+                "host": "141.98.83.180",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 12:28:04",
+                "malware_md5": "bd591d473fdd877271cdb670fdc50602",
+                "host": "141.98.83.180",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 12:18:19",
+                "malware_md5": "b794142e8aab80b1f510191d0bf08f95",
+                "host": "141.98.83.180",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "3f00a128af6109bb4ba928f2a73caeb1820f561d",
+        "threat": "Malware C&C",
+        "listing_date": "2026-10-21 09:43:11",
+        "cn": "microsoft.com",
+        "dn": "microsoft.com",
+        "fseen": "2026-10-20 12:23:14 UTC",
+        "lseen": "2026-10-20 12:30:38 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 12:30:38",
+                "malware_md5": "f065f43cf6856348ae3b510f8c9fce27",
+                "host": "77.110.109.248",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 12:29:57",
+                "malware_md5": "db5ae0a0291b298f7d88d1b145b7de9f",
+                "host": "77.110.109.248",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 12:29:12",
+                "malware_md5": "f0a6bf6eefd38edd61c33ff5ecb8e28a",
+                "host": "77.110.109.248",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 12:28:13",
+                "malware_md5": "1a9e89c2d599a4107040c9a7e1f6f4c8",
+                "host": "77.110.109.248",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 12:23:14",
+                "malware_md5": "771ba5c02fc957a4335afaee029c97e8",
+                "host": "77.110.109.248",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e86dd566921f2733639879ecd1a3be715644cec6",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-10-21 09:42:36",
+        "cn": "Edge Analytics",
+        "dn": "Edge Analytics",
+        "fseen": "2026-10-21 01:01:05 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-21 01:01:05",
+                "malware_md5": "23f61738c9901d1295adf981637d84af",
+                "host": "155.254.99.106",
+                "port": "8080"
+            }
+        ]
+    },
+    {
+        "sha1": "5c5c6ce618ac3209dcb239bafd6151d86ca490b4",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-21 09:34:40",
+        "cn": "orbitwindow.cfd",
+        "dn": "YE1",
+        "fseen": "2026-10-20 16:53:47 UTC",
+        "lseen": "2026-10-20 21:39:23 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 21:39:23",
+                "malware_md5": "16d551563a24a6677a1013693cb6d9cb",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 21:26:56",
+                "malware_md5": "14481b155f5be3af6f1a66fd109aca7a",
+                "host": "188.114.97.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 21:22:21",
+                "malware_md5": "14ec001a0dab53f07141b38ee4f057bb",
+                "host": "172.67.147.18",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 19:23:32",
+                "malware_md5": "0c6bf4b0b97e31f1adb04eff9ea03706",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 16:53:47",
+                "malware_md5": "05842cca37dd0c436b5366e51a29ab58",
+                "host": "104.21.10.242",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "107c3b396e9e46f137c02484e2fdcf9b59d99daa",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-10-21 08:51:41",
+        "cn": "SSLRaton",
+        "dn": "SSLRaton",
+        "fseen": "2026-10-21 02:19:45 UTC",
+        "lseen": "2026-10-21 04:04:48 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-21 04:04:48",
+                "malware_md5": "cd5f97edf9a2ee278f86d8e73b44e209",
+                "host": "193.161.193.99",
+                "port": "34525"
+            },
+            {
+                "timestamp": "2026-10-21 02:19:45",
+                "malware_md5": "505fd45d960cbdc5510e620885394a81",
+                "host": "193.161.193.99",
+                "port": "34525"
+            }
+        ]
+    },
+    {
+        "sha1": "498a4921e2950bf327566b8bc94ebe88188ba48e",
+        "threat": "Meterpreter C&C",
+        "listing_date": "2026-10-21 07:24:45",
+        "cn": "CloudFlare Origin Certificate",
+        "dn": "C=US, O=CloudFlare, Inc., OU=CloudFlare Origin SSL Certificate Authority, L=San Francisco, ST=California",
+        "fseen": "2026-10-20 12:24:03 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 12:24:03",
+                "malware_md5": "d1bd929babb2b4f8fabb8c30b92c38aa",
+                "host": "89.185.83.8",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "c0af8a04dbfca38a9c436cac6afe37edf603a2a8",
+        "threat": "Malware C&C",
+        "listing_date": "2026-10-21 07:22:34",
+        "cn": "usbacu.digital",
+        "dn": "YE2",
+        "fseen": "2026-10-21 00:10:57 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-21 00:10:57",
+                "malware_md5": "0b8a57718a45cafa61f9e8049823a38e",
+                "host": "188.114.97.0",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "891676e8c7f77b79942835d2079e1ea1bcb6a7ae",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-10-21 07:21:19",
+        "cn": "PureRAT Agent",
+        "dn": "PureRAT Agent",
+        "fseen": "2026-10-21 01:56:21 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-21 01:56:21",
+                "malware_md5": "4c64332495c44dcb2c386ca06bdc424e",
+                "host": "103.54.153.17",
+                "port": "56001"
+            }
+        ]
+    },
+    {
+        "sha1": "4c39539092e64bddb231466dd8cce629b0ab53fc",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-21 07:19:03",
+        "cn": "88kfc.org",
+        "dn": "WE1",
+        "fseen": "2026-10-19 23:53:42 UTC",
+        "lseen": "2026-10-21 01:20:50 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-21 01:20:50",
+                "malware_md5": "2b6f7213035bbf1c45f83f74ff645640",
+                "host": "172.67.187.119",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-21 00:48:10",
+                "malware_md5": "28f4ad09777e837f7d4617635e838579",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-21 00:07:29",
+                "malware_md5": "24c07826a7db38ea13744896e3b1e912",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 23:51:04",
+                "malware_md5": "2375519df9393376d02ca3410ef99d03",
+                "host": "172.67.187.119",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 23:37:23",
+                "malware_md5": "222ad1766a375eb10d816a6fa7dbeddc",
+                "host": "172.67.187.119",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 22:19:19",
+                "malware_md5": "1afb619ed20d18fff44fb31370c85cae",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 22:12:19",
+                "malware_md5": "1a4c6cf3d86016ca436c61e5d635b187",
+                "host": "172.67.187.119",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 22:06:18",
+                "malware_md5": "199ecbc4c9f053fdbac05a6a97f5a9d5",
+                "host": "172.67.187.119",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 20:57:54",
+                "malware_md5": "126fe757c66fb155459c5ca204091f29",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 19:41:45",
+                "malware_md5": "0d2fc1ae73cc7817be858dc1cd85bd93",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 19:35:16",
+                "malware_md5": "0ce34879c8d8f369bcf0b12ef148ee79",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 18:58:26",
+                "malware_md5": "0b4a43b1685bc021696d8675e42216de",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 18:44:09",
+                "malware_md5": "0ab4da653f7755aae77b85260eb7d176",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 17:36:35",
+                "malware_md5": "07a41b0a8ebc9d80e23777a5940db59c",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 17:30:42",
+                "malware_md5": "075cb45ac6fc5349bad9b0c7b088255a",
+                "host": "172.67.187.119",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 01:15:27",
+                "malware_md5": "35cd3a118184f909fdc97ad3ada71af4",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 00:21:58",
+                "malware_md5": "3260efb6ad5c4a0563109b3396808623",
+                "host": "104.21.32.205",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 23:53:42",
+                "malware_md5": "308a27d37245ccc71fc124e066e9f1e2",
+                "host": "104.21.32.205",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "f142b6f4bf3a29d39c2491bdca1e7f7bf5a06d1b",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-21 06:40:04",
+        "cn": "abangempayer.org",
+        "dn": "YE1",
+        "fseen": "2026-10-20 10:57:03 UTC",
+        "lseen": "2026-10-20 11:11:54 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 11:11:54",
+                "malware_md5": "c672f58d835a632afc26bff6f731c51c",
+                "host": "104.21.71.220",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 11:10:16",
+                "malware_md5": "72b26cf4ca097ff65073facb47241374",
+                "host": "172.67.149.179",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 10:57:03",
+                "malware_md5": "5c64c7e7a64c593b83821c55182e7e48",
+                "host": "104.21.71.220",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "700d7a5261f2ea5f9f4777e37cf2cb68518ae919",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-21 06:39:43",
+        "cn": "abbc123.org",
+        "dn": "YE1",
+        "fseen": "2026-10-20 20:40:43 UTC",
+        "lseen": "2026-10-20 22:39:12 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 22:39:12",
+                "malware_md5": "ee1c03fd6e4baaa90aa55c31c4558517",
+                "host": "188.114.96.12",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 20:40:43",
+                "malware_md5": "107e3af97472709792f048b905fe8942",
+                "host": "188.114.97.12",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "1c7f33ad355642475fd0ce679cd224ea3b2709ab",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-21 06:38:59",
+        "cn": "77.42.9.174",
+        "dn": "77.42.9.174",
+        "fseen": "2026-10-21 04:07:42 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-21 04:07:42",
+                "malware_md5": "a0a144b9b679b41a96f36b875952c286",
+                "host": "77.42.9.174",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "e10fe9007408391e4c3a808ae4b7c4cb6e7df1a3",
+        "threat": "OnyxC2 C&C",
+        "listing_date": "2026-10-20 16:02:55",
+        "cn": "flyfileclouddd.click",
+        "dn": "YE2",
+        "fseen": "2026-10-20 08:10:24 UTC",
+        "lseen": "2026-10-20 08:10:25 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 08:10:25",
+                "malware_md5": "7bd56f0b95c9fbc5450454b915cb4e67",
+                "host": "198.251.89.237",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9061737b3e3cb6dae0a02abe33346d72ccd27af4",
+        "threat": "RatonRAT C&C",
+        "listing_date": "2026-10-20 15:40:31",
+        "cn": "SLLRaton",
+        "dn": "SLLRaton",
+        "fseen": "2026-10-19 16:21:13 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-19 16:21:13",
+                "malware_md5": "057e51cdbb1209601ad334ade2297792",
+                "host": "83.9.65.197",
+                "port": "8080"
+            },
+            {
+                "timestamp": "2026-10-19 16:21:13",
+                "malware_md5": "057e51cdbb1209601ad334ade2297792",
+                "host": "83.9.65.197",
+                "port": "8080"
+            }
+        ]
+    },
+    {
+        "sha1": "59fb8a90649cac57e345fbd3af9f76d6a73fac12",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-20 06:27:30",
+        "cn": "reasongrove.cfd",
+        "dn": "YE2",
+        "fseen": "2026-10-18 15:34:39 UTC",
+        "lseen": "2026-10-20 05:03:51 UTC",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-20 05:03:51",
+                "malware_md5": "f3ca45236783f87be5fca61cb81d8452",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 04:32:10",
+                "malware_md5": "d4bd2531ba64961ea231083be5d94b57",
+                "host": "172.67.173.213",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 04:19:47",
+                "malware_md5": "c93bbf22b8388a7004a1a8e331326500",
+                "host": "172.67.173.213",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-20 02:56:46",
+                "malware_md5": "7c978c77396a5da58141878643605714",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 23:10:33",
+                "malware_md5": "2bdb2489b5f7d3b28df077e4e711de93",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 22:35:59",
+                "malware_md5": "28bde669acb0ec2e1d55a3a157e6b096",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 20:05:11",
+                "malware_md5": "1bf812388ed89e2771d9af6141231b07",
+                "host": "172.67.173.213",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 19:28:52",
+                "malware_md5": "1863c7371b5f265f1f2d0d885657a77a",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 17:24:42",
+                "malware_md5": "0e34c96bf535b4c3226527ac456c6ba0",
+                "host": "172.67.173.213",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 16:53:11",
+                "malware_md5": "0048f3b72224f5b74a7a6418b180b89c",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 15:49:44",
+                "malware_md5": "02f29eb8dc63c8dc7dc8de52916239f4",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-19 14:32:02",
+                "malware_md5": "0e593fdaeaa2695c20dbc34d6be5f6e1",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-18 20:25:04",
+                "malware_md5": "299b14e00ab11e9e2443106525b23aa0",
+                "host": "172.67.173.213",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-18 18:43:34",
+                "malware_md5": "1f0f937a85d4dffaed0209a43367b0e6",
+                "host": "104.21.40.8",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-18 15:54:28",
+                "malware_md5": "0e9da9ba01ca612df37a91847544ceda",
+                "host": "172.67.173.213",
+                "port": "443"
+            },
+            {
+                "timestamp": "2026-10-18 15:34:39",
+                "malware_md5": "0cf5d6a93d0f9374d309101f68de221a",
+                "host": "172.67.173.213",
+                "port": "443"
+            }
+        ]
+    },
+    {
+        "sha1": "9a2205a15c886d6278d9e0d60747e8ad287b6c7b",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-10-20 06:27:07",
+        "cn": "Gateway Guard",
+        "dn": "Gateway Guard",
+        "fseen": "2026-10-18 19:56:38 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-18 19:56:38",
+                "malware_md5": "26ef6b3022488878c9010c8a1314e65b",
+                "host": "158.94.209.238",
+                "port": "8443"
+            }
+        ]
+    },
+    {
+        "sha1": "75964711a6e10849d232b5df09f428a4eaa48a68",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-10-20 06:25:14",
+        "cn": "Wjleoklayp",
+        "dn": "Wjleoklayp",
+        "fseen": "2026-10-19 18:15:19 UTC",
+        "lseen": "never",
+        "status": "Blacklisted",
+        "samples": [
+            {
+                "timestamp": "2026-10-19 18:15:19",
+                "malware_md5": "1361d00d667933d6b7bf28511e4c1fe2",
+                "host": "31.76.118.126",
+                "port": "56001"
+            }
+        ]
+    },
+    {
         "sha1": "9001ac2344ddd1b2e32f5d25b5e56b323e6fc862",
         "threat": "Vidar C&C",
         "listing_date": "2026-10-20 05:22:47",
