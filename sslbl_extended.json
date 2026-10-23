@@ -1,5 +1,16 @@
 [
     {
+        "sha1": "79928c5b3aaa3ea9d05750ba6b2af2aa6cbea154",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-10-22 06:54:29",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "7a5cbff9325f0ca3de3f020b3ba02e51390807cf",
         "threat": "Malware C&C",
         "listing_date": "2026-10-22 04:23:04",
