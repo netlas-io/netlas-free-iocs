@@ -1,5 +1,104 @@
 [
     {
+        "sha1": "f8ac3547b3ec163234ebcb90d325eec86069a42f",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-23 12:50:39",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "3c99c5d67f2afafad06b3da29af5d1ab97bf5273",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-10-23 11:43:19",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "4bba6041d3bd00dd1eb5d436f7d17c7e786eb5ee",
+        "threat": "PureLogsStealer C&C",
+        "listing_date": "2026-10-23 11:28:26",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "e8e1ee53a4b01fe4d284f3edf82c0dfd5b6c63cf",
+        "threat": "CobaltStrike C&C",
+        "listing_date": "2026-10-23 08:28:22",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "d0cbe76e7158ac0762ebaf34f37e8a357cdfb6b2",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-10-23 06:49:54",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "3eba611997b2a74274fd3974dad68bd2d64a936d",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-23 06:46:48",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "6f89137efd938f732c38a20125c58d0248016909",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-23 06:45:59",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "fe097ea5a213100162ccf6811a78483695f0f8a5",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-23 06:45:31",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "b5b9054786b6c3877c16c507e4589388e3f2d08c",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-23 06:44:32",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "79928c5b3aaa3ea9d05750ba6b2af2aa6cbea154",
         "threat": "PureRAT C&C",
         "listing_date": "2026-10-22 06:54:29",
