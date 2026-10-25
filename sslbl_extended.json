@@ -1,5 +1,71 @@
 [
     {
+        "sha1": "35661619ef7eb0f46354d9b8a6354a1115e338eb",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-24 08:49:53",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "f74cfb538bdbd89cd3fbfccd91e6530561d87310",
+        "threat": "WARDENStealer C&C",
+        "listing_date": "2026-10-24 08:45:24",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "f1943fdd37320ad09ea8985e9b86ae33aee4525d",
+        "threat": "RevStealer C&C",
+        "listing_date": "2026-10-24 08:45:13",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "842b7c6b2ac561e7155bfdae757689f50ff6c634",
+        "threat": "NetSupport RAT malware distribution",
+        "listing_date": "2026-10-24 08:44:52",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "84abb61ca68f4b6b4a7f421516b188dae0516d0f",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-24 08:36:14",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "49ee355c74a19712c68535feccf60156ff4055f3",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-24 08:36:09",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "f8ac3547b3ec163234ebcb90d325eec86069a42f",
         "threat": "Vidar C&C",
         "listing_date": "2026-10-23 12:50:39",
