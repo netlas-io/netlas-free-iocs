@@ -1,5 +1,82 @@
 [
     {
+        "sha1": "b59fc9b78f8adfb12404d606d32f189309dcffdb",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-26 15:23:13",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "92ebef95bba7efc76f713e8b4aa8d40d45478645",
+        "threat": "PureRAT C&C",
+        "listing_date": "2026-10-26 12:56:12",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "72551f187ace5de0909186afdfea0756e9e3cd6d",
+        "threat": "XoriumStealer C&C",
+        "listing_date": "2026-10-26 09:43:57",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "bd8eb13b5f944ac4c4a03a22d8c1b574bd02ee4f",
+        "threat": "QuasarRAT C&C",
+        "listing_date": "2026-10-26 07:31:08",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "a41e8528d9b464b9620f4cc5900c444f291366e7",
+        "threat": "BridgeAgent C&C",
+        "listing_date": "2026-10-26 07:28:10",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "e6500b535b03160f06f2ca5c663ae180275dbb3b",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-26 07:24:40",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "52c7bf8fd5f6312e161c6fe20c68edfa90e137eb",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-10-26 07:24:04",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "6f373dd650805f118832ae3c618d10f0402ea6fe",
         "threat": "Vidar C&C",
         "listing_date": "2026-10-25 14:15:35",
