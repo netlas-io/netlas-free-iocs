@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 1 * * *" # Runs daily at 01:00 UTC
 
+concurrency:
+  group: publish-ioc-feed
+  cancel-in-progress: false
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -12,6 +16,8 @@ jobs:
       # Step 1: Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
 
       # Step 2: Install s3cmd
       - name: Install s3cmd and yq
@@ -23,7 +29,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.14'
 
       # Step 4: Install dependencies
       - name: Install dependencies
@@ -43,7 +49,7 @@ jobs:
         env:
           DATABASE_FILE: ""
 
-      # Step 6: Download database_file and checksum file from S3
+      # Step 6: Configure R2 and fetch the published checksum
       - name: Config S3 and get MD5 file
         run: |
           echo "[default]" > ~/.s3cfg
@@ -51,13 +57,7 @@ jobs:
           echo "secret_key = $CF_R2_PUBLIC_BUCKET_SECRET_KEY" >> ~/.s3cfg
           echo "host_base = $CF_ACCOUNT_ID.r2.cloudflarestorage.com" >> ~/.s3cfg
           echo "host_bucket = %(bucket).$CF_ACCOUNT_ID.r2.cloudflarestorage.com" >> ~/.s3cfg
-          if s3cmd ls s3://public/; then
-            echo "Bucket is available."
-          else
-            echo "Error: Bucket is not available."
-          exit 1
-          fi
-          s3cmd get s3://public/$DATABASE_FILE.md5 $DATABASE_FILE.md5 || echo "Checksum file not found"
+          s3cmd get "s3://public/$DATABASE_FILE.md5" "$DATABASE_FILE.md5"
         env:
           CF_R2_PUBLIC_BUCKET_ACCESS_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_ACCESS_KEY }}
           CF_R2_PUBLIC_BUCKET_SECRET_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_SECRET_KEY }}
@@ -68,26 +68,20 @@ jobs:
       - name: Run the script
         run: bash update.sh
         env:
+          DATABASE_CHECKSUM_FILE: ${{ env.DATABASE_FILE }}.md5
           NETLAS_API_KEY: ${{ secrets.NETLAS_API_KEY }}
           DATABASE_FILE: ${{ env.DATABASE_FILE }}
 
       # Step 8: Check integrity and upload if necessary
       - name: Verify checksum and upload to S3 if changed
         run: |
-          CHECKSUM_MISMATCH=0
-          if [ -f "$DATABASE_FILE.md5" ]; then
-            md5sum -c $DATABASE_FILE.md5 --quiet || CHECKSUM_MISMATCH=1
-
-            if [ $CHECKSUM_MISMATCH -eq 1 ]; then
-              echo "Checksum mismatch detected. Updating checksum and uploading to S3."
-              md5sum $DATABASE_FILE > $DATABASE_FILE.md5
-              s3cmd put $DATABASE_FILE s3://public/$DATABASE_FILE
-              s3cmd put $DATABASE_FILE.md5 s3://public/$DATABASE_FILE.md5
-            else
-              echo "Checksum verification passed. No updates detected."
-            fi
+          if md5sum -c "$DATABASE_FILE.md5" --quiet; then
+            echo "Checksum verification passed. No updates detected."
           else
-            echo "Checksum file not found. Skipping verification."
+            echo "Database changed. Uploading the database and its checksum."
+            md5sum "$DATABASE_FILE" > "$DATABASE_FILE.md5"
+            s3cmd put "$DATABASE_FILE" "s3://public/$DATABASE_FILE"
+            s3cmd put "$DATABASE_FILE.md5" "s3://public/$DATABASE_FILE.md5"
           fi
         env:
           CF_R2_PUBLIC_BUCKET_ACCESS_KEY: ${{ secrets.CF_R2_PUBLIC_BUCKET_ACCESS_KEY }}

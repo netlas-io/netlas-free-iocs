@@ -12,19 +12,17 @@ def load_database(file_path):
     database = {}
     if os.path.exists(file_path):
         with open(file_path, mode='r', newline='', encoding='utf-8') as file:
-            lines = file.readlines()
-            if lines:
-                reader = csv.DictReader(lines)
-                for row in reader:
-                    key = (row['host'], row['port'], row['protocol'], row['path'], row['ip'], row['threat'])
-                    database[key] = {
-                        'timestamp': row['timestamp'],
-                        'netlas:fseen': row['netlas:fseen'],
-                        'netlas:link': row['netlas:link'],
-                        'x509:sha1': row['x509:sha1'],
-                        'x509:timestamp': row['x509:timestamp'],
-                        'x509:link': row['x509:link']
-                    }
+            reader = csv.DictReader(file)
+            for row in reader:
+                key = (row['host'], row['port'], row['protocol'], row['path'], row['ip'], row['threat'])
+                database[key] = {
+                    'timestamp': row['timestamp'],
+                    'netlas:fseen': row['netlas:fseen'],
+                    'netlas:link': row['netlas:link'],
+                    'x509:sha1': row['x509:sha1'],
+                    'x509:timestamp': row['x509:timestamp'],
+                    'x509:link': row['x509:link']
+                }
     return database
 
 def save_database(database, file_path):
@@ -53,29 +51,27 @@ def process_input_file(input_file, database):
     added_count = 0
     updated_count = 0
     with open(input_file, mode='r', newline='', encoding='utf-8') as file:
-        lines = file.readlines()
-        if lines:
-            reader = csv.DictReader(lines)
-            for row in reader:
-                timestamp = row['timestamp']
-                key = (row['host'], row['port'], row['protocol'], row['path'], row['ip'], row['threat'])
-                if key in database:
-                    # Update the last seen date only if the new timestamp is later
-                    existing_timestamp = database[key]['timestamp']
-                    if datetime.fromisoformat(timestamp) > datetime.fromisoformat(existing_timestamp):
-                        database[key]['timestamp'] = timestamp
-                        updated_count += 1
-                else:
-                    # Add a new entry with first seen and last seen dates
-                    database[key] = {
-                        'timestamp': timestamp,
-                        'netlas:fseen': timestamp,
-                        'netlas:link': row['netlas:link'],
-                        'x509:sha1': row['x509:sha1'],
-                        'x509:timestamp': row['x509:timestamp'],
-                        'x509:link': row['x509:link']
-                    }
-                    added_count += 1
+        reader = csv.DictReader(file)
+        for row in reader:
+            timestamp = row['timestamp']
+            key = (row['host'], row['port'], row['protocol'], row['path'], row['ip'], row['threat'])
+            if key in database:
+                # Update the last seen date only if the new timestamp is later
+                existing_timestamp = database[key]['timestamp']
+                if datetime.fromisoformat(timestamp) > datetime.fromisoformat(existing_timestamp):
+                    database[key]['timestamp'] = timestamp
+                    updated_count += 1
+            else:
+                # Add a new entry with first seen and last seen dates
+                database[key] = {
+                    'timestamp': timestamp,
+                    'netlas:fseen': timestamp,
+                    'netlas:link': row['netlas:link'],
+                    'x509:sha1': row['x509:sha1'],
+                    'x509:timestamp': row['x509:timestamp'],
+                    'x509:link': row['x509:link']
+                }
+                added_count += 1
     return added_count, updated_count
 
 
