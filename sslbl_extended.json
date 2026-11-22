@@ -1,5 +1,93 @@
 [
     {
+        "sha1": "fccef6bf642cf2cf648562817b24f7eadc89bd08",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-11-22 07:17:35",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "df20056c51a28bd1401b9108edbddb7120cee489",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-22 07:17:08",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "d58ed8869a314b2d52697142cc8d9d3762318190",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-22 07:15:33",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "7b300d4e1d68c65b07fecb53031c40f91f965a0f",
+        "threat": "WARDENStealer C&C",
+        "listing_date": "2026-11-21 19:20:38",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "c8daa804756c213ecc0d8f48e4231765ad1914f4",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-21 19:20:05",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "963ff7dc4fd9d851ba7c7a3da113a1091a9582b3",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-21 19:18:56",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "e8fd09728405f4135a200e7adf15303dfa8cbf35",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-21 18:55:18",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "8602c6e50940880e8f3ba1d9f53ad97b481c1617",
+        "threat": "Malware distribution",
+        "listing_date": "2026-11-21 07:59:31",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "d66a7599fc875b9ca6633470adadfa8cc5b9c04f",
         "threat": "Malware C&C",
         "listing_date": "2026-11-20 09:57:04",
