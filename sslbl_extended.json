@@ -1,5 +1,71 @@
 [
     {
+        "sha1": "ada4baf8f036019aaa197a7a8caa41f48d263490",
+        "threat": "Malware C&C",
+        "listing_date": "2026-11-22 18:36:35",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "1f2d77381dd6a71a09ca621790b98506cd065667",
+        "threat": "Malware C&C",
+        "listing_date": "2026-11-22 18:34:36",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "fcff16dcbf0ee69046510e2701339fd1bcf80743",
+        "threat": "ACRStealer C&C",
+        "listing_date": "2026-11-22 16:40:05",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "0e4d5b46dd2f307b6826ee0e1810aa4bc3dffda4",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-22 16:39:54",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "6104164ecfcc61a632111609af160f303f81f94b",
+        "threat": "OffLoader C&C",
+        "listing_date": "2026-11-22 16:39:01",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "079fa441563a8de8d3ed486126a310418e3b1846",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-22 16:32:48",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "fccef6bf642cf2cf648562817b24f7eadc89bd08",
         "threat": "ACRStealer C&C",
         "listing_date": "2026-11-22 07:17:35",
