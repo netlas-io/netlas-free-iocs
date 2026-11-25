@@ -1,5 +1,82 @@
 [
     {
+        "sha1": "5848fc12988a902dc95fd31897fc72884d332a47",
+        "threat": "WeedStealer C&C",
+        "listing_date": "2026-11-25 07:32:30",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "85aa46f55739ebba1c0ad050262fdab387ab3db3",
+        "threat": "Vidar C&C",
+        "listing_date": "2026-11-25 07:01:56",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "853c7cbd33c41f2a4651942d34a733403c89910b",
+        "threat": "FunStealer C&C",
+        "listing_date": "2026-11-24 12:18:24",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "cfaeecab0d464737b0c8132f0302b4a2b5bbd149",
+        "threat": "FunStealer C&C",
+        "listing_date": "2026-11-24 12:18:23",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "4da3273d01b7073f7218b69acadf32b0c57f35de",
+        "threat": "FunStealer C&C",
+        "listing_date": "2026-11-24 12:15:46",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "5d534c73e1fcbaad51fe510e822619d91e173e52",
+        "threat": "FunStealer C&C",
+        "listing_date": "2026-11-24 12:15:45",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
+        "sha1": "85fcf32f16ea72d1c6327ab295a9bcbbfd08a644",
+        "threat": "DCRat C&C",
+        "listing_date": "2026-11-24 10:29:02",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "a51757af2edfa00116ada88c46d530474b3eea07",
         "threat": "Malware C&C",
         "listing_date": "2026-11-24 10:05:32",
