@@ -1,5 +1,16 @@
 [
     {
+        "sha1": "ca762af05d70b15789214db60a0f775de37c7b29",
+        "threat": "Malware C&C",
+        "listing_date": "2026-11-27 07:07:22",
+        "cn": "",
+        "dn": "",
+        "fseen": "",
+        "lseen": "",
+        "status": "",
+        "samples": []
+    },
+    {
         "sha1": "e3f4ba4c9edce49b6cd05a517115f1c555f35d81",
         "threat": "Vidar C&C",
         "listing_date": "2026-11-26 06:43:06",
